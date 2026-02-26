@@ -1,0 +1,85 @@
+Expectations for "inventory_slo"
+  * "messaging_1_14_inventory_slo_0":
+    Provides {
+      inventory_slo_param_0: "mjnvnqdcvfvy",
+      inventory_slo_param_1: "gzbbydot",
+      inventory_slo_param_2: "canary",
+      inventory_slo_param_3: 3311,
+      inventory_slo_param_4: 8.85,
+      inventory_slo_param_5: 65.76,
+      inventory_slo_param_6: 2132,
+      inventory_slo_param_7: 74.21,
+      req_1_field_0: "jpqqkfi",
+      threshold: 95.9,
+      window_in_days: 30
+    }
+
+  * "messaging_1_14_inventory_slo_1":
+    Provides {
+      inventory_slo_param_0: "knwlcuzgi",
+      inventory_slo_param_1: "fdjrf",
+      inventory_slo_param_2: "canary",
+      inventory_slo_param_3: 8289,
+      inventory_slo_param_4: 55.57,
+      inventory_slo_param_5: 28.32,
+      inventory_slo_param_6: 4457,
+      inventory_slo_param_7: 55.63,
+      req_1_field_0: "vpxbyv",
+      threshold: 97.29,
+      window_in_days: 90
+    }
+
+  * "messaging_1_14_inventory_slo_2":
+    Provides {
+      inventory_slo_param_0: "zncysuzbwxymsit",
+      inventory_slo_param_1: "hnbqfrdmcad",
+      inventory_slo_param_2: "development",
+      inventory_slo_param_3: 3132,
+      inventory_slo_param_4: 97.22,
+      inventory_slo_param_5: 79.14,
+      inventory_slo_param_6: 2902,
+      inventory_slo_param_7: 22.69,
+      req_1_field_0: "lmmafnyfizjqlcq",
+      threshold: 99.54,
+      window_in_days: 90
+    }
+
+Expectations for "scheduler_slo"
+  * "messaging_1_14_scheduler_slo_0":
+    Provides {
+      scheduler_slo_param_0: "vemqsixtceiq",
+      scheduler_slo_param_1: "nsdnn",
+      scheduler_slo_param_2: true,
+      scheduler_slo_param_3: 1589,
+      req_0_field_0: true,
+      req_0_field_1: false,
+      req_0_field_2: 0.27,
+      threshold: 98.1,
+      window_in_days: 90
+    }
+
+  * "messaging_1_14_scheduler_slo_1":
+    Provides {
+      scheduler_slo_param_0: "ruanlmiugltq",
+      scheduler_slo_param_1: "jbedbx",
+      scheduler_slo_param_2: true,
+      scheduler_slo_param_3: 4066,
+      req_0_field_0: true,
+      req_0_field_1: true,
+      req_0_field_2: 67.28,
+      threshold: 96.08,
+      window_in_days: 7
+    }
+
+  * "messaging_1_14_scheduler_slo_2":
+    Provides {
+      scheduler_slo_param_0: "qjyhfqvarq",
+      scheduler_slo_param_1: "ldaszuuzkn",
+      scheduler_slo_param_2: true,
+      scheduler_slo_param_3: 2079,
+      req_0_field_0: false,
+      req_0_field_1: true,
+      req_0_field_2: 93.37,
+      threshold: 99.24,
+      window_in_days: 90
+    }

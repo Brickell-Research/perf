@@ -1,0 +1,52 @@
+Expectations for "auth_slo"
+  * "payments_auth_slo_0":
+    Provides {
+      auth_slo_param_0: "pvxlmhkho",
+      auth_slo_param_1: "cbligczvoyzr",
+      auth_slo_param_2: ["btmqxepqmcjirw", "kmrktacgdu", "vawmbnqmlbgdh"],
+      threshold: 99.4,
+      window_in_days: 30
+    }
+
+  * "payments_auth_slo_1":
+    Provides {
+      auth_slo_param_0: "aqusia",
+      auth_slo_param_1: "czxldvmsnhv",
+      auth_slo_param_2: ["ldeptdbu", "iugasvprwlm", "ooliesogub", "svkrvzmanpww"],
+      threshold: 97.2,
+      window_in_days: 90
+    }
+
+  * "payments_auth_slo_2":
+    Provides {
+      auth_slo_param_0: "adwzbugqkcir",
+      auth_slo_param_1: "jistwabqxztlc",
+      auth_slo_param_2: ["ehaibjlgkree"],
+      threshold: 98.04,
+      window_in_days: 30
+    }
+
+Expectations for "payments_slo"
+  * "payments_payments_slo_0":
+    Provides {
+      payments_slo_param_0: "rmpgqlrxmhobyz",
+      payments_slo_param_1: "qlgvfkmgo",
+      threshold: 97.87,
+      window_in_days: 90
+    }
+
+  * "payments_payments_slo_1":
+    Provides {
+      payments_slo_param_0: "avkawuzxt",
+      payments_slo_param_1: "ufufegttr",
+      threshold: 95.68,
+      window_in_days: 7
+    }
+
+  * "payments_payments_slo_2":
+    Provides {
+      payments_slo_param_0: "qilptchtedoznxv",
+      payments_slo_param_1: "xyzhwumbt",
+      threshold: 96.13,
+      window_in_days: 90
+    }

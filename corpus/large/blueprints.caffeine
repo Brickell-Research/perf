@@ -1,0 +1,356 @@
+_type_0 (Type): Float { x | x in ( 49.0..98.7 ) }
+_type_1 (Type): Float { x | x in ( 18.3..91.6 ) }
+_type_2 (Type): String { x | x in { "development", "perf" } }
+_type_3 (Type): Float { x | x in ( 33.6..83.4 ) }
+_type_4 (Type): Float { x | x in ( 47.0..64.3 ) }
+
+_req_0 (Requires): { req_0_field_0: Boolean }
+_req_1 (Requires): { req_1_field_0: Float }
+_req_2 (Requires): {
+  req_2_field_0: Integer,
+  req_2_field_1: String,
+  req_2_field_2: Boolean
+}
+_prov_0 (Provides): { vendor: "datadog" }
+_prov_1 (Provides): { vendor: "datadog" }
+_prov_2 (Provides): { vendor: "datadog" }
+
+Blueprints for "SLO"
+  * "checkout_slo" extends [_prov_0]:
+    Requires {
+      checkout_slo_param_0: String,
+      checkout_slo_param_1: String,
+      checkout_slo_param_2: Integer,
+      checkout_slo_param_3: Boolean,
+      checkout_slo_param_4: Defaulted(Boolean, False),
+      checkout_slo_param_5: Defaulted(String, "default")
+    }
+    Provides {
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:queue.errors{$checkout_slo_param_0->checkout_slo_param_0$,$checkout_slo_param_1->checkout_slo_param_1$}",
+        denominator: "sum:queue.errors.total{$checkout_slo_param_0->checkout_slo_param_0$}"
+      }
+    }
+
+  * "auth_slo" extends [_prov_0, _prov_1, _req_0]:
+    Requires {
+      auth_slo_param_0: String,
+      auth_slo_param_1: String,
+      auth_slo_param_2: _type_2,
+      auth_slo_param_3: Optional(Float),
+      auth_slo_param_4: Optional(Boolean),
+      auth_slo_param_5: Integer { x | x in ( 3..865 ) }
+    }
+    Provides {
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:db.connections{$auth_slo_param_0->auth_slo_param_0$,$auth_slo_param_1->auth_slo_param_1$}",
+        denominator: "sum:db.connections.total{$auth_slo_param_0->auth_slo_param_0$}"
+      }
+    }
+
+  * "payments_slo" extends [_prov_2, _req_2]:
+    Requires {
+      payments_slo_param_0: String,
+      payments_slo_param_1: String,
+      payments_slo_param_2: Integer,
+      payments_slo_param_3: Float { x | x in ( 49.2..99.5 ) },
+      payments_slo_param_4: List(String)
+    }
+    Provides {
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:http.errors{$payments_slo_param_0->payments_slo_param_0$,$payments_slo_param_1->payments_slo_param_1$}",
+        denominator: "sum:http.errors.total{$payments_slo_param_0->payments_slo_param_0$}"
+      }
+    }
+
+  * "orders_slo" extends [_prov_2, _req_1]:
+    Requires {
+      orders_slo_param_0: String,
+      orders_slo_param_1: String,
+      orders_slo_param_2: _type_3,
+      orders_slo_param_3: List(Float)
+    }
+    Provides {
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:queue.messages{$orders_slo_param_0->orders_slo_param_0$,$orders_slo_param_1->orders_slo_param_1$}",
+        denominator: "sum:queue.messages.total{$orders_slo_param_0->orders_slo_param_0$}"
+      }
+    }
+
+  * "inventory_slo" extends [_prov_2, _prov_0]:
+    Requires {
+      inventory_slo_param_0: String,
+      inventory_slo_param_1: String,
+      inventory_slo_param_2: Optional(Float),
+      inventory_slo_param_3: Boolean
+    }
+    Provides {
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:cache.hits{$inventory_slo_param_0->inventory_slo_param_0$,$inventory_slo_param_1->inventory_slo_param_1$}",
+        denominator: "sum:cache.hits.total{$inventory_slo_param_0->inventory_slo_param_0$}"
+      }
+    }
+
+  * "shipping_slo" extends [_prov_1]:
+    Requires {
+      shipping_slo_param_0: String,
+      shipping_slo_param_1: String,
+      shipping_slo_param_2: _type_0,
+      shipping_slo_param_3: Integer,
+      shipping_slo_param_4: Integer { x | x in ( 20..450 ) },
+      shipping_slo_param_5: Integer { x | x in { 13, 56, 78, 90 } },
+      shipping_slo_param_6: _type_4
+    }
+    Provides {
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:network.throughput{$shipping_slo_param_0->shipping_slo_param_0$,$shipping_slo_param_1->shipping_slo_param_1$}",
+        denominator: "sum:network.throughput.total{$shipping_slo_param_0->shipping_slo_param_0$}"
+      }
+    }
+
+  * "notifications_slo" extends [_req_1]:
+    Requires {
+      notifications_slo_param_0: String,
+      notifications_slo_param_1: String,
+      notifications_slo_param_2: String,
+      notifications_slo_param_3: Float,
+      notifications_slo_param_4: Boolean,
+      notifications_slo_param_5: _type_0
+    }
+    Provides {
+      vendor: "datadog",
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:http.latency.p95{$notifications_slo_param_0->notifications_slo_param_0$,$notifications_slo_param_1->notifications_slo_param_1$}",
+        denominator: "sum:http.latency.p95.total{$notifications_slo_param_0->notifications_slo_param_0$}"
+      }
+    }
+
+  * "analytics_slo" extends [_prov_0, _prov_2]:
+    Requires {
+      analytics_slo_param_0: String,
+      analytics_slo_param_1: String,
+      analytics_slo_param_2: List(Boolean),
+      analytics_slo_param_3: Dict(String, Float),
+      analytics_slo_param_4: Float { x | x in ( 32.8..69.0 ) },
+      analytics_slo_param_5: _type_4,
+      analytics_slo_param_6: List(Boolean),
+      analytics_slo_param_7: Defaulted(String, "default")
+    }
+    Provides {
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:memory.usage{$analytics_slo_param_0->analytics_slo_param_0$,$analytics_slo_param_1->analytics_slo_param_1$}",
+        denominator: "sum:memory.usage.total{$analytics_slo_param_0->analytics_slo_param_0$}"
+      }
+    }
+
+  * "search_slo" extends [_req_1]:
+    Requires {
+      search_slo_param_0: String,
+      search_slo_param_1: String,
+      search_slo_param_2: Integer,
+      search_slo_param_3: Float { x | x in ( 7.1..85.3 ) },
+      search_slo_param_4: _type_4,
+      search_slo_param_5: Integer { x | x in { 40, 48 } }
+    }
+    Provides {
+      vendor: "datadog",
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:network.throughput{$search_slo_param_0->search_slo_param_0$,$search_slo_param_1->search_slo_param_1$}",
+        denominator: "sum:network.throughput.total{$search_slo_param_0->search_slo_param_0$}"
+      }
+    }
+
+  * "recommendations_slo" extends [_prov_0, _req_2]:
+    Requires {
+      recommendations_slo_param_0: String,
+      recommendations_slo_param_1: String,
+      recommendations_slo_param_2: List(Boolean),
+      recommendations_slo_param_3: String
+    }
+    Provides {
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:db.errors{$recommendations_slo_param_0->recommendations_slo_param_0$,$recommendations_slo_param_1->recommendations_slo_param_1$}",
+        denominator: "sum:db.errors.total{$recommendations_slo_param_0->recommendations_slo_param_0$}"
+      }
+    }
+
+  * "billing_slo" extends [_prov_2, _prov_1]:
+    Requires {
+      billing_slo_param_0: String,
+      billing_slo_param_1: String,
+      billing_slo_param_2: _type_3,
+      billing_slo_param_3: Integer,
+      billing_slo_param_4: Integer,
+      billing_slo_param_5: String
+    }
+    Provides {
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:http.requests{$billing_slo_param_0->billing_slo_param_0$,$billing_slo_param_1->billing_slo_param_1$}",
+        denominator: "sum:http.requests.total{$billing_slo_param_0->billing_slo_param_0$}"
+      }
+    }
+
+  * "users_slo" extends [_prov_0, _prov_2, _req_2]:
+    Requires {
+      users_slo_param_0: String,
+      users_slo_param_1: String,
+      users_slo_param_2: Optional(String),
+      users_slo_param_3: Integer { x | x in { 41, 74 } },
+      users_slo_param_4: Integer { x | x in { 15, 3, 52 } },
+      users_slo_param_5: Boolean,
+      users_slo_param_6: Optional(String),
+      users_slo_param_7: _type_3
+    }
+    Provides {
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:queue.depth{$users_slo_param_0->users_slo_param_0$,$users_slo_param_1->users_slo_param_1$}",
+        denominator: "sum:queue.depth.total{$users_slo_param_0->users_slo_param_0$}"
+      }
+    }
+
+  * "profiles_slo" extends [_prov_1]:
+    Requires {
+      profiles_slo_param_0: String,
+      profiles_slo_param_1: String,
+      profiles_slo_param_2: List(String),
+      profiles_slo_param_3: Float,
+      profiles_slo_param_4: Optional(Integer),
+      profiles_slo_param_5: _type_1
+    }
+    Provides {
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:grpc.requests{$profiles_slo_param_0->profiles_slo_param_0$,$profiles_slo_param_1->profiles_slo_param_1$}",
+        denominator: "sum:grpc.requests.total{$profiles_slo_param_0->profiles_slo_param_0$}"
+      }
+    }
+
+  * "catalog_slo":
+    Requires {
+      catalog_slo_param_0: String,
+      catalog_slo_param_1: String,
+      catalog_slo_param_2: _type_3,
+      catalog_slo_param_3: Integer { x | x in ( 43..963 ) }
+    }
+    Provides {
+      vendor: "datadog",
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:queue.depth{$catalog_slo_param_0->catalog_slo_param_0$,$catalog_slo_param_1->catalog_slo_param_1$}",
+        denominator: "sum:queue.depth.total{$catalog_slo_param_0->catalog_slo_param_0$}"
+      }
+    }
+
+  * "cart_slo":
+    Requires {
+      cart_slo_param_0: String,
+      cart_slo_param_1: String,
+      cart_slo_param_2: Float { x | x in ( 3.4..77.7 ) },
+      cart_slo_param_3: String,
+      cart_slo_param_4: Boolean,
+      cart_slo_param_5: Float
+    }
+    Provides {
+      vendor: "datadog",
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:http.latency.p95{$cart_slo_param_0->cart_slo_param_0$,$cart_slo_param_1->cart_slo_param_1$}",
+        denominator: "sum:http.latency.p95.total{$cart_slo_param_0->cart_slo_param_0$}"
+      }
+    }
+
+  * "gateway_slo":
+    Requires {
+      gateway_slo_param_0: String,
+      gateway_slo_param_1: String,
+      gateway_slo_param_2: Integer { x | x in { 58, 6, 71, 95 } },
+      gateway_slo_param_3: Float { x | x in ( 30.3..80.1 ) }
+    }
+    Provides {
+      vendor: "datadog",
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:http.latency.p50{$gateway_slo_param_0->gateway_slo_param_0$,$gateway_slo_param_1->gateway_slo_param_1$}",
+        denominator: "sum:http.latency.p50.total{$gateway_slo_param_0->gateway_slo_param_0$}"
+      }
+    }
+
+  * "messaging_slo" extends [_prov_2, _prov_0]:
+    Requires {
+      messaging_slo_param_0: String,
+      messaging_slo_param_1: String,
+      messaging_slo_param_2: _type_3,
+      messaging_slo_param_3: String { x | x in { "archived", "inactive", "pending", "published" } },
+      messaging_slo_param_4: List(Float)
+    }
+    Provides {
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:http.latency.p95{$messaging_slo_param_0->messaging_slo_param_0$,$messaging_slo_param_1->messaging_slo_param_1$}",
+        denominator: "sum:http.latency.p95.total{$messaging_slo_param_0->messaging_slo_param_0$}"
+      }
+    }
+
+  * "scheduler_slo" extends [_prov_1, _prov_2]:
+    Requires {
+      scheduler_slo_param_0: String,
+      scheduler_slo_param_1: String,
+      scheduler_slo_param_2: Integer,
+      scheduler_slo_param_3: Boolean,
+      scheduler_slo_param_4: _type_0,
+      scheduler_slo_param_5: Float,
+      scheduler_slo_param_6: Dict(String, String),
+      scheduler_slo_param_7: Integer { x | x in { 40, 47 } }
+    }
+    Provides {
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:grpc.requests{$scheduler_slo_param_0->scheduler_slo_param_0$,$scheduler_slo_param_1->scheduler_slo_param_1$}",
+        denominator: "sum:grpc.requests.total{$scheduler_slo_param_0->scheduler_slo_param_0$}"
+      }
+    }
+
+  * "monitoring_slo" extends [_req_0]:
+    Requires {
+      monitoring_slo_param_0: String,
+      monitoring_slo_param_1: String,
+      monitoring_slo_param_2: Float,
+      monitoring_slo_param_3: String,
+      monitoring_slo_param_4: Defaulted(Integer, 0)
+    }
+    Provides {
+      vendor: "datadog",
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:http.errors{$monitoring_slo_param_0->monitoring_slo_param_0$,$monitoring_slo_param_1->monitoring_slo_param_1$}",
+        denominator: "sum:http.errors.total{$monitoring_slo_param_0->monitoring_slo_param_0$}"
+      }
+    }
+
+  * "logging_slo" extends [_prov_2, _req_1]:
+    Requires {
+      logging_slo_param_0: String,
+      logging_slo_param_1: String,
+      logging_slo_param_2: Integer { x | x in ( 50..519 ) },
+      logging_slo_param_3: Boolean,
+      logging_slo_param_4: Boolean
+    }
+    Provides {
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:cache.latency{$logging_slo_param_0->logging_slo_param_0$,$logging_slo_param_1->logging_slo_param_1$}",
+        denominator: "sum:cache.latency.total{$logging_slo_param_0->logging_slo_param_0$}"
+      }
+    }

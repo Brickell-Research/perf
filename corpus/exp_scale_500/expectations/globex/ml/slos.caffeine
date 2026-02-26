@@ -1,0 +1,68 @@
+Expectations for "logging_slo"
+  * "ml_1_12_logging_slo_0":
+    Provides {
+      logging_slo_param_0: "nezpnokqlyqyp",
+      logging_slo_param_1: "uxtgvt",
+      logging_slo_param_2: 71.71,
+      logging_slo_param_3: [3268, 8171, 5025],
+      logging_slo_param_4: true,
+      logging_slo_param_5: true,
+      logging_slo_param_6: 88.71,
+      logging_slo_param_7: 22.41,
+      req_0_field_0: true,
+      req_0_field_1: true,
+      req_0_field_2: 9.01,
+      threshold: 99.29,
+      window_in_days: 30
+    }
+
+  * "ml_1_12_logging_slo_1":
+    Provides {
+      logging_slo_param_0: "bjqygvvnhfnd",
+      logging_slo_param_1: "vjgcikpmjsy",
+      logging_slo_param_2: 65.8,
+      logging_slo_param_3: [213, 9551, 2826],
+      logging_slo_param_4: false,
+      logging_slo_param_5: true,
+      logging_slo_param_6: 41.23,
+      logging_slo_param_7: 16.09,
+      req_0_field_0: false,
+      req_0_field_1: false,
+      req_0_field_2: 85.02,
+      threshold: 98.0,
+      window_in_days: 90
+    }
+
+  * "ml_1_12_logging_slo_2":
+    Provides {
+      logging_slo_param_0: "vaszuk",
+      logging_slo_param_1: "kmlmnzluwvhisos",
+      logging_slo_param_2: 67.87,
+      logging_slo_param_3: [8402, 4410, 5165, 514],
+      logging_slo_param_4: false,
+      logging_slo_param_5: true,
+      logging_slo_param_6: 76.55,
+      logging_slo_param_7: 58.57,
+      req_0_field_0: true,
+      req_0_field_1: true,
+      req_0_field_2: 84.04,
+      threshold: 95.48,
+      window_in_days: 7
+    }
+
+  * "ml_1_12_logging_slo_3":
+    Provides {
+      logging_slo_param_0: "lcmnymkydqskdo",
+      logging_slo_param_1: "woktsnysfzef",
+      logging_slo_param_2: 27.01,
+      logging_slo_param_3: [1659],
+      logging_slo_param_4: false,
+      logging_slo_param_5: false,
+      logging_slo_param_6: 64.74,
+      logging_slo_param_7: 15.58,
+      req_0_field_0: false,
+      req_0_field_1: false,
+      req_0_field_2: 83.46,
+      threshold: 99.76,
+      window_in_days: 7
+    }

@@ -1,0 +1,149 @@
+Expectations for "logging_slo"
+  * "networking_0_19_logging_slo_0":
+    Provides {
+      logging_slo_param_0: "qhxqkciygk",
+      logging_slo_param_1: "jisewbstlhwrxj",
+      logging_slo_param_2: 74.33,
+      logging_slo_param_3: [3492, 2044],
+      logging_slo_param_4: false,
+      logging_slo_param_5: false,
+      logging_slo_param_6: 21.7,
+      logging_slo_param_7: 46.09,
+      req_0_field_0: true,
+      req_0_field_1: true,
+      req_0_field_2: 11.5,
+      threshold: 98.02,
+      window_in_days: 30
+    }
+
+  * "networking_0_19_logging_slo_1":
+    Provides {
+      logging_slo_param_0: "xvajkcytmu",
+      logging_slo_param_1: "mmvmxxy",
+      logging_slo_param_2: 41.19,
+      logging_slo_param_3: [7065, 4292],
+      logging_slo_param_4: true,
+      logging_slo_param_5: true,
+      logging_slo_param_6: 42.79,
+      logging_slo_param_7: 55.43,
+      req_0_field_0: false,
+      req_0_field_1: true,
+      req_0_field_2: 62.05,
+      threshold: 95.86,
+      window_in_days: 7
+    }
+
+  * "networking_0_19_logging_slo_2":
+    Provides {
+      logging_slo_param_0: "jxumq",
+      logging_slo_param_1: "shivlzneg",
+      logging_slo_param_2: 32.61,
+      logging_slo_param_3: [9253, 8026, 7809],
+      logging_slo_param_4: true,
+      logging_slo_param_5: true,
+      logging_slo_param_6: 20.8,
+      logging_slo_param_7: 32.13,
+      req_0_field_0: true,
+      req_0_field_1: true,
+      req_0_field_2: 73.8,
+      threshold: 97.74,
+      window_in_days: 7
+    }
+
+Expectations for "orders_slo"
+  * "networking_0_19_orders_slo_0":
+    Provides {
+      orders_slo_param_0: "qylnc",
+      orders_slo_param_1: "stbyfdlcr",
+      orders_slo_param_2: 300,
+      orders_slo_param_3: "ggsatsmulxm",
+      threshold: 99.92,
+      window_in_days: 7
+    }
+
+  * "networking_0_19_orders_slo_1":
+    Provides {
+      orders_slo_param_0: "gqeqgnec",
+      orders_slo_param_1: "kkwglkcwungr",
+      orders_slo_param_2: 56,
+      orders_slo_param_3: "ilquciq",
+      threshold: 96.47,
+      window_in_days: 90
+    }
+
+Expectations for "search_slo"
+  * "networking_0_19_search_slo_0":
+    Provides {
+      search_slo_param_0: "imrregweztgfs",
+      search_slo_param_1: "oabvfqba",
+      search_slo_param_2: false,
+      search_slo_param_3: 357,
+      search_slo_param_4: "archived",
+      req_1_field_0: "phwsaogmciw",
+      threshold: 99.67,
+      window_in_days: 30
+    }
+
+  * "networking_0_19_search_slo_1":
+    Provides {
+      search_slo_param_0: "spvqyoglia",
+      search_slo_param_1: "nobknlyturfws",
+      search_slo_param_2: false,
+      search_slo_param_3: 343,
+      search_slo_param_4: "archived",
+      req_1_field_0: "lllsf",
+      threshold: 99.53,
+      window_in_days: 30
+    }
+
+  * "networking_0_19_search_slo_2":
+    Provides {
+      search_slo_param_0: "ukwrsuwtwwbcqf",
+      search_slo_param_1: "ubyno",
+      search_slo_param_2: true,
+      search_slo_param_3: 108,
+      search_slo_param_4: "active",
+      req_1_field_0: "jnwtgtagywuo",
+      threshold: 96.24,
+      window_in_days: 30
+    }
+
+Expectations for "scheduler_slo"
+  * "networking_0_19_scheduler_slo_0":
+    Provides {
+      scheduler_slo_param_0: "szcwnrkyptwxm",
+      scheduler_slo_param_1: "wsibpoey",
+      scheduler_slo_param_2: false,
+      scheduler_slo_param_3: 1992,
+      req_0_field_0: true,
+      req_0_field_1: false,
+      req_0_field_2: 25.8,
+      threshold: 97.43,
+      window_in_days: 90
+    }
+
+  * "networking_0_19_scheduler_slo_1":
+    Provides {
+      scheduler_slo_param_0: "mhtyaryflvmz",
+      scheduler_slo_param_1: "dhvgrwwbm",
+      scheduler_slo_param_2: true,
+      scheduler_slo_param_3: 7258,
+      req_0_field_0: true,
+      req_0_field_1: false,
+      req_0_field_2: 92.48,
+      threshold: 96.83,
+      window_in_days: 90
+    }
+
+  * "networking_0_19_scheduler_slo_2":
+    Provides {
+      scheduler_slo_param_0: "csnakzayr",
+      scheduler_slo_param_1: "sxamq",
+      scheduler_slo_param_2: true,
+      scheduler_slo_param_3: 2693,
+      req_0_field_0: false,
+      req_0_field_1: true,
+      req_0_field_2: 7.1,
+      threshold: 96.79,
+      window_in_days: 7
+    }

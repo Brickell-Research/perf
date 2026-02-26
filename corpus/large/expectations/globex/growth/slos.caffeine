@@ -1,0 +1,111 @@
+Expectations for "profiles_slo"
+  * "growth_profiles_slo_0":
+    Provides {
+      profiles_slo_param_0: "mhqicczunqfq",
+      profiles_slo_param_1: "wlcnszuq",
+      profiles_slo_param_2: ["dlicbuoofgkqlar"],
+      profiles_slo_param_3: 53.49,
+      profiles_slo_param_4: 1037,
+      profiles_slo_param_5: 73.71,
+      threshold: 97.92,
+      window_in_days: 90
+    }
+
+  * "growth_profiles_slo_1":
+    Provides {
+      profiles_slo_param_0: "jnhrph",
+      profiles_slo_param_1: "jvaeftuwhqhx",
+      profiles_slo_param_2: ["oodap", "ocftsfxwdeqgc", "uwwyzlohbcsmidr"],
+      profiles_slo_param_3: 10.01,
+      profiles_slo_param_4: 1144,
+      profiles_slo_param_5: 84.28,
+      threshold: 96.59,
+      window_in_days: 30
+    }
+
+  * "growth_profiles_slo_2":
+    Provides {
+      profiles_slo_param_0: "qhpojilagf",
+      profiles_slo_param_1: "lvdtwmjhoepvwdo",
+      profiles_slo_param_2: ["bbanapkpxoozmuj", "xpwdncja", "wupenley"],
+      profiles_slo_param_3: 65.94,
+      profiles_slo_param_4: 2396,
+      profiles_slo_param_5: 72.24,
+      threshold: 97.41,
+      window_in_days: 30
+    }
+
+  * "growth_profiles_slo_3":
+    Provides {
+      profiles_slo_param_0: "fmbjb",
+      profiles_slo_param_1: "nukxwbqc",
+      profiles_slo_param_2: ["pojjpxcgz", "njwmmpnd", "fnhdepv"],
+      profiles_slo_param_3: 66.11,
+      profiles_slo_param_4: 6794,
+      profiles_slo_param_5: 77.76,
+      threshold: 98.59,
+      window_in_days: 30
+    }
+
+  * "growth_profiles_slo_4":
+    Provides {
+      profiles_slo_param_0: "mfevaboeqbobgey",
+      profiles_slo_param_1: "zqwsvyfpmmfkdp",
+      profiles_slo_param_2: ["rgsilpfkcfwnkd", "expwnt"],
+      profiles_slo_param_3: 9.33,
+      profiles_slo_param_4: 2136,
+      profiles_slo_param_5: 84.42,
+      threshold: 97.69,
+      window_in_days: 7
+    }
+
+Expectations for "catalog_slo"
+  * "growth_catalog_slo_0":
+    Provides {
+      catalog_slo_param_0: "qnjbnfuujpttscd",
+      catalog_slo_param_1: "txcpogatannj",
+      catalog_slo_param_2: 43.83,
+      catalog_slo_param_3: 866,
+      threshold: 96.58,
+      window_in_days: 30
+    }
+
+  * "growth_catalog_slo_1":
+    Provides {
+      catalog_slo_param_0: "eqgwlj",
+      catalog_slo_param_1: "zkfooeomz",
+      catalog_slo_param_2: 62.37,
+      catalog_slo_param_3: 835,
+      threshold: 98.52,
+      window_in_days: 90
+    }
+
+  * "growth_catalog_slo_2":
+    Provides {
+      catalog_slo_param_0: "wrtlsef",
+      catalog_slo_param_1: "uuprbkquvmp",
+      catalog_slo_param_2: 37.99,
+      catalog_slo_param_3: 312,
+      threshold: 96.11,
+      window_in_days: 7
+    }
+
+  * "growth_catalog_slo_3":
+    Provides {
+      catalog_slo_param_0: "ajzpnspyvqlfru",
+      catalog_slo_param_1: "funsprjrz",
+      catalog_slo_param_2: 37.92,
+      catalog_slo_param_3: 325,
+      threshold: 98.89,
+      window_in_days: 30
+    }
+
+  * "growth_catalog_slo_4":
+    Provides {
+      catalog_slo_param_0: "kpntbchvxjzhpfy",
+      catalog_slo_param_1: "aenonidngnuglj",
+      catalog_slo_param_2: 57.68,
+      catalog_slo_param_3: 292,
+      threshold: 98.78,
+      window_in_days: 30
+    }

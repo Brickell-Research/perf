@@ -1,0 +1,81 @@
+Expectations for "logging_slo"
+  * "platform_7_0_logging_slo_0":
+    Provides {
+      logging_slo_param_0: "asqfuqaxpxkcg",
+      logging_slo_param_1: "phhepv",
+      logging_slo_param_2: 15.56,
+      logging_slo_param_3: [1454],
+      logging_slo_param_4: false,
+      logging_slo_param_5: true,
+      logging_slo_param_6: 37.02,
+      logging_slo_param_7: 65.42,
+      req_0_field_0: false,
+      req_0_field_1: false,
+      req_0_field_2: 27.44,
+      threshold: 97.07,
+      window_in_days: 7
+    }
+
+Expectations for "users_slo"
+  * "platform_7_0_users_slo_0":
+    Provides {
+      users_slo_param_0: "xnhhm",
+      users_slo_param_1: "huasxqp",
+      users_slo_param_2: "cezwlxvrvjws",
+      users_slo_param_3: ["ouszuurcqrp"],
+      users_slo_param_4: 79.9,
+      threshold: 99.61,
+      window_in_days: 30
+    }
+
+  * "platform_7_0_users_slo_1":
+    Provides {
+      users_slo_param_0: "phogtygtqg",
+      users_slo_param_1: "sjsfjubqmh",
+      users_slo_param_2: "hnkbsjmmvxwe",
+      users_slo_param_3: ["jpegnkzqi"],
+      users_slo_param_4: 60.6,
+      threshold: 99.89,
+      window_in_days: 30
+    }
+
+Expectations for "orders_slo"
+  * "platform_7_0_orders_slo_0":
+    Provides {
+      orders_slo_param_0: "mfzfxdodtsjwf",
+      orders_slo_param_1: "wsdohuizdashpx",
+      orders_slo_param_2: 92,
+      orders_slo_param_3: "bwetzfbaxlqcywo",
+      threshold: 96.8,
+      window_in_days: 7
+    }
+
+  * "platform_7_0_orders_slo_1":
+    Provides {
+      orders_slo_param_0: "ggwbc",
+      orders_slo_param_1: "qkcjlrfagwude",
+      orders_slo_param_2: 171,
+      orders_slo_param_3: "yblkmipofad",
+      threshold: 95.82,
+      window_in_days: 90
+    }
+
+  * "platform_7_0_orders_slo_2":
+    Provides {
+      orders_slo_param_0: "jfzeprnme",
+      orders_slo_param_1: "gigftpgdmezyc",
+      orders_slo_param_2: 148,
+      orders_slo_param_3: "ybhqotsez",
+      threshold: 96.49,
+      window_in_days: 90
+    }
+
+  * "platform_7_0_orders_slo_3":
+    Provides {
+      orders_slo_param_0: "bsguqikrquaujpb",
+      orders_slo_param_1: "owgwgdhokd",
+      orders_slo_param_2: 210,
+      orders_slo_param_3: "okjersga",
+      threshold: 95.61,
+      window_in_days: 90
+    }

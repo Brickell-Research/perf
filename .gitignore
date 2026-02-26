@@ -1,0 +1,15 @@
+# Benchmark results (regenerated via `make bench`)
+results/
+
+# Compiled binary (rebuilt via `make build`)
+bin/caffeine-prod
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Erlang crash dumps
+erl_crash.dump

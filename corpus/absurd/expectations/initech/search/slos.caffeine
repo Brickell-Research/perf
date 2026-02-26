@@ -1,0 +1,400 @@
+Expectations for "orders_slo"
+  * "search_orders_slo_0":
+    Provides {
+      orders_slo_param_0: "dcfcdyc",
+      orders_slo_param_1: "qtaxkj",
+      orders_slo_param_2: true,
+      orders_slo_param_3: true,
+      orders_slo_param_4: "inactive",
+      orders_slo_param_5: [true, false],
+      orders_slo_param_6: "bxlbzxdckczeniq",
+      orders_slo_param_7: 1759,
+      orders_slo_param_8: "fynreqemnle",
+      orders_slo_param_9: 78.1,
+      threshold: 96.87,
+      window_in_days: 7
+    }
+
+  * "search_orders_slo_1":
+    Provides {
+      orders_slo_param_0: "shaxiatcfub",
+      orders_slo_param_1: "zsptagtxiw",
+      orders_slo_param_2: false,
+      orders_slo_param_3: true,
+      orders_slo_param_4: "published",
+      orders_slo_param_5: [true, true, false],
+      orders_slo_param_6: "kugbsajzntpus",
+      orders_slo_param_7: 8311,
+      orders_slo_param_8: "gzwgcnzrjakwjm",
+      orders_slo_param_9: 73.49,
+      threshold: 95.19,
+      window_in_days: 90
+    }
+
+  * "search_orders_slo_2":
+    Provides {
+      orders_slo_param_0: "rtrwaiq",
+      orders_slo_param_1: "zqfxm",
+      orders_slo_param_2: true,
+      orders_slo_param_3: false,
+      orders_slo_param_4: "published",
+      orders_slo_param_5: [false, false],
+      orders_slo_param_6: "weezqnznlhb",
+      orders_slo_param_7: 644,
+      orders_slo_param_8: "bldyludnjsfwo",
+      orders_slo_param_9: 74.83,
+      threshold: 98.29,
+      window_in_days: 90
+    }
+
+  * "search_orders_slo_3":
+    Provides {
+      orders_slo_param_0: "sgikojsxhgqzjr",
+      orders_slo_param_1: "nverfvmuhvyeha",
+      orders_slo_param_2: true,
+      orders_slo_param_3: false,
+      orders_slo_param_4: "inactive",
+      orders_slo_param_5: [true, false, true, true],
+      orders_slo_param_6: "qrmmghmlek",
+      orders_slo_param_7: 8886,
+      orders_slo_param_8: "cqnzvotkqkhcnvy",
+      orders_slo_param_9: 52.93,
+      threshold: 97.0,
+      window_in_days: 90
+    }
+
+  * "search_orders_slo_4":
+    Provides {
+      orders_slo_param_0: "wxgxwgdbcryeips",
+      orders_slo_param_1: "ixsojlcf",
+      orders_slo_param_2: false,
+      orders_slo_param_3: false,
+      orders_slo_param_4: "pending",
+      orders_slo_param_5: [true, true, true],
+      orders_slo_param_6: "zydnjyrn",
+      orders_slo_param_7: 3856,
+      orders_slo_param_8: "dyujj",
+      orders_slo_param_9: 90.57,
+      threshold: 95.55,
+      window_in_days: 30
+    }
+
+  * "search_orders_slo_5":
+    Provides {
+      orders_slo_param_0: "snijysnpl",
+      orders_slo_param_1: "pjrfcfemszbw",
+      orders_slo_param_2: true,
+      orders_slo_param_3: false,
+      orders_slo_param_4: "inactive",
+      orders_slo_param_5: [true, false, false, true],
+      orders_slo_param_6: "wlmeugwkgcvxhsu",
+      orders_slo_param_7: 6549,
+      orders_slo_param_8: "flggogxh",
+      orders_slo_param_9: 37.31,
+      threshold: 96.71,
+      window_in_days: 90
+    }
+
+  * "search_orders_slo_6":
+    Provides {
+      orders_slo_param_0: "takvflhmwhfxufy",
+      orders_slo_param_1: "jgfqbnktworjcus",
+      orders_slo_param_2: false,
+      orders_slo_param_3: false,
+      orders_slo_param_4: "published",
+      orders_slo_param_5: [false, true],
+      orders_slo_param_6: "vzveulqkq",
+      orders_slo_param_7: 7236,
+      orders_slo_param_8: "hoonesdvpmhys",
+      orders_slo_param_9: 4.89,
+      threshold: 99.73,
+      window_in_days: 7
+    }
+
+  * "search_orders_slo_7":
+    Provides {
+      orders_slo_param_0: "kyttpzcjkbu",
+      orders_slo_param_1: "qissyosgsmtnup",
+      orders_slo_param_2: true,
+      orders_slo_param_3: false,
+      orders_slo_param_4: "inactive",
+      orders_slo_param_5: [false, false, true, false],
+      orders_slo_param_6: "fjzogkdxgg",
+      orders_slo_param_7: 5575,
+      orders_slo_param_8: "xjhufbm",
+      orders_slo_param_9: 88.99,
+      threshold: 99.61,
+      window_in_days: 30
+    }
+
+  * "search_orders_slo_8":
+    Provides {
+      orders_slo_param_0: "zijpobnhicgctlc",
+      orders_slo_param_1: "apvbqexosjwogd",
+      orders_slo_param_2: false,
+      orders_slo_param_3: true,
+      orders_slo_param_4: "published",
+      orders_slo_param_5: [false, false],
+      orders_slo_param_6: "mdywqpbxa",
+      orders_slo_param_7: 119,
+      orders_slo_param_8: "nfznqwllummf",
+      orders_slo_param_9: 2.24,
+      threshold: 96.7,
+      window_in_days: 30
+    }
+
+  * "search_orders_slo_9":
+    Provides {
+      orders_slo_param_0: "gzvrnczizxkk",
+      orders_slo_param_1: "wbchxu",
+      orders_slo_param_2: true,
+      orders_slo_param_3: false,
+      orders_slo_param_4: "published",
+      orders_slo_param_5: [true, true],
+      orders_slo_param_6: "uwrhwljr",
+      orders_slo_param_7: 4189,
+      orders_slo_param_8: "skbbg",
+      orders_slo_param_9: 64.49,
+      threshold: 97.68,
+      window_in_days: 30
+    }
+
+  * "search_orders_slo_10":
+    Provides {
+      orders_slo_param_0: "aziyzexhvtp",
+      orders_slo_param_1: "zfrtxbbhnmhgzp",
+      orders_slo_param_2: false,
+      orders_slo_param_3: false,
+      orders_slo_param_4: "archived",
+      orders_slo_param_5: [true, true, true],
+      orders_slo_param_6: "imwgydgrpeasuvk",
+      orders_slo_param_7: 4777,
+      orders_slo_param_8: "rhrvsidddzcwc",
+      orders_slo_param_9: 15.04,
+      threshold: 97.92,
+      window_in_days: 90
+    }
+
+  * "search_orders_slo_11":
+    Provides {
+      orders_slo_param_0: "vbintiqsjhjjg",
+      orders_slo_param_1: "hcnrwcwmpomf",
+      orders_slo_param_2: true,
+      orders_slo_param_3: true,
+      orders_slo_param_4: "published",
+      orders_slo_param_5: [false, false],
+      orders_slo_param_6: "oysysjzjlzl",
+      orders_slo_param_7: 9351,
+      orders_slo_param_8: "mbzuxtbmlonhauo",
+      orders_slo_param_9: 82.13,
+      threshold: 95.8,
+      window_in_days: 90
+    }
+
+  * "search_orders_slo_12":
+    Provides {
+      orders_slo_param_0: "leakagtfhrrug",
+      orders_slo_param_1: "fsnrdcrshts",
+      orders_slo_param_2: true,
+      orders_slo_param_3: true,
+      orders_slo_param_4: "active",
+      orders_slo_param_5: [false],
+      orders_slo_param_6: "jmvabbuuvmy",
+      orders_slo_param_7: 3720,
+      orders_slo_param_8: "eljcicaxlpb",
+      orders_slo_param_9: 71.33,
+      threshold: 96.75,
+      window_in_days: 7
+    }
+
+  * "search_orders_slo_13":
+    Provides {
+      orders_slo_param_0: "etuclr",
+      orders_slo_param_1: "xdyxrbsymjb",
+      orders_slo_param_2: true,
+      orders_slo_param_3: true,
+      orders_slo_param_4: "inactive",
+      orders_slo_param_5: [false],
+      orders_slo_param_6: "zpurixkjnxi",
+      orders_slo_param_7: 6064,
+      orders_slo_param_8: "iujjeni",
+      orders_slo_param_9: 14.34,
+      threshold: 99.2,
+      window_in_days: 90
+    }
+
+  * "search_orders_slo_14":
+    Provides {
+      orders_slo_param_0: "uolegd",
+      orders_slo_param_1: "ahjlyqtcrunfbd",
+      orders_slo_param_2: true,
+      orders_slo_param_3: false,
+      orders_slo_param_4: "published",
+      orders_slo_param_5: [true, false, true],
+      orders_slo_param_6: "fxtcnwjsgv",
+      orders_slo_param_7: 1001,
+      orders_slo_param_8: "ydlbprfhs",
+      orders_slo_param_9: 15.41,
+      threshold: 96.26,
+      window_in_days: 7
+    }
+
+  * "search_orders_slo_15":
+    Provides {
+      orders_slo_param_0: "hrniphvmm",
+      orders_slo_param_1: "dwwjanhiaa",
+      orders_slo_param_2: false,
+      orders_slo_param_3: true,
+      orders_slo_param_4: "archived",
+      orders_slo_param_5: [false, false, false, false],
+      orders_slo_param_6: "wbwtwe",
+      orders_slo_param_7: 4130,
+      orders_slo_param_8: "vbejzfhlbmb",
+      orders_slo_param_9: 27.14,
+      threshold: 96.31,
+      window_in_days: 90
+    }
+
+  * "search_orders_slo_16":
+    Provides {
+      orders_slo_param_0: "fhslpawwaup",
+      orders_slo_param_1: "qigtgndrxss",
+      orders_slo_param_2: true,
+      orders_slo_param_3: false,
+      orders_slo_param_4: "pending",
+      orders_slo_param_5: [false, true],
+      orders_slo_param_6: "mltbycapghe",
+      orders_slo_param_7: 9150,
+      orders_slo_param_8: "vachu",
+      orders_slo_param_9: 29.0,
+      threshold: 96.34,
+      window_in_days: 7
+    }
+
+  * "search_orders_slo_17":
+    Provides {
+      orders_slo_param_0: "vifbvwimwxqj",
+      orders_slo_param_1: "kdnghzlthnc",
+      orders_slo_param_2: false,
+      orders_slo_param_3: false,
+      orders_slo_param_4: "active",
+      orders_slo_param_5: [true, false, false, false],
+      orders_slo_param_6: "guymllfhehzn",
+      orders_slo_param_7: 3308,
+      orders_slo_param_8: "bpygyvajcm",
+      orders_slo_param_9: 38.11,
+      threshold: 99.16,
+      window_in_days: 7
+    }
+
+  * "search_orders_slo_18":
+    Provides {
+      orders_slo_param_0: "ugzsb",
+      orders_slo_param_1: "wtjtoyimza",
+      orders_slo_param_2: true,
+      orders_slo_param_3: true,
+      orders_slo_param_4: "published",
+      orders_slo_param_5: [false, true, false, false],
+      orders_slo_param_6: "ceqjkmvbmtdyq",
+      orders_slo_param_7: 2444,
+      orders_slo_param_8: "gnkwsqstyzz",
+      orders_slo_param_9: 4.76,
+      threshold: 96.06,
+      window_in_days: 30
+    }
+
+  * "search_orders_slo_19":
+    Provides {
+      orders_slo_param_0: "uwoxbxun",
+      orders_slo_param_1: "rxanyhycrrfcv",
+      orders_slo_param_2: true,
+      orders_slo_param_3: false,
+      orders_slo_param_4: "archived",
+      orders_slo_param_5: [true, false, true],
+      orders_slo_param_6: "xlafvzdblaagq",
+      orders_slo_param_7: 5490,
+      orders_slo_param_8: "lqfurhkgvamec",
+      orders_slo_param_9: 66.74,
+      threshold: 97.31,
+      window_in_days: 7
+    }
+
+  * "search_orders_slo_20":
+    Provides {
+      orders_slo_param_0: "evcepxryla",
+      orders_slo_param_1: "psihcgarhwn",
+      orders_slo_param_2: true,
+      orders_slo_param_3: true,
+      orders_slo_param_4: "published",
+      orders_slo_param_5: [true, false, true, true],
+      orders_slo_param_6: "tplwlzxzeevft",
+      orders_slo_param_7: 3927,
+      orders_slo_param_8: "uhpnkxgrqtxttw",
+      orders_slo_param_9: 72.55,
+      threshold: 99.91,
+      window_in_days: 90
+    }
+
+  * "search_orders_slo_21":
+    Provides {
+      orders_slo_param_0: "tgbegqqhcu",
+      orders_slo_param_1: "aqgmwcbbi",
+      orders_slo_param_2: true,
+      orders_slo_param_3: true,
+      orders_slo_param_4: "published",
+      orders_slo_param_5: [false, true, false],
+      orders_slo_param_6: "omtimwjv",
+      orders_slo_param_7: 6278,
+      orders_slo_param_8: "jibpikaifdkhf",
+      orders_slo_param_9: 79.85,
+      threshold: 97.08,
+      window_in_days: 30
+    }
+
+  * "search_orders_slo_22":
+    Provides {
+      orders_slo_param_0: "ajlvpuoppjqa",
+      orders_slo_param_1: "rxznqdlo",
+      orders_slo_param_2: false,
+      orders_slo_param_3: false,
+      orders_slo_param_4: "pending",
+      orders_slo_param_5: [false, true, false, false],
+      orders_slo_param_6: "avsbhrcsuihxg",
+      orders_slo_param_7: 4304,
+      orders_slo_param_8: "vddlbymllgyshpi",
+      orders_slo_param_9: 21.15,
+      threshold: 96.4,
+      window_in_days: 30
+    }
+
+  * "search_orders_slo_23":
+    Provides {
+      orders_slo_param_0: "usyvjuswqq",
+      orders_slo_param_1: "lnagx",
+      orders_slo_param_2: false,
+      orders_slo_param_3: true,
+      orders_slo_param_4: "inactive",
+      orders_slo_param_5: [true, true, false],
+      orders_slo_param_6: "ytilzswmuvbhjhb",
+      orders_slo_param_7: 2692,
+      orders_slo_param_8: "vhjuyaewn",
+      orders_slo_param_9: 3.53,
+      threshold: 99.56,
+      window_in_days: 90
+    }
+
+  * "search_orders_slo_24":
+    Provides {
+      orders_slo_param_0: "wshbrvgqe",
+      orders_slo_param_1: "batil",
+      orders_slo_param_2: false,
+      orders_slo_param_3: true,
+      orders_slo_param_4: "inactive",
+      orders_slo_param_5: [true, false, true],
+      orders_slo_param_6: "uanqmsxsd",
+      orders_slo_param_7: 9424,
+      orders_slo_param_8: "bghgielrhcssibk",
+      orders_slo_param_9: 30.13,
+      threshold: 99.17,
+      window_in_days: 30
+    }

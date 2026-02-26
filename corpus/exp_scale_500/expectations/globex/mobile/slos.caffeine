@@ -1,0 +1,38 @@
+Expectations for "catalog_slo"
+  * "mobile_1_4_catalog_slo_0":
+    Provides {
+      catalog_slo_param_0: "bovwvl",
+      catalog_slo_param_1: "pccwqoxcxtpkcew",
+      catalog_slo_param_2: 50.49,
+      catalog_slo_param_3: 59.64,
+      catalog_slo_param_4: 23.59,
+      catalog_slo_param_5: 62.56,
+      threshold: 99.34,
+      window_in_days: 30
+    }
+
+  * "mobile_1_4_catalog_slo_1":
+    Provides {
+      catalog_slo_param_0: "fqnfmhhqwpyimgw",
+      catalog_slo_param_1: "ttdzijrwvofu",
+      catalog_slo_param_2: 10.95,
+      catalog_slo_param_3: 42.89,
+      catalog_slo_param_4: 68.03,
+      catalog_slo_param_5: 62.17,
+      threshold: 95.39,
+      window_in_days: 30
+    }
+
+Expectations for "scheduler_slo"
+  * "mobile_1_4_scheduler_slo_0":
+    Provides {
+      scheduler_slo_param_0: "grkqsumy",
+      scheduler_slo_param_1: "ctyysamkpytwef",
+      scheduler_slo_param_2: true,
+      scheduler_slo_param_3: 9166,
+      req_0_field_0: false,
+      req_0_field_1: false,
+      req_0_field_2: 31.36,
+      threshold: 99.5,
+      window_in_days: 30
+    }

@@ -1,0 +1,222 @@
+Expectations for "shipping_slo"
+  * "identity_0_15_shipping_slo_0":
+    Provides {
+      shipping_slo_param_0: "ypttouivo",
+      shipping_slo_param_1: "nzxcq",
+      shipping_slo_param_2: "demo",
+      shipping_slo_param_3: 2982,
+      shipping_slo_param_4: 52.51,
+      shipping_slo_param_5: 12.29,
+      shipping_slo_param_6: 73,
+      req_1_field_0: "pbsjtihcwjx",
+      threshold: 97.24,
+      window_in_days: 90
+    }
+
+  * "identity_0_15_shipping_slo_1":
+    Provides {
+      shipping_slo_param_0: "sqnpykc",
+      shipping_slo_param_1: "yodxdexdjrskt",
+      shipping_slo_param_2: "perf",
+      shipping_slo_param_3: 6334,
+      shipping_slo_param_4: 93.62,
+      shipping_slo_param_5: 87.19,
+      shipping_slo_param_6: 73,
+      req_1_field_0: "tswvkxz",
+      threshold: 96.21,
+      window_in_days: 30
+    }
+
+Expectations for "payments_slo"
+  * "identity_0_15_payments_slo_0":
+    Provides {
+      payments_slo_param_0: "bjsvzhvtyzpz",
+      payments_slo_param_1: "jgrygllpb",
+      payments_slo_param_2: 32.81,
+      payments_slo_param_3: 6694,
+      payments_slo_param_4: 63,
+      payments_slo_param_5: 7368,
+      threshold: 95.06,
+      window_in_days: 7
+    }
+
+  * "identity_0_15_payments_slo_1":
+    Provides {
+      payments_slo_param_0: "wrjvkb",
+      payments_slo_param_1: "kzrbjl",
+      payments_slo_param_2: 32.79,
+      payments_slo_param_3: 6167,
+      payments_slo_param_4: 37,
+      payments_slo_param_5: 4259,
+      threshold: 96.4,
+      window_in_days: 7
+    }
+
+  * "identity_0_15_payments_slo_2":
+    Provides {
+      payments_slo_param_0: "dggkl",
+      payments_slo_param_1: "qsopccmfmkhvh",
+      payments_slo_param_2: 51.96,
+      payments_slo_param_3: 6343,
+      payments_slo_param_4: 81,
+      payments_slo_param_5: 4803,
+      threshold: 98.95,
+      window_in_days: 30
+    }
+
+  * "identity_0_15_payments_slo_3":
+    Provides {
+      payments_slo_param_0: "qgkeetafsabyj",
+      payments_slo_param_1: "yepdpllltwy",
+      payments_slo_param_2: 71.8,
+      payments_slo_param_3: 5035,
+      payments_slo_param_4: 63,
+      payments_slo_param_5: 3660,
+      threshold: 98.63,
+      window_in_days: 90
+    }
+
+Expectations for "analytics_slo"
+  * "identity_0_15_analytics_slo_0":
+    Provides {
+      analytics_slo_param_0: "wzadvhfcazcibrv",
+      analytics_slo_param_1: "dlokn",
+      analytics_slo_param_2: false,
+      analytics_slo_param_3: false,
+      analytics_slo_param_4: 56.95,
+      analytics_slo_param_5: 78,
+      threshold: 96.1,
+      window_in_days: 90
+    }
+
+  * "identity_0_15_analytics_slo_1":
+    Provides {
+      analytics_slo_param_0: "lfuhvhgfxyrfov",
+      analytics_slo_param_1: "wdcntvxve",
+      analytics_slo_param_2: true,
+      analytics_slo_param_3: false,
+      analytics_slo_param_4: 64.0,
+      analytics_slo_param_5: 78,
+      threshold: 98.82,
+      window_in_days: 7
+    }
+
+  * "identity_0_15_analytics_slo_2":
+    Provides {
+      analytics_slo_param_0: "ihiaw",
+      analytics_slo_param_1: "scirbodgiaeki",
+      analytics_slo_param_2: true,
+      analytics_slo_param_3: true,
+      analytics_slo_param_4: 7.47,
+      analytics_slo_param_5: 10,
+      threshold: 97.91,
+      window_in_days: 90
+    }
+
+  * "identity_0_15_analytics_slo_3":
+    Provides {
+      analytics_slo_param_0: "bgpujnsj",
+      analytics_slo_param_1: "iatqwx",
+      analytics_slo_param_2: true,
+      analytics_slo_param_3: true,
+      analytics_slo_param_4: 47.64,
+      analytics_slo_param_5: 78,
+      threshold: 99.18,
+      window_in_days: 30
+    }
+
+Expectations for "auth_slo"
+  * "identity_8_15_auth_slo_0":
+    Provides {
+      auth_slo_param_0: "dhdmsmthcs",
+      auth_slo_param_1: "qklvxsuopbj",
+      auth_slo_param_2: 7272,
+      auth_slo_param_3: { key_0: 7405, key_1: 1957 },
+      auth_slo_param_4: "pending",
+      threshold: 95.49,
+      window_in_days: 90
+    }
+
+  * "identity_8_15_auth_slo_1":
+    Provides {
+      auth_slo_param_0: "yguiltppr",
+      auth_slo_param_1: "usqwae",
+      auth_slo_param_2: 4552,
+      auth_slo_param_3: { key_0: 4086, key_1: 902, key_2: 9733 },
+      auth_slo_param_4: "active",
+      threshold: 97.32,
+      window_in_days: 30
+    }
+
+  * "identity_8_15_auth_slo_2":
+    Provides {
+      auth_slo_param_0: "nhuiwhvugykshp",
+      auth_slo_param_1: "awyidzeqtz",
+      auth_slo_param_2: 7260,
+      auth_slo_param_3: { key_0: 6383, key_1: 8493, key_2: 2073 },
+      auth_slo_param_4: "active",
+      threshold: 99.34,
+      window_in_days: 90
+    }
+
+  * "identity_8_15_auth_slo_3":
+    Provides {
+      auth_slo_param_0: "nxjyncbshv",
+      auth_slo_param_1: "bjxneuwomtezlek",
+      auth_slo_param_2: 7790,
+      auth_slo_param_3: { key_0: 9449, key_1: 8682, key_2: 7794 },
+      auth_slo_param_4: "published",
+      threshold: 99.57,
+      window_in_days: 90
+    }
+
+  * "identity_8_15_auth_slo_4":
+    Provides {
+      auth_slo_param_0: "jlcxiogpdu",
+      auth_slo_param_1: "clomwax",
+      auth_slo_param_2: 4595,
+      auth_slo_param_3: { key_0: 3932, key_1: 6747, key_2: 8684 },
+      auth_slo_param_4: "pending",
+      threshold: 95.22,
+      window_in_days: 7
+    }
+
+Expectations for "monitoring_slo"
+  * "identity_8_15_monitoring_slo_0":
+    Provides {
+      monitoring_slo_param_0: "hcsoprxhqmxr",
+      monitoring_slo_param_1: "glkvvbdlejxycjk",
+      monitoring_slo_param_2: "vlzkhdrdw",
+      monitoring_slo_param_3: "cjudnhnodn",
+      monitoring_slo_param_4: "cysvbntzbigcjoi",
+      monitoring_slo_param_5: 46.06,
+      monitoring_slo_param_6: 15.86,
+      threshold: 95.18,
+      window_in_days: 30
+    }
+
+  * "identity_8_15_monitoring_slo_1":
+    Provides {
+      monitoring_slo_param_0: "deqjfxdm",
+      monitoring_slo_param_1: "sqzdxu",
+      monitoring_slo_param_2: "txdblswk",
+      monitoring_slo_param_3: "giolqemydxrc",
+      monitoring_slo_param_4: "xztdwgk",
+      monitoring_slo_param_5: 19.86,
+      monitoring_slo_param_6: 57.48,
+      threshold: 96.0,
+      window_in_days: 7
+    }
+
+  * "identity_8_15_monitoring_slo_2":
+    Provides {
+      monitoring_slo_param_0: "kqwiptkcf",
+      monitoring_slo_param_1: "tqfay",
+      monitoring_slo_param_2: "anmyzvcznx",
+      monitoring_slo_param_3: "xohgh",
+      monitoring_slo_param_4: "lxrvr",
+      monitoring_slo_param_5: 20.77,
+      monitoring_slo_param_6: 47.37,
+      threshold: 97.79,
+      window_in_days: 30
+    }

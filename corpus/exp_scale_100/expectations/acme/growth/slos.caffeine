@@ -1,0 +1,65 @@
+Expectations for "shipping_slo"
+  * "growth_0_2_shipping_slo_0":
+    Provides {
+      shipping_slo_param_0: "sxtwdozgudnbbsq",
+      shipping_slo_param_1: "xucewbecgyzm",
+      shipping_slo_param_2: "perf",
+      shipping_slo_param_3: 6090,
+      shipping_slo_param_4: 60.08,
+      shipping_slo_param_5: 76.21,
+      shipping_slo_param_6: 81,
+      req_1_field_0: "lzjcpvcb",
+      threshold: 98.89,
+      window_in_days: 7
+    }
+
+Expectations for "orders_slo"
+  * "growth_0_2_orders_slo_0":
+    Provides {
+      orders_slo_param_0: "rbweunrzo",
+      orders_slo_param_1: "trlscypwi",
+      orders_slo_param_2: 105,
+      orders_slo_param_3: "upwbpurt",
+      threshold: 96.66,
+      window_in_days: 7
+    }
+
+  * "growth_0_2_orders_slo_1":
+    Provides {
+      orders_slo_param_0: "sbilwqe",
+      orders_slo_param_1: "ogiwonyxxavhce",
+      orders_slo_param_2: 253,
+      orders_slo_param_3: "mzkjxoyhyodoqgu",
+      threshold: 95.88,
+      window_in_days: 90
+    }
+
+  * "growth_0_2_orders_slo_2":
+    Provides {
+      orders_slo_param_0: "trpmpjzfcjnj",
+      orders_slo_param_1: "tgioavce",
+      orders_slo_param_2: 211,
+      orders_slo_param_3: "jdhxe",
+      threshold: 98.06,
+      window_in_days: 30
+    }
+
+  * "growth_0_2_orders_slo_3":
+    Provides {
+      orders_slo_param_0: "mhyjvan",
+      orders_slo_param_1: "miptgsk",
+      orders_slo_param_2: 283,
+      orders_slo_param_3: "uwvjxqqiscokcwr",
+      threshold: 95.5,
+      window_in_days: 90
+    }
+
+  * "growth_0_2_orders_slo_4":
+    Provides {
+      orders_slo_param_0: "dsrjwsksykr",
+      orders_slo_param_1: "akkcelu",
+      orders_slo_param_2: 260,
+      orders_slo_param_3: "uvatjbg",
+      threshold: 95.25,
+      window_in_days: 90
+    }

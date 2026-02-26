@@ -1,0 +1,65 @@
+name: Benchmark Regression Check
+
+on:
+  pull_request:
+    paths: ["caffeine_lang/**", "caffeine_cli/**", "caffeine_lsp/**"]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: erlef/setup-beam@v1
+        with:
+          otp-version: "27"
+          gleam-version: "1.14.0"
+
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: "2.5.6"
+
+      - name: Install hyperfine
+        run: |
+          wget -q https://github.com/sharkdp/hyperfine/releases/download/v1.20.0/hyperfine_1.20.0_amd64.deb
+          sudo dpkg -i hyperfine_1.20.0_amd64.deb
+
+      - name: Build & benchmark
+        working-directory: perf
+        run: make build bench WARMUP=5 RUNS=15
+
+      - name: Check regression
+        working-directory: perf
+        run: |
+          python3 compare.py baseline/complexity.json results/complexity.json --threshold 20
+          python3 compare.py baseline/scaling.json results/scaling.json --threshold 20
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-results
+          path: perf/results/
+
+      - name: Comment PR
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let body = '## Benchmark Results\n\n';
+            for (const f of ['complexity.md', 'scaling.md']) {
+              const p = `perf/results/${f}`;
+              if (fs.existsSync(p))
+                body += `### ${f.replace('.md','')}\n${fs.readFileSync(p,'utf8')}\n\n`;
+            }
+            if (body.length > 30)
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body
+              });

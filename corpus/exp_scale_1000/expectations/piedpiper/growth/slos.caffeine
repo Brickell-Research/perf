@@ -1,0 +1,30 @@
+Expectations for "inventory_slo"
+  * "growth_4_2_inventory_slo_0":
+    Provides {
+      inventory_slo_param_0: "dsgrc",
+      inventory_slo_param_1: "rhxedm",
+      inventory_slo_param_2: "canary",
+      inventory_slo_param_3: 5973,
+      inventory_slo_param_4: 34.75,
+      inventory_slo_param_5: 88.72,
+      inventory_slo_param_6: 7666,
+      inventory_slo_param_7: 78.07,
+      req_1_field_0: "ngugenclnjth",
+      threshold: 96.81,
+      window_in_days: 7
+    }
+
+  * "growth_4_2_inventory_slo_1":
+    Provides {
+      inventory_slo_param_0: "cbfevvzm",
+      inventory_slo_param_1: "jszpqb",
+      inventory_slo_param_2: "development",
+      inventory_slo_param_3: 8499,
+      inventory_slo_param_4: 47.9,
+      inventory_slo_param_5: 75.6,
+      inventory_slo_param_6: 8837,
+      inventory_slo_param_7: 73.8,
+      req_1_field_0: "rkxonfmfhk",
+      threshold: 98.54,
+      window_in_days: 7
+    }

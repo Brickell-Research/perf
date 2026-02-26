@@ -1,0 +1,40 @@
+Expectations for "orders_slo"
+  * "commerce_1_16_orders_slo_0":
+    Provides {
+      orders_slo_param_0: "obczmopjgtmh",
+      orders_slo_param_1: "eywxn",
+      orders_slo_param_2: 173,
+      orders_slo_param_3: "doqyprflufzw",
+      threshold: 98.96,
+      window_in_days: 7
+    }
+
+  * "commerce_1_16_orders_slo_1":
+    Provides {
+      orders_slo_param_0: "zqlzgbubadwoq",
+      orders_slo_param_1: "rmxzfezupm",
+      orders_slo_param_2: 408,
+      orders_slo_param_3: "hzvvtocyuhy",
+      threshold: 95.22,
+      window_in_days: 90
+    }
+
+  * "commerce_1_16_orders_slo_2":
+    Provides {
+      orders_slo_param_0: "murrieqqmxze",
+      orders_slo_param_1: "otctnwpaxoriqy",
+      orders_slo_param_2: 427,
+      orders_slo_param_3: "lrata",
+      threshold: 96.91,
+      window_in_days: 90
+    }
+
+  * "commerce_1_16_orders_slo_3":
+    Provides {
+      orders_slo_param_0: "goewwxaivbfxlxt",
+      orders_slo_param_1: "xvbhk",
+      orders_slo_param_2: 175,
+      orders_slo_param_3: "jmecsoa",
+      threshold: 95.01,
+      window_in_days: 30
+    }

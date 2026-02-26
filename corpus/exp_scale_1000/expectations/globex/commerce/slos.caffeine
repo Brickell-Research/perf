@@ -1,0 +1,20 @@
+Expectations for "orders_slo"
+  * "commerce_1_16_orders_slo_0":
+    Provides {
+      orders_slo_param_0: "fhblebulosolt",
+      orders_slo_param_1: "qreioriu",
+      orders_slo_param_2: 86,
+      orders_slo_param_3: "kjgff",
+      threshold: 96.54,
+      window_in_days: 90
+    }
+
+  * "commerce_1_16_orders_slo_1":
+    Provides {
+      orders_slo_param_0: "pmbqazjewbifc",
+      orders_slo_param_1: "fzgsl",
+      orders_slo_param_2: 345,
+      orders_slo_param_3: "jgmuncxe",
+      threshold: 97.53,
+      window_in_days: 30
+    }

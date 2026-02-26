@@ -1,0 +1,118 @@
+Expectations for "inventory_slo"
+  * "mobile_0_4_inventory_slo_0":
+    Provides {
+      inventory_slo_param_0: "ubxknwbainvol",
+      inventory_slo_param_1: "lrzafn",
+      inventory_slo_param_2: "development",
+      inventory_slo_param_3: 8623,
+      inventory_slo_param_4: 9.88,
+      inventory_slo_param_5: 18.33,
+      inventory_slo_param_6: 7690,
+      inventory_slo_param_7: 53.49,
+      req_1_field_0: "crkyhckhfnd",
+      threshold: 95.22,
+      window_in_days: 7
+    }
+
+  * "mobile_0_4_inventory_slo_1":
+    Provides {
+      inventory_slo_param_0: "bxbtzuj",
+      inventory_slo_param_1: "nvcbha",
+      inventory_slo_param_2: "canary",
+      inventory_slo_param_3: 5048,
+      inventory_slo_param_4: 66.8,
+      inventory_slo_param_5: 74.49,
+      inventory_slo_param_6: 9504,
+      inventory_slo_param_7: 53.35,
+      req_1_field_0: "xcpwokxzytrl",
+      threshold: 96.59,
+      window_in_days: 7
+    }
+
+Expectations for "auth_slo"
+  * "mobile_0_4_auth_slo_0":
+    Provides {
+      auth_slo_param_0: "gxxctywtfsgxt",
+      auth_slo_param_1: "ofsakrwr",
+      auth_slo_param_2: 4856,
+      auth_slo_param_3: { key_0: 5105, key_1: 5951, key_2: 8022 },
+      auth_slo_param_4: "published",
+      threshold: 96.24,
+      window_in_days: 90
+    }
+
+  * "mobile_0_4_auth_slo_1":
+    Provides {
+      auth_slo_param_0: "zoqibvzswimwudv",
+      auth_slo_param_1: "ljkrpxbtwaa",
+      auth_slo_param_2: 4437,
+      auth_slo_param_3: { key_0: 3801, key_1: 5268 },
+      auth_slo_param_4: "pending",
+      threshold: 98.65,
+      window_in_days: 30
+    }
+
+  * "mobile_0_4_auth_slo_2":
+    Provides {
+      auth_slo_param_0: "gzheyhxwfudpay",
+      auth_slo_param_1: "dikjvecszze",
+      auth_slo_param_2: 233,
+      auth_slo_param_3: { key_0: 6613 },
+      auth_slo_param_4: "published",
+      threshold: 98.87,
+      window_in_days: 30
+    }
+
+  * "mobile_0_4_auth_slo_3":
+    Provides {
+      auth_slo_param_0: "bqwudm",
+      auth_slo_param_1: "fulmbjnhd",
+      auth_slo_param_2: 854,
+      auth_slo_param_3: { key_0: 9815, key_1: 4314 },
+      auth_slo_param_4: "active",
+      threshold: 96.21,
+      window_in_days: 30
+    }
+
+Expectations for "messaging_slo"
+  * "mobile_0_4_messaging_slo_0":
+    Provides {
+      messaging_slo_param_0: "nwsezzkq",
+      messaging_slo_param_1: "zatgrvrjzdgbyn",
+      messaging_slo_param_2: 87.55,
+      messaging_slo_param_3: "brtxqurrhlejwj",
+      messaging_slo_param_4: 65.01,
+      req_0_field_0: true,
+      req_0_field_1: true,
+      req_0_field_2: 76.25,
+      threshold: 96.76,
+      window_in_days: 90
+    }
+
+  * "mobile_0_4_messaging_slo_1":
+    Provides {
+      messaging_slo_param_0: "oypbrowjqj",
+      messaging_slo_param_1: "omdbzrfbpgw",
+      messaging_slo_param_2: 69.56,
+      messaging_slo_param_3: "ihebgqz",
+      messaging_slo_param_4: 16.27,
+      req_0_field_0: true,
+      req_0_field_1: false,
+      req_0_field_2: 37.79,
+      threshold: 99.72,
+      window_in_days: 90
+    }
+
+  * "mobile_0_4_messaging_slo_2":
+    Provides {
+      messaging_slo_param_0: "kqazggolmbtbdg",
+      messaging_slo_param_1: "drfmqb",
+      messaging_slo_param_2: 51.49,
+      messaging_slo_param_3: "htaxuqtdgxfip",
+      messaging_slo_param_4: 55.3,
+      req_0_field_0: false,
+      req_0_field_1: false,
+      req_0_field_2: 66.73,
+      threshold: 97.28,
+      window_in_days: 30
+    }

@@ -1,0 +1,350 @@
+Expectations for "token_service_slo"
+  * "ml_token_service_slo_0":
+    Provides {
+      token_service_slo_param_0: "zgtqndyaszmripa",
+      token_service_slo_param_1: "ptpblbvxuvq",
+      token_service_slo_param_2: 37,
+      token_service_slo_param_3: 673,
+      token_service_slo_param_4: 286,
+      token_service_slo_param_5: true,
+      token_service_slo_param_6: { key_0: 74.59, key_1: 58.94, key_2: 56.27 },
+      req_1_field_0: true,
+      threshold: 98.55,
+      window_in_days: 90
+    }
+
+  * "ml_token_service_slo_1":
+    Provides {
+      token_service_slo_param_0: "ncaltjpw",
+      token_service_slo_param_1: "rrchjrbq",
+      token_service_slo_param_2: 17,
+      token_service_slo_param_3: 773,
+      token_service_slo_param_4: 259,
+      token_service_slo_param_5: true,
+      token_service_slo_param_6: { key_0: 60.88, key_1: 94.32 },
+      req_1_field_0: false,
+      threshold: 97.03,
+      window_in_days: 7
+    }
+
+  * "ml_token_service_slo_2":
+    Provides {
+      token_service_slo_param_0: "fjoqqag",
+      token_service_slo_param_1: "apotixof",
+      token_service_slo_param_2: 33,
+      token_service_slo_param_3: 111,
+      token_service_slo_param_4: 54,
+      token_service_slo_param_5: false,
+      token_service_slo_param_6: { key_0: 10.15 },
+      req_1_field_0: false,
+      threshold: 95.25,
+      window_in_days: 30
+    }
+
+  * "ml_token_service_slo_3":
+    Provides {
+      token_service_slo_param_0: "dzdfhseujy",
+      token_service_slo_param_1: "igzcqdsptwqsg",
+      token_service_slo_param_2: 17,
+      token_service_slo_param_3: 850,
+      token_service_slo_param_4: 191,
+      token_service_slo_param_5: false,
+      token_service_slo_param_6: { key_0: 65.09, key_1: 45.86, key_2: 47.08 },
+      req_1_field_0: false,
+      threshold: 99.65,
+      window_in_days: 30
+    }
+
+  * "ml_token_service_slo_4":
+    Provides {
+      token_service_slo_param_0: "xvrehburtkgpaz",
+      token_service_slo_param_1: "ocuwnpb",
+      token_service_slo_param_2: 33,
+      token_service_slo_param_3: 675,
+      token_service_slo_param_4: 81,
+      token_service_slo_param_5: true,
+      token_service_slo_param_6: { key_0: 13.31, key_1: 83.63, key_2: 4.48 },
+      req_1_field_0: true,
+      threshold: 99.0,
+      window_in_days: 7
+    }
+
+  * "ml_token_service_slo_5":
+    Provides {
+      token_service_slo_param_0: "tbwmkkjuwdixs",
+      token_service_slo_param_1: "tkesytpa",
+      token_service_slo_param_2: 37,
+      token_service_slo_param_3: 767,
+      token_service_slo_param_4: 200,
+      token_service_slo_param_5: true,
+      token_service_slo_param_6: { key_0: 8.19, key_1: 78.03, key_2: 27.11 },
+      req_1_field_0: true,
+      threshold: 99.54,
+      window_in_days: 7
+    }
+
+  * "ml_token_service_slo_6":
+    Provides {
+      token_service_slo_param_0: "ferlvxsubntix",
+      token_service_slo_param_1: "ghunqtyft",
+      token_service_slo_param_2: 17,
+      token_service_slo_param_3: 588,
+      token_service_slo_param_4: 49,
+      token_service_slo_param_5: false,
+      token_service_slo_param_6: { key_0: 95.89, key_1: 76.18, key_2: 81.75 },
+      req_1_field_0: true,
+      threshold: 97.92,
+      window_in_days: 90
+    }
+
+  * "ml_token_service_slo_7":
+    Provides {
+      token_service_slo_param_0: "qqlzobxoq",
+      token_service_slo_param_1: "wmkfjhbjjor",
+      token_service_slo_param_2: 17,
+      token_service_slo_param_3: 118,
+      token_service_slo_param_4: 223,
+      token_service_slo_param_5: false,
+      token_service_slo_param_6: { key_0: 40.9 },
+      req_1_field_0: false,
+      threshold: 95.34,
+      window_in_days: 90
+    }
+
+  * "ml_token_service_slo_8":
+    Provides {
+      token_service_slo_param_0: "mdseqqv",
+      token_service_slo_param_1: "afmloogfc",
+      token_service_slo_param_2: 91,
+      token_service_slo_param_3: 521,
+      token_service_slo_param_4: 301,
+      token_service_slo_param_5: false,
+      token_service_slo_param_6: { key_0: 81.63, key_1: 8.25 },
+      req_1_field_0: false,
+      threshold: 96.45,
+      window_in_days: 30
+    }
+
+  * "ml_token_service_slo_9":
+    Provides {
+      token_service_slo_param_0: "jdbccrmcwmemd",
+      token_service_slo_param_1: "rdqemdfwdphfwy",
+      token_service_slo_param_2: 91,
+      token_service_slo_param_3: 72,
+      token_service_slo_param_4: 214,
+      token_service_slo_param_5: true,
+      token_service_slo_param_6: { key_0: 92.89 },
+      req_1_field_0: true,
+      threshold: 95.04,
+      window_in_days: 90
+    }
+
+  * "ml_token_service_slo_10":
+    Provides {
+      token_service_slo_param_0: "vyhnqjw",
+      token_service_slo_param_1: "blmbrvljpr",
+      token_service_slo_param_2: 33,
+      token_service_slo_param_3: 605,
+      token_service_slo_param_4: 44,
+      token_service_slo_param_5: false,
+      token_service_slo_param_6: { key_0: 27.41 },
+      req_1_field_0: true,
+      threshold: 95.34,
+      window_in_days: 30
+    }
+
+  * "ml_token_service_slo_11":
+    Provides {
+      token_service_slo_param_0: "wuvfdjhzv",
+      token_service_slo_param_1: "pcmofyodeb",
+      token_service_slo_param_2: 33,
+      token_service_slo_param_3: 73,
+      token_service_slo_param_4: 80,
+      token_service_slo_param_5: false,
+      token_service_slo_param_6: { key_0: 30.95 },
+      req_1_field_0: true,
+      threshold: 96.46,
+      window_in_days: 90
+    }
+
+  * "ml_token_service_slo_12":
+    Provides {
+      token_service_slo_param_0: "lrhvikwdlywn",
+      token_service_slo_param_1: "gnxxlsfuctzu",
+      token_service_slo_param_2: 91,
+      token_service_slo_param_3: 653,
+      token_service_slo_param_4: 119,
+      token_service_slo_param_5: true,
+      token_service_slo_param_6: { key_0: 50.69, key_1: 67.51, key_2: 87.24 },
+      req_1_field_0: true,
+      threshold: 97.08,
+      window_in_days: 7
+    }
+
+  * "ml_token_service_slo_13":
+    Provides {
+      token_service_slo_param_0: "rwcuo",
+      token_service_slo_param_1: "haamztrhl",
+      token_service_slo_param_2: 37,
+      token_service_slo_param_3: 506,
+      token_service_slo_param_4: 310,
+      token_service_slo_param_5: false,
+      token_service_slo_param_6: { key_0: 34.01 },
+      req_1_field_0: false,
+      threshold: 99.79,
+      window_in_days: 30
+    }
+
+  * "ml_token_service_slo_14":
+    Provides {
+      token_service_slo_param_0: "ptjlgawiftbio",
+      token_service_slo_param_1: "nlcul",
+      token_service_slo_param_2: 33,
+      token_service_slo_param_3: 632,
+      token_service_slo_param_4: 155,
+      token_service_slo_param_5: false,
+      token_service_slo_param_6: { key_0: 41.52, key_1: 8.25, key_2: 65.6 },
+      req_1_field_0: true,
+      threshold: 96.75,
+      window_in_days: 90
+    }
+
+  * "ml_token_service_slo_15":
+    Provides {
+      token_service_slo_param_0: "wgernavsryjmi",
+      token_service_slo_param_1: "wgzvlyv",
+      token_service_slo_param_2: 91,
+      token_service_slo_param_3: 458,
+      token_service_slo_param_4: 213,
+      token_service_slo_param_5: true,
+      token_service_slo_param_6: { key_0: 96.63, key_1: 44.3, key_2: 10.66 },
+      req_1_field_0: false,
+      threshold: 95.59,
+      window_in_days: 90
+    }
+
+  * "ml_token_service_slo_16":
+    Provides {
+      token_service_slo_param_0: "lwygovxqonipe",
+      token_service_slo_param_1: "lxmlwkgosr",
+      token_service_slo_param_2: 17,
+      token_service_slo_param_3: 432,
+      token_service_slo_param_4: 236,
+      token_service_slo_param_5: true,
+      token_service_slo_param_6: { key_0: 11.25, key_1: 72.83 },
+      req_1_field_0: false,
+      threshold: 97.6,
+      window_in_days: 90
+    }
+
+  * "ml_token_service_slo_17":
+    Provides {
+      token_service_slo_param_0: "krbslogebhnanuq",
+      token_service_slo_param_1: "fmtxhpl",
+      token_service_slo_param_2: 33,
+      token_service_slo_param_3: 697,
+      token_service_slo_param_4: 314,
+      token_service_slo_param_5: false,
+      token_service_slo_param_6: { key_0: 1.68, key_1: 45.56, key_2: 80.82 },
+      req_1_field_0: false,
+      threshold: 97.78,
+      window_in_days: 7
+    }
+
+  * "ml_token_service_slo_18":
+    Provides {
+      token_service_slo_param_0: "sjykdlipwf",
+      token_service_slo_param_1: "mbmmsbjkwz",
+      token_service_slo_param_2: 37,
+      token_service_slo_param_3: 126,
+      token_service_slo_param_4: 78,
+      token_service_slo_param_5: true,
+      token_service_slo_param_6: { key_0: 84.88, key_1: 61.16 },
+      req_1_field_0: true,
+      threshold: 99.15,
+      window_in_days: 30
+    }
+
+  * "ml_token_service_slo_19":
+    Provides {
+      token_service_slo_param_0: "cmbsdugovxcbkn",
+      token_service_slo_param_1: "aeyysohoqf",
+      token_service_slo_param_2: 37,
+      token_service_slo_param_3: 790,
+      token_service_slo_param_4: 260,
+      token_service_slo_param_5: true,
+      token_service_slo_param_6: { key_0: 57.74, key_1: 45.84, key_2: 62.05 },
+      req_1_field_0: false,
+      threshold: 97.93,
+      window_in_days: 90
+    }
+
+  * "ml_token_service_slo_20":
+    Provides {
+      token_service_slo_param_0: "iwghyicqgmcdns",
+      token_service_slo_param_1: "iqsgwokjrr",
+      token_service_slo_param_2: 33,
+      token_service_slo_param_3: 478,
+      token_service_slo_param_4: 57,
+      token_service_slo_param_5: true,
+      token_service_slo_param_6: { key_0: 46.31 },
+      req_1_field_0: false,
+      threshold: 97.08,
+      window_in_days: 90
+    }
+
+  * "ml_token_service_slo_21":
+    Provides {
+      token_service_slo_param_0: "zjeyudrpuau",
+      token_service_slo_param_1: "wuizbhgfvysvys",
+      token_service_slo_param_2: 37,
+      token_service_slo_param_3: 63,
+      token_service_slo_param_4: 76,
+      token_service_slo_param_5: false,
+      token_service_slo_param_6: { key_0: 98.77 },
+      req_1_field_0: false,
+      threshold: 96.57,
+      window_in_days: 7
+    }
+
+  * "ml_token_service_slo_22":
+    Provides {
+      token_service_slo_param_0: "hwbosua",
+      token_service_slo_param_1: "ozumdtqpxe",
+      token_service_slo_param_2: 17,
+      token_service_slo_param_3: 687,
+      token_service_slo_param_4: 313,
+      token_service_slo_param_5: true,
+      token_service_slo_param_6: { key_0: 94.74, key_1: 13.93, key_2: 24.29 },
+      req_1_field_0: false,
+      threshold: 96.22,
+      window_in_days: 7
+    }
+
+  * "ml_token_service_slo_23":
+    Provides {
+      token_service_slo_param_0: "xdiotfzvsql",
+      token_service_slo_param_1: "tsuppkjgnqbboo",
+      token_service_slo_param_2: 33,
+      token_service_slo_param_3: 266,
+      token_service_slo_param_4: 33,
+      token_service_slo_param_5: false,
+      token_service_slo_param_6: { key_0: 36.55 },
+      req_1_field_0: false,
+      threshold: 96.93,
+      window_in_days: 7
+    }
+
+  * "ml_token_service_slo_24":
+    Provides {
+      token_service_slo_param_0: "istfkyrrlcd",
+      token_service_slo_param_1: "lroqpbzffqz",
+      token_service_slo_param_2: 17,
+      token_service_slo_param_3: 334,
+      token_service_slo_param_4: 49,
+      token_service_slo_param_5: true,
+      token_service_slo_param_6: { key_0: 59.68, key_1: 54.13, key_2: 18.27 },
+      req_1_field_0: true,
+      threshold: 97.92,
+      window_in_days: 90
+    }

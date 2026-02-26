@@ -1,0 +1,225 @@
+Expectations for "storage_slo"
+  * "payments_storage_slo_0":
+    Provides {
+      storage_slo_param_0: "ubfvnrsujqygh",
+      storage_slo_param_1: "swnjgz",
+      storage_slo_param_2: true,
+      storage_slo_param_3: [true],
+      storage_slo_param_4: 90,
+      storage_slo_param_5: 65.58,
+      storage_slo_param_6: 16.37,
+      req_3_field_0: 45.28,
+      req_3_field_1: "nfbprvdycokm",
+      threshold: 99.48,
+      window_in_days: 30
+    }
+
+  * "payments_storage_slo_1":
+    Provides {
+      storage_slo_param_0: "rdfbbxwlmitg",
+      storage_slo_param_1: "qbhnabtwcgvr",
+      storage_slo_param_2: true,
+      storage_slo_param_3: [false],
+      storage_slo_param_4: 13,
+      storage_slo_param_5: 53.09,
+      storage_slo_param_6: 0.81,
+      req_3_field_0: 9.37,
+      req_3_field_1: "vuocrosc",
+      threshold: 95.75,
+      window_in_days: 30
+    }
+
+  * "payments_storage_slo_2":
+    Provides {
+      storage_slo_param_0: "gglkhjn",
+      storage_slo_param_1: "locxqtfxy",
+      storage_slo_param_2: false,
+      storage_slo_param_3: [false, true, true],
+      storage_slo_param_4: 81,
+      storage_slo_param_5: 60.01,
+      storage_slo_param_6: 74.22,
+      req_3_field_0: 68.77,
+      req_3_field_1: "ertwufndtjdmqu",
+      threshold: 96.89,
+      window_in_days: 7
+    }
+
+  * "payments_storage_slo_3":
+    Provides {
+      storage_slo_param_0: "jkqdsoo",
+      storage_slo_param_1: "szwrrnq",
+      storage_slo_param_2: false,
+      storage_slo_param_3: [false, false, false],
+      storage_slo_param_4: 81,
+      storage_slo_param_5: 68.64,
+      storage_slo_param_6: 45.0,
+      req_3_field_0: 66.36,
+      req_3_field_1: "pxmmruqaxi",
+      threshold: 98.65,
+      window_in_days: 30
+    }
+
+  * "payments_storage_slo_4":
+    Provides {
+      storage_slo_param_0: "drgmvfgmhcrem",
+      storage_slo_param_1: "kibgvxjvatjcl",
+      storage_slo_param_2: true,
+      storage_slo_param_3: [true, true],
+      storage_slo_param_4: 75,
+      storage_slo_param_5: 46.38,
+      storage_slo_param_6: 33.23,
+      req_3_field_0: 79.82,
+      req_3_field_1: "oeqnaesrerjuwmq",
+      threshold: 96.09,
+      window_in_days: 90
+    }
+
+  * "payments_storage_slo_5":
+    Provides {
+      storage_slo_param_0: "nmrltsvruadrq",
+      storage_slo_param_1: "tfhqomxlqz",
+      storage_slo_param_2: false,
+      storage_slo_param_3: [false, true, true, false],
+      storage_slo_param_4: 75,
+      storage_slo_param_5: 54.1,
+      storage_slo_param_6: 52.85,
+      req_3_field_0: 31.63,
+      req_3_field_1: "jgkvzwzgkdsskl",
+      threshold: 96.33,
+      window_in_days: 90
+    }
+
+  * "payments_storage_slo_6":
+    Provides {
+      storage_slo_param_0: "jomcsdcwklbwbm",
+      storage_slo_param_1: "cgipuexmcnpy",
+      storage_slo_param_2: true,
+      storage_slo_param_3: [true, true],
+      storage_slo_param_4: 75,
+      storage_slo_param_5: 49.08,
+      storage_slo_param_6: 55.53,
+      req_3_field_0: 64.79,
+      req_3_field_1: "ieicy",
+      threshold: 95.45,
+      window_in_days: 7
+    }
+
+  * "payments_storage_slo_7":
+    Provides {
+      storage_slo_param_0: "czxgckyji",
+      storage_slo_param_1: "ywyipkz",
+      storage_slo_param_2: false,
+      storage_slo_param_3: [false],
+      storage_slo_param_4: 90,
+      storage_slo_param_5: 57.1,
+      storage_slo_param_6: 2.36,
+      req_3_field_0: 19.65,
+      req_3_field_1: "gkikalhf",
+      threshold: 95.9,
+      window_in_days: 30
+    }
+
+  * "payments_storage_slo_8":
+    Provides {
+      storage_slo_param_0: "azcjkluqpvqrmqv",
+      storage_slo_param_1: "giihwolu",
+      storage_slo_param_2: true,
+      storage_slo_param_3: [true, false, true],
+      storage_slo_param_4: 13,
+      storage_slo_param_5: 64.09,
+      storage_slo_param_6: 19.64,
+      req_3_field_0: 35.12,
+      req_3_field_1: "vhyjfd",
+      threshold: 98.55,
+      window_in_days: 90
+    }
+
+  * "payments_storage_slo_9":
+    Provides {
+      storage_slo_param_0: "jufxcaqpwly",
+      storage_slo_param_1: "zgntstooe",
+      storage_slo_param_2: true,
+      storage_slo_param_3: [true, true, false],
+      storage_slo_param_4: 75,
+      storage_slo_param_5: 52.66,
+      storage_slo_param_6: 67.62,
+      req_3_field_0: 94.21,
+      req_3_field_1: "gykizdojtdzwpsz",
+      threshold: 98.71,
+      window_in_days: 7
+    }
+
+  * "payments_storage_slo_10":
+    Provides {
+      storage_slo_param_0: "uxfwlwtcfyrej",
+      storage_slo_param_1: "mcldslmvcdy",
+      storage_slo_param_2: true,
+      storage_slo_param_3: [true, false],
+      storage_slo_param_4: 13,
+      storage_slo_param_5: 52.92,
+      storage_slo_param_6: 20.96,
+      req_3_field_0: 20.63,
+      req_3_field_1: "glsoldijva",
+      threshold: 96.36,
+      window_in_days: 90
+    }
+
+  * "payments_storage_slo_11":
+    Provides {
+      storage_slo_param_0: "ocurc",
+      storage_slo_param_1: "onpendhovcf",
+      storage_slo_param_2: true,
+      storage_slo_param_3: [true, true, false, false],
+      storage_slo_param_4: 90,
+      storage_slo_param_5: 69.66,
+      storage_slo_param_6: 14.16,
+      req_3_field_0: 71.67,
+      req_3_field_1: "xygwfzof",
+      threshold: 97.56,
+      window_in_days: 7
+    }
+
+  * "payments_storage_slo_12":
+    Provides {
+      storage_slo_param_0: "icidnmv",
+      storage_slo_param_1: "mphmslihc",
+      storage_slo_param_2: false,
+      storage_slo_param_3: [false, true, false, false],
+      storage_slo_param_4: 75,
+      storage_slo_param_5: 66.4,
+      storage_slo_param_6: 21.7,
+      req_3_field_0: 57.91,
+      req_3_field_1: "dhgngsdyjxtqpmx",
+      threshold: 96.32,
+      window_in_days: 7
+    }
+
+  * "payments_storage_slo_13":
+    Provides {
+      storage_slo_param_0: "utraleuasyehr",
+      storage_slo_param_1: "ldphyenpdden",
+      storage_slo_param_2: true,
+      storage_slo_param_3: [false],
+      storage_slo_param_4: 90,
+      storage_slo_param_5: 60.92,
+      storage_slo_param_6: 72.82,
+      req_3_field_0: 86.01,
+      req_3_field_1: "wnamnanxeavjq",
+      threshold: 95.02,
+      window_in_days: 90
+    }
+
+  * "payments_storage_slo_14":
+    Provides {
+      storage_slo_param_0: "hdqrmcbewppyai",
+      storage_slo_param_1: "aremo",
+      storage_slo_param_2: true,
+      storage_slo_param_3: [false, true, false],
+      storage_slo_param_4: 81,
+      storage_slo_param_5: 70.99,
+      storage_slo_param_6: 16.89,
+      req_3_field_0: 78.99,
+      req_3_field_1: "eebaqmag",
+      threshold: 98.85,
+      window_in_days: 7
+    }

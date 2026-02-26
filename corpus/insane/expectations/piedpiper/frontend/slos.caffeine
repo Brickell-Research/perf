@@ -1,0 +1,210 @@
+Expectations for "firewall_slo"
+  * "frontend_firewall_slo_0":
+    Provides {
+      firewall_slo_param_0: "gvsdarezmqbyu",
+      firewall_slo_param_1: "smsturvjbsu",
+      firewall_slo_param_2: "leyeskaljd",
+      firewall_slo_param_3: "production",
+      firewall_slo_param_4: 50.74,
+      firewall_slo_param_5: [true],
+      req_2_field_0: false,
+      req_2_field_1: "forqvsc",
+      threshold: 97.58,
+      window_in_days: 30
+    }
+
+  * "frontend_firewall_slo_1":
+    Provides {
+      firewall_slo_param_0: "smljfdyftvo",
+      firewall_slo_param_1: "sckgqsbeglcf",
+      firewall_slo_param_2: "mayfdpq",
+      firewall_slo_param_3: "test",
+      firewall_slo_param_4: 67.54,
+      firewall_slo_param_5: [false, true],
+      req_2_field_0: true,
+      req_2_field_1: "wllrxwzjbc",
+      threshold: 97.0,
+      window_in_days: 30
+    }
+
+  * "frontend_firewall_slo_2":
+    Provides {
+      firewall_slo_param_0: "pdodckzncr",
+      firewall_slo_param_1: "ohaux",
+      firewall_slo_param_2: "djjipjpe",
+      firewall_slo_param_3: "demo",
+      firewall_slo_param_4: 68.01,
+      firewall_slo_param_5: [true],
+      req_2_field_0: false,
+      req_2_field_1: "waedjmgvm",
+      threshold: 95.24,
+      window_in_days: 7
+    }
+
+  * "frontend_firewall_slo_3":
+    Provides {
+      firewall_slo_param_0: "kuytc",
+      firewall_slo_param_1: "qadfrgsf",
+      firewall_slo_param_2: "sgflwkukswwc",
+      firewall_slo_param_3: "test",
+      firewall_slo_param_4: 52.17,
+      firewall_slo_param_5: [false, false],
+      req_2_field_0: false,
+      req_2_field_1: "eyxqdrn",
+      threshold: 96.31,
+      window_in_days: 90
+    }
+
+  * "frontend_firewall_slo_4":
+    Provides {
+      firewall_slo_param_0: "ssbxjbleway",
+      firewall_slo_param_1: "qtbwynctvf",
+      firewall_slo_param_2: "orjruqfwbq",
+      firewall_slo_param_3: "production",
+      firewall_slo_param_4: 63.7,
+      firewall_slo_param_5: [false, true],
+      req_2_field_0: false,
+      req_2_field_1: "pacyesnaskvxdql",
+      threshold: 97.28,
+      window_in_days: 90
+    }
+
+  * "frontend_firewall_slo_5":
+    Provides {
+      firewall_slo_param_0: "fwekqkgwyxltqo",
+      firewall_slo_param_1: "ncsjsfbilhx",
+      firewall_slo_param_2: "tqhteox",
+      firewall_slo_param_3: "production",
+      firewall_slo_param_4: 50.41,
+      firewall_slo_param_5: [true, true, false],
+      req_2_field_0: false,
+      req_2_field_1: "bqelpwclroledk",
+      threshold: 95.37,
+      window_in_days: 30
+    }
+
+  * "frontend_firewall_slo_6":
+    Provides {
+      firewall_slo_param_0: "devhr",
+      firewall_slo_param_1: "fzcmarmfmmqnhgv",
+      firewall_slo_param_2: "vdrylkhtk",
+      firewall_slo_param_3: "demo",
+      firewall_slo_param_4: 64.89,
+      firewall_slo_param_5: [true, true, true],
+      req_2_field_0: true,
+      req_2_field_1: "khirgfn",
+      threshold: 99.04,
+      window_in_days: 7
+    }
+
+  * "frontend_firewall_slo_7":
+    Provides {
+      firewall_slo_param_0: "yjboedtwsxweeau",
+      firewall_slo_param_1: "vhaqhfgxkwwdq",
+      firewall_slo_param_2: "nhyaoyf",
+      firewall_slo_param_3: "production",
+      firewall_slo_param_4: 59.03,
+      firewall_slo_param_5: [true],
+      req_2_field_0: true,
+      req_2_field_1: "ozyuna",
+      threshold: 96.29,
+      window_in_days: 7
+    }
+
+  * "frontend_firewall_slo_8":
+    Provides {
+      firewall_slo_param_0: "nutdplswnangwpk",
+      firewall_slo_param_1: "uhjva",
+      firewall_slo_param_2: "gtonxgmjfpsq",
+      firewall_slo_param_3: "demo",
+      firewall_slo_param_4: 72.79,
+      firewall_slo_param_5: [true, true],
+      req_2_field_0: false,
+      req_2_field_1: "qgzwiaonhhfnaig",
+      threshold: 98.73,
+      window_in_days: 90
+    }
+
+  * "frontend_firewall_slo_9":
+    Provides {
+      firewall_slo_param_0: "movkgij",
+      firewall_slo_param_1: "zvurjpkyjidtbcn",
+      firewall_slo_param_2: "kkyfyymu",
+      firewall_slo_param_3: "demo",
+      firewall_slo_param_4: 55.26,
+      firewall_slo_param_5: [false, false, true],
+      req_2_field_0: false,
+      req_2_field_1: "qvefzkzip",
+      threshold: 95.62,
+      window_in_days: 90
+    }
+
+  * "frontend_firewall_slo_10":
+    Provides {
+      firewall_slo_param_0: "oejngaqzrpirstr",
+      firewall_slo_param_1: "kynsat",
+      firewall_slo_param_2: "atsxjp",
+      firewall_slo_param_3: "production",
+      firewall_slo_param_4: 56.91,
+      firewall_slo_param_5: [false, false, false],
+      req_2_field_0: false,
+      req_2_field_1: "vemorvywjm",
+      threshold: 95.74,
+      window_in_days: 30
+    }
+
+  * "frontend_firewall_slo_11":
+    Provides {
+      firewall_slo_param_0: "dcazl",
+      firewall_slo_param_1: "rllmtpbpm",
+      firewall_slo_param_2: "livrlwsc",
+      firewall_slo_param_3: "production",
+      firewall_slo_param_4: 68.95,
+      firewall_slo_param_5: [false, true, true, false],
+      req_2_field_0: true,
+      req_2_field_1: "fezvzoexqn",
+      threshold: 98.18,
+      window_in_days: 7
+    }
+
+  * "frontend_firewall_slo_12":
+    Provides {
+      firewall_slo_param_0: "trmpgqqmzfuunjw",
+      firewall_slo_param_1: "bfnxmmriqbpx",
+      firewall_slo_param_2: "phcywhke",
+      firewall_slo_param_3: "demo",
+      firewall_slo_param_4: 47.6,
+      firewall_slo_param_5: [false, true, true, false],
+      req_2_field_0: false,
+      req_2_field_1: "hsjamaxtajth",
+      threshold: 97.4,
+      window_in_days: 30
+    }
+
+  * "frontend_firewall_slo_13":
+    Provides {
+      firewall_slo_param_0: "bxgsemgmvnldkfu",
+      firewall_slo_param_1: "rbimmlgskkhhok",
+      firewall_slo_param_2: "wrlaahftfi",
+      firewall_slo_param_3: "development",
+      firewall_slo_param_4: 46.35,
+      firewall_slo_param_5: [false, true, false, false],
+      req_2_field_0: true,
+      req_2_field_1: "xrtjarsq",
+      threshold: 96.4,
+      window_in_days: 30
+    }
+
+  * "frontend_firewall_slo_14":
+    Provides {
+      firewall_slo_param_0: "mtdcddf",
+      firewall_slo_param_1: "phund",
+      firewall_slo_param_2: "womsulhwekaex",
+      firewall_slo_param_3: "test",
+      firewall_slo_param_4: 53.39,
+      firewall_slo_param_5: [true, false, true, true],
+      req_2_field_0: false,
+      req_2_field_1: "whnnxyv",
+      threshold: 98.74,
+      window_in_days: 7
+    }

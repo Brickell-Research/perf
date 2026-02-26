@@ -1,0 +1,75 @@
+Expectations for "search_slo"
+  * "payments_0_1_search_slo_0":
+    Provides {
+      search_slo_param_0: "gwdctgda",
+      search_slo_param_1: "fqkxyqoasubbt",
+      search_slo_param_2: true,
+      search_slo_param_3: 231,
+      search_slo_param_4: "draft",
+      req_1_field_0: "lqhkqhjixw",
+      threshold: 97.22,
+      window_in_days: 7
+    }
+
+  * "payments_0_1_search_slo_1":
+    Provides {
+      search_slo_param_0: "jaqcycq",
+      search_slo_param_1: "egzhuvhlfkpnem",
+      search_slo_param_2: false,
+      search_slo_param_3: 316,
+      search_slo_param_4: "active",
+      req_1_field_0: "evmrtjkh",
+      threshold: 98.86,
+      window_in_days: 30
+    }
+
+  * "payments_0_1_search_slo_2":
+    Provides {
+      search_slo_param_0: "rknpdriynztbn",
+      search_slo_param_1: "yxebkkiiatqat",
+      search_slo_param_2: true,
+      search_slo_param_3: 305,
+      search_slo_param_4: "active",
+      req_1_field_0: "wfnslaorft",
+      threshold: 97.73,
+      window_in_days: 90
+    }
+
+  * "payments_0_1_search_slo_3":
+    Provides {
+      search_slo_param_0: "ifpyqyplbc",
+      search_slo_param_1: "tcwoz",
+      search_slo_param_2: true,
+      search_slo_param_3: 256,
+      search_slo_param_4: "archived",
+      req_1_field_0: "bwjsmnxgnzqhs",
+      threshold: 95.63,
+      window_in_days: 30
+    }
+
+Expectations for "monitoring_slo"
+  * "payments_0_1_monitoring_slo_0":
+    Provides {
+      monitoring_slo_param_0: "kaoqicsh",
+      monitoring_slo_param_1: "bogkfck",
+      monitoring_slo_param_2: "zeixn",
+      monitoring_slo_param_3: "jyistoshb",
+      monitoring_slo_param_4: "eoothobplzmkce",
+      monitoring_slo_param_5: 36.03,
+      monitoring_slo_param_6: 30.33,
+      threshold: 96.65,
+      window_in_days: 30
+    }
+
+  * "payments_0_1_monitoring_slo_1":
+    Provides {
+      monitoring_slo_param_0: "cayhltljhetjn",
+      monitoring_slo_param_1: "euqgujvmzyp",
+      monitoring_slo_param_2: "veyutlgv",
+      monitoring_slo_param_3: "xbfxwqg",
+      monitoring_slo_param_4: "isjikqggylndv",
+      monitoring_slo_param_5: 16.59,
+      monitoring_slo_param_6: 48.86,
+      threshold: 97.51,
+      window_in_days: 30
+    }

@@ -1,0 +1,73 @@
+Expectations for "payments_slo"
+  * "data_4_7_payments_slo_0":
+    Provides {
+      payments_slo_param_0: "aqucfsqgfr",
+      payments_slo_param_1: "zuylbaxatufexvd",
+      payments_slo_param_2: 73.05,
+      payments_slo_param_3: 5161,
+      payments_slo_param_4: 63,
+      payments_slo_param_5: 3730,
+      threshold: 96.15,
+      window_in_days: 7
+    }
+
+  * "data_4_7_payments_slo_1":
+    Provides {
+      payments_slo_param_0: "vsddtdmfmnlwvk",
+      payments_slo_param_1: "fodqsrr",
+      payments_slo_param_2: 64.12,
+      payments_slo_param_3: 8861,
+      payments_slo_param_4: 37,
+      payments_slo_param_5: 782,
+      threshold: 97.91,
+      window_in_days: 90
+    }
+
+  * "data_4_7_payments_slo_2":
+    Provides {
+      payments_slo_param_0: "mkovnhncomw",
+      payments_slo_param_1: "vwjaaigzywtrzs",
+      payments_slo_param_2: 52.1,
+      payments_slo_param_3: 4153,
+      payments_slo_param_4: 37,
+      payments_slo_param_5: 994,
+      threshold: 95.07,
+      window_in_days: 7
+    }
+
+  * "data_4_7_payments_slo_3":
+    Provides {
+      payments_slo_param_0: "rhroyjkmgrhqx",
+      payments_slo_param_1: "wvurkxbye",
+      payments_slo_param_2: 47.83,
+      payments_slo_param_3: 6590,
+      payments_slo_param_4: 81,
+      payments_slo_param_5: 2141,
+      threshold: 95.06,
+      window_in_days: 90
+    }
+
+  * "data_4_7_payments_slo_4":
+    Provides {
+      payments_slo_param_0: "qvkzrqixoiha",
+      payments_slo_param_1: "kjwnqfjvvqb",
+      payments_slo_param_2: 43.56,
+      payments_slo_param_3: 3756,
+      payments_slo_param_4: 37,
+      payments_slo_param_5: 2977,
+      threshold: 96.53,
+      window_in_days: 30
+    }
+
+Expectations for "search_slo"
+  * "data_4_7_search_slo_0":
+    Provides {
+      search_slo_param_0: "xsxcppcgzjoswb",
+      search_slo_param_1: "oykxdwvrug",
+      search_slo_param_2: true,
+      search_slo_param_3: 286,
+      search_slo_param_4: "active",
+      req_1_field_0: "tczitffhzkghko",
+      threshold: 95.56,
+      window_in_days: 30
+    }

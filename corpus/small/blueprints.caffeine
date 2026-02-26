@@ -1,0 +1,22 @@
+Blueprints for "SLO"
+  * "checkout_slo":
+    Requires { checkout_slo_param_0: String }
+    Provides {
+      vendor: "datadog",
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:http.requests{$checkout_slo_param_0->checkout_slo_param_0$}",
+        denominator: "sum:http.requests.total{$checkout_slo_param_0->checkout_slo_param_0$}"
+      }
+    }
+
+  * "auth_slo":
+    Requires { auth_slo_param_0: String, auth_slo_param_1: String }
+    Provides {
+      vendor: "datadog",
+      evaluation: "numerator / denominator",
+      indicators: {
+        numerator: "sum:grpc.errors{$auth_slo_param_0->auth_slo_param_0$,$auth_slo_param_1->auth_slo_param_1$}",
+        denominator: "sum:grpc.errors.total{$auth_slo_param_0->auth_slo_param_0$}"
+      }
+    }

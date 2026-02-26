@@ -1,0 +1,36 @@
+Expectations for "monitoring_slo"
+  * "reliability_7_9_monitoring_slo_0":
+    Provides {
+      monitoring_slo_param_0: "lrcjjrpqrkcgqp",
+      monitoring_slo_param_1: "bhsofskxdnap",
+      monitoring_slo_param_2: "anqltgvb",
+      monitoring_slo_param_3: "jiyiwmgssmqspz",
+      monitoring_slo_param_4: "vaqktj",
+      monitoring_slo_param_5: 52.8,
+      monitoring_slo_param_6: 58.52,
+      threshold: 97.94,
+      window_in_days: 30
+    }
+
+Expectations for "users_slo"
+  * "reliability_7_9_users_slo_0":
+    Provides {
+      users_slo_param_0: "drzlai",
+      users_slo_param_1: "cltchjnvmoy",
+      users_slo_param_2: "obfidabqs",
+      users_slo_param_3: ["kahfmlmt", "ehvajmwbqblr", "uphrmayctkofnck"],
+      users_slo_param_4: 27.16,
+      threshold: 98.17,
+      window_in_days: 90
+    }
+
+  * "reliability_7_9_users_slo_1":
+    Provides {
+      users_slo_param_0: "wywbpepmuhp",
+      users_slo_param_1: "jegeepasc",
+      users_slo_param_2: "xuisgqzhxltop",
+      users_slo_param_3: ["craawllmegiuwp", "scgbsgespqkpj", "lbbtwzfjunfge", "rdsfunvjtkxp"],
+      users_slo_param_4: 55.57,
+      threshold: 98.64,
+      window_in_days: 30
+    }

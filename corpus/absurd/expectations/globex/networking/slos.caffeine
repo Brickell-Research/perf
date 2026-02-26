@@ -1,0 +1,453 @@
+Expectations for "push_notifications_slo"
+  * "networking_push_notifications_slo_0":
+    Provides {
+      push_notifications_slo_param_0: "sncrhdxhlknfeq",
+      push_notifications_slo_param_1: "omidyxjtsdqrv",
+      push_notifications_slo_param_2: false,
+      push_notifications_slo_param_3: 17.67,
+      push_notifications_slo_param_4: 53.7,
+      push_notifications_slo_param_5: { key_0: "sschbvkoocbstyk", key_1: "rokcqkuo" },
+      push_notifications_slo_param_6: 813,
+      push_notifications_slo_param_7: "development",
+      push_notifications_slo_param_8: 7688,
+      push_notifications_slo_param_9: 8390,
+      req_1_field_0: true,
+      threshold: 96.38,
+      window_in_days: 30
+    }
+
+  * "networking_push_notifications_slo_1":
+    Provides {
+      push_notifications_slo_param_0: "fixccyahzmz",
+      push_notifications_slo_param_1: "ybqslbsgjprap",
+      push_notifications_slo_param_2: false,
+      push_notifications_slo_param_3: 67.64,
+      push_notifications_slo_param_4: 42.66,
+      push_notifications_slo_param_5: {
+        key_0: "fexnntsnnjqkqr",
+        key_1: "owtxjmvxc",
+        key_2: "gyvfnbwji"
+      },
+      push_notifications_slo_param_6: 506,
+      push_notifications_slo_param_7: "test",
+      push_notifications_slo_param_8: 957,
+      push_notifications_slo_param_9: 3848,
+      req_1_field_0: false,
+      threshold: 96.35,
+      window_in_days: 90
+    }
+
+  * "networking_push_notifications_slo_2":
+    Provides {
+      push_notifications_slo_param_0: "gtyeqeopoino",
+      push_notifications_slo_param_1: "vogbgul",
+      push_notifications_slo_param_2: true,
+      push_notifications_slo_param_3: 53.09,
+      push_notifications_slo_param_4: 12.71,
+      push_notifications_slo_param_5: { key_0: "avbsnd", key_1: "mrfzyemxipkv", key_2: "alubmdo" },
+      push_notifications_slo_param_6: 695,
+      push_notifications_slo_param_7: "test",
+      push_notifications_slo_param_8: 4301,
+      push_notifications_slo_param_9: 2602,
+      req_1_field_0: true,
+      threshold: 96.12,
+      window_in_days: 7
+    }
+
+  * "networking_push_notifications_slo_3":
+    Provides {
+      push_notifications_slo_param_0: "tffdmtmtw",
+      push_notifications_slo_param_1: "febofpnjfkryd",
+      push_notifications_slo_param_2: false,
+      push_notifications_slo_param_3: 91.8,
+      push_notifications_slo_param_4: 60.63,
+      push_notifications_slo_param_5: { key_0: "axqihnoexy" },
+      push_notifications_slo_param_6: 165,
+      push_notifications_slo_param_7: "development",
+      push_notifications_slo_param_8: 4681,
+      push_notifications_slo_param_9: 652,
+      req_1_field_0: true,
+      threshold: 96.69,
+      window_in_days: 30
+    }
+
+  * "networking_push_notifications_slo_4":
+    Provides {
+      push_notifications_slo_param_0: "qfnuycqxomipl",
+      push_notifications_slo_param_1: "fnvifjpziwh",
+      push_notifications_slo_param_2: false,
+      push_notifications_slo_param_3: 32.47,
+      push_notifications_slo_param_4: 86.51,
+      push_notifications_slo_param_5: { key_0: "mklapipjaqs", key_1: "rbjaztjjcadnkug" },
+      push_notifications_slo_param_6: 704,
+      push_notifications_slo_param_7: "development",
+      push_notifications_slo_param_8: 4770,
+      push_notifications_slo_param_9: 2116,
+      req_1_field_0: true,
+      threshold: 95.7,
+      window_in_days: 90
+    }
+
+  * "networking_push_notifications_slo_5":
+    Provides {
+      push_notifications_slo_param_0: "wykqipfcljmu",
+      push_notifications_slo_param_1: "fwouftcore",
+      push_notifications_slo_param_2: true,
+      push_notifications_slo_param_3: 82.53,
+      push_notifications_slo_param_4: 57.68,
+      push_notifications_slo_param_5: {
+        key_0: "fyztukenjgiptwk",
+        key_1: "bcxkyssj",
+        key_2: "jgqkxcnvnfaeqq"
+      },
+      push_notifications_slo_param_6: 680,
+      push_notifications_slo_param_7: "canary",
+      push_notifications_slo_param_8: 575,
+      push_notifications_slo_param_9: 6506,
+      req_1_field_0: true,
+      threshold: 98.09,
+      window_in_days: 30
+    }
+
+  * "networking_push_notifications_slo_6":
+    Provides {
+      push_notifications_slo_param_0: "conwiml",
+      push_notifications_slo_param_1: "gwqhxggrfacr",
+      push_notifications_slo_param_2: false,
+      push_notifications_slo_param_3: 67.88,
+      push_notifications_slo_param_4: 26.43,
+      push_notifications_slo_param_5: { key_0: "fgusbdum", key_1: "izxugbkuuvfnrt" },
+      push_notifications_slo_param_6: 811,
+      push_notifications_slo_param_7: "test",
+      push_notifications_slo_param_8: 1017,
+      push_notifications_slo_param_9: 2333,
+      req_1_field_0: true,
+      threshold: 97.95,
+      window_in_days: 7
+    }
+
+  * "networking_push_notifications_slo_7":
+    Provides {
+      push_notifications_slo_param_0: "pcworokwipfclb",
+      push_notifications_slo_param_1: "fkkrawrusqpau",
+      push_notifications_slo_param_2: false,
+      push_notifications_slo_param_3: 93.77,
+      push_notifications_slo_param_4: 38.15,
+      push_notifications_slo_param_5: {
+        key_0: "qluaxgkddpt",
+        key_1: "vhmcfu",
+        key_2: "xbvoxdqgtfns"
+      },
+      push_notifications_slo_param_6: 123,
+      push_notifications_slo_param_7: "test",
+      push_notifications_slo_param_8: 9721,
+      push_notifications_slo_param_9: 241,
+      req_1_field_0: true,
+      threshold: 97.07,
+      window_in_days: 7
+    }
+
+  * "networking_push_notifications_slo_8":
+    Provides {
+      push_notifications_slo_param_0: "xxtozumaldmqywy",
+      push_notifications_slo_param_1: "hdbic",
+      push_notifications_slo_param_2: true,
+      push_notifications_slo_param_3: 74.29,
+      push_notifications_slo_param_4: 78.84,
+      push_notifications_slo_param_5: { key_0: "aqdpokwi", key_1: "uesmbintnk", key_2: "qbgmodd" },
+      push_notifications_slo_param_6: 608,
+      push_notifications_slo_param_7: "development",
+      push_notifications_slo_param_8: 4303,
+      push_notifications_slo_param_9: 9410,
+      req_1_field_0: false,
+      threshold: 98.12,
+      window_in_days: 30
+    }
+
+  * "networking_push_notifications_slo_9":
+    Provides {
+      push_notifications_slo_param_0: "eqxbbbqp",
+      push_notifications_slo_param_1: "izyyxbd",
+      push_notifications_slo_param_2: true,
+      push_notifications_slo_param_3: 39.58,
+      push_notifications_slo_param_4: 49.86,
+      push_notifications_slo_param_5: { key_0: "cumoystzdwow" },
+      push_notifications_slo_param_6: 640,
+      push_notifications_slo_param_7: "development",
+      push_notifications_slo_param_8: 9138,
+      push_notifications_slo_param_9: 3957,
+      req_1_field_0: false,
+      threshold: 95.53,
+      window_in_days: 7
+    }
+
+  * "networking_push_notifications_slo_10":
+    Provides {
+      push_notifications_slo_param_0: "hmdvjiysxcpjj",
+      push_notifications_slo_param_1: "utbpmmw",
+      push_notifications_slo_param_2: false,
+      push_notifications_slo_param_3: 87.35,
+      push_notifications_slo_param_4: 34.6,
+      push_notifications_slo_param_5: { key_0: "ckiqff", key_1: "qkdhupuwyt" },
+      push_notifications_slo_param_6: 760,
+      push_notifications_slo_param_7: "development",
+      push_notifications_slo_param_8: 8650,
+      push_notifications_slo_param_9: 2696,
+      req_1_field_0: true,
+      threshold: 95.1,
+      window_in_days: 7
+    }
+
+  * "networking_push_notifications_slo_11":
+    Provides {
+      push_notifications_slo_param_0: "ufcctvyqmtg",
+      push_notifications_slo_param_1: "qtdnmnbevdlxbne",
+      push_notifications_slo_param_2: false,
+      push_notifications_slo_param_3: 38.35,
+      push_notifications_slo_param_4: 43.08,
+      push_notifications_slo_param_5: {
+        key_0: "kdoinyoaosviwk",
+        key_1: "hppujcjjx",
+        key_2: "vqplfcskahs"
+      },
+      push_notifications_slo_param_6: 724,
+      push_notifications_slo_param_7: "test",
+      push_notifications_slo_param_8: 4380,
+      push_notifications_slo_param_9: 4805,
+      req_1_field_0: true,
+      threshold: 96.03,
+      window_in_days: 30
+    }
+
+  * "networking_push_notifications_slo_12":
+    Provides {
+      push_notifications_slo_param_0: "qpnldyyjhuiair",
+      push_notifications_slo_param_1: "rfkomgoiisryc",
+      push_notifications_slo_param_2: false,
+      push_notifications_slo_param_3: 4.6,
+      push_notifications_slo_param_4: 16.7,
+      push_notifications_slo_param_5: { key_0: "oocwabrxwku", key_1: "ubnvgim" },
+      push_notifications_slo_param_6: 741,
+      push_notifications_slo_param_7: "test",
+      push_notifications_slo_param_8: 1327,
+      push_notifications_slo_param_9: 9167,
+      req_1_field_0: false,
+      threshold: 95.94,
+      window_in_days: 30
+    }
+
+  * "networking_push_notifications_slo_13":
+    Provides {
+      push_notifications_slo_param_0: "aejqppm",
+      push_notifications_slo_param_1: "otbob",
+      push_notifications_slo_param_2: true,
+      push_notifications_slo_param_3: 33.97,
+      push_notifications_slo_param_4: 46.56,
+      push_notifications_slo_param_5: {
+        key_0: "kklskqdd",
+        key_1: "dzelciewfwtizlm",
+        key_2: "ptakjyovgdx"
+      },
+      push_notifications_slo_param_6: 355,
+      push_notifications_slo_param_7: "canary",
+      push_notifications_slo_param_8: 8345,
+      push_notifications_slo_param_9: 2989,
+      req_1_field_0: false,
+      threshold: 99.28,
+      window_in_days: 90
+    }
+
+  * "networking_push_notifications_slo_14":
+    Provides {
+      push_notifications_slo_param_0: "dhgnt",
+      push_notifications_slo_param_1: "udesn",
+      push_notifications_slo_param_2: true,
+      push_notifications_slo_param_3: 62.32,
+      push_notifications_slo_param_4: 22.91,
+      push_notifications_slo_param_5: { key_0: "owzhkjirie", key_1: "vylfnncntbnox" },
+      push_notifications_slo_param_6: 555,
+      push_notifications_slo_param_7: "development",
+      push_notifications_slo_param_8: 7895,
+      push_notifications_slo_param_9: 5765,
+      req_1_field_0: true,
+      threshold: 97.81,
+      window_in_days: 90
+    }
+
+  * "networking_push_notifications_slo_15":
+    Provides {
+      push_notifications_slo_param_0: "odhztgd",
+      push_notifications_slo_param_1: "aewwnbhvuxdv",
+      push_notifications_slo_param_2: true,
+      push_notifications_slo_param_3: 58.93,
+      push_notifications_slo_param_4: 63.78,
+      push_notifications_slo_param_5: { key_0: "uyeqrwwrcakh", key_1: "xyzhuwvgz" },
+      push_notifications_slo_param_6: 776,
+      push_notifications_slo_param_7: "canary",
+      push_notifications_slo_param_8: 3383,
+      push_notifications_slo_param_9: 1501,
+      req_1_field_0: true,
+      threshold: 98.9,
+      window_in_days: 30
+    }
+
+  * "networking_push_notifications_slo_16":
+    Provides {
+      push_notifications_slo_param_0: "bxdrfvaolxibex",
+      push_notifications_slo_param_1: "mpmgspswxoyjq",
+      push_notifications_slo_param_2: true,
+      push_notifications_slo_param_3: 4.43,
+      push_notifications_slo_param_4: 3.75,
+      push_notifications_slo_param_5: { key_0: "twrzap" },
+      push_notifications_slo_param_6: 128,
+      push_notifications_slo_param_7: "test",
+      push_notifications_slo_param_8: 5397,
+      push_notifications_slo_param_9: 2406,
+      req_1_field_0: false,
+      threshold: 99.41,
+      window_in_days: 7
+    }
+
+  * "networking_push_notifications_slo_17":
+    Provides {
+      push_notifications_slo_param_0: "cebanjf",
+      push_notifications_slo_param_1: "wtycezimwl",
+      push_notifications_slo_param_2: false,
+      push_notifications_slo_param_3: 98.64,
+      push_notifications_slo_param_4: 44.4,
+      push_notifications_slo_param_5: {
+        key_0: "dqzzrkdztx",
+        key_1: "mnygkeafxy",
+        key_2: "tpefmhblycaj"
+      },
+      push_notifications_slo_param_6: 717,
+      push_notifications_slo_param_7: "canary",
+      push_notifications_slo_param_8: 4312,
+      push_notifications_slo_param_9: 1856,
+      req_1_field_0: false,
+      threshold: 97.07,
+      window_in_days: 90
+    }
+
+  * "networking_push_notifications_slo_18":
+    Provides {
+      push_notifications_slo_param_0: "wopotjpgtip",
+      push_notifications_slo_param_1: "ewxmixbmec",
+      push_notifications_slo_param_2: false,
+      push_notifications_slo_param_3: 24.76,
+      push_notifications_slo_param_4: 3.64,
+      push_notifications_slo_param_5: { key_0: "ppydhxopvligd" },
+      push_notifications_slo_param_6: 265,
+      push_notifications_slo_param_7: "test",
+      push_notifications_slo_param_8: 6667,
+      push_notifications_slo_param_9: 3328,
+      req_1_field_0: false,
+      threshold: 97.48,
+      window_in_days: 30
+    }
+
+  * "networking_push_notifications_slo_19":
+    Provides {
+      push_notifications_slo_param_0: "aaqxjemmcbb",
+      push_notifications_slo_param_1: "ldxhhfmzmzinzsx",
+      push_notifications_slo_param_2: true,
+      push_notifications_slo_param_3: 82.04,
+      push_notifications_slo_param_4: 73.67,
+      push_notifications_slo_param_5: { key_0: "ogssxgtqccc", key_1: "zbfhmqy", key_2: "vltwkmgsv" },
+      push_notifications_slo_param_6: 935,
+      push_notifications_slo_param_7: "canary",
+      push_notifications_slo_param_8: 1839,
+      push_notifications_slo_param_9: 6406,
+      req_1_field_0: true,
+      threshold: 99.4,
+      window_in_days: 7
+    }
+
+  * "networking_push_notifications_slo_20":
+    Provides {
+      push_notifications_slo_param_0: "afiszebxzsmwu",
+      push_notifications_slo_param_1: "eburuaj",
+      push_notifications_slo_param_2: false,
+      push_notifications_slo_param_3: 33.82,
+      push_notifications_slo_param_4: 14.68,
+      push_notifications_slo_param_5: { key_0: "otlbetitlck" },
+      push_notifications_slo_param_6: 797,
+      push_notifications_slo_param_7: "development",
+      push_notifications_slo_param_8: 8747,
+      push_notifications_slo_param_9: 3300,
+      req_1_field_0: false,
+      threshold: 97.96,
+      window_in_days: 30
+    }
+
+  * "networking_push_notifications_slo_21":
+    Provides {
+      push_notifications_slo_param_0: "iquexctfvo",
+      push_notifications_slo_param_1: "vqhhdwqgqvaptp",
+      push_notifications_slo_param_2: true,
+      push_notifications_slo_param_3: 33.73,
+      push_notifications_slo_param_4: 79.79,
+      push_notifications_slo_param_5: { key_0: "vlvhf" },
+      push_notifications_slo_param_6: 243,
+      push_notifications_slo_param_7: "canary",
+      push_notifications_slo_param_8: 2733,
+      push_notifications_slo_param_9: 7938,
+      req_1_field_0: true,
+      threshold: 97.62,
+      window_in_days: 7
+    }
+
+  * "networking_push_notifications_slo_22":
+    Provides {
+      push_notifications_slo_param_0: "kyeieepwlgrl",
+      push_notifications_slo_param_1: "vurmi",
+      push_notifications_slo_param_2: false,
+      push_notifications_slo_param_3: 48.09,
+      push_notifications_slo_param_4: 45.27,
+      push_notifications_slo_param_5: { key_0: "vbcmfevskjnzd", key_1: "nhgqljjujxa" },
+      push_notifications_slo_param_6: 616,
+      push_notifications_slo_param_7: "test",
+      push_notifications_slo_param_8: 3232,
+      push_notifications_slo_param_9: 3875,
+      req_1_field_0: true,
+      threshold: 96.51,
+      window_in_days: 7
+    }
+
+  * "networking_push_notifications_slo_23":
+    Provides {
+      push_notifications_slo_param_0: "wegkxynwavg",
+      push_notifications_slo_param_1: "ecfjupjbqoebw",
+      push_notifications_slo_param_2: true,
+      push_notifications_slo_param_3: 94.36,
+      push_notifications_slo_param_4: 46.25,
+      push_notifications_slo_param_5: {
+        key_0: "dkxpnfoxyw",
+        key_1: "caqadggmkavz",
+        key_2: "kwdtbsgyqbp"
+      },
+      push_notifications_slo_param_6: 436,
+      push_notifications_slo_param_7: "test",
+      push_notifications_slo_param_8: 3340,
+      push_notifications_slo_param_9: 9980,
+      req_1_field_0: false,
+      threshold: 99.05,
+      window_in_days: 30
+    }
+
+  * "networking_push_notifications_slo_24":
+    Provides {
+      push_notifications_slo_param_0: "vcjseavmzbeaqnj",
+      push_notifications_slo_param_1: "frstxnddwcer",
+      push_notifications_slo_param_2: true,
+      push_notifications_slo_param_3: 7.54,
+      push_notifications_slo_param_4: 82.35,
+      push_notifications_slo_param_5: { key_0: "sjtmqxzr" },
+      push_notifications_slo_param_6: 888,
+      push_notifications_slo_param_7: "development",
+      push_notifications_slo_param_8: 7709,
+      push_notifications_slo_param_9: 7534,
+      req_1_field_0: false,
+      threshold: 99.36,
+      window_in_days: 7
+    }

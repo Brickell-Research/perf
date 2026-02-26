@@ -1,0 +1,70 @@
+Expectations for "messaging_slo"
+  * "identity_0_15_messaging_slo_0":
+    Provides {
+      messaging_slo_param_0: "kqpgnskvgpgiag",
+      messaging_slo_param_1: "ljcabkiheucfp",
+      messaging_slo_param_2: 17.64,
+      messaging_slo_param_3: "cddlipisrpubia",
+      messaging_slo_param_4: 95.08,
+      req_0_field_0: true,
+      req_0_field_1: true,
+      req_0_field_2: 33.36,
+      threshold: 99.35,
+      window_in_days: 90
+    }
+
+  * "identity_0_15_messaging_slo_1":
+    Provides {
+      messaging_slo_param_0: "cmbhetwvvqhyvi",
+      messaging_slo_param_1: "idimpumtvgudfj",
+      messaging_slo_param_2: 72.14,
+      messaging_slo_param_3: "klvhphzstbazgl",
+      messaging_slo_param_4: 95.32,
+      req_0_field_0: false,
+      req_0_field_1: false,
+      req_0_field_2: 92.75,
+      threshold: 99.71,
+      window_in_days: 7
+    }
+
+  * "identity_0_15_messaging_slo_2":
+    Provides {
+      messaging_slo_param_0: "bvwekubgzlz",
+      messaging_slo_param_1: "ufubjuzfhsdd",
+      messaging_slo_param_2: 57.31,
+      messaging_slo_param_3: "jnttkj",
+      messaging_slo_param_4: 17.25,
+      req_0_field_0: true,
+      req_0_field_1: true,
+      req_0_field_2: 49.67,
+      threshold: 98.15,
+      window_in_days: 90
+    }
+
+  * "identity_0_15_messaging_slo_3":
+    Provides {
+      messaging_slo_param_0: "lznslywxbioln",
+      messaging_slo_param_1: "odsti",
+      messaging_slo_param_2: 86.75,
+      messaging_slo_param_3: "jgqyf",
+      messaging_slo_param_4: 47.86,
+      req_0_field_0: false,
+      req_0_field_1: false,
+      req_0_field_2: 94.67,
+      threshold: 98.03,
+      window_in_days: 7
+    }
+
+  * "identity_0_15_messaging_slo_4":
+    Provides {
+      messaging_slo_param_0: "zhxppliggreijsc",
+      messaging_slo_param_1: "ptxunbiqhp",
+      messaging_slo_param_2: 69.27,
+      messaging_slo_param_3: "fmlqtswig",
+      messaging_slo_param_4: 4.05,
+      req_0_field_0: false,
+      req_0_field_1: false,
+      req_0_field_2: 20.44,
+      threshold: 97.77,
+      window_in_days: 7
+    }

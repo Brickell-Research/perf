@@ -1,0 +1,36 @@
+Expectations for "search_slo"
+  * "reliability_0_9_search_slo_0":
+    Provides {
+      search_slo_param_0: "hphsxnj",
+      search_slo_param_1: "piskqmxepp",
+      search_slo_param_2: true,
+      search_slo_param_3: 259,
+      search_slo_param_4: "draft",
+      req_1_field_0: "czltislzsqrwoyx",
+      threshold: 98.18,
+      window_in_days: 90
+    }
+
+  * "reliability_0_9_search_slo_1":
+    Provides {
+      search_slo_param_0: "zkyrkbfwo",
+      search_slo_param_1: "ujwdirvmhxli",
+      search_slo_param_2: false,
+      search_slo_param_3: 339,
+      search_slo_param_4: "draft",
+      req_1_field_0: "rvyzn",
+      threshold: 97.83,
+      window_in_days: 30
+    }
+
+  * "reliability_0_9_search_slo_2":
+    Provides {
+      search_slo_param_0: "grjwsmsjocdlxq",
+      search_slo_param_1: "eestp",
+      search_slo_param_2: true,
+      search_slo_param_3: 171,
+      search_slo_param_4: "draft",
+      req_1_field_0: "duzauogbxpqqbb",
+      threshold: 99.76,
+      window_in_days: 7
+    }

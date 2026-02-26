@@ -1,0 +1,73 @@
+Expectations for "shipping_slo"
+  * "sre_7_11_shipping_slo_0":
+    Provides {
+      shipping_slo_param_0: "yutxmpdsfmwezq",
+      shipping_slo_param_1: "dduixnkzfabt",
+      shipping_slo_param_2: "production",
+      shipping_slo_param_3: 6783,
+      shipping_slo_param_4: 36.18,
+      shipping_slo_param_5: 99.35,
+      shipping_slo_param_6: 53,
+      req_1_field_0: "lqudnxjqffnnfiq",
+      threshold: 95.13,
+      window_in_days: 30
+    }
+
+  * "sre_7_11_shipping_slo_1":
+    Provides {
+      shipping_slo_param_0: "chzcupzchqwp",
+      shipping_slo_param_1: "hifiaxsqq",
+      shipping_slo_param_2: "demo",
+      shipping_slo_param_3: 5539,
+      shipping_slo_param_4: 84.46,
+      shipping_slo_param_5: 38.27,
+      shipping_slo_param_6: 73,
+      req_1_field_0: "heafhpqura",
+      threshold: 95.87,
+      window_in_days: 90
+    }
+
+Expectations for "inventory_slo"
+  * "sre_7_11_inventory_slo_0":
+    Provides {
+      inventory_slo_param_0: "uttatdbtstxzd",
+      inventory_slo_param_1: "lszpqg",
+      inventory_slo_param_2: "canary",
+      inventory_slo_param_3: 467,
+      inventory_slo_param_4: 75.4,
+      inventory_slo_param_5: 21.71,
+      inventory_slo_param_6: 7732,
+      inventory_slo_param_7: 67.34,
+      req_1_field_0: "fngvhotzblae",
+      threshold: 97.03,
+      window_in_days: 90
+    }
+
+Expectations for "gateway_slo"
+  * "sre_7_11_gateway_slo_0":
+    Provides {
+      gateway_slo_param_0: "zrwmpkfzyuc",
+      gateway_slo_param_1: "xafkqwyyfsyqpzl",
+      gateway_slo_param_2: { key_0: false, key_1: true },
+      gateway_slo_param_3: 78,
+      gateway_slo_param_4: 80,
+      gateway_slo_param_5: 58,
+      gateway_slo_param_6: 60.48,
+      req_1_field_0: "apiffzwwoefb",
+      threshold: 98.61,
+      window_in_days: 7
+    }
+
+  * "sre_7_11_gateway_slo_1":
+    Provides {
+      gateway_slo_param_0: "lzntscddrk",
+      gateway_slo_param_1: "krzklyfvemkvf",
+      gateway_slo_param_2: { key_0: false, key_1: true, key_2: false },
+      gateway_slo_param_3: 37,
+      gateway_slo_param_4: 96,
+      gateway_slo_param_5: 58,
+      gateway_slo_param_6: 83.61,
+      req_1_field_0: "kyyocb",
+      threshold: 99.74,
+      window_in_days: 7
+    }

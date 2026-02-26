@@ -1,0 +1,60 @@
+Expectations for "scheduler_slo"
+  * "infrastructure_3_3_scheduler_slo_0":
+    Provides {
+      scheduler_slo_param_0: "urlflxhtfc",
+      scheduler_slo_param_1: "lcafw",
+      scheduler_slo_param_2: false,
+      scheduler_slo_param_3: 5346,
+      req_0_field_0: true,
+      req_0_field_1: false,
+      req_0_field_2: 36.49,
+      threshold: 95.18,
+      window_in_days: 30
+    }
+
+  * "infrastructure_3_3_scheduler_slo_1":
+    Provides {
+      scheduler_slo_param_0: "mmmshhmxluii",
+      scheduler_slo_param_1: "aiyvbewcr",
+      scheduler_slo_param_2: true,
+      scheduler_slo_param_3: 4810,
+      req_0_field_0: true,
+      req_0_field_1: false,
+      req_0_field_2: 65.9,
+      threshold: 99.48,
+      window_in_days: 30
+    }
+
+Expectations for "auth_slo"
+  * "infrastructure_3_3_auth_slo_0":
+    Provides {
+      auth_slo_param_0: "vqjja",
+      auth_slo_param_1: "fgblmm",
+      auth_slo_param_2: 6224,
+      auth_slo_param_3: { key_0: 8661 },
+      auth_slo_param_4: "inactive",
+      threshold: 98.94,
+      window_in_days: 7
+    }
+
+  * "infrastructure_3_3_auth_slo_1":
+    Provides {
+      auth_slo_param_0: "xpypir",
+      auth_slo_param_1: "nxinjlaef",
+      auth_slo_param_2: 2548,
+      auth_slo_param_3: { key_0: 8578, key_1: 2311, key_2: 2736 },
+      auth_slo_param_4: "published",
+      threshold: 98.33,
+      window_in_days: 90
+    }
+
+  * "infrastructure_3_3_auth_slo_2":
+    Provides {
+      auth_slo_param_0: "lavuihrgkajhdff",
+      auth_slo_param_1: "msiyw",
+      auth_slo_param_2: 7805,
+      auth_slo_param_3: { key_0: 1049 },
+      auth_slo_param_4: "pending",
+      threshold: 99.52,
+      window_in_days: 30
+    }

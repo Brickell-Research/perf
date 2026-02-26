@@ -1,0 +1,30 @@
+Expectations for "inventory_slo"
+  * "frontend_2_6_inventory_slo_0":
+    Provides {
+      inventory_slo_param_0: "fmzkdc",
+      inventory_slo_param_1: "clbhtuoc",
+      inventory_slo_param_2: "canary",
+      inventory_slo_param_3: 3194,
+      inventory_slo_param_4: 43.69,
+      inventory_slo_param_5: 44.24,
+      inventory_slo_param_6: 1612,
+      inventory_slo_param_7: 78.09,
+      req_1_field_0: "whuiiel",
+      threshold: 95.88,
+      window_in_days: 7
+    }
+
+  * "frontend_2_6_inventory_slo_1":
+    Provides {
+      inventory_slo_param_0: "vheomydai",
+      inventory_slo_param_1: "uncplfciupzwwv",
+      inventory_slo_param_2: "development",
+      inventory_slo_param_3: 5821,
+      inventory_slo_param_4: 63.25,
+      inventory_slo_param_5: 68.08,
+      inventory_slo_param_6: 3278,
+      inventory_slo_param_7: 42.72,
+      req_1_field_0: "tmrhiynnyaro",
+      threshold: 96.44,
+      window_in_days: 90
+    }

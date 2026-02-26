@@ -1,0 +1,22 @@
+Expectations for "auth_slo"
+  * "devops_1_10_auth_slo_0":
+    Provides {
+      auth_slo_param_0: "lwrokan",
+      auth_slo_param_1: "vzszzkbxsbksmbg",
+      auth_slo_param_2: 2064,
+      auth_slo_param_3: { key_0: 907 },
+      auth_slo_param_4: "active",
+      threshold: 97.68,
+      window_in_days: 30
+    }
+
+  * "devops_1_10_auth_slo_1":
+    Provides {
+      auth_slo_param_0: "eoebevnqfudcq",
+      auth_slo_param_1: "zrfdhufu",
+      auth_slo_param_2: 3586,
+      auth_slo_param_3: { key_0: 9016, key_1: 3321, key_2: 1909 },
+      auth_slo_param_4: "active",
+      threshold: 95.72,
+      window_in_days: 90
+    }

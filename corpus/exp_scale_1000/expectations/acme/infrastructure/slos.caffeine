@@ -1,0 +1,84 @@
+Expectations for "notifications_slo"
+  * "infrastructure_0_3_notifications_slo_0":
+    Provides {
+      notifications_slo_param_0: "guqeigxjctpdpit",
+      notifications_slo_param_1: "leadpacprmvx",
+      notifications_slo_param_2: 4832,
+      notifications_slo_param_3: 25.82,
+      notifications_slo_param_4: 38.11,
+      notifications_slo_param_5: 32.54,
+      threshold: 95.67,
+      window_in_days: 30
+    }
+
+  * "infrastructure_0_3_notifications_slo_1":
+    Provides {
+      notifications_slo_param_0: "tywwxxqlf",
+      notifications_slo_param_1: "rzsklmfmlpeaz",
+      notifications_slo_param_2: 2371,
+      notifications_slo_param_3: 38.08,
+      notifications_slo_param_4: 26.28,
+      notifications_slo_param_5: 29.5,
+      threshold: 97.83,
+      window_in_days: 90
+    }
+
+  * "infrastructure_0_3_notifications_slo_2":
+    Provides {
+      notifications_slo_param_0: "fxsdggtjlhdsheu",
+      notifications_slo_param_1: "alqaxyxyoqdsm",
+      notifications_slo_param_2: 9626,
+      notifications_slo_param_3: 38.92,
+      notifications_slo_param_4: 80.53,
+      notifications_slo_param_5: 50.75,
+      threshold: 95.08,
+      window_in_days: 30
+    }
+
+  * "infrastructure_0_3_notifications_slo_3":
+    Provides {
+      notifications_slo_param_0: "xmxiwcdaqaaducu",
+      notifications_slo_param_1: "uppsfiabtypsux",
+      notifications_slo_param_2: 347,
+      notifications_slo_param_3: 25.59,
+      notifications_slo_param_4: 76.35,
+      notifications_slo_param_5: 87.47,
+      threshold: 98.36,
+      window_in_days: 90
+    }
+
+Expectations for "auth_slo"
+  * "infrastructure_0_3_auth_slo_0":
+    Provides {
+      auth_slo_param_0: "fsowihlm",
+      auth_slo_param_1: "puynotl",
+      auth_slo_param_2: 1956,
+      auth_slo_param_3: { key_0: 4453, key_1: 6063 },
+      auth_slo_param_4: "pending",
+      threshold: 97.11,
+      window_in_days: 90
+    }
+
+  * "infrastructure_0_3_auth_slo_1":
+    Provides {
+      auth_slo_param_0: "bjlfzjt",
+      auth_slo_param_1: "iichsar",
+      auth_slo_param_2: 119,
+      auth_slo_param_3: { key_0: 8055, key_1: 1680 },
+      auth_slo_param_4: "active",
+      threshold: 97.05,
+      window_in_days: 90
+    }
+
+Expectations for "catalog_slo"
+  * "infrastructure_0_3_catalog_slo_0":
+    Provides {
+      catalog_slo_param_0: "xjgylhbbdnj",
+      catalog_slo_param_1: "tulxz",
+      catalog_slo_param_2: 47.33,
+      catalog_slo_param_3: 81.33,
+      catalog_slo_param_4: 27.7,
+      catalog_slo_param_5: 96.87,
+      threshold: 99.25,
+      window_in_days: 7
+    }

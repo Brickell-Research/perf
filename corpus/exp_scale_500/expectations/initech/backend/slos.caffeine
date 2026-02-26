@@ -1,0 +1,85 @@
+Expectations for "analytics_slo"
+  * "backend_2_5_analytics_slo_0":
+    Provides {
+      analytics_slo_param_0: "myjcoewgptoqa",
+      analytics_slo_param_1: "yugenfeqqchmr",
+      analytics_slo_param_2: true,
+      analytics_slo_param_3: false,
+      analytics_slo_param_4: 72.19,
+      analytics_slo_param_5: 10,
+      threshold: 98.24,
+      window_in_days: 30
+    }
+
+  * "backend_2_5_analytics_slo_1":
+    Provides {
+      analytics_slo_param_0: "ndsukomc",
+      analytics_slo_param_1: "zoiomdavpusbbz",
+      analytics_slo_param_2: false,
+      analytics_slo_param_3: true,
+      analytics_slo_param_4: 61.27,
+      analytics_slo_param_5: 78,
+      threshold: 97.65,
+      window_in_days: 30
+    }
+
+  * "backend_2_5_analytics_slo_2":
+    Provides {
+      analytics_slo_param_0: "qbaws",
+      analytics_slo_param_1: "jneplqjppxvj",
+      analytics_slo_param_2: true,
+      analytics_slo_param_3: false,
+      analytics_slo_param_4: 55.36,
+      analytics_slo_param_5: 10,
+      threshold: 97.23,
+      window_in_days: 90
+    }
+
+  * "backend_2_5_analytics_slo_3":
+    Provides {
+      analytics_slo_param_0: "mabbctkzgzrytf",
+      analytics_slo_param_1: "iramswfjbnjudy",
+      analytics_slo_param_2: false,
+      analytics_slo_param_3: false,
+      analytics_slo_param_4: 98.4,
+      analytics_slo_param_5: 78,
+      threshold: 97.44,
+      window_in_days: 7
+    }
+
+Expectations for "catalog_slo"
+  * "backend_2_5_catalog_slo_0":
+    Provides {
+      catalog_slo_param_0: "rnhab",
+      catalog_slo_param_1: "haiwafttbub",
+      catalog_slo_param_2: 29.68,
+      catalog_slo_param_3: 77.86,
+      catalog_slo_param_4: 68.4,
+      catalog_slo_param_5: 12.37,
+      threshold: 99.95,
+      window_in_days: 90
+    }
+
+  * "backend_2_5_catalog_slo_1":
+    Provides {
+      catalog_slo_param_0: "deqhtpeeqy",
+      catalog_slo_param_1: "lnytdmltwciczzq",
+      catalog_slo_param_2: 40.55,
+      catalog_slo_param_3: 41.79,
+      catalog_slo_param_4: 31.72,
+      catalog_slo_param_5: 23.55,
+      threshold: 95.63,
+      window_in_days: 30
+    }
+
+  * "backend_2_5_catalog_slo_2":
+    Provides {
+      catalog_slo_param_0: "gxmifw",
+      catalog_slo_param_1: "hqvhi",
+      catalog_slo_param_2: 7.84,
+      catalog_slo_param_3: 36.67,
+      catalog_slo_param_4: 44.37,
+      catalog_slo_param_5: 66.19,
+      threshold: 96.91,
+      window_in_days: 30
+    }

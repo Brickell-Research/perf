@@ -1,0 +1,56 @@
+Expectations for "messaging_slo"
+  * "payments_5_1_messaging_slo_0":
+    Provides {
+      messaging_slo_param_0: "fscvot",
+      messaging_slo_param_1: "pzfqqqd",
+      messaging_slo_param_2: 14.44,
+      messaging_slo_param_3: "csocuddhgr",
+      messaging_slo_param_4: 66.36,
+      req_0_field_0: true,
+      req_0_field_1: true,
+      req_0_field_2: 48.92,
+      threshold: 99.92,
+      window_in_days: 7
+    }
+
+  * "payments_5_1_messaging_slo_1":
+    Provides {
+      messaging_slo_param_0: "pwhryrliqw",
+      messaging_slo_param_1: "xhzoun",
+      messaging_slo_param_2: 69.07,
+      messaging_slo_param_3: "wgaajbo",
+      messaging_slo_param_4: 92.49,
+      req_0_field_0: true,
+      req_0_field_1: true,
+      req_0_field_2: 98.24,
+      threshold: 98.27,
+      window_in_days: 30
+    }
+
+  * "payments_5_1_messaging_slo_2":
+    Provides {
+      messaging_slo_param_0: "kaijlxuubo",
+      messaging_slo_param_1: "rtzkvradigdccv",
+      messaging_slo_param_2: 0.37,
+      messaging_slo_param_3: "yvtliedhc",
+      messaging_slo_param_4: 76.9,
+      req_0_field_0: false,
+      req_0_field_1: true,
+      req_0_field_2: 90.24,
+      threshold: 95.74,
+      window_in_days: 30
+    }
+
+  * "payments_5_1_messaging_slo_3":
+    Provides {
+      messaging_slo_param_0: "lhkqalejqwj",
+      messaging_slo_param_1: "vrglkssdhmb",
+      messaging_slo_param_2: 42.54,
+      messaging_slo_param_3: "ibcpbqfokkulqca",
+      messaging_slo_param_4: 45.93,
+      req_0_field_0: true,
+      req_0_field_1: false,
+      req_0_field_2: 82.17,
+      threshold: 99.51,
+      window_in_days: 7
+    }

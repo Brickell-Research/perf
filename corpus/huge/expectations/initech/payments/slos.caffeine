@@ -1,0 +1,442 @@
+Expectations for "audit_log_slo"
+  * "payments_audit_log_slo_0":
+    Provides {
+      audit_log_slo_param_0: "sglync",
+      audit_log_slo_param_1: "rojgnt",
+      audit_log_slo_param_2: false,
+      audit_log_slo_param_3: 48,
+      audit_log_slo_param_4: 43,
+      audit_log_slo_param_5: 63,
+      audit_log_slo_param_6: 4257,
+      audit_log_slo_param_7: "active",
+      audit_log_slo_param_8: 1.21,
+      audit_log_slo_param_9: 58.85,
+      audit_log_slo_param_10: "canary",
+      audit_log_slo_param_11: 3919,
+      req_3_field_0: 4551,
+      req_3_field_1: 6765,
+      req_3_field_2: 6736,
+      threshold: 95.15,
+      window_in_days: 30
+    }
+
+  * "payments_audit_log_slo_1":
+    Provides {
+      audit_log_slo_param_0: "ypgpswldbbd",
+      audit_log_slo_param_1: "svsocnxqnptzdxd",
+      audit_log_slo_param_2: false,
+      audit_log_slo_param_3: 48,
+      audit_log_slo_param_4: 533,
+      audit_log_slo_param_5: 89,
+      audit_log_slo_param_6: 5321,
+      audit_log_slo_param_7: "archived",
+      audit_log_slo_param_8: 46.76,
+      audit_log_slo_param_9: 71.01,
+      audit_log_slo_param_10: "canary",
+      audit_log_slo_param_11: 3157,
+      req_3_field_0: 6744,
+      req_3_field_1: 5105,
+      req_3_field_2: 2618,
+      threshold: 99.75,
+      window_in_days: 7
+    }
+
+  * "payments_audit_log_slo_2":
+    Provides {
+      audit_log_slo_param_0: "zahecuyoio",
+      audit_log_slo_param_1: "kbeqiohwkwbpfgk",
+      audit_log_slo_param_2: true,
+      audit_log_slo_param_3: 48,
+      audit_log_slo_param_4: 155,
+      audit_log_slo_param_5: 94,
+      audit_log_slo_param_6: 3970,
+      audit_log_slo_param_7: "active",
+      audit_log_slo_param_8: 14.34,
+      audit_log_slo_param_9: 50.97,
+      audit_log_slo_param_10: "demo",
+      audit_log_slo_param_11: 2880,
+      req_3_field_0: 3286,
+      req_3_field_1: 2084,
+      req_3_field_2: 9303,
+      threshold: 98.67,
+      window_in_days: 90
+    }
+
+  * "payments_audit_log_slo_3":
+    Provides {
+      audit_log_slo_param_0: "bcaxysatliy",
+      audit_log_slo_param_1: "iszhedlzw",
+      audit_log_slo_param_2: false,
+      audit_log_slo_param_3: 87,
+      audit_log_slo_param_4: 870,
+      audit_log_slo_param_5: 63,
+      audit_log_slo_param_6: 1755,
+      audit_log_slo_param_7: "active",
+      audit_log_slo_param_8: 8.82,
+      audit_log_slo_param_9: 55.24,
+      audit_log_slo_param_10: "canary",
+      audit_log_slo_param_11: 8180,
+      req_3_field_0: 3359,
+      req_3_field_1: 5065,
+      req_3_field_2: 8058,
+      threshold: 99.22,
+      window_in_days: 30
+    }
+
+  * "payments_audit_log_slo_4":
+    Provides {
+      audit_log_slo_param_0: "jyczneic",
+      audit_log_slo_param_1: "dlykznwskjskddz",
+      audit_log_slo_param_2: false,
+      audit_log_slo_param_3: 87,
+      audit_log_slo_param_4: 897,
+      audit_log_slo_param_5: 94,
+      audit_log_slo_param_6: 7242,
+      audit_log_slo_param_7: "active",
+      audit_log_slo_param_8: 85.63,
+      audit_log_slo_param_9: 56.18,
+      audit_log_slo_param_10: "staging",
+      audit_log_slo_param_11: 4808,
+      req_3_field_0: 7755,
+      req_3_field_1: 7653,
+      req_3_field_2: 1320,
+      threshold: 98.31,
+      window_in_days: 90
+    }
+
+  * "payments_audit_log_slo_5":
+    Provides {
+      audit_log_slo_param_0: "qjazc",
+      audit_log_slo_param_1: "hozzdihfbswto",
+      audit_log_slo_param_2: true,
+      audit_log_slo_param_3: 48,
+      audit_log_slo_param_4: 113,
+      audit_log_slo_param_5: 89,
+      audit_log_slo_param_6: 7092,
+      audit_log_slo_param_7: "published",
+      audit_log_slo_param_8: 60.46,
+      audit_log_slo_param_9: 69.91,
+      audit_log_slo_param_10: "perf",
+      audit_log_slo_param_11: 5848,
+      req_3_field_0: 4208,
+      req_3_field_1: 9419,
+      req_3_field_2: 2820,
+      threshold: 95.09,
+      window_in_days: 30
+    }
+
+  * "payments_audit_log_slo_6":
+    Provides {
+      audit_log_slo_param_0: "ruqcdrpuocdgwlh",
+      audit_log_slo_param_1: "runwusnhun",
+      audit_log_slo_param_2: false,
+      audit_log_slo_param_3: 87,
+      audit_log_slo_param_4: 290,
+      audit_log_slo_param_5: 63,
+      audit_log_slo_param_6: 5691,
+      audit_log_slo_param_7: "archived",
+      audit_log_slo_param_8: 81.66,
+      audit_log_slo_param_9: 76.8,
+      audit_log_slo_param_10: "perf",
+      audit_log_slo_param_11: 1493,
+      req_3_field_0: 2638,
+      req_3_field_1: 6080,
+      req_3_field_2: 5096,
+      threshold: 95.98,
+      window_in_days: 90
+    }
+
+  * "payments_audit_log_slo_7":
+    Provides {
+      audit_log_slo_param_0: "csgasbpyl",
+      audit_log_slo_param_1: "mcswkzfb",
+      audit_log_slo_param_2: true,
+      audit_log_slo_param_3: 48,
+      audit_log_slo_param_4: 633,
+      audit_log_slo_param_5: 89,
+      audit_log_slo_param_6: 9024,
+      audit_log_slo_param_7: "active",
+      audit_log_slo_param_8: 62.29,
+      audit_log_slo_param_9: 74.5,
+      audit_log_slo_param_10: "demo",
+      audit_log_slo_param_11: 1314,
+      req_3_field_0: 1466,
+      req_3_field_1: 4523,
+      req_3_field_2: 532,
+      threshold: 99.68,
+      window_in_days: 7
+    }
+
+Expectations for "webhook_relay_slo"
+  * "payments_webhook_relay_slo_0":
+    Provides {
+      webhook_relay_slo_param_0: "xmdcrtpmq",
+      webhook_relay_slo_param_1: "btxtwezjszz",
+      webhook_relay_slo_param_2: 72.18,
+      webhook_relay_slo_param_3: false,
+      webhook_relay_slo_param_4: "qa",
+      webhook_relay_slo_param_5: false,
+      webhook_relay_slo_param_6: 93,
+      webhook_relay_slo_param_7: 40.41,
+      webhook_relay_slo_param_8: 58,
+      webhook_relay_slo_param_9: 85.78,
+      webhook_relay_slo_param_10: "pending",
+      webhook_relay_slo_param_11: 85,
+      req_1_field_0: 12.06,
+      req_1_field_1: true,
+      threshold: 99.78,
+      window_in_days: 30
+    }
+
+  * "payments_webhook_relay_slo_1":
+    Provides {
+      webhook_relay_slo_param_0: "iedmenwl",
+      webhook_relay_slo_param_1: "mupbf",
+      webhook_relay_slo_param_2: 11.2,
+      webhook_relay_slo_param_3: false,
+      webhook_relay_slo_param_4: "qa",
+      webhook_relay_slo_param_5: false,
+      webhook_relay_slo_param_6: 61,
+      webhook_relay_slo_param_7: 44.51,
+      webhook_relay_slo_param_8: 20,
+      webhook_relay_slo_param_9: 77.4,
+      webhook_relay_slo_param_10: "published",
+      webhook_relay_slo_param_11: 54,
+      req_1_field_0: 12.99,
+      req_1_field_1: true,
+      threshold: 98.38,
+      window_in_days: 90
+    }
+
+  * "payments_webhook_relay_slo_2":
+    Provides {
+      webhook_relay_slo_param_0: "zgmdfiflkwxauor",
+      webhook_relay_slo_param_1: "jjwnaqrhudwze",
+      webhook_relay_slo_param_2: 82.43,
+      webhook_relay_slo_param_3: false,
+      webhook_relay_slo_param_4: "perf",
+      webhook_relay_slo_param_5: true,
+      webhook_relay_slo_param_6: 78,
+      webhook_relay_slo_param_7: 46.9,
+      webhook_relay_slo_param_8: 94,
+      webhook_relay_slo_param_9: 55.75,
+      webhook_relay_slo_param_10: "published",
+      webhook_relay_slo_param_11: 61,
+      req_1_field_0: 39.85,
+      req_1_field_1: false,
+      threshold: 95.1,
+      window_in_days: 30
+    }
+
+  * "payments_webhook_relay_slo_3":
+    Provides {
+      webhook_relay_slo_param_0: "rbqdpzysyycbdkh",
+      webhook_relay_slo_param_1: "kayfjzy",
+      webhook_relay_slo_param_2: 64.88,
+      webhook_relay_slo_param_3: false,
+      webhook_relay_slo_param_4: "qa",
+      webhook_relay_slo_param_5: false,
+      webhook_relay_slo_param_6: 61,
+      webhook_relay_slo_param_7: 51.69,
+      webhook_relay_slo_param_8: 20,
+      webhook_relay_slo_param_9: 62.26,
+      webhook_relay_slo_param_10: "draft",
+      webhook_relay_slo_param_11: 81,
+      req_1_field_0: 13.7,
+      req_1_field_1: false,
+      threshold: 97.51,
+      window_in_days: 7
+    }
+
+  * "payments_webhook_relay_slo_4":
+    Provides {
+      webhook_relay_slo_param_0: "axtpv",
+      webhook_relay_slo_param_1: "ifdjb",
+      webhook_relay_slo_param_2: 47.63,
+      webhook_relay_slo_param_3: false,
+      webhook_relay_slo_param_4: "perf",
+      webhook_relay_slo_param_5: false,
+      webhook_relay_slo_param_6: 93,
+      webhook_relay_slo_param_7: 32.0,
+      webhook_relay_slo_param_8: 42,
+      webhook_relay_slo_param_9: 25.28,
+      webhook_relay_slo_param_10: "inactive",
+      webhook_relay_slo_param_11: 66,
+      req_1_field_0: 23.27,
+      req_1_field_1: true,
+      threshold: 95.47,
+      window_in_days: 30
+    }
+
+  * "payments_webhook_relay_slo_5":
+    Provides {
+      webhook_relay_slo_param_0: "vwhmg",
+      webhook_relay_slo_param_1: "mvplyig",
+      webhook_relay_slo_param_2: 33.7,
+      webhook_relay_slo_param_3: true,
+      webhook_relay_slo_param_4: "qa",
+      webhook_relay_slo_param_5: true,
+      webhook_relay_slo_param_6: 78,
+      webhook_relay_slo_param_7: 61.48,
+      webhook_relay_slo_param_8: 58,
+      webhook_relay_slo_param_9: 80.06,
+      webhook_relay_slo_param_10: "draft",
+      webhook_relay_slo_param_11: 59,
+      req_1_field_0: 59.23,
+      req_1_field_1: false,
+      threshold: 97.53,
+      window_in_days: 30
+    }
+
+  * "payments_webhook_relay_slo_6":
+    Provides {
+      webhook_relay_slo_param_0: "gjybrpetah",
+      webhook_relay_slo_param_1: "ltzukmdjl",
+      webhook_relay_slo_param_2: 2.74,
+      webhook_relay_slo_param_3: true,
+      webhook_relay_slo_param_4: "qa",
+      webhook_relay_slo_param_5: false,
+      webhook_relay_slo_param_6: 61,
+      webhook_relay_slo_param_7: 35.39,
+      webhook_relay_slo_param_8: 58,
+      webhook_relay_slo_param_9: 75.07,
+      webhook_relay_slo_param_10: "published",
+      webhook_relay_slo_param_11: 79,
+      req_1_field_0: 99.49,
+      req_1_field_1: true,
+      threshold: 97.4,
+      window_in_days: 90
+    }
+
+  * "payments_webhook_relay_slo_7":
+    Provides {
+      webhook_relay_slo_param_0: "fmhfa",
+      webhook_relay_slo_param_1: "xhbhwsr",
+      webhook_relay_slo_param_2: 38.34,
+      webhook_relay_slo_param_3: true,
+      webhook_relay_slo_param_4: "perf",
+      webhook_relay_slo_param_5: true,
+      webhook_relay_slo_param_6: 78,
+      webhook_relay_slo_param_7: 30.51,
+      webhook_relay_slo_param_8: 94,
+      webhook_relay_slo_param_9: 68.47,
+      webhook_relay_slo_param_10: "published",
+      webhook_relay_slo_param_11: 54,
+      req_1_field_0: 89.35,
+      req_1_field_1: true,
+      threshold: 97.77,
+      window_in_days: 30
+    }
+
+Expectations for "media_processor_slo"
+  * "payments_media_processor_slo_0":
+    Provides {
+      media_processor_slo_param_0: "lldlx",
+      media_processor_slo_param_1: "fmbvfiszkkdpfns",
+      media_processor_slo_param_2: "pkragxnkresu",
+      media_processor_slo_param_3: 77.23,
+      media_processor_slo_param_4: { key_0: 99, key_1: 5683 },
+      media_processor_slo_param_5: "published",
+      media_processor_slo_param_6: 83.02,
+      media_processor_slo_param_7: true,
+      threshold: 97.37,
+      window_in_days: 90
+    }
+
+  * "payments_media_processor_slo_1":
+    Provides {
+      media_processor_slo_param_0: "tyiwlgaeril",
+      media_processor_slo_param_1: "nwmiglcsavnd",
+      media_processor_slo_param_2: "mwtdses",
+      media_processor_slo_param_3: 19.98,
+      media_processor_slo_param_4: { key_0: 2413, key_1: 7900, key_2: 1693 },
+      media_processor_slo_param_5: "published",
+      media_processor_slo_param_6: 86.82,
+      media_processor_slo_param_7: false,
+      threshold: 99.14,
+      window_in_days: 90
+    }
+
+  * "payments_media_processor_slo_2":
+    Provides {
+      media_processor_slo_param_0: "ldmkbhqocgop",
+      media_processor_slo_param_1: "aeclpfwe",
+      media_processor_slo_param_2: "xtzzu",
+      media_processor_slo_param_3: 4.62,
+      media_processor_slo_param_4: { key_0: 3021, key_1: 6513 },
+      media_processor_slo_param_5: "draft",
+      media_processor_slo_param_6: 73.22,
+      media_processor_slo_param_7: true,
+      threshold: 95.3,
+      window_in_days: 90
+    }
+
+  * "payments_media_processor_slo_3":
+    Provides {
+      media_processor_slo_param_0: "wlwtx",
+      media_processor_slo_param_1: "kfxbia",
+      media_processor_slo_param_2: "hfeve",
+      media_processor_slo_param_3: 90.49,
+      media_processor_slo_param_4: { key_0: 9463, key_1: 3668 },
+      media_processor_slo_param_5: "published",
+      media_processor_slo_param_6: 92.0,
+      media_processor_slo_param_7: false,
+      threshold: 95.8,
+      window_in_days: 30
+    }
+
+  * "payments_media_processor_slo_4":
+    Provides {
+      media_processor_slo_param_0: "lgooyakygejs",
+      media_processor_slo_param_1: "isfpdszmocxdk",
+      media_processor_slo_param_2: "qhuvbvslqv",
+      media_processor_slo_param_3: 46.44,
+      media_processor_slo_param_4: { key_0: 9060 },
+      media_processor_slo_param_5: "draft",
+      media_processor_slo_param_6: 66.09,
+      media_processor_slo_param_7: true,
+      threshold: 97.93,
+      window_in_days: 30
+    }
+
+  * "payments_media_processor_slo_5":
+    Provides {
+      media_processor_slo_param_0: "tpasnohatztwab",
+      media_processor_slo_param_1: "rxove",
+      media_processor_slo_param_2: "euxuy",
+      media_processor_slo_param_3: 87.19,
+      media_processor_slo_param_4: { key_0: 534 },
+      media_processor_slo_param_5: "draft",
+      media_processor_slo_param_6: 61.14,
+      media_processor_slo_param_7: true,
+      threshold: 97.92,
+      window_in_days: 7
+    }
+
+  * "payments_media_processor_slo_6":
+    Provides {
+      media_processor_slo_param_0: "jffaejb",
+      media_processor_slo_param_1: "xuizcxfiis",
+      media_processor_slo_param_2: "fknoo",
+      media_processor_slo_param_3: 69.41,
+      media_processor_slo_param_4: { key_0: 3173 },
+      media_processor_slo_param_5: "published",
+      media_processor_slo_param_6: 57.75,
+      media_processor_slo_param_7: true,
+      threshold: 96.47,
+      window_in_days: 7
+    }
+
+  * "payments_media_processor_slo_7":
+    Provides {
+      media_processor_slo_param_0: "xpdvaotzfdz",
+      media_processor_slo_param_1: "tcwbutkxp",
+      media_processor_slo_param_2: "dbdzkblphbaeug",
+      media_processor_slo_param_3: 12.14,
+      media_processor_slo_param_4: { key_0: 7343 },
+      media_processor_slo_param_5: "draft",
+      media_processor_slo_param_6: 79.69,
+      media_processor_slo_param_7: true,
+      threshold: 97.92,
+      window_in_days: 7
+    }

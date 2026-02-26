@@ -1,0 +1,425 @@
+Expectations for "backup_service_slo"
+  * "reliability_backup_service_slo_0":
+    Provides {
+      backup_service_slo_param_0: "fepfpfsiqpusx",
+      backup_service_slo_param_1: "vjtgmpvushno",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [7007, 1869, 9045, 3973],
+      backup_service_slo_param_4: "canary",
+      backup_service_slo_param_5: 869,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 2330,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 68.4,
+      backup_service_slo_param_10: 49.01,
+      threshold: 95.58,
+      window_in_days: 90
+    }
+
+  * "reliability_backup_service_slo_1":
+    Provides {
+      backup_service_slo_param_0: "rwmutpulphqgwj",
+      backup_service_slo_param_1: "tprspffwbik",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [2701],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 5880,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 8468,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 50.59,
+      backup_service_slo_param_10: 82.66,
+      threshold: 96.19,
+      window_in_days: 7
+    }
+
+  * "reliability_backup_service_slo_2":
+    Provides {
+      backup_service_slo_param_0: "pjcbwsoglzhhokn",
+      backup_service_slo_param_1: "zloqvnjegoexjo",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [1279, 9069],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 3349,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 7001,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 57.25,
+      backup_service_slo_param_10: 92.81,
+      threshold: 95.49,
+      window_in_days: 7
+    }
+
+  * "reliability_backup_service_slo_3":
+    Provides {
+      backup_service_slo_param_0: "lrypkomdtx",
+      backup_service_slo_param_1: "vmqrdqtzktnbkvh",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [379],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 9974,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 5982,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 51.92,
+      backup_service_slo_param_10: 90.57,
+      threshold: 99.82,
+      window_in_days: 90
+    }
+
+  * "reliability_backup_service_slo_4":
+    Provides {
+      backup_service_slo_param_0: "fejmdohp",
+      backup_service_slo_param_1: "egifvnelqvn",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [5815, 3721, 8971, 6002],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 611,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 7702,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 49.09,
+      backup_service_slo_param_10: 92.42,
+      threshold: 95.13,
+      window_in_days: 30
+    }
+
+  * "reliability_backup_service_slo_5":
+    Provides {
+      backup_service_slo_param_0: "ihwvvdo",
+      backup_service_slo_param_1: "xoitftbtehnvf",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [3475, 8798],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 8699,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 732,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 47.5,
+      backup_service_slo_param_10: 33.16,
+      threshold: 99.62,
+      window_in_days: 7
+    }
+
+  * "reliability_backup_service_slo_6":
+    Provides {
+      backup_service_slo_param_0: "rccbqmxh",
+      backup_service_slo_param_1: "qqitzy",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [9472, 5312, 6568, 8248],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 5172,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 5832,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 44.91,
+      backup_service_slo_param_10: 50.51,
+      threshold: 99.67,
+      window_in_days: 90
+    }
+
+  * "reliability_backup_service_slo_7":
+    Provides {
+      backup_service_slo_param_0: "tolxxtfreku",
+      backup_service_slo_param_1: "dnimpttdamuss",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [2909, 2744],
+      backup_service_slo_param_4: "demo",
+      backup_service_slo_param_5: 637,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 3665,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 78.32,
+      backup_service_slo_param_10: 33.99,
+      threshold: 96.31,
+      window_in_days: 7
+    }
+
+  * "reliability_backup_service_slo_8":
+    Provides {
+      backup_service_slo_param_0: "gctncesv",
+      backup_service_slo_param_1: "mhpvdicx",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [4500, 1314, 903],
+      backup_service_slo_param_4: "test",
+      backup_service_slo_param_5: 6367,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 6922,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 59.58,
+      backup_service_slo_param_10: 93.18,
+      threshold: 96.19,
+      window_in_days: 7
+    }
+
+  * "reliability_backup_service_slo_9":
+    Provides {
+      backup_service_slo_param_0: "bpcyxdu",
+      backup_service_slo_param_1: "hftugppavpazslq",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [8973, 1182, 684, 2541],
+      backup_service_slo_param_4: "canary",
+      backup_service_slo_param_5: 8104,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 2623,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 86.86,
+      backup_service_slo_param_10: 51.88,
+      threshold: 97.7,
+      window_in_days: 30
+    }
+
+  * "reliability_backup_service_slo_10":
+    Provides {
+      backup_service_slo_param_0: "mmstondfge",
+      backup_service_slo_param_1: "zqlvogcqtzefzo",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [1069, 2063, 2263, 2846],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 1412,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 4460,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 74.33,
+      backup_service_slo_param_10: 71.32,
+      threshold: 98.31,
+      window_in_days: 7
+    }
+
+  * "reliability_backup_service_slo_11":
+    Provides {
+      backup_service_slo_param_0: "hbywdh",
+      backup_service_slo_param_1: "yoydrem",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [7014, 1276, 4448, 9401],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 7083,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 7953,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 80.77,
+      backup_service_slo_param_10: 72.72,
+      threshold: 98.38,
+      window_in_days: 7
+    }
+
+  * "reliability_backup_service_slo_12":
+    Provides {
+      backup_service_slo_param_0: "zxmmujzvuruivl",
+      backup_service_slo_param_1: "fwipvdisthd",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [9575, 6217, 6917],
+      backup_service_slo_param_4: "canary",
+      backup_service_slo_param_5: 8914,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 7096,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 49.56,
+      backup_service_slo_param_10: 80.36,
+      threshold: 96.41,
+      window_in_days: 90
+    }
+
+  * "reliability_backup_service_slo_13":
+    Provides {
+      backup_service_slo_param_0: "twsjsociejlod",
+      backup_service_slo_param_1: "fxrhvvlb",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [5247],
+      backup_service_slo_param_4: "demo",
+      backup_service_slo_param_5: 1390,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 1603,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 77.4,
+      backup_service_slo_param_10: 81.34,
+      threshold: 96.67,
+      window_in_days: 7
+    }
+
+  * "reliability_backup_service_slo_14":
+    Provides {
+      backup_service_slo_param_0: "xlvxptmgmf",
+      backup_service_slo_param_1: "etzwze",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [8131],
+      backup_service_slo_param_4: "demo",
+      backup_service_slo_param_5: 8086,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 767,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 40.94,
+      backup_service_slo_param_10: 19.3,
+      threshold: 99.48,
+      window_in_days: 7
+    }
+
+  * "reliability_backup_service_slo_15":
+    Provides {
+      backup_service_slo_param_0: "ftxuwzchajp",
+      backup_service_slo_param_1: "dtaltqdxke",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [4478],
+      backup_service_slo_param_4: "canary",
+      backup_service_slo_param_5: 1698,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 8910,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 39.54,
+      backup_service_slo_param_10: 90.07,
+      threshold: 98.88,
+      window_in_days: 7
+    }
+
+  * "reliability_backup_service_slo_16":
+    Provides {
+      backup_service_slo_param_0: "bblhp",
+      backup_service_slo_param_1: "uhbvtpx",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [3202, 1665],
+      backup_service_slo_param_4: "canary",
+      backup_service_slo_param_5: 9429,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 8939,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 59.19,
+      backup_service_slo_param_10: 21.96,
+      threshold: 99.64,
+      window_in_days: 30
+    }
+
+  * "reliability_backup_service_slo_17":
+    Provides {
+      backup_service_slo_param_0: "jvonjzdzfj",
+      backup_service_slo_param_1: "mxdhmtjcpzxeuf",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [5489, 5203],
+      backup_service_slo_param_4: "demo",
+      backup_service_slo_param_5: 7076,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 7071,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 92.1,
+      backup_service_slo_param_10: 86.42,
+      threshold: 96.86,
+      window_in_days: 30
+    }
+
+  * "reliability_backup_service_slo_18":
+    Provides {
+      backup_service_slo_param_0: "shsnczilaxetto",
+      backup_service_slo_param_1: "lodqebvvhkeokq",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [6319, 6828, 2430],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 2307,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 5847,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 45.69,
+      backup_service_slo_param_10: 45.03,
+      threshold: 99.36,
+      window_in_days: 90
+    }
+
+  * "reliability_backup_service_slo_19":
+    Provides {
+      backup_service_slo_param_0: "sfqkkvqczbb",
+      backup_service_slo_param_1: "scbeuaadnpgki",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [7822, 2566, 5729, 9624],
+      backup_service_slo_param_4: "canary",
+      backup_service_slo_param_5: 8632,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 8560,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 84.16,
+      backup_service_slo_param_10: 45.16,
+      threshold: 95.68,
+      window_in_days: 30
+    }
+
+  * "reliability_backup_service_slo_20":
+    Provides {
+      backup_service_slo_param_0: "dldamvqwuiholgg",
+      backup_service_slo_param_1: "drcdcm",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [5065, 5308],
+      backup_service_slo_param_4: "demo",
+      backup_service_slo_param_5: 3747,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 6318,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 67.28,
+      backup_service_slo_param_10: 43.26,
+      threshold: 97.9,
+      window_in_days: 30
+    }
+
+  * "reliability_backup_service_slo_21":
+    Provides {
+      backup_service_slo_param_0: "pvgfhnaidmiczk",
+      backup_service_slo_param_1: "ponuzr",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [5295, 3996, 5971],
+      backup_service_slo_param_4: "test",
+      backup_service_slo_param_5: 1266,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 7233,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 40.76,
+      backup_service_slo_param_10: 61.86,
+      threshold: 95.69,
+      window_in_days: 7
+    }
+
+  * "reliability_backup_service_slo_22":
+    Provides {
+      backup_service_slo_param_0: "xglcsh",
+      backup_service_slo_param_1: "asfge",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [2517, 4770],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 446,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 3300,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 52.18,
+      backup_service_slo_param_10: 38.87,
+      threshold: 98.54,
+      window_in_days: 90
+    }
+
+  * "reliability_backup_service_slo_23":
+    Provides {
+      backup_service_slo_param_0: "zekfhdgyzyvmlut",
+      backup_service_slo_param_1: "iljly",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [5097, 72, 5319, 8639],
+      backup_service_slo_param_4: "canary",
+      backup_service_slo_param_5: 9934,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 4707,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 89.1,
+      backup_service_slo_param_10: 57.77,
+      threshold: 99.24,
+      window_in_days: 90
+    }
+
+  * "reliability_backup_service_slo_24":
+    Provides {
+      backup_service_slo_param_0: "sqfrixd",
+      backup_service_slo_param_1: "kobopcuecuev",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [668],
+      backup_service_slo_param_4: "test",
+      backup_service_slo_param_5: 4370,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 1844,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 85.42,
+      backup_service_slo_param_10: 77.0,
+      threshold: 97.78,
+      window_in_days: 30
+    }

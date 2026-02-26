@@ -1,0 +1,422 @@
+Expectations for "storage_slo"
+  * "growth_storage_slo_0":
+    Provides {
+      storage_slo_param_0: "rdkrsnq",
+      storage_slo_param_1: "skegksjsnfiucwv",
+      storage_slo_param_2: 4778,
+      storage_slo_param_3: "pending",
+      storage_slo_param_4: "jttwbkf",
+      storage_slo_param_5: 192,
+      storage_slo_param_6: 35.23,
+      storage_slo_param_7: [29.39, 95.92],
+      storage_slo_param_8: "rmiuw",
+      storage_slo_param_9: 51.3,
+      storage_slo_param_10: 8690,
+      storage_slo_param_11: "qa",
+      threshold: 98.85,
+      window_in_days: 90
+    }
+
+  * "growth_storage_slo_1":
+    Provides {
+      storage_slo_param_0: "jonezi",
+      storage_slo_param_1: "mvbrarb",
+      storage_slo_param_2: 4774,
+      storage_slo_param_3: "inactive",
+      storage_slo_param_4: "xftjvgis",
+      storage_slo_param_5: 121,
+      storage_slo_param_6: 62.73,
+      storage_slo_param_7: [80.6, 9.01],
+      storage_slo_param_8: "lmwdbzgcrmdqzb",
+      storage_slo_param_9: 40.67,
+      storage_slo_param_10: 570,
+      storage_slo_param_11: "qa",
+      threshold: 99.77,
+      window_in_days: 90
+    }
+
+  * "growth_storage_slo_2":
+    Provides {
+      storage_slo_param_0: "mzzcywusnaxfa",
+      storage_slo_param_1: "pikov",
+      storage_slo_param_2: 8584,
+      storage_slo_param_3: "active",
+      storage_slo_param_4: "riqmsvpy",
+      storage_slo_param_5: 126,
+      storage_slo_param_6: 77.13,
+      storage_slo_param_7: [39.18, 60.98],
+      storage_slo_param_8: "dbibdnuhof",
+      storage_slo_param_9: 39.71,
+      storage_slo_param_10: 7821,
+      storage_slo_param_11: "perf",
+      threshold: 99.18,
+      window_in_days: 90
+    }
+
+  * "growth_storage_slo_3":
+    Provides {
+      storage_slo_param_0: "tkesypn",
+      storage_slo_param_1: "ghibga",
+      storage_slo_param_2: 4817,
+      storage_slo_param_3: "inactive",
+      storage_slo_param_4: "nybjaugylztnc",
+      storage_slo_param_5: 211,
+      storage_slo_param_6: 16.85,
+      storage_slo_param_7: [93.89],
+      storage_slo_param_8: "wbxjkpvt",
+      storage_slo_param_9: 38.63,
+      storage_slo_param_10: 7466,
+      storage_slo_param_11: "qa",
+      threshold: 96.6,
+      window_in_days: 90
+    }
+
+  * "growth_storage_slo_4":
+    Provides {
+      storage_slo_param_0: "cefxjvne",
+      storage_slo_param_1: "cqmtqdfngtbgxa",
+      storage_slo_param_2: 8648,
+      storage_slo_param_3: "pending",
+      storage_slo_param_4: "igwxtnkf",
+      storage_slo_param_5: 185,
+      storage_slo_param_6: 35.63,
+      storage_slo_param_7: [5.35],
+      storage_slo_param_8: "jravnzpbhoyslgu",
+      storage_slo_param_9: 40.29,
+      storage_slo_param_10: 9796,
+      storage_slo_param_11: "production",
+      threshold: 98.83,
+      window_in_days: 90
+    }
+
+  * "growth_storage_slo_5":
+    Provides {
+      storage_slo_param_0: "wrvqttrtwcn",
+      storage_slo_param_1: "njjygic",
+      storage_slo_param_2: 349,
+      storage_slo_param_3: "published",
+      storage_slo_param_4: "ouwyxcvuf",
+      storage_slo_param_5: 56,
+      storage_slo_param_6: 66.38,
+      storage_slo_param_7: [40.43, 55.99, 93.75, 40.79],
+      storage_slo_param_8: "zmkdt",
+      storage_slo_param_9: 97.23,
+      storage_slo_param_10: 501,
+      storage_slo_param_11: "production",
+      threshold: 95.87,
+      window_in_days: 7
+    }
+
+  * "growth_storage_slo_6":
+    Provides {
+      storage_slo_param_0: "ozfpirxqx",
+      storage_slo_param_1: "dxtvzvxyxddsp",
+      storage_slo_param_2: 5593,
+      storage_slo_param_3: "active",
+      storage_slo_param_4: "uuktodrcooiqy",
+      storage_slo_param_5: 75,
+      storage_slo_param_6: 8.14,
+      storage_slo_param_7: [80.88, 9.83, 83.06, 88.23],
+      storage_slo_param_8: "uiiydvuk",
+      storage_slo_param_9: 14.9,
+      storage_slo_param_10: 9628,
+      storage_slo_param_11: "perf",
+      threshold: 99.24,
+      window_in_days: 30
+    }
+
+  * "growth_storage_slo_7":
+    Provides {
+      storage_slo_param_0: "xwvetarnpxkzdzk",
+      storage_slo_param_1: "brvizwbb",
+      storage_slo_param_2: 8648,
+      storage_slo_param_3: "active",
+      storage_slo_param_4: "qcqbtbkeqfplkd",
+      storage_slo_param_5: 206,
+      storage_slo_param_6: 35.18,
+      storage_slo_param_7: [27.02, 89.57, 44.07],
+      storage_slo_param_8: "hesldkwrpiocws",
+      storage_slo_param_9: 82.6,
+      storage_slo_param_10: 6300,
+      storage_slo_param_11: "qa",
+      threshold: 99.9,
+      window_in_days: 90
+    }
+
+Expectations for "cdn_slo"
+  * "growth_cdn_slo_0":
+    Provides {
+      cdn_slo_param_0: "buayrgzflcdyjy",
+      cdn_slo_param_1: "iycocawx",
+      cdn_slo_param_2: true,
+      cdn_slo_param_3: true,
+      cdn_slo_param_4: 22.93,
+      cdn_slo_param_5: 53.16,
+      cdn_slo_param_6: { key_0: "fkvzim", key_1: "oidfbrhgbywid" },
+      cdn_slo_param_7: 39.56,
+      cdn_slo_param_8: "bvlhblrvknyxt",
+      cdn_slo_param_9: 50,
+      threshold: 98.33,
+      window_in_days: 7
+    }
+
+  * "growth_cdn_slo_1":
+    Provides {
+      cdn_slo_param_0: "bvqwxpv",
+      cdn_slo_param_1: "qgykoi",
+      cdn_slo_param_2: false,
+      cdn_slo_param_3: false,
+      cdn_slo_param_4: 31.69,
+      cdn_slo_param_5: 60.64,
+      cdn_slo_param_6: { key_0: "gcnozkioltmso" },
+      cdn_slo_param_7: 63.67,
+      cdn_slo_param_8: "rzlskygkudu",
+      cdn_slo_param_9: 50,
+      threshold: 98.82,
+      window_in_days: 30
+    }
+
+  * "growth_cdn_slo_2":
+    Provides {
+      cdn_slo_param_0: "drefjrckwjuol",
+      cdn_slo_param_1: "rkdbqy",
+      cdn_slo_param_2: true,
+      cdn_slo_param_3: true,
+      cdn_slo_param_4: 36.96,
+      cdn_slo_param_5: 59.84,
+      cdn_slo_param_6: { key_0: "yonrgqouwydxwu", key_1: "rfvlssgzqhpvpo" },
+      cdn_slo_param_7: 6.61,
+      cdn_slo_param_8: "hlolvx",
+      cdn_slo_param_9: 61,
+      threshold: 98.27,
+      window_in_days: 7
+    }
+
+  * "growth_cdn_slo_3":
+    Provides {
+      cdn_slo_param_0: "ygolmozeyl",
+      cdn_slo_param_1: "uzbqzmnjdqx",
+      cdn_slo_param_2: false,
+      cdn_slo_param_3: true,
+      cdn_slo_param_4: 65.71,
+      cdn_slo_param_5: 52.19,
+      cdn_slo_param_6: {
+        key_0: "fzaqinkeqgbhax",
+        key_1: "tksilarexe",
+        key_2: "wgenlkdvpe"
+      },
+      cdn_slo_param_7: 24.67,
+      cdn_slo_param_8: "rtwuvfy",
+      cdn_slo_param_9: 61,
+      threshold: 99.79,
+      window_in_days: 90
+    }
+
+  * "growth_cdn_slo_4":
+    Provides {
+      cdn_slo_param_0: "iecrin",
+      cdn_slo_param_1: "syeykzeyfs",
+      cdn_slo_param_2: false,
+      cdn_slo_param_3: false,
+      cdn_slo_param_4: 24.27,
+      cdn_slo_param_5: 73.02,
+      cdn_slo_param_6: {
+        key_0: "okjymg",
+        key_1: "yoaimrvffqd",
+        key_2: "xvbvxpefvigucjk"
+      },
+      cdn_slo_param_7: 8.83,
+      cdn_slo_param_8: "liicsjxvm",
+      cdn_slo_param_9: 61,
+      threshold: 95.49,
+      window_in_days: 30
+    }
+
+  * "growth_cdn_slo_5":
+    Provides {
+      cdn_slo_param_0: "wbygwsqcyuaj",
+      cdn_slo_param_1: "jnzsnopvtajg",
+      cdn_slo_param_2: false,
+      cdn_slo_param_3: false,
+      cdn_slo_param_4: 27.68,
+      cdn_slo_param_5: 52.4,
+      cdn_slo_param_6: { key_0: "vvlbiunullhem", key_1: "nzxhqtkjwu" },
+      cdn_slo_param_7: 84.16,
+      cdn_slo_param_8: "edyxzvlid",
+      cdn_slo_param_9: 35,
+      threshold: 99.4,
+      window_in_days: 7
+    }
+
+  * "growth_cdn_slo_6":
+    Provides {
+      cdn_slo_param_0: "ujfqgyd",
+      cdn_slo_param_1: "uwbaia",
+      cdn_slo_param_2: true,
+      cdn_slo_param_3: false,
+      cdn_slo_param_4: 49.83,
+      cdn_slo_param_5: 53.69,
+      cdn_slo_param_6: { key_0: "hwnjpzmmw" },
+      cdn_slo_param_7: 99.05,
+      cdn_slo_param_8: "kxushktd",
+      cdn_slo_param_9: 61,
+      threshold: 99.91,
+      window_in_days: 90
+    }
+
+  * "growth_cdn_slo_7":
+    Provides {
+      cdn_slo_param_0: "xhybfvs",
+      cdn_slo_param_1: "tebfdv",
+      cdn_slo_param_2: true,
+      cdn_slo_param_3: false,
+      cdn_slo_param_4: 53.7,
+      cdn_slo_param_5: 50.18,
+      cdn_slo_param_6: {
+        key_0: "xnkmf",
+        key_1: "maemncluxmitj",
+        key_2: "gdeoadcvwtjrgcb"
+      },
+      cdn_slo_param_7: 86.9,
+      cdn_slo_param_8: "yqelflsfopev",
+      cdn_slo_param_9: 35,
+      threshold: 96.63,
+      window_in_days: 7
+    }
+
+Expectations for "ml_inference_slo"
+  * "growth_ml_inference_slo_0":
+    Provides {
+      ml_inference_slo_param_0: "ooptwyt",
+      ml_inference_slo_param_1: "rpqgogeqsg",
+      ml_inference_slo_param_2: 64.96,
+      ml_inference_slo_param_3: "perf",
+      ml_inference_slo_param_4: "archived",
+      ml_inference_slo_param_5: 20,
+      ml_inference_slo_param_6: false,
+      ml_inference_slo_param_7: "demo",
+      ml_inference_slo_param_8: 60,
+      ml_inference_slo_param_9: 12.22,
+      req_2_field_0: false,
+      threshold: 98.68,
+      window_in_days: 30
+    }
+
+  * "growth_ml_inference_slo_1":
+    Provides {
+      ml_inference_slo_param_0: "ekgaiwpy",
+      ml_inference_slo_param_1: "pselvwleebbg",
+      ml_inference_slo_param_2: 74.18,
+      ml_inference_slo_param_3: "canary",
+      ml_inference_slo_param_4: "active",
+      ml_inference_slo_param_5: 20,
+      ml_inference_slo_param_6: true,
+      ml_inference_slo_param_7: "qa",
+      ml_inference_slo_param_8: 60,
+      ml_inference_slo_param_9: 70.79,
+      req_2_field_0: false,
+      threshold: 95.69,
+      window_in_days: 90
+    }
+
+  * "growth_ml_inference_slo_2":
+    Provides {
+      ml_inference_slo_param_0: "gdvtcukuwoewg",
+      ml_inference_slo_param_1: "mvrmnwlrsswrj",
+      ml_inference_slo_param_2: 55.25,
+      ml_inference_slo_param_3: "perf",
+      ml_inference_slo_param_4: "draft",
+      ml_inference_slo_param_5: 17,
+      ml_inference_slo_param_6: true,
+      ml_inference_slo_param_7: "qa",
+      ml_inference_slo_param_8: 13,
+      ml_inference_slo_param_9: 27.82,
+      req_2_field_0: false,
+      threshold: 96.18,
+      window_in_days: 30
+    }
+
+  * "growth_ml_inference_slo_3":
+    Provides {
+      ml_inference_slo_param_0: "couiljwywoycuqe",
+      ml_inference_slo_param_1: "trcfhwnbvxozcr",
+      ml_inference_slo_param_2: 62.75,
+      ml_inference_slo_param_3: "perf",
+      ml_inference_slo_param_4: "archived",
+      ml_inference_slo_param_5: 17,
+      ml_inference_slo_param_6: false,
+      ml_inference_slo_param_7: "test",
+      ml_inference_slo_param_8: 85,
+      ml_inference_slo_param_9: 15.1,
+      req_2_field_0: true,
+      threshold: 95.58,
+      window_in_days: 7
+    }
+
+  * "growth_ml_inference_slo_4":
+    Provides {
+      ml_inference_slo_param_0: "wyyktd",
+      ml_inference_slo_param_1: "ptcckd",
+      ml_inference_slo_param_2: 53.65,
+      ml_inference_slo_param_3: "qa",
+      ml_inference_slo_param_4: "active",
+      ml_inference_slo_param_5: 88,
+      ml_inference_slo_param_6: true,
+      ml_inference_slo_param_7: "perf",
+      ml_inference_slo_param_8: 13,
+      ml_inference_slo_param_9: 72.3,
+      req_2_field_0: false,
+      threshold: 99.65,
+      window_in_days: 7
+    }
+
+  * "growth_ml_inference_slo_5":
+    Provides {
+      ml_inference_slo_param_0: "tfhfjfaeqrhndu",
+      ml_inference_slo_param_1: "churqdi",
+      ml_inference_slo_param_2: 48.75,
+      ml_inference_slo_param_3: "perf",
+      ml_inference_slo_param_4: "draft",
+      ml_inference_slo_param_5: 17,
+      ml_inference_slo_param_6: true,
+      ml_inference_slo_param_7: "production",
+      ml_inference_slo_param_8: 60,
+      ml_inference_slo_param_9: 37.56,
+      req_2_field_0: true,
+      threshold: 99.19,
+      window_in_days: 90
+    }
+
+  * "growth_ml_inference_slo_6":
+    Provides {
+      ml_inference_slo_param_0: "sjzsvbtr",
+      ml_inference_slo_param_1: "soiupvuf",
+      ml_inference_slo_param_2: 61.43,
+      ml_inference_slo_param_3: "qa",
+      ml_inference_slo_param_4: "draft",
+      ml_inference_slo_param_5: 17,
+      ml_inference_slo_param_6: false,
+      ml_inference_slo_param_7: "demo",
+      ml_inference_slo_param_8: 85,
+      ml_inference_slo_param_9: 32.67,
+      req_2_field_0: false,
+      threshold: 96.93,
+      window_in_days: 7
+    }
+
+  * "growth_ml_inference_slo_7":
+    Provides {
+      ml_inference_slo_param_0: "wgbtedmb",
+      ml_inference_slo_param_1: "jegmbp",
+      ml_inference_slo_param_2: 50.25,
+      ml_inference_slo_param_3: "perf",
+      ml_inference_slo_param_4: "active",
+      ml_inference_slo_param_5: 17,
+      ml_inference_slo_param_6: false,
+      ml_inference_slo_param_7: "perf",
+      ml_inference_slo_param_8: 85,
+      ml_inference_slo_param_9: 2.25,
+      req_2_field_0: true,
+      threshold: 95.65,
+      window_in_days: 30
+    }

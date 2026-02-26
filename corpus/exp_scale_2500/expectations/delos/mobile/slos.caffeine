@@ -1,0 +1,218 @@
+Expectations for "logging_slo"
+  * "mobile_6_4_logging_slo_0":
+    Provides {
+      logging_slo_param_0: "qckdehduhbk",
+      logging_slo_param_1: "bmgyyqurfzlzd",
+      logging_slo_param_2: 98.91,
+      logging_slo_param_3: [8989],
+      logging_slo_param_4: true,
+      logging_slo_param_5: false,
+      logging_slo_param_6: 12.07,
+      logging_slo_param_7: 43.57,
+      req_0_field_0: true,
+      req_0_field_1: false,
+      req_0_field_2: 40.22,
+      threshold: 95.53,
+      window_in_days: 7
+    }
+
+  * "mobile_6_4_logging_slo_1":
+    Provides {
+      logging_slo_param_0: "kyvrhjc",
+      logging_slo_param_1: "tsiupwjnqcfcgs",
+      logging_slo_param_2: 99.96,
+      logging_slo_param_3: [6858, 5328, 2195, 464],
+      logging_slo_param_4: false,
+      logging_slo_param_5: false,
+      logging_slo_param_6: 33.24,
+      logging_slo_param_7: 50.9,
+      req_0_field_0: false,
+      req_0_field_1: false,
+      req_0_field_2: 85.2,
+      threshold: 97.75,
+      window_in_days: 90
+    }
+
+  * "mobile_6_4_logging_slo_2":
+    Provides {
+      logging_slo_param_0: "cpfwxyai",
+      logging_slo_param_1: "vfofbmfr",
+      logging_slo_param_2: 50.07,
+      logging_slo_param_3: [4902, 2153, 406],
+      logging_slo_param_4: true,
+      logging_slo_param_5: false,
+      logging_slo_param_6: 83.02,
+      logging_slo_param_7: 20.87,
+      req_0_field_0: false,
+      req_0_field_1: true,
+      req_0_field_2: 34.14,
+      threshold: 98.31,
+      window_in_days: 7
+    }
+
+Expectations for "notifications_slo"
+  * "mobile_6_4_notifications_slo_0":
+    Provides {
+      notifications_slo_param_0: "sxdibb",
+      notifications_slo_param_1: "lqpdrjqruvso",
+      notifications_slo_param_2: 4768,
+      notifications_slo_param_3: 65.8,
+      notifications_slo_param_4: 81.16,
+      notifications_slo_param_5: 40.35,
+      threshold: 98.77,
+      window_in_days: 30
+    }
+
+  * "mobile_6_4_notifications_slo_1":
+    Provides {
+      notifications_slo_param_0: "jzzwtwacx",
+      notifications_slo_param_1: "qscredo",
+      notifications_slo_param_2: 420,
+      notifications_slo_param_3: 23.68,
+      notifications_slo_param_4: 81.96,
+      notifications_slo_param_5: 26.74,
+      threshold: 99.95,
+      window_in_days: 7
+    }
+
+  * "mobile_6_4_notifications_slo_2":
+    Provides {
+      notifications_slo_param_0: "oyoibrnhkj",
+      notifications_slo_param_1: "mxxzvhxvoe",
+      notifications_slo_param_2: 1559,
+      notifications_slo_param_3: 62.82,
+      notifications_slo_param_4: 10.28,
+      notifications_slo_param_5: 43.51,
+      threshold: 95.94,
+      window_in_days: 7
+    }
+
+  * "mobile_6_4_notifications_slo_3":
+    Provides {
+      notifications_slo_param_0: "qvncitxz",
+      notifications_slo_param_1: "ueuqjwvdjotodd",
+      notifications_slo_param_2: 7783,
+      notifications_slo_param_3: 44.78,
+      notifications_slo_param_4: 33.86,
+      notifications_slo_param_5: 68.72,
+      threshold: 95.44,
+      window_in_days: 90
+    }
+
+Expectations for "auth_slo"
+  * "mobile_6_4_auth_slo_0":
+    Provides {
+      auth_slo_param_0: "okionmgzrnotgpq",
+      auth_slo_param_1: "mlzqopfusqapyc",
+      auth_slo_param_2: 6497,
+      auth_slo_param_3: { key_0: 7052 },
+      auth_slo_param_4: "published",
+      threshold: 95.04,
+      window_in_days: 7
+    }
+
+  * "mobile_6_4_auth_slo_1":
+    Provides {
+      auth_slo_param_0: "xbpvde",
+      auth_slo_param_1: "jexgd",
+      auth_slo_param_2: 9061,
+      auth_slo_param_3: { key_0: 9805, key_1: 3111 },
+      auth_slo_param_4: "pending",
+      threshold: 99.68,
+      window_in_days: 30
+    }
+
+  * "mobile_6_4_auth_slo_2":
+    Provides {
+      auth_slo_param_0: "gmbanunrexjt",
+      auth_slo_param_1: "kinzkupifidilxd",
+      auth_slo_param_2: 7367,
+      auth_slo_param_3: { key_0: 6094, key_1: 4909, key_2: 5055 },
+      auth_slo_param_4: "inactive",
+      threshold: 99.61,
+      window_in_days: 90
+    }
+
+  * "mobile_6_4_auth_slo_3":
+    Provides {
+      auth_slo_param_0: "hsbjovclezg",
+      auth_slo_param_1: "ferttmyt",
+      auth_slo_param_2: 7084,
+      auth_slo_param_3: { key_0: 2163, key_1: 2648 },
+      auth_slo_param_4: "published",
+      threshold: 97.62,
+      window_in_days: 90
+    }
+
+  * "mobile_6_4_auth_slo_4":
+    Provides {
+      auth_slo_param_0: "xhztslrlavfwlla",
+      auth_slo_param_1: "hkqrg",
+      auth_slo_param_2: 6762,
+      auth_slo_param_3: { key_0: 3087, key_1: 7176 },
+      auth_slo_param_4: "active",
+      threshold: 97.93,
+      window_in_days: 90
+    }
+
+Expectations for "recommendations_slo"
+  * "mobile_6_4_recommendations_slo_0":
+    Provides {
+      recommendations_slo_param_0: "ubywwlqvjm",
+      recommendations_slo_param_1: "psfykyz",
+      recommendations_slo_param_2: 64.04,
+      recommendations_slo_param_3: 7848,
+      recommendations_slo_param_4: 88,
+      recommendations_slo_param_5: 40.39,
+      threshold: 98.91,
+      window_in_days: 30
+    }
+
+  * "mobile_6_4_recommendations_slo_1":
+    Provides {
+      recommendations_slo_param_0: "revwencqj",
+      recommendations_slo_param_1: "spddmma",
+      recommendations_slo_param_2: 37.14,
+      recommendations_slo_param_3: 3407,
+      recommendations_slo_param_4: 88,
+      recommendations_slo_param_5: 39.23,
+      threshold: 97.61,
+      window_in_days: 7
+    }
+
+  * "mobile_6_4_recommendations_slo_2":
+    Provides {
+      recommendations_slo_param_0: "cpibqyzz",
+      recommendations_slo_param_1: "wycni",
+      recommendations_slo_param_2: 57.1,
+      recommendations_slo_param_3: 1629,
+      recommendations_slo_param_4: 49,
+      recommendations_slo_param_5: 35.69,
+      threshold: 99.03,
+      window_in_days: 90
+    }
+
+Expectations for "payments_slo"
+  * "mobile_6_4_payments_slo_0":
+    Provides {
+      payments_slo_param_0: "mcxgpxzisc",
+      payments_slo_param_1: "niddpkbqyf",
+      payments_slo_param_2: 38.72,
+      payments_slo_param_3: 6936,
+      payments_slo_param_4: 37,
+      payments_slo_param_5: 575,
+      threshold: 99.83,
+      window_in_days: 30
+    }
+
+  * "mobile_6_4_payments_slo_1":
+    Provides {
+      payments_slo_param_0: "mkohemf",
+      payments_slo_param_1: "ixgbgoalidbjp",
+      payments_slo_param_2: 23.46,
+      payments_slo_param_3: 1560,
+      payments_slo_param_4: 81,
+      payments_slo_param_5: 3188,
+      threshold: 95.97,
+      window_in_days: 90
+    }

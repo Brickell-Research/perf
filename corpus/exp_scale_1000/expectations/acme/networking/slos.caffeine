@@ -1,0 +1,151 @@
+Expectations for "inventory_slo"
+  * "networking_0_19_inventory_slo_0":
+    Provides {
+      inventory_slo_param_0: "ykjinlgfo",
+      inventory_slo_param_1: "owzcl",
+      inventory_slo_param_2: "development",
+      inventory_slo_param_3: 1593,
+      inventory_slo_param_4: 76.16,
+      inventory_slo_param_5: 74.04,
+      inventory_slo_param_6: 223,
+      inventory_slo_param_7: 77.85,
+      req_1_field_0: "gshznvxzyp",
+      threshold: 95.66,
+      window_in_days: 90
+    }
+
+  * "networking_0_19_inventory_slo_1":
+    Provides {
+      inventory_slo_param_0: "cuyrgitsh",
+      inventory_slo_param_1: "vmtpfsscdcqw",
+      inventory_slo_param_2: "development",
+      inventory_slo_param_3: 5181,
+      inventory_slo_param_4: 58.06,
+      inventory_slo_param_5: 62.82,
+      inventory_slo_param_6: 1866,
+      inventory_slo_param_7: 68.32,
+      req_1_field_0: "mdcbpozx",
+      threshold: 99.47,
+      window_in_days: 30
+    }
+
+Expectations for "payments_slo"
+  * "networking_0_19_payments_slo_0":
+    Provides {
+      payments_slo_param_0: "whbsafxjllvzd",
+      payments_slo_param_1: "pmsqnxtbwjrzgk",
+      payments_slo_param_2: 60.83,
+      payments_slo_param_3: 4326,
+      payments_slo_param_4: 37,
+      payments_slo_param_5: 8433,
+      threshold: 97.5,
+      window_in_days: 90
+    }
+
+  * "networking_0_19_payments_slo_1":
+    Provides {
+      payments_slo_param_0: "czfuhsyxp",
+      payments_slo_param_1: "rgsmx",
+      payments_slo_param_2: 45.3,
+      payments_slo_param_3: 4148,
+      payments_slo_param_4: 63,
+      payments_slo_param_5: 9574,
+      threshold: 99.03,
+      window_in_days: 30
+    }
+
+  * "networking_0_19_payments_slo_2":
+    Provides {
+      payments_slo_param_0: "eysvilvxdupy",
+      payments_slo_param_1: "ftvailqbewyl",
+      payments_slo_param_2: 59.03,
+      payments_slo_param_3: 7585,
+      payments_slo_param_4: 63,
+      payments_slo_param_5: 6809,
+      threshold: 95.86,
+      window_in_days: 7
+    }
+
+  * "networking_0_19_payments_slo_3":
+    Provides {
+      payments_slo_param_0: "flctowygfd",
+      payments_slo_param_1: "aviqgevlnd",
+      payments_slo_param_2: 24.35,
+      payments_slo_param_3: 7175,
+      payments_slo_param_4: 81,
+      payments_slo_param_5: 7573,
+      threshold: 95.46,
+      window_in_days: 30
+    }
+
+Expectations for "analytics_slo"
+  * "networking_0_19_analytics_slo_0":
+    Provides {
+      analytics_slo_param_0: "bmujtdigkzxpb",
+      analytics_slo_param_1: "zxazvkuu",
+      analytics_slo_param_2: false,
+      analytics_slo_param_3: false,
+      analytics_slo_param_4: 69.26,
+      analytics_slo_param_5: 10,
+      threshold: 97.1,
+      window_in_days: 7
+    }
+
+  * "networking_0_19_analytics_slo_1":
+    Provides {
+      analytics_slo_param_0: "aroqhyemgrlt",
+      analytics_slo_param_1: "fnjjaw",
+      analytics_slo_param_2: true,
+      analytics_slo_param_3: true,
+      analytics_slo_param_4: 10.0,
+      analytics_slo_param_5: 78,
+      threshold: 95.71,
+      window_in_days: 7
+    }
+
+  * "networking_0_19_analytics_slo_2":
+    Provides {
+      analytics_slo_param_0: "livfz",
+      analytics_slo_param_1: "ukwhdt",
+      analytics_slo_param_2: false,
+      analytics_slo_param_3: false,
+      analytics_slo_param_4: 78.6,
+      analytics_slo_param_5: 78,
+      threshold: 95.11,
+      window_in_days: 7
+    }
+
+  * "networking_0_19_analytics_slo_3":
+    Provides {
+      analytics_slo_param_0: "uxwmajdhodnwpz",
+      analytics_slo_param_1: "cnmiuwtwtiotdm",
+      analytics_slo_param_2: true,
+      analytics_slo_param_3: true,
+      analytics_slo_param_4: 78.34,
+      analytics_slo_param_5: 10,
+      threshold: 98.36,
+      window_in_days: 7
+    }
+
+Expectations for "auth_slo"
+  * "networking_0_19_auth_slo_0":
+    Provides {
+      auth_slo_param_0: "vkhtbedunxblryu",
+      auth_slo_param_1: "yvjwkaubtyndfge",
+      auth_slo_param_2: 6959,
+      auth_slo_param_3: { key_0: 747, key_1: 5525 },
+      auth_slo_param_4: "published",
+      threshold: 99.88,
+      window_in_days: 30
+    }
+
+  * "networking_0_19_auth_slo_1":
+    Provides {
+      auth_slo_param_0: "ceeex",
+      auth_slo_param_1: "agojq",
+      auth_slo_param_2: 9262,
+      auth_slo_param_3: { key_0: 4829, key_1: 5948 },
+      auth_slo_param_4: "published",
+      threshold: 99.52,
+      window_in_days: 90
+    }

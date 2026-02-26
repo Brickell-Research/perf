@@ -1,0 +1,400 @@
+Expectations for "intrusion_detection_slo"
+  * "data_intrusion_detection_slo_0":
+    Provides {
+      intrusion_detection_slo_param_0: "auycpqqsibe",
+      intrusion_detection_slo_param_1: "kkmmfmbbvsggzo",
+      intrusion_detection_slo_param_2: 49.55,
+      intrusion_detection_slo_param_3: "canary",
+      intrusion_detection_slo_param_4: "active",
+      intrusion_detection_slo_param_5: 1773,
+      intrusion_detection_slo_param_6: 851,
+      intrusion_detection_slo_param_7: 47.63,
+      intrusion_detection_slo_param_8: [true, false, false, false],
+      intrusion_detection_slo_param_9: 41.09,
+      threshold: 96.2,
+      window_in_days: 7
+    }
+
+  * "data_intrusion_detection_slo_1":
+    Provides {
+      intrusion_detection_slo_param_0: "aspfphvpn",
+      intrusion_detection_slo_param_1: "shuogypyke",
+      intrusion_detection_slo_param_2: 37.93,
+      intrusion_detection_slo_param_3: "canary",
+      intrusion_detection_slo_param_4: "draft",
+      intrusion_detection_slo_param_5: 2490,
+      intrusion_detection_slo_param_6: 6885,
+      intrusion_detection_slo_param_7: 19.35,
+      intrusion_detection_slo_param_8: [false, false, false, false],
+      intrusion_detection_slo_param_9: 59.94,
+      threshold: 99.14,
+      window_in_days: 7
+    }
+
+  * "data_intrusion_detection_slo_2":
+    Provides {
+      intrusion_detection_slo_param_0: "akgnbymjyjjh",
+      intrusion_detection_slo_param_1: "otjolrcwkvuivc",
+      intrusion_detection_slo_param_2: 16.79,
+      intrusion_detection_slo_param_3: "test",
+      intrusion_detection_slo_param_4: "draft",
+      intrusion_detection_slo_param_5: 4773,
+      intrusion_detection_slo_param_6: 2463,
+      intrusion_detection_slo_param_7: 47.36,
+      intrusion_detection_slo_param_8: [false, true, true],
+      intrusion_detection_slo_param_9: 46.8,
+      threshold: 97.18,
+      window_in_days: 7
+    }
+
+  * "data_intrusion_detection_slo_3":
+    Provides {
+      intrusion_detection_slo_param_0: "emobvlyzeqew",
+      intrusion_detection_slo_param_1: "ciyfbhripfrqxh",
+      intrusion_detection_slo_param_2: 46.04,
+      intrusion_detection_slo_param_3: "test",
+      intrusion_detection_slo_param_4: "draft",
+      intrusion_detection_slo_param_5: 1964,
+      intrusion_detection_slo_param_6: 1579,
+      intrusion_detection_slo_param_7: 35.17,
+      intrusion_detection_slo_param_8: [true],
+      intrusion_detection_slo_param_9: 54.27,
+      threshold: 97.93,
+      window_in_days: 30
+    }
+
+  * "data_intrusion_detection_slo_4":
+    Provides {
+      intrusion_detection_slo_param_0: "pxuopcemad",
+      intrusion_detection_slo_param_1: "pturqdgoquxid",
+      intrusion_detection_slo_param_2: 48.21,
+      intrusion_detection_slo_param_3: "test",
+      intrusion_detection_slo_param_4: "inactive",
+      intrusion_detection_slo_param_5: 4066,
+      intrusion_detection_slo_param_6: 3748,
+      intrusion_detection_slo_param_7: 95.78,
+      intrusion_detection_slo_param_8: [false, true, false, true],
+      intrusion_detection_slo_param_9: 61.8,
+      threshold: 97.15,
+      window_in_days: 7
+    }
+
+  * "data_intrusion_detection_slo_5":
+    Provides {
+      intrusion_detection_slo_param_0: "vaxgwv",
+      intrusion_detection_slo_param_1: "apccvk",
+      intrusion_detection_slo_param_2: 37.91,
+      intrusion_detection_slo_param_3: "test",
+      intrusion_detection_slo_param_4: "inactive",
+      intrusion_detection_slo_param_5: 8800,
+      intrusion_detection_slo_param_6: 3824,
+      intrusion_detection_slo_param_7: 83.42,
+      intrusion_detection_slo_param_8: [true],
+      intrusion_detection_slo_param_9: 64.39,
+      threshold: 97.32,
+      window_in_days: 30
+    }
+
+  * "data_intrusion_detection_slo_6":
+    Provides {
+      intrusion_detection_slo_param_0: "yjwdpicbx",
+      intrusion_detection_slo_param_1: "tqakcqkavusisp",
+      intrusion_detection_slo_param_2: 44.35,
+      intrusion_detection_slo_param_3: "test",
+      intrusion_detection_slo_param_4: "active",
+      intrusion_detection_slo_param_5: 95,
+      intrusion_detection_slo_param_6: 5146,
+      intrusion_detection_slo_param_7: 85.0,
+      intrusion_detection_slo_param_8: [false],
+      intrusion_detection_slo_param_9: 58.09,
+      threshold: 99.83,
+      window_in_days: 7
+    }
+
+  * "data_intrusion_detection_slo_7":
+    Provides {
+      intrusion_detection_slo_param_0: "ccicqjrh",
+      intrusion_detection_slo_param_1: "qyargkzdnlwemg",
+      intrusion_detection_slo_param_2: 43.1,
+      intrusion_detection_slo_param_3: "canary",
+      intrusion_detection_slo_param_4: "draft",
+      intrusion_detection_slo_param_5: 6078,
+      intrusion_detection_slo_param_6: 1806,
+      intrusion_detection_slo_param_7: 34.35,
+      intrusion_detection_slo_param_8: [true, true, true, true],
+      intrusion_detection_slo_param_9: 46.49,
+      threshold: 99.19,
+      window_in_days: 90
+    }
+
+  * "data_intrusion_detection_slo_8":
+    Provides {
+      intrusion_detection_slo_param_0: "drpzjfqvhmskfo",
+      intrusion_detection_slo_param_1: "kzczousietgsbgo",
+      intrusion_detection_slo_param_2: 18.93,
+      intrusion_detection_slo_param_3: "test",
+      intrusion_detection_slo_param_4: "inactive",
+      intrusion_detection_slo_param_5: 5369,
+      intrusion_detection_slo_param_6: 4562,
+      intrusion_detection_slo_param_7: 26.08,
+      intrusion_detection_slo_param_8: [true, false],
+      intrusion_detection_slo_param_9: 75.74,
+      threshold: 95.26,
+      window_in_days: 7
+    }
+
+  * "data_intrusion_detection_slo_9":
+    Provides {
+      intrusion_detection_slo_param_0: "wmfrwfukkvmvj",
+      intrusion_detection_slo_param_1: "xjrbz",
+      intrusion_detection_slo_param_2: 32.67,
+      intrusion_detection_slo_param_3: "development",
+      intrusion_detection_slo_param_4: "inactive",
+      intrusion_detection_slo_param_5: 9931,
+      intrusion_detection_slo_param_6: 2046,
+      intrusion_detection_slo_param_7: 20.1,
+      intrusion_detection_slo_param_8: [true, false, false],
+      intrusion_detection_slo_param_9: 60.46,
+      threshold: 99.95,
+      window_in_days: 90
+    }
+
+  * "data_intrusion_detection_slo_10":
+    Provides {
+      intrusion_detection_slo_param_0: "iylblvsil",
+      intrusion_detection_slo_param_1: "lmtowynrwzx",
+      intrusion_detection_slo_param_2: 70.33,
+      intrusion_detection_slo_param_3: "canary",
+      intrusion_detection_slo_param_4: "inactive",
+      intrusion_detection_slo_param_5: 108,
+      intrusion_detection_slo_param_6: 5280,
+      intrusion_detection_slo_param_7: 57.29,
+      intrusion_detection_slo_param_8: [false, false, true, true],
+      intrusion_detection_slo_param_9: 21.44,
+      threshold: 95.44,
+      window_in_days: 30
+    }
+
+  * "data_intrusion_detection_slo_11":
+    Provides {
+      intrusion_detection_slo_param_0: "fbjnabg",
+      intrusion_detection_slo_param_1: "llekggaxmmuja",
+      intrusion_detection_slo_param_2: 16.52,
+      intrusion_detection_slo_param_3: "test",
+      intrusion_detection_slo_param_4: "active",
+      intrusion_detection_slo_param_5: 4654,
+      intrusion_detection_slo_param_6: 9672,
+      intrusion_detection_slo_param_7: 5.33,
+      intrusion_detection_slo_param_8: [false, false],
+      intrusion_detection_slo_param_9: 65.94,
+      threshold: 97.8,
+      window_in_days: 7
+    }
+
+  * "data_intrusion_detection_slo_12":
+    Provides {
+      intrusion_detection_slo_param_0: "ywettk",
+      intrusion_detection_slo_param_1: "jsbowjyhm",
+      intrusion_detection_slo_param_2: 26.57,
+      intrusion_detection_slo_param_3: "canary",
+      intrusion_detection_slo_param_4: "inactive",
+      intrusion_detection_slo_param_5: 4688,
+      intrusion_detection_slo_param_6: 7291,
+      intrusion_detection_slo_param_7: 0.28,
+      intrusion_detection_slo_param_8: [false],
+      intrusion_detection_slo_param_9: 52.15,
+      threshold: 96.19,
+      window_in_days: 7
+    }
+
+  * "data_intrusion_detection_slo_13":
+    Provides {
+      intrusion_detection_slo_param_0: "pqwfytoshwwdwz",
+      intrusion_detection_slo_param_1: "xjqal",
+      intrusion_detection_slo_param_2: 27.67,
+      intrusion_detection_slo_param_3: "canary",
+      intrusion_detection_slo_param_4: "inactive",
+      intrusion_detection_slo_param_5: 2579,
+      intrusion_detection_slo_param_6: 8639,
+      intrusion_detection_slo_param_7: 76.37,
+      intrusion_detection_slo_param_8: [true, true, true],
+      intrusion_detection_slo_param_9: 79.58,
+      threshold: 95.34,
+      window_in_days: 90
+    }
+
+  * "data_intrusion_detection_slo_14":
+    Provides {
+      intrusion_detection_slo_param_0: "wacrsyds",
+      intrusion_detection_slo_param_1: "euwldy",
+      intrusion_detection_slo_param_2: 34.06,
+      intrusion_detection_slo_param_3: "test",
+      intrusion_detection_slo_param_4: "draft",
+      intrusion_detection_slo_param_5: 3550,
+      intrusion_detection_slo_param_6: 8191,
+      intrusion_detection_slo_param_7: 35.51,
+      intrusion_detection_slo_param_8: [true, true],
+      intrusion_detection_slo_param_9: 39.12,
+      threshold: 98.09,
+      window_in_days: 30
+    }
+
+  * "data_intrusion_detection_slo_15":
+    Provides {
+      intrusion_detection_slo_param_0: "spdchfrrzfquyl",
+      intrusion_detection_slo_param_1: "ontcmwtg",
+      intrusion_detection_slo_param_2: 30.08,
+      intrusion_detection_slo_param_3: "canary",
+      intrusion_detection_slo_param_4: "draft",
+      intrusion_detection_slo_param_5: 4276,
+      intrusion_detection_slo_param_6: 2896,
+      intrusion_detection_slo_param_7: 86.44,
+      intrusion_detection_slo_param_8: [true, false, false],
+      intrusion_detection_slo_param_9: 56.96,
+      threshold: 99.79,
+      window_in_days: 90
+    }
+
+  * "data_intrusion_detection_slo_16":
+    Provides {
+      intrusion_detection_slo_param_0: "xjnhv",
+      intrusion_detection_slo_param_1: "gvvwjblvkxu",
+      intrusion_detection_slo_param_2: 60.11,
+      intrusion_detection_slo_param_3: "canary",
+      intrusion_detection_slo_param_4: "inactive",
+      intrusion_detection_slo_param_5: 5753,
+      intrusion_detection_slo_param_6: 603,
+      intrusion_detection_slo_param_7: 25.48,
+      intrusion_detection_slo_param_8: [true, true],
+      intrusion_detection_slo_param_9: 75.17,
+      threshold: 96.1,
+      window_in_days: 90
+    }
+
+  * "data_intrusion_detection_slo_17":
+    Provides {
+      intrusion_detection_slo_param_0: "zjuzbzqtrwhph",
+      intrusion_detection_slo_param_1: "wombibx",
+      intrusion_detection_slo_param_2: 26.53,
+      intrusion_detection_slo_param_3: "development",
+      intrusion_detection_slo_param_4: "active",
+      intrusion_detection_slo_param_5: 5992,
+      intrusion_detection_slo_param_6: 860,
+      intrusion_detection_slo_param_7: 69.05,
+      intrusion_detection_slo_param_8: [true, true, true],
+      intrusion_detection_slo_param_9: 56.21,
+      threshold: 96.81,
+      window_in_days: 7
+    }
+
+  * "data_intrusion_detection_slo_18":
+    Provides {
+      intrusion_detection_slo_param_0: "ojahef",
+      intrusion_detection_slo_param_1: "mojcb",
+      intrusion_detection_slo_param_2: 55.78,
+      intrusion_detection_slo_param_3: "development",
+      intrusion_detection_slo_param_4: "active",
+      intrusion_detection_slo_param_5: 8282,
+      intrusion_detection_slo_param_6: 7965,
+      intrusion_detection_slo_param_7: 5.63,
+      intrusion_detection_slo_param_8: [false, true, true, false],
+      intrusion_detection_slo_param_9: 23.23,
+      threshold: 99.68,
+      window_in_days: 90
+    }
+
+  * "data_intrusion_detection_slo_19":
+    Provides {
+      intrusion_detection_slo_param_0: "bsqbagm",
+      intrusion_detection_slo_param_1: "aciaedlm",
+      intrusion_detection_slo_param_2: 12.19,
+      intrusion_detection_slo_param_3: "canary",
+      intrusion_detection_slo_param_4: "inactive",
+      intrusion_detection_slo_param_5: 6931,
+      intrusion_detection_slo_param_6: 9144,
+      intrusion_detection_slo_param_7: 30.69,
+      intrusion_detection_slo_param_8: [false, true, true, false],
+      intrusion_detection_slo_param_9: 73.54,
+      threshold: 95.11,
+      window_in_days: 90
+    }
+
+  * "data_intrusion_detection_slo_20":
+    Provides {
+      intrusion_detection_slo_param_0: "ywhettqhb",
+      intrusion_detection_slo_param_1: "eynpaw",
+      intrusion_detection_slo_param_2: 62.51,
+      intrusion_detection_slo_param_3: "development",
+      intrusion_detection_slo_param_4: "active",
+      intrusion_detection_slo_param_5: 8800,
+      intrusion_detection_slo_param_6: 8475,
+      intrusion_detection_slo_param_7: 41.83,
+      intrusion_detection_slo_param_8: [false, false, true],
+      intrusion_detection_slo_param_9: 20.59,
+      threshold: 98.74,
+      window_in_days: 30
+    }
+
+  * "data_intrusion_detection_slo_21":
+    Provides {
+      intrusion_detection_slo_param_0: "wsifrubtvxpoekk",
+      intrusion_detection_slo_param_1: "yehxebbcqhg",
+      intrusion_detection_slo_param_2: 18.68,
+      intrusion_detection_slo_param_3: "development",
+      intrusion_detection_slo_param_4: "inactive",
+      intrusion_detection_slo_param_5: 4240,
+      intrusion_detection_slo_param_6: 8653,
+      intrusion_detection_slo_param_7: 90.88,
+      intrusion_detection_slo_param_8: [true, true, false, true],
+      intrusion_detection_slo_param_9: 68.19,
+      threshold: 98.85,
+      window_in_days: 7
+    }
+
+  * "data_intrusion_detection_slo_22":
+    Provides {
+      intrusion_detection_slo_param_0: "zdrpnpyccckys",
+      intrusion_detection_slo_param_1: "lptjdtfxbhffba",
+      intrusion_detection_slo_param_2: 67.85,
+      intrusion_detection_slo_param_3: "development",
+      intrusion_detection_slo_param_4: "inactive",
+      intrusion_detection_slo_param_5: 1106,
+      intrusion_detection_slo_param_6: 2949,
+      intrusion_detection_slo_param_7: 65.19,
+      intrusion_detection_slo_param_8: [false],
+      intrusion_detection_slo_param_9: 27.28,
+      threshold: 99.77,
+      window_in_days: 7
+    }
+
+  * "data_intrusion_detection_slo_23":
+    Provides {
+      intrusion_detection_slo_param_0: "qeqjmgpr",
+      intrusion_detection_slo_param_1: "xdpjdvirrucgzk",
+      intrusion_detection_slo_param_2: 39.12,
+      intrusion_detection_slo_param_3: "test",
+      intrusion_detection_slo_param_4: "inactive",
+      intrusion_detection_slo_param_5: 605,
+      intrusion_detection_slo_param_6: 215,
+      intrusion_detection_slo_param_7: 73.73,
+      intrusion_detection_slo_param_8: [false, true, false],
+      intrusion_detection_slo_param_9: 39.73,
+      threshold: 95.88,
+      window_in_days: 7
+    }
+
+  * "data_intrusion_detection_slo_24":
+    Provides {
+      intrusion_detection_slo_param_0: "upauzwdntwx",
+      intrusion_detection_slo_param_1: "xytqbmqfqgrkvl",
+      intrusion_detection_slo_param_2: 12.66,
+      intrusion_detection_slo_param_3: "test",
+      intrusion_detection_slo_param_4: "inactive",
+      intrusion_detection_slo_param_5: 3695,
+      intrusion_detection_slo_param_6: 1939,
+      intrusion_detection_slo_param_7: 95.69,
+      intrusion_detection_slo_param_8: [false, false, true, false],
+      intrusion_detection_slo_param_9: 64.43,
+      threshold: 99.37,
+      window_in_days: 7
+    }

@@ -1,0 +1,22 @@
+Expectations for "users_slo"
+  * "analytics_2_17_users_slo_0":
+    Provides {
+      users_slo_param_0: "uiowqvjrgdsvt",
+      users_slo_param_1: "imcugvtndgcwnxx",
+      users_slo_param_2: "dxffzpcelbycs",
+      users_slo_param_3: ["uropekbylkaqk", "sddxrxjemcf", "gothkrlltvrbv", "ostizyzfhbfoe"],
+      users_slo_param_4: 65.11,
+      threshold: 96.7,
+      window_in_days: 30
+    }
+
+  * "analytics_2_17_users_slo_1":
+    Provides {
+      users_slo_param_0: "naeeylxuyixfrw",
+      users_slo_param_1: "cezgohtlphcrw",
+      users_slo_param_2: "utqyo",
+      users_slo_param_3: ["etgfxsyadamvry"],
+      users_slo_param_4: 63.23,
+      threshold: 99.4,
+      window_in_days: 7
+    }

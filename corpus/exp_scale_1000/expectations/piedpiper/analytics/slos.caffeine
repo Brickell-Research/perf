@@ -1,0 +1,81 @@
+Expectations for "search_slo"
+  * "analytics_4_17_search_slo_0":
+    Provides {
+      search_slo_param_0: "zqtyec",
+      search_slo_param_1: "wwpxmkzkxuqfie",
+      search_slo_param_2: false,
+      search_slo_param_3: 257,
+      search_slo_param_4: "active",
+      req_1_field_0: "kznuvh",
+      threshold: 96.31,
+      window_in_days: 7
+    }
+
+  * "analytics_4_17_search_slo_1":
+    Provides {
+      search_slo_param_0: "jtymcrfruvix",
+      search_slo_param_1: "wjrafhjuauwbxc",
+      search_slo_param_2: true,
+      search_slo_param_3: 142,
+      search_slo_param_4: "active",
+      req_1_field_0: "ssocbwbyqk",
+      threshold: 98.78,
+      window_in_days: 7
+    }
+
+Expectations for "auth_slo"
+  * "analytics_4_17_auth_slo_0":
+    Provides {
+      auth_slo_param_0: "riygn",
+      auth_slo_param_1: "jbgwsa",
+      auth_slo_param_2: 751,
+      auth_slo_param_3: { key_0: 5146, key_1: 8713 },
+      auth_slo_param_4: "pending",
+      threshold: 99.48,
+      window_in_days: 90
+    }
+
+  * "analytics_4_17_auth_slo_1":
+    Provides {
+      auth_slo_param_0: "oxmfnywnpqztc",
+      auth_slo_param_1: "uvhzbhoydfu",
+      auth_slo_param_2: 3952,
+      auth_slo_param_3: { key_0: 4400 },
+      auth_slo_param_4: "published",
+      threshold: 95.69,
+      window_in_days: 7
+    }
+
+Expectations for "users_slo"
+  * "analytics_4_17_users_slo_0":
+    Provides {
+      users_slo_param_0: "gqyorf",
+      users_slo_param_1: "cwmknmufxelweb",
+      users_slo_param_2: "fyyfcsvmhi",
+      users_slo_param_3: ["glcfwd", "annlcqox"],
+      users_slo_param_4: 28.28,
+      threshold: 97.09,
+      window_in_days: 90
+    }
+
+  * "analytics_4_17_users_slo_1":
+    Provides {
+      users_slo_param_0: "lwwbkivqzw",
+      users_slo_param_1: "cipjv",
+      users_slo_param_2: "fthmlhlwe",
+      users_slo_param_3: ["hhxjxrlnqit", "zzsepyqyutbzkjz"],
+      users_slo_param_4: 14.0,
+      threshold: 96.56,
+      window_in_days: 30
+    }
+
+  * "analytics_4_17_users_slo_2":
+    Provides {
+      users_slo_param_0: "mjblwi",
+      users_slo_param_1: "hkvhz",
+      users_slo_param_2: "knumjmlznmwl",
+      users_slo_param_3: ["tccoz"],
+      users_slo_param_4: 74.8,
+      threshold: 95.85,
+      window_in_days: 7
+    }

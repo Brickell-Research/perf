@@ -1,0 +1,36 @@
+Expectations for "catalog_slo"
+  * "growth_0_2_catalog_slo_0":
+    Provides {
+      catalog_slo_param_0: "jftpxwbjpbwfe",
+      catalog_slo_param_1: "rguormrwcqlr",
+      catalog_slo_param_2: 79.67,
+      catalog_slo_param_3: 50.02,
+      catalog_slo_param_4: 46.87,
+      catalog_slo_param_5: 68.03,
+      threshold: 97.99,
+      window_in_days: 90
+    }
+
+  * "growth_0_2_catalog_slo_1":
+    Provides {
+      catalog_slo_param_0: "jrciyo",
+      catalog_slo_param_1: "ssjnm",
+      catalog_slo_param_2: 11.58,
+      catalog_slo_param_3: 69.98,
+      catalog_slo_param_4: 78.52,
+      catalog_slo_param_5: 97.05,
+      threshold: 99.92,
+      window_in_days: 90
+    }
+
+  * "growth_0_2_catalog_slo_2":
+    Provides {
+      catalog_slo_param_0: "nlltbniwmjd",
+      catalog_slo_param_1: "fbupifpwqj",
+      catalog_slo_param_2: 89.28,
+      catalog_slo_param_3: 69.83,
+      catalog_slo_param_4: 51.43,
+      catalog_slo_param_5: 3.05,
+      threshold: 96.27,
+      window_in_days: 90
+    }

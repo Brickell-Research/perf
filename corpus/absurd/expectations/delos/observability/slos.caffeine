@@ -1,0 +1,400 @@
+Expectations for "sms_gateway_slo"
+  * "observability_sms_gateway_slo_0":
+    Provides {
+      sms_gateway_slo_param_0: "pwzpskxgooeeu",
+      sms_gateway_slo_param_1: "wdbtgxdzdhhbtr",
+      sms_gateway_slo_param_2: 3591,
+      sms_gateway_slo_param_3: [false],
+      sms_gateway_slo_param_4: "pending",
+      sms_gateway_slo_param_5: 59.33,
+      sms_gateway_slo_param_6: 4468,
+      req_3_field_0: 32.3,
+      req_3_field_1: false,
+      req_3_field_2: false,
+      threshold: 96.37,
+      window_in_days: 90
+    }
+
+  * "observability_sms_gateway_slo_1":
+    Provides {
+      sms_gateway_slo_param_0: "hjlzccrioyfucq",
+      sms_gateway_slo_param_1: "ivwyhbphwzudx",
+      sms_gateway_slo_param_2: 5037,
+      sms_gateway_slo_param_3: [true, false, false, true],
+      sms_gateway_slo_param_4: "published",
+      sms_gateway_slo_param_5: 89.74,
+      sms_gateway_slo_param_6: 9364,
+      req_3_field_0: 3.64,
+      req_3_field_1: true,
+      req_3_field_2: true,
+      threshold: 97.64,
+      window_in_days: 7
+    }
+
+  * "observability_sms_gateway_slo_2":
+    Provides {
+      sms_gateway_slo_param_0: "sjqqxlcqztmng",
+      sms_gateway_slo_param_1: "nullybuhrx",
+      sms_gateway_slo_param_2: 2456,
+      sms_gateway_slo_param_3: [true, false, true],
+      sms_gateway_slo_param_4: "draft",
+      sms_gateway_slo_param_5: 11.07,
+      sms_gateway_slo_param_6: 1195,
+      req_3_field_0: 27.71,
+      req_3_field_1: false,
+      req_3_field_2: true,
+      threshold: 98.58,
+      window_in_days: 7
+    }
+
+  * "observability_sms_gateway_slo_3":
+    Provides {
+      sms_gateway_slo_param_0: "dkjaurna",
+      sms_gateway_slo_param_1: "hvkkoumezonue",
+      sms_gateway_slo_param_2: 4873,
+      sms_gateway_slo_param_3: [true, true],
+      sms_gateway_slo_param_4: "pending",
+      sms_gateway_slo_param_5: 82.98,
+      sms_gateway_slo_param_6: 7510,
+      req_3_field_0: 17.63,
+      req_3_field_1: true,
+      req_3_field_2: false,
+      threshold: 96.7,
+      window_in_days: 30
+    }
+
+  * "observability_sms_gateway_slo_4":
+    Provides {
+      sms_gateway_slo_param_0: "fdnujhbgxbzcpjq",
+      sms_gateway_slo_param_1: "cxqvmuutmmwwxec",
+      sms_gateway_slo_param_2: 7487,
+      sms_gateway_slo_param_3: [true, false, true],
+      sms_gateway_slo_param_4: "published",
+      sms_gateway_slo_param_5: 19.8,
+      sms_gateway_slo_param_6: 6201,
+      req_3_field_0: 99.07,
+      req_3_field_1: true,
+      req_3_field_2: true,
+      threshold: 96.27,
+      window_in_days: 7
+    }
+
+  * "observability_sms_gateway_slo_5":
+    Provides {
+      sms_gateway_slo_param_0: "doisvorj",
+      sms_gateway_slo_param_1: "fzvmjzjefliw",
+      sms_gateway_slo_param_2: 2244,
+      sms_gateway_slo_param_3: [true, true],
+      sms_gateway_slo_param_4: "draft",
+      sms_gateway_slo_param_5: 40.71,
+      sms_gateway_slo_param_6: 5417,
+      req_3_field_0: 57.3,
+      req_3_field_1: false,
+      req_3_field_2: true,
+      threshold: 98.92,
+      window_in_days: 7
+    }
+
+  * "observability_sms_gateway_slo_6":
+    Provides {
+      sms_gateway_slo_param_0: "nuftjugyhtks",
+      sms_gateway_slo_param_1: "vlaqeobrm",
+      sms_gateway_slo_param_2: 9161,
+      sms_gateway_slo_param_3: [false, true, false, false],
+      sms_gateway_slo_param_4: "published",
+      sms_gateway_slo_param_5: 75.29,
+      sms_gateway_slo_param_6: 1406,
+      req_3_field_0: 10.74,
+      req_3_field_1: true,
+      req_3_field_2: false,
+      threshold: 99.72,
+      window_in_days: 30
+    }
+
+  * "observability_sms_gateway_slo_7":
+    Provides {
+      sms_gateway_slo_param_0: "ktvbjnqhpz",
+      sms_gateway_slo_param_1: "ynhsfjeqcuxaprj",
+      sms_gateway_slo_param_2: 6359,
+      sms_gateway_slo_param_3: [false],
+      sms_gateway_slo_param_4: "pending",
+      sms_gateway_slo_param_5: 29.05,
+      sms_gateway_slo_param_6: 121,
+      req_3_field_0: 52.14,
+      req_3_field_1: true,
+      req_3_field_2: true,
+      threshold: 99.93,
+      window_in_days: 30
+    }
+
+  * "observability_sms_gateway_slo_8":
+    Provides {
+      sms_gateway_slo_param_0: "wtwbnvd",
+      sms_gateway_slo_param_1: "orgqs",
+      sms_gateway_slo_param_2: 777,
+      sms_gateway_slo_param_3: [false, false, true],
+      sms_gateway_slo_param_4: "pending",
+      sms_gateway_slo_param_5: 15.67,
+      sms_gateway_slo_param_6: 5557,
+      req_3_field_0: 5.91,
+      req_3_field_1: false,
+      req_3_field_2: true,
+      threshold: 96.5,
+      window_in_days: 30
+    }
+
+  * "observability_sms_gateway_slo_9":
+    Provides {
+      sms_gateway_slo_param_0: "kkrlrcekzhelm",
+      sms_gateway_slo_param_1: "tdeamnadjfyqts",
+      sms_gateway_slo_param_2: 2079,
+      sms_gateway_slo_param_3: [true, true, false, true],
+      sms_gateway_slo_param_4: "draft",
+      sms_gateway_slo_param_5: 13.23,
+      sms_gateway_slo_param_6: 2413,
+      req_3_field_0: 67.96,
+      req_3_field_1: false,
+      req_3_field_2: false,
+      threshold: 99.98,
+      window_in_days: 7
+    }
+
+  * "observability_sms_gateway_slo_10":
+    Provides {
+      sms_gateway_slo_param_0: "pnvgid",
+      sms_gateway_slo_param_1: "suukywufd",
+      sms_gateway_slo_param_2: 343,
+      sms_gateway_slo_param_3: [false, true],
+      sms_gateway_slo_param_4: "published",
+      sms_gateway_slo_param_5: 79.82,
+      sms_gateway_slo_param_6: 6550,
+      req_3_field_0: 83.45,
+      req_3_field_1: false,
+      req_3_field_2: true,
+      threshold: 97.99,
+      window_in_days: 90
+    }
+
+  * "observability_sms_gateway_slo_11":
+    Provides {
+      sms_gateway_slo_param_0: "mhcqjppnbyjceu",
+      sms_gateway_slo_param_1: "gqrrkbcyelog",
+      sms_gateway_slo_param_2: 4299,
+      sms_gateway_slo_param_3: [false, true, true],
+      sms_gateway_slo_param_4: "pending",
+      sms_gateway_slo_param_5: 42.25,
+      sms_gateway_slo_param_6: 847,
+      req_3_field_0: 2.62,
+      req_3_field_1: true,
+      req_3_field_2: true,
+      threshold: 95.55,
+      window_in_days: 7
+    }
+
+  * "observability_sms_gateway_slo_12":
+    Provides {
+      sms_gateway_slo_param_0: "qxbxdrsjbhrh",
+      sms_gateway_slo_param_1: "ubrwll",
+      sms_gateway_slo_param_2: 7538,
+      sms_gateway_slo_param_3: [true, true, false],
+      sms_gateway_slo_param_4: "published",
+      sms_gateway_slo_param_5: 60.82,
+      sms_gateway_slo_param_6: 1650,
+      req_3_field_0: 71.43,
+      req_3_field_1: false,
+      req_3_field_2: false,
+      threshold: 96.37,
+      window_in_days: 7
+    }
+
+  * "observability_sms_gateway_slo_13":
+    Provides {
+      sms_gateway_slo_param_0: "jzkmzxjc",
+      sms_gateway_slo_param_1: "yekqusbti",
+      sms_gateway_slo_param_2: 4744,
+      sms_gateway_slo_param_3: [false, true, false],
+      sms_gateway_slo_param_4: "published",
+      sms_gateway_slo_param_5: 28.44,
+      sms_gateway_slo_param_6: 3931,
+      req_3_field_0: 17.66,
+      req_3_field_1: false,
+      req_3_field_2: true,
+      threshold: 99.53,
+      window_in_days: 90
+    }
+
+  * "observability_sms_gateway_slo_14":
+    Provides {
+      sms_gateway_slo_param_0: "waaiyxr",
+      sms_gateway_slo_param_1: "upqphmfbjnle",
+      sms_gateway_slo_param_2: 3412,
+      sms_gateway_slo_param_3: [true, false],
+      sms_gateway_slo_param_4: "draft",
+      sms_gateway_slo_param_5: 49.36,
+      sms_gateway_slo_param_6: 8124,
+      req_3_field_0: 17.43,
+      req_3_field_1: true,
+      req_3_field_2: true,
+      threshold: 95.27,
+      window_in_days: 90
+    }
+
+  * "observability_sms_gateway_slo_15":
+    Provides {
+      sms_gateway_slo_param_0: "qujxb",
+      sms_gateway_slo_param_1: "vfcfkcqpslsgv",
+      sms_gateway_slo_param_2: 3282,
+      sms_gateway_slo_param_3: [false, true, false, false],
+      sms_gateway_slo_param_4: "published",
+      sms_gateway_slo_param_5: 12.62,
+      sms_gateway_slo_param_6: 3771,
+      req_3_field_0: 66.44,
+      req_3_field_1: true,
+      req_3_field_2: true,
+      threshold: 99.56,
+      window_in_days: 7
+    }
+
+  * "observability_sms_gateway_slo_16":
+    Provides {
+      sms_gateway_slo_param_0: "usxawnu",
+      sms_gateway_slo_param_1: "onkfrymkoec",
+      sms_gateway_slo_param_2: 1017,
+      sms_gateway_slo_param_3: [true, false, false],
+      sms_gateway_slo_param_4: "published",
+      sms_gateway_slo_param_5: 96.67,
+      sms_gateway_slo_param_6: 4970,
+      req_3_field_0: 97.25,
+      req_3_field_1: false,
+      req_3_field_2: true,
+      threshold: 99.16,
+      window_in_days: 90
+    }
+
+  * "observability_sms_gateway_slo_17":
+    Provides {
+      sms_gateway_slo_param_0: "ymiqrcpvo",
+      sms_gateway_slo_param_1: "oxokr",
+      sms_gateway_slo_param_2: 9228,
+      sms_gateway_slo_param_3: [false, true, true],
+      sms_gateway_slo_param_4: "pending",
+      sms_gateway_slo_param_5: 26.09,
+      sms_gateway_slo_param_6: 5884,
+      req_3_field_0: 24.5,
+      req_3_field_1: true,
+      req_3_field_2: true,
+      threshold: 95.5,
+      window_in_days: 90
+    }
+
+  * "observability_sms_gateway_slo_18":
+    Provides {
+      sms_gateway_slo_param_0: "cfqeyukcz",
+      sms_gateway_slo_param_1: "svgxylprenpuph",
+      sms_gateway_slo_param_2: 8573,
+      sms_gateway_slo_param_3: [false, true, false],
+      sms_gateway_slo_param_4: "draft",
+      sms_gateway_slo_param_5: 25.81,
+      sms_gateway_slo_param_6: 7042,
+      req_3_field_0: 31.45,
+      req_3_field_1: true,
+      req_3_field_2: false,
+      threshold: 99.11,
+      window_in_days: 90
+    }
+
+  * "observability_sms_gateway_slo_19":
+    Provides {
+      sms_gateway_slo_param_0: "jffoxk",
+      sms_gateway_slo_param_1: "zzohjnjh",
+      sms_gateway_slo_param_2: 4980,
+      sms_gateway_slo_param_3: [true],
+      sms_gateway_slo_param_4: "draft",
+      sms_gateway_slo_param_5: 88.18,
+      sms_gateway_slo_param_6: 8115,
+      req_3_field_0: 5.89,
+      req_3_field_1: false,
+      req_3_field_2: true,
+      threshold: 98.54,
+      window_in_days: 30
+    }
+
+  * "observability_sms_gateway_slo_20":
+    Provides {
+      sms_gateway_slo_param_0: "rrdshzregcu",
+      sms_gateway_slo_param_1: "xcrwpjn",
+      sms_gateway_slo_param_2: 5752,
+      sms_gateway_slo_param_3: [true, false, true, true],
+      sms_gateway_slo_param_4: "draft",
+      sms_gateway_slo_param_5: 97.43,
+      sms_gateway_slo_param_6: 4296,
+      req_3_field_0: 83.02,
+      req_3_field_1: true,
+      req_3_field_2: false,
+      threshold: 95.28,
+      window_in_days: 90
+    }
+
+  * "observability_sms_gateway_slo_21":
+    Provides {
+      sms_gateway_slo_param_0: "zbgzhqiykst",
+      sms_gateway_slo_param_1: "gmpiklpeqv",
+      sms_gateway_slo_param_2: 9978,
+      sms_gateway_slo_param_3: [false, true, false, true],
+      sms_gateway_slo_param_4: "published",
+      sms_gateway_slo_param_5: 24.18,
+      sms_gateway_slo_param_6: 8372,
+      req_3_field_0: 13.91,
+      req_3_field_1: true,
+      req_3_field_2: true,
+      threshold: 96.68,
+      window_in_days: 30
+    }
+
+  * "observability_sms_gateway_slo_22":
+    Provides {
+      sms_gateway_slo_param_0: "qyzeynyulcgv",
+      sms_gateway_slo_param_1: "eszajjs",
+      sms_gateway_slo_param_2: 5155,
+      sms_gateway_slo_param_3: [false, true, true, false],
+      sms_gateway_slo_param_4: "pending",
+      sms_gateway_slo_param_5: 49.84,
+      sms_gateway_slo_param_6: 4838,
+      req_3_field_0: 71.52,
+      req_3_field_1: true,
+      req_3_field_2: true,
+      threshold: 95.19,
+      window_in_days: 90
+    }
+
+  * "observability_sms_gateway_slo_23":
+    Provides {
+      sms_gateway_slo_param_0: "kzuhgywqti",
+      sms_gateway_slo_param_1: "anlvtavjamv",
+      sms_gateway_slo_param_2: 7820,
+      sms_gateway_slo_param_3: [false, false, false, false],
+      sms_gateway_slo_param_4: "published",
+      sms_gateway_slo_param_5: 13.29,
+      sms_gateway_slo_param_6: 4820,
+      req_3_field_0: 8.38,
+      req_3_field_1: true,
+      req_3_field_2: true,
+      threshold: 96.97,
+      window_in_days: 7
+    }
+
+  * "observability_sms_gateway_slo_24":
+    Provides {
+      sms_gateway_slo_param_0: "pitlnhwdw",
+      sms_gateway_slo_param_1: "fpauvljcbjqy",
+      sms_gateway_slo_param_2: 9736,
+      sms_gateway_slo_param_3: [false],
+      sms_gateway_slo_param_4: "draft",
+      sms_gateway_slo_param_5: 65.28,
+      sms_gateway_slo_param_6: 5759,
+      req_3_field_0: 81.22,
+      req_3_field_1: false,
+      req_3_field_2: true,
+      threshold: 96.75,
+      window_in_days: 30
+    }

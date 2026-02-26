@@ -1,0 +1,425 @@
+Expectations for "backup_service_slo"
+  * "networking_backup_service_slo_0":
+    Provides {
+      backup_service_slo_param_0: "pyqefdoc",
+      backup_service_slo_param_1: "hexoa",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [6596, 3645, 7057],
+      backup_service_slo_param_4: "canary",
+      backup_service_slo_param_5: 6334,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 719,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 76.77,
+      backup_service_slo_param_10: 59.64,
+      threshold: 95.36,
+      window_in_days: 90
+    }
+
+  * "networking_backup_service_slo_1":
+    Provides {
+      backup_service_slo_param_0: "fieikojet",
+      backup_service_slo_param_1: "bhyoq",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [5697, 6548],
+      backup_service_slo_param_4: "canary",
+      backup_service_slo_param_5: 7582,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 1513,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 91.72,
+      backup_service_slo_param_10: 29.53,
+      threshold: 96.6,
+      window_in_days: 30
+    }
+
+  * "networking_backup_service_slo_2":
+    Provides {
+      backup_service_slo_param_0: "dvjbiywhobm",
+      backup_service_slo_param_1: "ksdzybwslxk",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [918, 6533, 4023, 4816],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 9402,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 9006,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 61.52,
+      backup_service_slo_param_10: 78.95,
+      threshold: 96.08,
+      window_in_days: 30
+    }
+
+  * "networking_backup_service_slo_3":
+    Provides {
+      backup_service_slo_param_0: "hmmyp",
+      backup_service_slo_param_1: "jiwrvcknhgfkfr",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [5915, 9057],
+      backup_service_slo_param_4: "demo",
+      backup_service_slo_param_5: 867,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 1090,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 65.59,
+      backup_service_slo_param_10: 6.75,
+      threshold: 95.32,
+      window_in_days: 7
+    }
+
+  * "networking_backup_service_slo_4":
+    Provides {
+      backup_service_slo_param_0: "idlyoejhwylyyqz",
+      backup_service_slo_param_1: "ierhbpu",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [635, 8010],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 728,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 5153,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 58.74,
+      backup_service_slo_param_10: 61.02,
+      threshold: 95.56,
+      window_in_days: 7
+    }
+
+  * "networking_backup_service_slo_5":
+    Provides {
+      backup_service_slo_param_0: "pxiqhmm",
+      backup_service_slo_param_1: "esvpmse",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [7380, 6758, 4137, 5652],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 4243,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 2087,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 64.27,
+      backup_service_slo_param_10: 54.03,
+      threshold: 97.82,
+      window_in_days: 90
+    }
+
+  * "networking_backup_service_slo_6":
+    Provides {
+      backup_service_slo_param_0: "kegmblt",
+      backup_service_slo_param_1: "tosyptotxu",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [2855, 450, 403, 5044],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 2211,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 244,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 53.11,
+      backup_service_slo_param_10: 42.33,
+      threshold: 97.68,
+      window_in_days: 30
+    }
+
+  * "networking_backup_service_slo_7":
+    Provides {
+      backup_service_slo_param_0: "ieoaozjyq",
+      backup_service_slo_param_1: "tvppopykqd",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [4039, 5320, 8544],
+      backup_service_slo_param_4: "demo",
+      backup_service_slo_param_5: 1760,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 3796,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 74.08,
+      backup_service_slo_param_10: 80.34,
+      threshold: 97.71,
+      window_in_days: 90
+    }
+
+  * "networking_backup_service_slo_8":
+    Provides {
+      backup_service_slo_param_0: "nhagkrshvoinsuo",
+      backup_service_slo_param_1: "ohtqzappkjg",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [4609, 1129],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 4954,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 8640,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 48.83,
+      backup_service_slo_param_10: 57.2,
+      threshold: 97.18,
+      window_in_days: 7
+    }
+
+  * "networking_backup_service_slo_9":
+    Provides {
+      backup_service_slo_param_0: "gcqekzk",
+      backup_service_slo_param_1: "vwnqcjsof",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [7211],
+      backup_service_slo_param_4: "demo",
+      backup_service_slo_param_5: 1663,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 5148,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 53.43,
+      backup_service_slo_param_10: 90.25,
+      threshold: 99.09,
+      window_in_days: 30
+    }
+
+  * "networking_backup_service_slo_10":
+    Provides {
+      backup_service_slo_param_0: "bwcoafft",
+      backup_service_slo_param_1: "ymnya",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [3150, 7540, 870],
+      backup_service_slo_param_4: "demo",
+      backup_service_slo_param_5: 6988,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 4675,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 64.97,
+      backup_service_slo_param_10: 89.85,
+      threshold: 98.65,
+      window_in_days: 90
+    }
+
+  * "networking_backup_service_slo_11":
+    Provides {
+      backup_service_slo_param_0: "wuptpxmrxqskom",
+      backup_service_slo_param_1: "novhtzragqkr",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [2978, 5923],
+      backup_service_slo_param_4: "test",
+      backup_service_slo_param_5: 9866,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 3878,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 49.52,
+      backup_service_slo_param_10: 86.15,
+      threshold: 96.33,
+      window_in_days: 7
+    }
+
+  * "networking_backup_service_slo_12":
+    Provides {
+      backup_service_slo_param_0: "kufdrksvpctkpx",
+      backup_service_slo_param_1: "sclejawtl",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [170],
+      backup_service_slo_param_4: "test",
+      backup_service_slo_param_5: 4259,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 8302,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 59.36,
+      backup_service_slo_param_10: 48.39,
+      threshold: 95.87,
+      window_in_days: 7
+    }
+
+  * "networking_backup_service_slo_13":
+    Provides {
+      backup_service_slo_param_0: "sqzmfdxnwnaosz",
+      backup_service_slo_param_1: "txwtjrfswaod",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [7176, 5411],
+      backup_service_slo_param_4: "test",
+      backup_service_slo_param_5: 7087,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 1532,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 86.02,
+      backup_service_slo_param_10: 87.7,
+      threshold: 97.04,
+      window_in_days: 7
+    }
+
+  * "networking_backup_service_slo_14":
+    Provides {
+      backup_service_slo_param_0: "zcxrseglqo",
+      backup_service_slo_param_1: "lmlxjmui",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [7137],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 1858,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 6461,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 85.56,
+      backup_service_slo_param_10: 44.48,
+      threshold: 98.72,
+      window_in_days: 90
+    }
+
+  * "networking_backup_service_slo_15":
+    Provides {
+      backup_service_slo_param_0: "auolsyxskb",
+      backup_service_slo_param_1: "enpdnlxwffdvj",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [126, 6635, 4374, 9046],
+      backup_service_slo_param_4: "test",
+      backup_service_slo_param_5: 4186,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 6131,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 52.12,
+      backup_service_slo_param_10: 93.4,
+      threshold: 97.81,
+      window_in_days: 30
+    }
+
+  * "networking_backup_service_slo_16":
+    Provides {
+      backup_service_slo_param_0: "ptgilvlfdrptysj",
+      backup_service_slo_param_1: "fmgcxggli",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [9088, 6725],
+      backup_service_slo_param_4: "canary",
+      backup_service_slo_param_5: 4786,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 4426,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 55.43,
+      backup_service_slo_param_10: 84.15,
+      threshold: 98.2,
+      window_in_days: 90
+    }
+
+  * "networking_backup_service_slo_17":
+    Provides {
+      backup_service_slo_param_0: "qluxxhgxg",
+      backup_service_slo_param_1: "ayqio",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [5151, 1268, 2555, 7035],
+      backup_service_slo_param_4: "demo",
+      backup_service_slo_param_5: 7015,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 680,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 94.28,
+      backup_service_slo_param_10: 16.32,
+      threshold: 96.69,
+      window_in_days: 7
+    }
+
+  * "networking_backup_service_slo_18":
+    Provides {
+      backup_service_slo_param_0: "fretqhhuttshn",
+      backup_service_slo_param_1: "biehaqffl",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [4143, 3260, 8686, 796],
+      backup_service_slo_param_4: "test",
+      backup_service_slo_param_5: 7870,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 1662,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 58.45,
+      backup_service_slo_param_10: 10.92,
+      threshold: 96.26,
+      window_in_days: 30
+    }
+
+  * "networking_backup_service_slo_19":
+    Provides {
+      backup_service_slo_param_0: "vmzdohzr",
+      backup_service_slo_param_1: "vlzyopam",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [7053, 8268],
+      backup_service_slo_param_4: "canary",
+      backup_service_slo_param_5: 4051,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 2091,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 44.06,
+      backup_service_slo_param_10: 87.01,
+      threshold: 98.96,
+      window_in_days: 90
+    }
+
+  * "networking_backup_service_slo_20":
+    Provides {
+      backup_service_slo_param_0: "adzbqzzdmwrxdns",
+      backup_service_slo_param_1: "itlfqucwkyufciw",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [3446, 6240, 3972, 4559],
+      backup_service_slo_param_4: "test",
+      backup_service_slo_param_5: 1162,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 3663,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 44.96,
+      backup_service_slo_param_10: 36.2,
+      threshold: 97.34,
+      window_in_days: 90
+    }
+
+  * "networking_backup_service_slo_21":
+    Provides {
+      backup_service_slo_param_0: "nsjggkjosc",
+      backup_service_slo_param_1: "dfldl",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [6632, 6651, 7685, 659],
+      backup_service_slo_param_4: "demo",
+      backup_service_slo_param_5: 8374,
+      backup_service_slo_param_6: false,
+      backup_service_slo_param_7: 414,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 41.08,
+      backup_service_slo_param_10: 77.14,
+      threshold: 99.64,
+      window_in_days: 30
+    }
+
+  * "networking_backup_service_slo_22":
+    Provides {
+      backup_service_slo_param_0: "wlxotizarucxuyq",
+      backup_service_slo_param_1: "kjvkazokekw",
+      backup_service_slo_param_2: true,
+      backup_service_slo_param_3: [7785, 7759, 8354, 7705],
+      backup_service_slo_param_4: "canary",
+      backup_service_slo_param_5: 8903,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 514,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 40.56,
+      backup_service_slo_param_10: 23.56,
+      threshold: 95.78,
+      window_in_days: 90
+    }
+
+  * "networking_backup_service_slo_23":
+    Provides {
+      backup_service_slo_param_0: "zmofinlcsi",
+      backup_service_slo_param_1: "mcwehpvtgr",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [4222],
+      backup_service_slo_param_4: "canary",
+      backup_service_slo_param_5: 2381,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 9031,
+      backup_service_slo_param_8: true,
+      backup_service_slo_param_9: 52.13,
+      backup_service_slo_param_10: 49.18,
+      threshold: 95.42,
+      window_in_days: 30
+    }
+
+  * "networking_backup_service_slo_24":
+    Provides {
+      backup_service_slo_param_0: "zwqzqkke",
+      backup_service_slo_param_1: "kyfnjzq",
+      backup_service_slo_param_2: false,
+      backup_service_slo_param_3: [6171, 3627, 8686, 9313],
+      backup_service_slo_param_4: "staging",
+      backup_service_slo_param_5: 2822,
+      backup_service_slo_param_6: true,
+      backup_service_slo_param_7: 966,
+      backup_service_slo_param_8: false,
+      backup_service_slo_param_9: 60.44,
+      backup_service_slo_param_10: 25.31,
+      threshold: 95.37,
+      window_in_days: 90
+    }

@@ -1,0 +1,75 @@
+Expectations for "analytics_slo"
+  * "networking_2_19_analytics_slo_0":
+    Provides {
+      analytics_slo_param_0: "mdxbwxkpelvfui",
+      analytics_slo_param_1: "cvllgsiaikr",
+      analytics_slo_param_2: false,
+      analytics_slo_param_3: false,
+      analytics_slo_param_4: 90.91,
+      analytics_slo_param_5: 78,
+      threshold: 99.61,
+      window_in_days: 30
+    }
+
+  * "networking_2_19_analytics_slo_1":
+    Provides {
+      analytics_slo_param_0: "ylzrfs",
+      analytics_slo_param_1: "yxotiylnxopw",
+      analytics_slo_param_2: true,
+      analytics_slo_param_3: true,
+      analytics_slo_param_4: 67.97,
+      analytics_slo_param_5: 10,
+      threshold: 98.15,
+      window_in_days: 90
+    }
+
+  * "networking_2_19_analytics_slo_2":
+    Provides {
+      analytics_slo_param_0: "fuopcwlklio",
+      analytics_slo_param_1: "bbiwbcoibsk",
+      analytics_slo_param_2: true,
+      analytics_slo_param_3: true,
+      analytics_slo_param_4: 52.92,
+      analytics_slo_param_5: 10,
+      threshold: 96.99,
+      window_in_days: 30
+    }
+
+  * "networking_2_19_analytics_slo_3":
+    Provides {
+      analytics_slo_param_0: "nclvedzlm",
+      analytics_slo_param_1: "yinoqunsterbuc",
+      analytics_slo_param_2: false,
+      analytics_slo_param_3: false,
+      analytics_slo_param_4: 18.14,
+      analytics_slo_param_5: 10,
+      threshold: 99.96,
+      window_in_days: 90
+    }
+
+  * "networking_2_19_analytics_slo_4":
+    Provides {
+      analytics_slo_param_0: "jbgqhcwuadjjdfb",
+      analytics_slo_param_1: "zrpjwfr",
+      analytics_slo_param_2: true,
+      analytics_slo_param_3: false,
+      analytics_slo_param_4: 27.91,
+      analytics_slo_param_5: 10,
+      threshold: 97.48,
+      window_in_days: 30
+    }
+
+Expectations for "shipping_slo"
+  * "networking_2_19_shipping_slo_0":
+    Provides {
+      shipping_slo_param_0: "eyteqbk",
+      shipping_slo_param_1: "diwchwyhbtahrh",
+      shipping_slo_param_2: "production",
+      shipping_slo_param_3: 1242,
+      shipping_slo_param_4: 90.76,
+      shipping_slo_param_5: 10.03,
+      shipping_slo_param_6: 73,
+      req_1_field_0: "ymyma",
+      threshold: 98.0,
+      window_in_days: 90
+    }

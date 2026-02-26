@@ -1,0 +1,84 @@
+Expectations for "profiles_slo"
+  * "mobile_1_4_profiles_slo_0":
+    Provides {
+      profiles_slo_param_0: "xkqklxywowpcdp",
+      profiles_slo_param_1: "oxypgqlqlxfhlkm",
+      profiles_slo_param_2: "archived",
+      profiles_slo_param_3: {
+        key_0: "kyqvgonkdeiy",
+        key_1: "gxzzf",
+        key_2: "ivnctgxlgmjf"
+      },
+      profiles_slo_param_4: 9207,
+      profiles_slo_param_5: 70,
+      req_2_field_0: "cvjhsjegdulh",
+      threshold: 98.69,
+      window_in_days: 7
+    }
+
+  * "mobile_1_4_profiles_slo_1":
+    Provides {
+      profiles_slo_param_0: "jbzlwmfvjxhvlvp",
+      profiles_slo_param_1: "jvfrhaakvevk",
+      profiles_slo_param_2: "inactive",
+      profiles_slo_param_3: {
+        key_0: "nzbbyackxjbyfps",
+        key_1: "jozcjnv",
+        key_2: "pxvqxzybfnwdq"
+      },
+      profiles_slo_param_4: 1723,
+      profiles_slo_param_5: 76,
+      req_2_field_0: "ytgaoxhrrwrlldp",
+      threshold: 97.82,
+      window_in_days: 90
+    }
+
+  * "mobile_1_4_profiles_slo_2":
+    Provides {
+      profiles_slo_param_0: "psrmq",
+      profiles_slo_param_1: "yugummcckd",
+      profiles_slo_param_2: "inactive",
+      profiles_slo_param_3: { key_0: "qsvxbrr", key_1: "dxthzhe", key_2: "yzkxhqufyybtzd" },
+      profiles_slo_param_4: 744,
+      profiles_slo_param_5: 62,
+      req_2_field_0: "rbqpbroqt",
+      threshold: 99.61,
+      window_in_days: 90
+    }
+
+Expectations for "search_slo"
+  * "mobile_1_4_search_slo_0":
+    Provides {
+      search_slo_param_0: "bqujkecsz",
+      search_slo_param_1: "jolkvzhkhwnwv",
+      search_slo_param_2: true,
+      search_slo_param_3: 263,
+      search_slo_param_4: "archived",
+      req_1_field_0: "xlxwmhp",
+      threshold: 96.94,
+      window_in_days: 30
+    }
+
+  * "mobile_1_4_search_slo_1":
+    Provides {
+      search_slo_param_0: "yybvqueheqkknas",
+      search_slo_param_1: "uqotwacoarciulv",
+      search_slo_param_2: false,
+      search_slo_param_3: 267,
+      search_slo_param_4: "archived",
+      req_1_field_0: "qmxhzx",
+      threshold: 97.22,
+      window_in_days: 90
+    }
+
+  * "mobile_1_4_search_slo_2":
+    Provides {
+      search_slo_param_0: "kuqabkvtuabi",
+      search_slo_param_1: "isltcuy",
+      search_slo_param_2: true,
+      search_slo_param_3: 78,
+      search_slo_param_4: "active",
+      req_1_field_0: "swjkltxz",
+      threshold: 99.98,
+      window_in_days: 7
+    }

@@ -1,0 +1,300 @@
+Expectations for "circuit_breaker_slo"
+  * "security_circuit_breaker_slo_0":
+    Provides {
+      circuit_breaker_slo_param_0: "qxhlqsetokkwh",
+      circuit_breaker_slo_param_1: "lyxsidcfmdozu",
+      circuit_breaker_slo_param_2: 2825,
+      circuit_breaker_slo_param_3: false,
+      circuit_breaker_slo_param_4: 56.75,
+      circuit_breaker_slo_param_5: "perf",
+      threshold: 97.86,
+      window_in_days: 30
+    }
+
+  * "security_circuit_breaker_slo_1":
+    Provides {
+      circuit_breaker_slo_param_0: "dhxshegldviej",
+      circuit_breaker_slo_param_1: "lhzrji",
+      circuit_breaker_slo_param_2: 3235,
+      circuit_breaker_slo_param_3: true,
+      circuit_breaker_slo_param_4: 52.28,
+      circuit_breaker_slo_param_5: "demo",
+      threshold: 96.54,
+      window_in_days: 30
+    }
+
+  * "security_circuit_breaker_slo_2":
+    Provides {
+      circuit_breaker_slo_param_0: "xynqmgqopfvne",
+      circuit_breaker_slo_param_1: "rmfbwuuvhsmcz",
+      circuit_breaker_slo_param_2: 4766,
+      circuit_breaker_slo_param_3: false,
+      circuit_breaker_slo_param_4: 80.04,
+      circuit_breaker_slo_param_5: "demo",
+      threshold: 95.11,
+      window_in_days: 90
+    }
+
+  * "security_circuit_breaker_slo_3":
+    Provides {
+      circuit_breaker_slo_param_0: "eikqr",
+      circuit_breaker_slo_param_1: "alajdcfd",
+      circuit_breaker_slo_param_2: 8012,
+      circuit_breaker_slo_param_3: true,
+      circuit_breaker_slo_param_4: 50.29,
+      circuit_breaker_slo_param_5: "perf",
+      threshold: 95.69,
+      window_in_days: 7
+    }
+
+  * "security_circuit_breaker_slo_4":
+    Provides {
+      circuit_breaker_slo_param_0: "vwhqoqbprtw",
+      circuit_breaker_slo_param_1: "xbhnhgenqb",
+      circuit_breaker_slo_param_2: 9832,
+      circuit_breaker_slo_param_3: true,
+      circuit_breaker_slo_param_4: 50.49,
+      circuit_breaker_slo_param_5: "demo",
+      threshold: 99.07,
+      window_in_days: 90
+    }
+
+  * "security_circuit_breaker_slo_5":
+    Provides {
+      circuit_breaker_slo_param_0: "jvfzrhxumzpian",
+      circuit_breaker_slo_param_1: "esodnigjleiz",
+      circuit_breaker_slo_param_2: 1870,
+      circuit_breaker_slo_param_3: true,
+      circuit_breaker_slo_param_4: 73.57,
+      circuit_breaker_slo_param_5: "staging",
+      threshold: 98.52,
+      window_in_days: 90
+    }
+
+  * "security_circuit_breaker_slo_6":
+    Provides {
+      circuit_breaker_slo_param_0: "myzealant",
+      circuit_breaker_slo_param_1: "bucuoqcv",
+      circuit_breaker_slo_param_2: 7140,
+      circuit_breaker_slo_param_3: true,
+      circuit_breaker_slo_param_4: 97.91,
+      circuit_breaker_slo_param_5: "perf",
+      threshold: 97.1,
+      window_in_days: 90
+    }
+
+  * "security_circuit_breaker_slo_7":
+    Provides {
+      circuit_breaker_slo_param_0: "zauplsh",
+      circuit_breaker_slo_param_1: "gttxeyqvyi",
+      circuit_breaker_slo_param_2: 8898,
+      circuit_breaker_slo_param_3: true,
+      circuit_breaker_slo_param_4: 90.25,
+      circuit_breaker_slo_param_5: "perf",
+      threshold: 97.64,
+      window_in_days: 30
+    }
+
+  * "security_circuit_breaker_slo_8":
+    Provides {
+      circuit_breaker_slo_param_0: "usyzikqdk",
+      circuit_breaker_slo_param_1: "muyorjcnwnejgyr",
+      circuit_breaker_slo_param_2: 4017,
+      circuit_breaker_slo_param_3: true,
+      circuit_breaker_slo_param_4: 63.13,
+      circuit_breaker_slo_param_5: "demo",
+      threshold: 99.03,
+      window_in_days: 90
+    }
+
+  * "security_circuit_breaker_slo_9":
+    Provides {
+      circuit_breaker_slo_param_0: "iorxtf",
+      circuit_breaker_slo_param_1: "snomsbd",
+      circuit_breaker_slo_param_2: 5385,
+      circuit_breaker_slo_param_3: true,
+      circuit_breaker_slo_param_4: 70.43,
+      circuit_breaker_slo_param_5: "perf",
+      threshold: 98.02,
+      window_in_days: 30
+    }
+
+  * "security_circuit_breaker_slo_10":
+    Provides {
+      circuit_breaker_slo_param_0: "ncuvazaadzqg",
+      circuit_breaker_slo_param_1: "uwxaerf",
+      circuit_breaker_slo_param_2: 1304,
+      circuit_breaker_slo_param_3: false,
+      circuit_breaker_slo_param_4: 79.7,
+      circuit_breaker_slo_param_5: "staging",
+      threshold: 95.26,
+      window_in_days: 7
+    }
+
+  * "security_circuit_breaker_slo_11":
+    Provides {
+      circuit_breaker_slo_param_0: "evlbrsjvidqkahu",
+      circuit_breaker_slo_param_1: "jusnqmjyzztie",
+      circuit_breaker_slo_param_2: 1580,
+      circuit_breaker_slo_param_3: false,
+      circuit_breaker_slo_param_4: 79.2,
+      circuit_breaker_slo_param_5: "demo",
+      threshold: 95.49,
+      window_in_days: 90
+    }
+
+  * "security_circuit_breaker_slo_12":
+    Provides {
+      circuit_breaker_slo_param_0: "tpqrbmeqzrpvm",
+      circuit_breaker_slo_param_1: "aanyktbuv",
+      circuit_breaker_slo_param_2: 7111,
+      circuit_breaker_slo_param_3: false,
+      circuit_breaker_slo_param_4: 81.39,
+      circuit_breaker_slo_param_5: "perf",
+      threshold: 98.42,
+      window_in_days: 90
+    }
+
+  * "security_circuit_breaker_slo_13":
+    Provides {
+      circuit_breaker_slo_param_0: "fsmargbjk",
+      circuit_breaker_slo_param_1: "yvdppeliodj",
+      circuit_breaker_slo_param_2: 1062,
+      circuit_breaker_slo_param_3: false,
+      circuit_breaker_slo_param_4: 59.3,
+      circuit_breaker_slo_param_5: "staging",
+      threshold: 98.02,
+      window_in_days: 90
+    }
+
+  * "security_circuit_breaker_slo_14":
+    Provides {
+      circuit_breaker_slo_param_0: "jdletnbduhdu",
+      circuit_breaker_slo_param_1: "ewwcqniufhtglk",
+      circuit_breaker_slo_param_2: 3452,
+      circuit_breaker_slo_param_3: false,
+      circuit_breaker_slo_param_4: 66.97,
+      circuit_breaker_slo_param_5: "demo",
+      threshold: 98.07,
+      window_in_days: 7
+    }
+
+  * "security_circuit_breaker_slo_15":
+    Provides {
+      circuit_breaker_slo_param_0: "ejwicquar",
+      circuit_breaker_slo_param_1: "oexcwsteqetrgo",
+      circuit_breaker_slo_param_2: 304,
+      circuit_breaker_slo_param_3: true,
+      circuit_breaker_slo_param_4: 88.6,
+      circuit_breaker_slo_param_5: "perf",
+      threshold: 95.23,
+      window_in_days: 90
+    }
+
+  * "security_circuit_breaker_slo_16":
+    Provides {
+      circuit_breaker_slo_param_0: "kujwjdhr",
+      circuit_breaker_slo_param_1: "cjljobmqjcn",
+      circuit_breaker_slo_param_2: 1130,
+      circuit_breaker_slo_param_3: true,
+      circuit_breaker_slo_param_4: 60.68,
+      circuit_breaker_slo_param_5: "perf",
+      threshold: 97.13,
+      window_in_days: 90
+    }
+
+  * "security_circuit_breaker_slo_17":
+    Provides {
+      circuit_breaker_slo_param_0: "vxeiqmwzqulf",
+      circuit_breaker_slo_param_1: "qgagkq",
+      circuit_breaker_slo_param_2: 5447,
+      circuit_breaker_slo_param_3: true,
+      circuit_breaker_slo_param_4: 63.82,
+      circuit_breaker_slo_param_5: "staging",
+      threshold: 97.16,
+      window_in_days: 7
+    }
+
+  * "security_circuit_breaker_slo_18":
+    Provides {
+      circuit_breaker_slo_param_0: "fqdslhktmp",
+      circuit_breaker_slo_param_1: "xbznaswm",
+      circuit_breaker_slo_param_2: 2339,
+      circuit_breaker_slo_param_3: true,
+      circuit_breaker_slo_param_4: 74.91,
+      circuit_breaker_slo_param_5: "perf",
+      threshold: 96.04,
+      window_in_days: 90
+    }
+
+  * "security_circuit_breaker_slo_19":
+    Provides {
+      circuit_breaker_slo_param_0: "avvrj",
+      circuit_breaker_slo_param_1: "vetsarsagqzzt",
+      circuit_breaker_slo_param_2: 7463,
+      circuit_breaker_slo_param_3: false,
+      circuit_breaker_slo_param_4: 84.43,
+      circuit_breaker_slo_param_5: "perf",
+      threshold: 98.25,
+      window_in_days: 90
+    }
+
+  * "security_circuit_breaker_slo_20":
+    Provides {
+      circuit_breaker_slo_param_0: "kewsavl",
+      circuit_breaker_slo_param_1: "hhfdtuzibndwi",
+      circuit_breaker_slo_param_2: 1880,
+      circuit_breaker_slo_param_3: true,
+      circuit_breaker_slo_param_4: 53.82,
+      circuit_breaker_slo_param_5: "perf",
+      threshold: 97.85,
+      window_in_days: 90
+    }
+
+  * "security_circuit_breaker_slo_21":
+    Provides {
+      circuit_breaker_slo_param_0: "nvwbamo",
+      circuit_breaker_slo_param_1: "nxnrr",
+      circuit_breaker_slo_param_2: 8429,
+      circuit_breaker_slo_param_3: false,
+      circuit_breaker_slo_param_4: 59.8,
+      circuit_breaker_slo_param_5: "staging",
+      threshold: 99.45,
+      window_in_days: 90
+    }
+
+  * "security_circuit_breaker_slo_22":
+    Provides {
+      circuit_breaker_slo_param_0: "uljypsjucurea",
+      circuit_breaker_slo_param_1: "gcjeo",
+      circuit_breaker_slo_param_2: 5360,
+      circuit_breaker_slo_param_3: false,
+      circuit_breaker_slo_param_4: 53.08,
+      circuit_breaker_slo_param_5: "staging",
+      threshold: 98.81,
+      window_in_days: 7
+    }
+
+  * "security_circuit_breaker_slo_23":
+    Provides {
+      circuit_breaker_slo_param_0: "swzkgqoew",
+      circuit_breaker_slo_param_1: "wcyodiwrjpzf",
+      circuit_breaker_slo_param_2: 5012,
+      circuit_breaker_slo_param_3: false,
+      circuit_breaker_slo_param_4: 88.53,
+      circuit_breaker_slo_param_5: "demo",
+      threshold: 99.6,
+      window_in_days: 30
+    }
+
+  * "security_circuit_breaker_slo_24":
+    Provides {
+      circuit_breaker_slo_param_0: "mzzhfmmtpwpyl",
+      circuit_breaker_slo_param_1: "mzbiuxpgaed",
+      circuit_breaker_slo_param_2: 5902,
+      circuit_breaker_slo_param_3: true,
+      circuit_breaker_slo_param_4: 84.87,
+      circuit_breaker_slo_param_5: "perf",
+      threshold: 96.89,
+      window_in_days: 30
+    }

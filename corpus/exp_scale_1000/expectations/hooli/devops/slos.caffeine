@@ -1,0 +1,55 @@
+Expectations for "auth_slo"
+  * "devops_3_10_auth_slo_0":
+    Provides {
+      auth_slo_param_0: "ojgifgsf",
+      auth_slo_param_1: "psbocculqc",
+      auth_slo_param_2: 6743,
+      auth_slo_param_3: { key_0: 9152, key_1: 2650, key_2: 9089 },
+      auth_slo_param_4: "inactive",
+      threshold: 96.58,
+      window_in_days: 7
+    }
+
+  * "devops_3_10_auth_slo_1":
+    Provides {
+      auth_slo_param_0: "sbvohhmklmk",
+      auth_slo_param_1: "onvzmcokcidwse",
+      auth_slo_param_2: 7494,
+      auth_slo_param_3: { key_0: 908, key_1: 5305, key_2: 1013 },
+      auth_slo_param_4: "published",
+      threshold: 97.53,
+      window_in_days: 30
+    }
+
+  * "devops_3_10_auth_slo_2":
+    Provides {
+      auth_slo_param_0: "niairgd",
+      auth_slo_param_1: "infpnqycheyo",
+      auth_slo_param_2: 3906,
+      auth_slo_param_3: { key_0: 4538, key_1: 302 },
+      auth_slo_param_4: "published",
+      threshold: 98.04,
+      window_in_days: 90
+    }
+
+  * "devops_3_10_auth_slo_3":
+    Provides {
+      auth_slo_param_0: "fkxuhrlndza",
+      auth_slo_param_1: "yhpzgam",
+      auth_slo_param_2: 8796,
+      auth_slo_param_3: { key_0: 7218, key_1: 3642, key_2: 5928 },
+      auth_slo_param_4: "active",
+      threshold: 97.25,
+      window_in_days: 90
+    }
+
+  * "devops_3_10_auth_slo_4":
+    Provides {
+      auth_slo_param_0: "kojytbducmi",
+      auth_slo_param_1: "xuuzflksagwx",
+      auth_slo_param_2: 9959,
+      auth_slo_param_3: { key_0: 6272 },
+      auth_slo_param_4: "published",
+      threshold: 95.48,
+      window_in_days: 7
+    }

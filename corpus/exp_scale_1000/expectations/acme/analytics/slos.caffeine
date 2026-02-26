@@ -1,0 +1,28 @@
+Expectations for "shipping_slo"
+  * "analytics_0_17_shipping_slo_0":
+    Provides {
+      shipping_slo_param_0: "klglxigjrpynbis",
+      shipping_slo_param_1: "iiiszvhtqnfrsul",
+      shipping_slo_param_2: "demo",
+      shipping_slo_param_3: 7341,
+      shipping_slo_param_4: 34.44,
+      shipping_slo_param_5: 60.63,
+      shipping_slo_param_6: 53,
+      req_1_field_0: "ikxwznifehldz",
+      threshold: 98.36,
+      window_in_days: 90
+    }
+
+  * "analytics_0_17_shipping_slo_1":
+    Provides {
+      shipping_slo_param_0: "wtxsh",
+      shipping_slo_param_1: "nuxmajmhqky",
+      shipping_slo_param_2: "perf",
+      shipping_slo_param_3: 3499,
+      shipping_slo_param_4: 82.7,
+      shipping_slo_param_5: 37.47,
+      shipping_slo_param_6: 81,
+      req_1_field_0: "jtbujjeckbt",
+      threshold: 96.6,
+      window_in_days: 90
+    }

@@ -1,0 +1,135 @@
+Expectations for "billing_slo"
+  * "observability_0_18_billing_slo_0":
+    Provides {
+      billing_slo_param_0: "ywafaewo",
+      billing_slo_param_1: "zrveqjgnhbaufl",
+      billing_slo_param_2: true,
+      billing_slo_param_3: "hayyktw",
+      billing_slo_param_4: 61.38,
+      billing_slo_param_5: 61.3,
+      threshold: 96.47,
+      window_in_days: 30
+    }
+
+  * "observability_0_18_billing_slo_1":
+    Provides {
+      billing_slo_param_0: "ajeexpxr",
+      billing_slo_param_1: "tkhkwmtdegxl",
+      billing_slo_param_2: false,
+      billing_slo_param_3: "gptllvuloxzx",
+      billing_slo_param_4: 62.37,
+      billing_slo_param_5: 57.35,
+      threshold: 95.81,
+      window_in_days: 90
+    }
+
+  * "observability_0_18_billing_slo_2":
+    Provides {
+      billing_slo_param_0: "lizyoqxqu",
+      billing_slo_param_1: "ovpmsdycbtruymz",
+      billing_slo_param_2: true,
+      billing_slo_param_3: "shwgmlvdt",
+      billing_slo_param_4: 37.95,
+      billing_slo_param_5: 11.76,
+      threshold: 96.09,
+      window_in_days: 30
+    }
+
+Expectations for "notifications_slo"
+  * "observability_0_18_notifications_slo_0":
+    Provides {
+      notifications_slo_param_0: "hpiqlzidtezac",
+      notifications_slo_param_1: "jkgwurpkpb",
+      notifications_slo_param_2: 2837,
+      notifications_slo_param_3: 58.93,
+      notifications_slo_param_4: 61.63,
+      notifications_slo_param_5: 8.54,
+      threshold: 97.04,
+      window_in_days: 90
+    }
+
+  * "observability_0_18_notifications_slo_1":
+    Provides {
+      notifications_slo_param_0: "xpomyqbrfivtt",
+      notifications_slo_param_1: "jdacszprrv",
+      notifications_slo_param_2: 7329,
+      notifications_slo_param_3: 26.98,
+      notifications_slo_param_4: 76.64,
+      notifications_slo_param_5: 24.5,
+      threshold: 96.36,
+      window_in_days: 30
+    }
+
+Expectations for "users_slo"
+  * "observability_0_18_users_slo_0":
+    Provides {
+      users_slo_param_0: "lxritrbyjiym",
+      users_slo_param_1: "evtqgk",
+      users_slo_param_2: "mdomvsexs",
+      users_slo_param_3: ["rmbkscd", "kmiqbf"],
+      users_slo_param_4: 30.7,
+      threshold: 97.33,
+      window_in_days: 30
+    }
+
+  * "observability_0_18_users_slo_1":
+    Provides {
+      users_slo_param_0: "utkqrqw",
+      users_slo_param_1: "fjvsgqrghdrit",
+      users_slo_param_2: "ncockmag",
+      users_slo_param_3: ["ekmmu", "qlpnmbbcbm", "ggqoptxzl", "ouvuvjdqtw"],
+      users_slo_param_4: 88.89,
+      threshold: 95.68,
+      window_in_days: 30
+    }
+
+  * "observability_0_18_users_slo_2":
+    Provides {
+      users_slo_param_0: "lrfotbsq",
+      users_slo_param_1: "bpmilzfj",
+      users_slo_param_2: "lmbysotiqwmrbim",
+      users_slo_param_3: ["dzivueifet", "tmluxykixi", "ifiarebajet", "xwsvbtaijjlaol"],
+      users_slo_param_4: 28.24,
+      threshold: 98.85,
+      window_in_days: 7
+    }
+
+  * "observability_0_18_users_slo_3":
+    Provides {
+      users_slo_param_0: "qflkhbv",
+      users_slo_param_1: "kkvbvsyvtxmezg",
+      users_slo_param_2: "jtwta",
+      users_slo_param_3: ["xxpeiu", "ifkquc", "ejcbfako"],
+      users_slo_param_4: 33.82,
+      threshold: 98.47,
+      window_in_days: 30
+    }
+
+Expectations for "gateway_slo"
+  * "observability_0_18_gateway_slo_0":
+    Provides {
+      gateway_slo_param_0: "woczvmlf",
+      gateway_slo_param_1: "zlexqfgtb",
+      gateway_slo_param_2: { key_0: false },
+      gateway_slo_param_3: 91,
+      gateway_slo_param_4: 96,
+      gateway_slo_param_5: 58,
+      gateway_slo_param_6: 77.93,
+      req_1_field_0: "ljpadpvjgbjrv",
+      threshold: 97.33,
+      window_in_days: 30
+    }
+
+  * "observability_0_18_gateway_slo_1":
+    Provides {
+      gateway_slo_param_0: "rhkcdyoey",
+      gateway_slo_param_1: "nflzllhrklgea",
+      gateway_slo_param_2: { key_0: false },
+      gateway_slo_param_3: 42,
+      gateway_slo_param_4: 80,
+      gateway_slo_param_5: 38,
+      gateway_slo_param_6: 80.66,
+      req_1_field_0: "xiavnishgutriej",
+      threshold: 99.31,
+      window_in_days: 30
+    }

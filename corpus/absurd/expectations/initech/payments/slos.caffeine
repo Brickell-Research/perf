@@ -1,0 +1,375 @@
+Expectations for "ab_testing_slo"
+  * "payments_ab_testing_slo_0":
+    Provides {
+      ab_testing_slo_param_0: "lzyoje",
+      ab_testing_slo_param_1: "jykgepxnmlanjr",
+      ab_testing_slo_param_2: "inactive",
+      ab_testing_slo_param_3: false,
+      ab_testing_slo_param_4: "test",
+      ab_testing_slo_param_5: "active",
+      ab_testing_slo_param_6: 8986,
+      ab_testing_slo_param_7: 80.12,
+      ab_testing_slo_param_8: 60.49,
+      threshold: 98.02,
+      window_in_days: 30
+    }
+
+  * "payments_ab_testing_slo_1":
+    Provides {
+      ab_testing_slo_param_0: "shcgrcj",
+      ab_testing_slo_param_1: "dbvavsraykuqapm",
+      ab_testing_slo_param_2: "inactive",
+      ab_testing_slo_param_3: false,
+      ab_testing_slo_param_4: "test",
+      ab_testing_slo_param_5: "published",
+      ab_testing_slo_param_6: 2380,
+      ab_testing_slo_param_7: 22.01,
+      ab_testing_slo_param_8: 57.55,
+      threshold: 96.74,
+      window_in_days: 90
+    }
+
+  * "payments_ab_testing_slo_2":
+    Provides {
+      ab_testing_slo_param_0: "pwqrnnur",
+      ab_testing_slo_param_1: "ycxqpygu",
+      ab_testing_slo_param_2: "active",
+      ab_testing_slo_param_3: true,
+      ab_testing_slo_param_4: "canary",
+      ab_testing_slo_param_5: "published",
+      ab_testing_slo_param_6: 1752,
+      ab_testing_slo_param_7: 59.56,
+      ab_testing_slo_param_8: 51.15,
+      threshold: 95.57,
+      window_in_days: 90
+    }
+
+  * "payments_ab_testing_slo_3":
+    Provides {
+      ab_testing_slo_param_0: "ptjhszzexm",
+      ab_testing_slo_param_1: "stxgqls",
+      ab_testing_slo_param_2: "archived",
+      ab_testing_slo_param_3: true,
+      ab_testing_slo_param_4: "development",
+      ab_testing_slo_param_5: "draft",
+      ab_testing_slo_param_6: 2171,
+      ab_testing_slo_param_7: 28.79,
+      ab_testing_slo_param_8: 47.38,
+      threshold: 98.92,
+      window_in_days: 30
+    }
+
+  * "payments_ab_testing_slo_4":
+    Provides {
+      ab_testing_slo_param_0: "fvayhds",
+      ab_testing_slo_param_1: "wxxvpmbg",
+      ab_testing_slo_param_2: "archived",
+      ab_testing_slo_param_3: false,
+      ab_testing_slo_param_4: "development",
+      ab_testing_slo_param_5: "active",
+      ab_testing_slo_param_6: 8459,
+      ab_testing_slo_param_7: 94.27,
+      ab_testing_slo_param_8: 47.65,
+      threshold: 97.47,
+      window_in_days: 30
+    }
+
+  * "payments_ab_testing_slo_5":
+    Provides {
+      ab_testing_slo_param_0: "qrrjxkhkoafws",
+      ab_testing_slo_param_1: "yuqgyhou",
+      ab_testing_slo_param_2: "inactive",
+      ab_testing_slo_param_3: false,
+      ab_testing_slo_param_4: "development",
+      ab_testing_slo_param_5: "active",
+      ab_testing_slo_param_6: 8802,
+      ab_testing_slo_param_7: 50.12,
+      ab_testing_slo_param_8: 50.1,
+      threshold: 98.71,
+      window_in_days: 30
+    }
+
+  * "payments_ab_testing_slo_6":
+    Provides {
+      ab_testing_slo_param_0: "qkqmyed",
+      ab_testing_slo_param_1: "jtqweffo",
+      ab_testing_slo_param_2: "archived",
+      ab_testing_slo_param_3: true,
+      ab_testing_slo_param_4: "canary",
+      ab_testing_slo_param_5: "draft",
+      ab_testing_slo_param_6: 6262,
+      ab_testing_slo_param_7: 72.1,
+      ab_testing_slo_param_8: 51.55,
+      threshold: 95.32,
+      window_in_days: 30
+    }
+
+  * "payments_ab_testing_slo_7":
+    Provides {
+      ab_testing_slo_param_0: "zsoqiueawk",
+      ab_testing_slo_param_1: "gqqxfr",
+      ab_testing_slo_param_2: "active",
+      ab_testing_slo_param_3: true,
+      ab_testing_slo_param_4: "test",
+      ab_testing_slo_param_5: "active",
+      ab_testing_slo_param_6: 2568,
+      ab_testing_slo_param_7: 41.32,
+      ab_testing_slo_param_8: 50.37,
+      threshold: 95.77,
+      window_in_days: 90
+    }
+
+  * "payments_ab_testing_slo_8":
+    Provides {
+      ab_testing_slo_param_0: "zrmrjzlicuqsyf",
+      ab_testing_slo_param_1: "xwhtyisunsrw",
+      ab_testing_slo_param_2: "archived",
+      ab_testing_slo_param_3: false,
+      ab_testing_slo_param_4: "development",
+      ab_testing_slo_param_5: "active",
+      ab_testing_slo_param_6: 3223,
+      ab_testing_slo_param_7: 23.01,
+      ab_testing_slo_param_8: 57.04,
+      threshold: 95.2,
+      window_in_days: 7
+    }
+
+  * "payments_ab_testing_slo_9":
+    Provides {
+      ab_testing_slo_param_0: "sxkmhdoxze",
+      ab_testing_slo_param_1: "ehhectnfybhahgh",
+      ab_testing_slo_param_2: "archived",
+      ab_testing_slo_param_3: false,
+      ab_testing_slo_param_4: "development",
+      ab_testing_slo_param_5: "published",
+      ab_testing_slo_param_6: 7948,
+      ab_testing_slo_param_7: 64.6,
+      ab_testing_slo_param_8: 48.37,
+      threshold: 96.09,
+      window_in_days: 90
+    }
+
+  * "payments_ab_testing_slo_10":
+    Provides {
+      ab_testing_slo_param_0: "ejxsdsgoipxi",
+      ab_testing_slo_param_1: "nopxqevsxoz",
+      ab_testing_slo_param_2: "archived",
+      ab_testing_slo_param_3: true,
+      ab_testing_slo_param_4: "development",
+      ab_testing_slo_param_5: "active",
+      ab_testing_slo_param_6: 3163,
+      ab_testing_slo_param_7: 94.51,
+      ab_testing_slo_param_8: 54.32,
+      threshold: 97.58,
+      window_in_days: 30
+    }
+
+  * "payments_ab_testing_slo_11":
+    Provides {
+      ab_testing_slo_param_0: "tdvxz",
+      ab_testing_slo_param_1: "wzqmjksqgpa",
+      ab_testing_slo_param_2: "inactive",
+      ab_testing_slo_param_3: false,
+      ab_testing_slo_param_4: "development",
+      ab_testing_slo_param_5: "draft",
+      ab_testing_slo_param_6: 7250,
+      ab_testing_slo_param_7: 94.5,
+      ab_testing_slo_param_8: 53.41,
+      threshold: 99.87,
+      window_in_days: 90
+    }
+
+  * "payments_ab_testing_slo_12":
+    Provides {
+      ab_testing_slo_param_0: "tydbabchycnbw",
+      ab_testing_slo_param_1: "pjulqyielfyvbfo",
+      ab_testing_slo_param_2: "archived",
+      ab_testing_slo_param_3: false,
+      ab_testing_slo_param_4: "canary",
+      ab_testing_slo_param_5: "draft",
+      ab_testing_slo_param_6: 6708,
+      ab_testing_slo_param_7: 43.37,
+      ab_testing_slo_param_8: 57.83,
+      threshold: 95.35,
+      window_in_days: 90
+    }
+
+  * "payments_ab_testing_slo_13":
+    Provides {
+      ab_testing_slo_param_0: "cuaptfqcbjtqnm",
+      ab_testing_slo_param_1: "otuyruisianf",
+      ab_testing_slo_param_2: "inactive",
+      ab_testing_slo_param_3: false,
+      ab_testing_slo_param_4: "canary",
+      ab_testing_slo_param_5: "draft",
+      ab_testing_slo_param_6: 5172,
+      ab_testing_slo_param_7: 87.45,
+      ab_testing_slo_param_8: 48.13,
+      threshold: 97.26,
+      window_in_days: 30
+    }
+
+  * "payments_ab_testing_slo_14":
+    Provides {
+      ab_testing_slo_param_0: "qmfkzvtw",
+      ab_testing_slo_param_1: "imnwztcqqt",
+      ab_testing_slo_param_2: "inactive",
+      ab_testing_slo_param_3: false,
+      ab_testing_slo_param_4: "test",
+      ab_testing_slo_param_5: "draft",
+      ab_testing_slo_param_6: 9353,
+      ab_testing_slo_param_7: 98.71,
+      ab_testing_slo_param_8: 53.5,
+      threshold: 95.34,
+      window_in_days: 7
+    }
+
+  * "payments_ab_testing_slo_15":
+    Provides {
+      ab_testing_slo_param_0: "bhrxjxxlodsyp",
+      ab_testing_slo_param_1: "ntpiobxe",
+      ab_testing_slo_param_2: "archived",
+      ab_testing_slo_param_3: true,
+      ab_testing_slo_param_4: "development",
+      ab_testing_slo_param_5: "draft",
+      ab_testing_slo_param_6: 1439,
+      ab_testing_slo_param_7: 89.1,
+      ab_testing_slo_param_8: 59.36,
+      threshold: 98.07,
+      window_in_days: 90
+    }
+
+  * "payments_ab_testing_slo_16":
+    Provides {
+      ab_testing_slo_param_0: "kleuswxdizak",
+      ab_testing_slo_param_1: "eaegjujsjvz",
+      ab_testing_slo_param_2: "inactive",
+      ab_testing_slo_param_3: true,
+      ab_testing_slo_param_4: "canary",
+      ab_testing_slo_param_5: "published",
+      ab_testing_slo_param_6: 2429,
+      ab_testing_slo_param_7: 0.31,
+      ab_testing_slo_param_8: 58.19,
+      threshold: 99.61,
+      window_in_days: 7
+    }
+
+  * "payments_ab_testing_slo_17":
+    Provides {
+      ab_testing_slo_param_0: "hxfgseepats",
+      ab_testing_slo_param_1: "rwgmmsi",
+      ab_testing_slo_param_2: "active",
+      ab_testing_slo_param_3: false,
+      ab_testing_slo_param_4: "canary",
+      ab_testing_slo_param_5: "published",
+      ab_testing_slo_param_6: 8370,
+      ab_testing_slo_param_7: 3.36,
+      ab_testing_slo_param_8: 50.85,
+      threshold: 96.16,
+      window_in_days: 30
+    }
+
+  * "payments_ab_testing_slo_18":
+    Provides {
+      ab_testing_slo_param_0: "zctdmzepmvd",
+      ab_testing_slo_param_1: "vaktfqyhfcopjc",
+      ab_testing_slo_param_2: "inactive",
+      ab_testing_slo_param_3: false,
+      ab_testing_slo_param_4: "canary",
+      ab_testing_slo_param_5: "active",
+      ab_testing_slo_param_6: 2026,
+      ab_testing_slo_param_7: 5.05,
+      ab_testing_slo_param_8: 58.61,
+      threshold: 98.25,
+      window_in_days: 30
+    }
+
+  * "payments_ab_testing_slo_19":
+    Provides {
+      ab_testing_slo_param_0: "ruyku",
+      ab_testing_slo_param_1: "fmisnmqptnmz",
+      ab_testing_slo_param_2: "active",
+      ab_testing_slo_param_3: false,
+      ab_testing_slo_param_4: "canary",
+      ab_testing_slo_param_5: "active",
+      ab_testing_slo_param_6: 8875,
+      ab_testing_slo_param_7: 2.66,
+      ab_testing_slo_param_8: 47.21,
+      threshold: 98.86,
+      window_in_days: 30
+    }
+
+  * "payments_ab_testing_slo_20":
+    Provides {
+      ab_testing_slo_param_0: "xbmidcka",
+      ab_testing_slo_param_1: "lthtaq",
+      ab_testing_slo_param_2: "archived",
+      ab_testing_slo_param_3: true,
+      ab_testing_slo_param_4: "canary",
+      ab_testing_slo_param_5: "active",
+      ab_testing_slo_param_6: 6902,
+      ab_testing_slo_param_7: 27.71,
+      ab_testing_slo_param_8: 53.9,
+      threshold: 98.65,
+      window_in_days: 30
+    }
+
+  * "payments_ab_testing_slo_21":
+    Provides {
+      ab_testing_slo_param_0: "filrer",
+      ab_testing_slo_param_1: "vrxmzno",
+      ab_testing_slo_param_2: "inactive",
+      ab_testing_slo_param_3: true,
+      ab_testing_slo_param_4: "development",
+      ab_testing_slo_param_5: "draft",
+      ab_testing_slo_param_6: 4791,
+      ab_testing_slo_param_7: 23.6,
+      ab_testing_slo_param_8: 58.43,
+      threshold: 99.02,
+      window_in_days: 7
+    }
+
+  * "payments_ab_testing_slo_22":
+    Provides {
+      ab_testing_slo_param_0: "cuiqjhyzhyfbv",
+      ab_testing_slo_param_1: "ymjwfnuglj",
+      ab_testing_slo_param_2: "active",
+      ab_testing_slo_param_3: true,
+      ab_testing_slo_param_4: "canary",
+      ab_testing_slo_param_5: "draft",
+      ab_testing_slo_param_6: 7500,
+      ab_testing_slo_param_7: 14.59,
+      ab_testing_slo_param_8: 49.17,
+      threshold: 97.66,
+      window_in_days: 90
+    }
+
+  * "payments_ab_testing_slo_23":
+    Provides {
+      ab_testing_slo_param_0: "ipjpurhxbwgw",
+      ab_testing_slo_param_1: "pzgkdanqemblx",
+      ab_testing_slo_param_2: "inactive",
+      ab_testing_slo_param_3: false,
+      ab_testing_slo_param_4: "development",
+      ab_testing_slo_param_5: "draft",
+      ab_testing_slo_param_6: 5110,
+      ab_testing_slo_param_7: 6.45,
+      ab_testing_slo_param_8: 59.99,
+      threshold: 96.42,
+      window_in_days: 30
+    }
+
+  * "payments_ab_testing_slo_24":
+    Provides {
+      ab_testing_slo_param_0: "uelzszqezh",
+      ab_testing_slo_param_1: "zommhsukpsvzon",
+      ab_testing_slo_param_2: "archived",
+      ab_testing_slo_param_3: true,
+      ab_testing_slo_param_4: "development",
+      ab_testing_slo_param_5: "draft",
+      ab_testing_slo_param_6: 9286,
+      ab_testing_slo_param_7: 3.18,
+      ab_testing_slo_param_8: 53.14,
+      threshold: 98.19,
+      window_in_days: 90
+    }

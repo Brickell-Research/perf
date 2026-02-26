@@ -1,0 +1,240 @@
+Expectations for "feature_flags_slo"
+  * "platform_feature_flags_slo_0":
+    Provides {
+      feature_flags_slo_param_0: "bwcmissuqmaay",
+      feature_flags_slo_param_1: "efwuo",
+      feature_flags_slo_param_2: false,
+      feature_flags_slo_param_3: { key_0: true },
+      feature_flags_slo_param_4: "wdmbyprbfsx",
+      feature_flags_slo_param_5: 7003,
+      feature_flags_slo_param_6: 4230,
+      feature_flags_slo_param_7: [80.53],
+      feature_flags_slo_param_8: "staging",
+      req_4_field_0: 71.2,
+      threshold: 97.25,
+      window_in_days: 30
+    }
+
+  * "platform_feature_flags_slo_1":
+    Provides {
+      feature_flags_slo_param_0: "nmpfpbxoyhjmg",
+      feature_flags_slo_param_1: "mafosmmghwavm",
+      feature_flags_slo_param_2: true,
+      feature_flags_slo_param_3: { key_0: true },
+      feature_flags_slo_param_4: "jgmkfstkyubwe",
+      feature_flags_slo_param_5: 6657,
+      feature_flags_slo_param_6: 9886,
+      feature_flags_slo_param_7: [12.23, 53.32],
+      feature_flags_slo_param_8: "perf",
+      req_4_field_0: 79.96,
+      threshold: 98.86,
+      window_in_days: 7
+    }
+
+  * "platform_feature_flags_slo_2":
+    Provides {
+      feature_flags_slo_param_0: "cndfjkpynhdfhbv",
+      feature_flags_slo_param_1: "udtpefxg",
+      feature_flags_slo_param_2: true,
+      feature_flags_slo_param_3: { key_0: false },
+      feature_flags_slo_param_4: "xwziwx",
+      feature_flags_slo_param_5: 6388,
+      feature_flags_slo_param_6: 179,
+      feature_flags_slo_param_7: [59.56],
+      feature_flags_slo_param_8: "staging",
+      req_4_field_0: 49.04,
+      threshold: 99.37,
+      window_in_days: 90
+    }
+
+  * "platform_feature_flags_slo_3":
+    Provides {
+      feature_flags_slo_param_0: "zitknamistl",
+      feature_flags_slo_param_1: "acnkjw",
+      feature_flags_slo_param_2: true,
+      feature_flags_slo_param_3: { key_0: false, key_1: false },
+      feature_flags_slo_param_4: "dbxruba",
+      feature_flags_slo_param_5: 7308,
+      feature_flags_slo_param_6: 6465,
+      feature_flags_slo_param_7: [98.95, 57.37, 95.76],
+      feature_flags_slo_param_8: "staging",
+      req_4_field_0: 34.91,
+      threshold: 95.4,
+      window_in_days: 7
+    }
+
+  * "platform_feature_flags_slo_4":
+    Provides {
+      feature_flags_slo_param_0: "fhhylttgs",
+      feature_flags_slo_param_1: "krlxleyvyzmums",
+      feature_flags_slo_param_2: false,
+      feature_flags_slo_param_3: { key_0: false },
+      feature_flags_slo_param_4: "jukyqevtprdjji",
+      feature_flags_slo_param_5: 2908,
+      feature_flags_slo_param_6: 2307,
+      feature_flags_slo_param_7: [66.85, 12.45, 18.96, 14.39],
+      feature_flags_slo_param_8: "qa",
+      req_4_field_0: 1.09,
+      threshold: 98.53,
+      window_in_days: 30
+    }
+
+  * "platform_feature_flags_slo_5":
+    Provides {
+      feature_flags_slo_param_0: "mpxopubqmkre",
+      feature_flags_slo_param_1: "frcxftarpnw",
+      feature_flags_slo_param_2: true,
+      feature_flags_slo_param_3: { key_0: true, key_1: true },
+      feature_flags_slo_param_4: "vbtam",
+      feature_flags_slo_param_5: 7971,
+      feature_flags_slo_param_6: 3771,
+      feature_flags_slo_param_7: [54.46, 17.5, 23.56, 93.2],
+      feature_flags_slo_param_8: "perf",
+      req_4_field_0: 92.75,
+      threshold: 97.32,
+      window_in_days: 7
+    }
+
+  * "platform_feature_flags_slo_6":
+    Provides {
+      feature_flags_slo_param_0: "inhytt",
+      feature_flags_slo_param_1: "wanbbwcgrmsmj",
+      feature_flags_slo_param_2: true,
+      feature_flags_slo_param_3: { key_0: false, key_1: false, key_2: false },
+      feature_flags_slo_param_4: "fnlfblqhkz",
+      feature_flags_slo_param_5: 1413,
+      feature_flags_slo_param_6: 656,
+      feature_flags_slo_param_7: [44.36, 19.07, 36.75, 23.59],
+      feature_flags_slo_param_8: "staging",
+      req_4_field_0: 26.38,
+      threshold: 96.35,
+      window_in_days: 30
+    }
+
+  * "platform_feature_flags_slo_7":
+    Provides {
+      feature_flags_slo_param_0: "eujvoo",
+      feature_flags_slo_param_1: "ldpwfej",
+      feature_flags_slo_param_2: true,
+      feature_flags_slo_param_3: { key_0: false },
+      feature_flags_slo_param_4: "iykwbhjobz",
+      feature_flags_slo_param_5: 2176,
+      feature_flags_slo_param_6: 8501,
+      feature_flags_slo_param_7: [98.43],
+      feature_flags_slo_param_8: "staging",
+      req_4_field_0: 3.26,
+      threshold: 96.37,
+      window_in_days: 7
+    }
+
+  * "platform_feature_flags_slo_8":
+    Provides {
+      feature_flags_slo_param_0: "fkaafcftrdu",
+      feature_flags_slo_param_1: "auixnkuyucydo",
+      feature_flags_slo_param_2: true,
+      feature_flags_slo_param_3: { key_0: false, key_1: false, key_2: false },
+      feature_flags_slo_param_4: "kajpgrboo",
+      feature_flags_slo_param_5: 7879,
+      feature_flags_slo_param_6: 6805,
+      feature_flags_slo_param_7: [19.65, 60.61, 18.97],
+      feature_flags_slo_param_8: "staging",
+      req_4_field_0: 12.61,
+      threshold: 96.33,
+      window_in_days: 90
+    }
+
+  * "platform_feature_flags_slo_9":
+    Provides {
+      feature_flags_slo_param_0: "cxogopenqo",
+      feature_flags_slo_param_1: "kmwjssmpvj",
+      feature_flags_slo_param_2: true,
+      feature_flags_slo_param_3: { key_0: false, key_1: false, key_2: false },
+      feature_flags_slo_param_4: "dywfrqnovt",
+      feature_flags_slo_param_5: 8542,
+      feature_flags_slo_param_6: 391,
+      feature_flags_slo_param_7: [5.15],
+      feature_flags_slo_param_8: "canary",
+      req_4_field_0: 64.99,
+      threshold: 97.52,
+      window_in_days: 7
+    }
+
+  * "platform_feature_flags_slo_10":
+    Provides {
+      feature_flags_slo_param_0: "tjhtevbnivimoan",
+      feature_flags_slo_param_1: "dwslyrolza",
+      feature_flags_slo_param_2: false,
+      feature_flags_slo_param_3: { key_0: false },
+      feature_flags_slo_param_4: "jaqwmre",
+      feature_flags_slo_param_5: 6610,
+      feature_flags_slo_param_6: 1613,
+      feature_flags_slo_param_7: [61.83],
+      feature_flags_slo_param_8: "qa",
+      req_4_field_0: 70.85,
+      threshold: 95.31,
+      window_in_days: 30
+    }
+
+  * "platform_feature_flags_slo_11":
+    Provides {
+      feature_flags_slo_param_0: "suqpsgtlsgs",
+      feature_flags_slo_param_1: "gybtzmdcevdmeky",
+      feature_flags_slo_param_2: false,
+      feature_flags_slo_param_3: { key_0: true, key_1: true },
+      feature_flags_slo_param_4: "orgzxasoghpgd",
+      feature_flags_slo_param_5: 7035,
+      feature_flags_slo_param_6: 2279,
+      feature_flags_slo_param_7: [15.23, 72.75, 99.04],
+      feature_flags_slo_param_8: "staging",
+      req_4_field_0: 97.78,
+      threshold: 99.85,
+      window_in_days: 7
+    }
+
+  * "platform_feature_flags_slo_12":
+    Provides {
+      feature_flags_slo_param_0: "avhrlfyqenzavq",
+      feature_flags_slo_param_1: "qvrwa",
+      feature_flags_slo_param_2: true,
+      feature_flags_slo_param_3: { key_0: false },
+      feature_flags_slo_param_4: "lgwkep",
+      feature_flags_slo_param_5: 3307,
+      feature_flags_slo_param_6: 8969,
+      feature_flags_slo_param_7: [54.8],
+      feature_flags_slo_param_8: "perf",
+      req_4_field_0: 34.34,
+      threshold: 98.15,
+      window_in_days: 90
+    }
+
+  * "platform_feature_flags_slo_13":
+    Provides {
+      feature_flags_slo_param_0: "xyjcuweuroljyuj",
+      feature_flags_slo_param_1: "fdrfvs",
+      feature_flags_slo_param_2: true,
+      feature_flags_slo_param_3: { key_0: true, key_1: true, key_2: true },
+      feature_flags_slo_param_4: "ikhfacrf",
+      feature_flags_slo_param_5: 9472,
+      feature_flags_slo_param_6: 5496,
+      feature_flags_slo_param_7: [83.94, 93.51],
+      feature_flags_slo_param_8: "demo",
+      req_4_field_0: 81.32,
+      threshold: 97.11,
+      window_in_days: 7
+    }
+
+  * "platform_feature_flags_slo_14":
+    Provides {
+      feature_flags_slo_param_0: "aennqnfkiwbwrt",
+      feature_flags_slo_param_1: "mxupqwhobqa",
+      feature_flags_slo_param_2: false,
+      feature_flags_slo_param_3: { key_0: true, key_1: true },
+      feature_flags_slo_param_4: "rmidke",
+      feature_flags_slo_param_5: 4977,
+      feature_flags_slo_param_6: 634,
+      feature_flags_slo_param_7: [53.95, 91.86, 43.98, 14.92],
+      feature_flags_slo_param_8: "perf",
+      req_4_field_0: 92.14,
+      threshold: 98.2,
+      window_in_days: 90
+    }

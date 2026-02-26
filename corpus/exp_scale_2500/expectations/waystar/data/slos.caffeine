@@ -1,0 +1,25 @@
+Expectations for "search_slo"
+  * "data_5_7_search_slo_0":
+    Provides {
+      search_slo_param_0: "cnftcfsgspewt",
+      search_slo_param_1: "lwdbmrtzaxmpp",
+      search_slo_param_2: false,
+      search_slo_param_3: 120,
+      search_slo_param_4: "active",
+      req_1_field_0: "vyvhkkqr",
+      threshold: 96.83,
+      window_in_days: 7
+    }
+
+Expectations for "notifications_slo"
+  * "data_13_7_notifications_slo_0":
+    Provides {
+      notifications_slo_param_0: "nonhsfnfz",
+      notifications_slo_param_1: "irwkufndh",
+      notifications_slo_param_2: 1709,
+      notifications_slo_param_3: 38.68,
+      notifications_slo_param_4: 55.73,
+      notifications_slo_param_5: 49.89,
+      threshold: 96.12,
+      window_in_days: 90
+    }

@@ -1,0 +1,87 @@
+Expectations for "monitoring_slo"
+  * "data_2_7_monitoring_slo_0":
+    Provides {
+      monitoring_slo_param_0: "drlyxvgmi",
+      monitoring_slo_param_1: "qweebln",
+      monitoring_slo_param_2: "rapqoe",
+      monitoring_slo_param_3: "aimjbrnkcmemp",
+      monitoring_slo_param_4: "ttoad",
+      monitoring_slo_param_5: 63.89,
+      monitoring_slo_param_6: 37.83,
+      threshold: 96.59,
+      window_in_days: 7
+    }
+
+Expectations for "recommendations_slo"
+  * "data_2_7_recommendations_slo_0":
+    Provides {
+      recommendations_slo_param_0: "srlxinqmnsseqhr",
+      recommendations_slo_param_1: "whuqqmkaqkmxlhq",
+      recommendations_slo_param_2: 33.22,
+      recommendations_slo_param_3: 5054,
+      recommendations_slo_param_4: 88,
+      recommendations_slo_param_5: 39.56,
+      threshold: 98.92,
+      window_in_days: 90
+    }
+
+  * "data_2_7_recommendations_slo_1":
+    Provides {
+      recommendations_slo_param_0: "wodknrbjii",
+      recommendations_slo_param_1: "iwszrougirftg",
+      recommendations_slo_param_2: 24.78,
+      recommendations_slo_param_3: 3646,
+      recommendations_slo_param_4: 88,
+      recommendations_slo_param_5: 59.58,
+      threshold: 99.77,
+      window_in_days: 7
+    }
+
+Expectations for "cart_slo"
+  * "data_2_7_cart_slo_0":
+    Provides {
+      cart_slo_param_0: "ewntcvxgztf",
+      cart_slo_param_1: "byhzavl",
+      cart_slo_param_2: "canary",
+      cart_slo_param_3: 94,
+      cart_slo_param_4: 55.82,
+      cart_slo_param_5: 509,
+      threshold: 96.89,
+      window_in_days: 30
+    }
+
+  * "data_2_7_cart_slo_1":
+    Provides {
+      cart_slo_param_0: "sdatdw",
+      cart_slo_param_1: "wbqigcjqsiskqqn",
+      cart_slo_param_2: "canary",
+      cart_slo_param_3: 3295,
+      cart_slo_param_4: 34.27,
+      cart_slo_param_5: 509,
+      threshold: 98.72,
+      window_in_days: 7
+    }
+
+  * "data_2_7_cart_slo_2":
+    Provides {
+      cart_slo_param_0: "jljzmayf",
+      cart_slo_param_1: "byldlhizxl",
+      cart_slo_param_2: "staging",
+      cart_slo_param_3: 9367,
+      cart_slo_param_4: 25.86,
+      cart_slo_param_5: 520,
+      threshold: 95.84,
+      window_in_days: 30
+    }
+
+  * "data_2_7_cart_slo_3":
+    Provides {
+      cart_slo_param_0: "ocxsdgrompeidrc",
+      cart_slo_param_1: "zklxzqtrboces",
+      cart_slo_param_2: "canary",
+      cart_slo_param_3: 1679,
+      cart_slo_param_4: 18.19,
+      cart_slo_param_5: 561,
+      threshold: 97.95,
+      window_in_days: 7
+    }

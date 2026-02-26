@@ -2,7 +2,9 @@
        memory clean clean-all help check-deps baseline ci-check ci-quick
 
 # Configuration
-CAFFEINE_ROOT := $(realpath ../caffeine_lang)
+# Local dev: caffeine_lang is a sibling directory
+# CI: caffeine_lang is checked out as a subdirectory
+CAFFEINE_ROOT := $(or $(realpath ../caffeine_lang),$(realpath ./caffeine_lang))
 CAFFEINE_CLI  := $(CAFFEINE_ROOT)/caffeine_cli
 CORPUS        := $(CURDIR)/corpus
 RESULTS       := $(CURDIR)/results
@@ -38,7 +40,6 @@ build: ## Build the caffeine compiler (production-equivalent Deno binary)
 	@cd $(CAFFEINE_ROOT) && deno compile --no-check \
 		--allow-read --allow-write --allow-env --allow-run \
 		--include lsp_server.ts \
-		--v8-flags=--stack-size=16384 \
 		--output $(BENCH) main.mjs
 	@echo "Built $(BENCH)"
 

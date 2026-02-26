@@ -19,7 +19,6 @@ Expectations for "audit_log_slo"
       threshold: 95.15,
       window_in_days: 30
     }
-
   * "payments_audit_log_slo_1":
     Provides {
       audit_log_slo_param_0: "ypgpswldbbd",
@@ -40,7 +39,6 @@ Expectations for "audit_log_slo"
       threshold: 99.75,
       window_in_days: 7
     }
-
   * "payments_audit_log_slo_2":
     Provides {
       audit_log_slo_param_0: "zahecuyoio",
@@ -61,7 +59,6 @@ Expectations for "audit_log_slo"
       threshold: 98.67,
       window_in_days: 90
     }
-
   * "payments_audit_log_slo_3":
     Provides {
       audit_log_slo_param_0: "bcaxysatliy",
@@ -82,7 +79,6 @@ Expectations for "audit_log_slo"
       threshold: 99.22,
       window_in_days: 30
     }
-
   * "payments_audit_log_slo_4":
     Provides {
       audit_log_slo_param_0: "jyczneic",
@@ -103,7 +99,6 @@ Expectations for "audit_log_slo"
       threshold: 98.31,
       window_in_days: 90
     }
-
   * "payments_audit_log_slo_5":
     Provides {
       audit_log_slo_param_0: "qjazc",
@@ -124,7 +119,6 @@ Expectations for "audit_log_slo"
       threshold: 95.09,
       window_in_days: 30
     }
-
   * "payments_audit_log_slo_6":
     Provides {
       audit_log_slo_param_0: "ruqcdrpuocdgwlh",
@@ -145,7 +139,6 @@ Expectations for "audit_log_slo"
       threshold: 95.98,
       window_in_days: 90
     }
-
   * "payments_audit_log_slo_7":
     Provides {
       audit_log_slo_param_0: "csgasbpyl",
@@ -187,7 +180,6 @@ Expectations for "webhook_relay_slo"
       threshold: 99.78,
       window_in_days: 30
     }
-
   * "payments_webhook_relay_slo_1":
     Provides {
       webhook_relay_slo_param_0: "iedmenwl",
@@ -207,7 +199,6 @@ Expectations for "webhook_relay_slo"
       threshold: 98.38,
       window_in_days: 90
     }
-
   * "payments_webhook_relay_slo_2":
     Provides {
       webhook_relay_slo_param_0: "zgmdfiflkwxauor",
@@ -227,7 +218,6 @@ Expectations for "webhook_relay_slo"
       threshold: 95.1,
       window_in_days: 30
     }
-
   * "payments_webhook_relay_slo_3":
     Provides {
       webhook_relay_slo_param_0: "rbqdpzysyycbdkh",
@@ -247,7 +237,6 @@ Expectations for "webhook_relay_slo"
       threshold: 97.51,
       window_in_days: 7
     }
-
   * "payments_webhook_relay_slo_4":
     Provides {
       webhook_relay_slo_param_0: "axtpv",
@@ -267,7 +256,6 @@ Expectations for "webhook_relay_slo"
       threshold: 95.47,
       window_in_days: 30
     }
-
   * "payments_webhook_relay_slo_5":
     Provides {
       webhook_relay_slo_param_0: "vwhmg",
@@ -287,7 +275,6 @@ Expectations for "webhook_relay_slo"
       threshold: 97.53,
       window_in_days: 30
     }
-
   * "payments_webhook_relay_slo_6":
     Provides {
       webhook_relay_slo_param_0: "gjybrpetah",
@@ -307,7 +294,6 @@ Expectations for "webhook_relay_slo"
       threshold: 97.4,
       window_in_days: 90
     }
-
   * "payments_webhook_relay_slo_7":
     Provides {
       webhook_relay_slo_param_0: "fmhfa",
@@ -342,7 +328,6 @@ Expectations for "media_processor_slo"
       threshold: 97.37,
       window_in_days: 90
     }
-
   * "payments_media_processor_slo_1":
     Provides {
       media_processor_slo_param_0: "tyiwlgaeril",
@@ -356,7 +341,6 @@ Expectations for "media_processor_slo"
       threshold: 99.14,
       window_in_days: 90
     }
-
   * "payments_media_processor_slo_2":
     Provides {
       media_processor_slo_param_0: "ldmkbhqocgop",
@@ -370,7 +354,6 @@ Expectations for "media_processor_slo"
       threshold: 95.3,
       window_in_days: 90
     }
-
   * "payments_media_processor_slo_3":
     Provides {
       media_processor_slo_param_0: "wlwtx",
@@ -384,7 +367,6 @@ Expectations for "media_processor_slo"
       threshold: 95.8,
       window_in_days: 30
     }
-
   * "payments_media_processor_slo_4":
     Provides {
       media_processor_slo_param_0: "lgooyakygejs",
@@ -398,7 +380,6 @@ Expectations for "media_processor_slo"
       threshold: 97.93,
       window_in_days: 30
     }
-
   * "payments_media_processor_slo_5":
     Provides {
       media_processor_slo_param_0: "tpasnohatztwab",
@@ -412,7 +393,6 @@ Expectations for "media_processor_slo"
       threshold: 97.92,
       window_in_days: 7
     }
-
   * "payments_media_processor_slo_6":
     Provides {
       media_processor_slo_param_0: "jffaejb",
@@ -426,7 +406,6 @@ Expectations for "media_processor_slo"
       threshold: 96.47,
       window_in_days: 7
     }
-
   * "payments_media_processor_slo_7":
     Provides {
       media_processor_slo_param_0: "xpdvaotzfdz",

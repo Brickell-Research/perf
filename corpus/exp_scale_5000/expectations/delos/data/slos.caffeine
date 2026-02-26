@@ -10,7 +10,6 @@ Expectations for "analytics_slo"
       threshold: 99.51,
       window_in_days: 7
     }
-
 Expectations for "payments_slo"
   * "data_14_7_payments_slo_0":
     Provides {
@@ -23,7 +22,6 @@ Expectations for "payments_slo"
       threshold: 97.35,
       window_in_days: 7
     }
-
   * "data_14_7_payments_slo_1":
     Provides {
       payments_slo_param_0: "kbhpwvvyhwighz",
@@ -35,7 +33,6 @@ Expectations for "payments_slo"
       threshold: 95.11,
       window_in_days: 90
     }
-
   * "data_14_7_payments_slo_2":
     Provides {
       payments_slo_param_0: "hlbdzjihmg",
@@ -47,7 +44,6 @@ Expectations for "payments_slo"
       threshold: 96.15,
       window_in_days: 90
     }
-
   * "data_14_7_payments_slo_3":
     Provides {
       payments_slo_param_0: "izjnj",
@@ -59,7 +55,6 @@ Expectations for "payments_slo"
       threshold: 96.06,
       window_in_days: 7
     }
-
   * "data_14_7_payments_slo_4":
     Provides {
       payments_slo_param_0: "fhddleiiqb",
@@ -84,7 +79,6 @@ Expectations for "notifications_slo"
       threshold: 97.65,
       window_in_days: 7
     }
-
   * "data_14_7_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "xbvrumgjxaknbku",
@@ -124,7 +118,6 @@ Expectations for "analytics_slo"
       threshold: 98.96,
       window_in_days: 7
     }
-
 Expectations for "orders_slo"
   * "data_22_7_orders_slo_0":
     Provides {
@@ -135,7 +128,6 @@ Expectations for "orders_slo"
       threshold: 99.0,
       window_in_days: 7
     }
-
   * "data_22_7_orders_slo_1":
     Provides {
       orders_slo_param_0: "hbzxsetlvjzrbd",
@@ -145,7 +137,6 @@ Expectations for "orders_slo"
       threshold: 95.82,
       window_in_days: 90
     }
-
   * "data_22_7_orders_slo_2":
     Provides {
       orders_slo_param_0: "eqaehwssqw",
@@ -182,7 +173,6 @@ Expectations for "scheduler_slo"
       threshold: 97.45,
       window_in_days: 30
     }
-
   * "data_22_7_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "xkfon",
@@ -195,7 +185,6 @@ Expectations for "scheduler_slo"
       threshold: 97.02,
       window_in_days: 7
     }
-
   * "data_22_7_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "nwvsvjtze",

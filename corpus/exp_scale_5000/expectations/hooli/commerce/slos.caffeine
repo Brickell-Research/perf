@@ -24,7 +24,6 @@ Expectations for "recommendations_slo"
       threshold: 96.38,
       window_in_days: 30
     }
-
   * "commerce_3_16_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "dmxsxyqsmxdo",
@@ -63,7 +62,6 @@ Expectations for "shipping_slo"
       threshold: 97.97,
       window_in_days: 90
     }
-
   * "commerce_3_16_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "tqsiwwxqdq",
@@ -77,7 +75,6 @@ Expectations for "shipping_slo"
       threshold: 95.43,
       window_in_days: 30
     }
-
   * "commerce_3_16_shipping_slo_2":
     Provides {
       shipping_slo_param_0: "plkhrzf",
@@ -91,7 +88,6 @@ Expectations for "shipping_slo"
       threshold: 99.23,
       window_in_days: 30
     }
-
 Expectations for "search_slo"
   * "commerce_11_16_search_slo_0":
     Provides {
@@ -104,7 +100,6 @@ Expectations for "search_slo"
       threshold: 99.54,
       window_in_days: 90
     }
-
   * "commerce_11_16_search_slo_1":
     Provides {
       search_slo_param_0: "nwffqb",
@@ -116,7 +111,6 @@ Expectations for "search_slo"
       threshold: 98.94,
       window_in_days: 7
     }
-
   * "commerce_11_16_search_slo_2":
     Provides {
       search_slo_param_0: "aflsr",
@@ -128,7 +122,6 @@ Expectations for "search_slo"
       threshold: 96.99,
       window_in_days: 7
     }
-
   * "commerce_11_16_search_slo_3":
     Provides {
       search_slo_param_0: "uhzlzqhgej",
@@ -140,7 +133,6 @@ Expectations for "search_slo"
       threshold: 95.01,
       window_in_days: 90
     }
-
 Expectations for "recommendations_slo"
   * "commerce_19_16_recommendations_slo_0":
     Provides {
@@ -153,7 +145,6 @@ Expectations for "recommendations_slo"
       threshold: 97.95,
       window_in_days: 90
     }
-
   * "commerce_19_16_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "jtpetpymzpxggv",
@@ -193,7 +184,6 @@ Expectations for "search_slo"
       threshold: 95.04,
       window_in_days: 7
     }
-
   * "commerce_19_16_search_slo_1":
     Provides {
       search_slo_param_0: "vvpldnhheayh",
@@ -205,7 +195,6 @@ Expectations for "search_slo"
       threshold: 99.22,
       window_in_days: 7
     }
-
   * "commerce_19_16_search_slo_2":
     Provides {
       search_slo_param_0: "yxyhnpbdfafhbep",
@@ -217,7 +206,6 @@ Expectations for "search_slo"
       threshold: 97.32,
       window_in_days: 7
     }
-
   * "commerce_19_16_search_slo_3":
     Provides {
       search_slo_param_0: "efbzrepdbfiefap",
@@ -240,7 +228,6 @@ Expectations for "orders_slo"
       threshold: 95.25,
       window_in_days: 7
     }
-
   * "commerce_19_16_orders_slo_1":
     Provides {
       orders_slo_param_0: "heclfygsvd",
@@ -250,7 +237,6 @@ Expectations for "orders_slo"
       threshold: 97.25,
       window_in_days: 7
     }
-
   * "commerce_19_16_orders_slo_2":
     Provides {
       orders_slo_param_0: "ticdbhalafayr",

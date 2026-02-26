@@ -10,7 +10,6 @@ Expectations for "billing_slo"
       threshold: 97.66,
       window_in_days: 30
     }
-
   * "commerce_4_16_billing_slo_1":
     Provides {
       billing_slo_param_0: "gonlk",
@@ -36,7 +35,6 @@ Expectations for "monitoring_slo"
       threshold: 99.63,
       window_in_days: 90
     }
-
   * "commerce_4_16_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "mdwhwi",
@@ -49,7 +47,6 @@ Expectations for "monitoring_slo"
       threshold: 99.07,
       window_in_days: 7
     }
-
   * "commerce_4_16_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "cdselscppe",
@@ -62,7 +59,6 @@ Expectations for "monitoring_slo"
       threshold: 96.74,
       window_in_days: 7
     }
-
   * "commerce_4_16_monitoring_slo_3":
     Provides {
       monitoring_slo_param_0: "zsegebfseah",
@@ -75,7 +71,6 @@ Expectations for "monitoring_slo"
       threshold: 98.84,
       window_in_days: 90
     }
-
   * "commerce_4_16_monitoring_slo_4":
     Provides {
       monitoring_slo_param_0: "rmqkyklocztytb",
@@ -101,7 +96,6 @@ Expectations for "analytics_slo"
       threshold: 95.49,
       window_in_days: 30
     }
-
   * "commerce_4_16_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "micfgyc",
@@ -113,7 +107,6 @@ Expectations for "analytics_slo"
       threshold: 96.71,
       window_in_days: 90
     }
-
   * "commerce_4_16_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "pywqm",
@@ -136,7 +129,6 @@ Expectations for "orders_slo"
       threshold: 95.17,
       window_in_days: 30
     }
-
   * "commerce_4_16_orders_slo_1":
     Provides {
       orders_slo_param_0: "mbkqdteacncgvo",
@@ -146,7 +138,6 @@ Expectations for "orders_slo"
       threshold: 97.39,
       window_in_days: 90
     }
-
   * "commerce_4_16_orders_slo_2":
     Provides {
       orders_slo_param_0: "ebviwyelhcvb",

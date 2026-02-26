@@ -11,7 +11,6 @@ Expectations for "scheduler_slo"
       threshold: 95.18,
       window_in_days: 30
     }
-
   * "infrastructure_3_3_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "mmmshhmxluii",
@@ -36,7 +35,6 @@ Expectations for "auth_slo"
       threshold: 98.94,
       window_in_days: 7
     }
-
   * "infrastructure_3_3_auth_slo_1":
     Provides {
       auth_slo_param_0: "xpypir",
@@ -47,7 +45,6 @@ Expectations for "auth_slo"
       threshold: 98.33,
       window_in_days: 90
     }
-
   * "infrastructure_3_3_auth_slo_2":
     Provides {
       auth_slo_param_0: "lavuihrgkajhdff",

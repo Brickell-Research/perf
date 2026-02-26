@@ -11,7 +11,6 @@ Expectations for "scheduler_slo"
       threshold: 95.36,
       window_in_days: 90
     }
-
   * "messaging_0_14_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "tvllpqnnxmukgv",
@@ -24,7 +23,6 @@ Expectations for "scheduler_slo"
       threshold: 97.69,
       window_in_days: 7
     }
-
   * "messaging_0_14_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "mxlyyqxdu",
@@ -37,7 +35,6 @@ Expectations for "scheduler_slo"
       threshold: 98.07,
       window_in_days: 7
     }
-
   * "messaging_0_14_scheduler_slo_3":
     Provides {
       scheduler_slo_param_0: "qiyixmkpzwweci",
@@ -50,7 +47,6 @@ Expectations for "scheduler_slo"
       threshold: 99.81,
       window_in_days: 30
     }
-
   * "messaging_0_14_scheduler_slo_4":
     Provides {
       scheduler_slo_param_0: "usrirvunjge",
@@ -74,7 +70,6 @@ Expectations for "orders_slo"
       threshold: 97.48,
       window_in_days: 7
     }
-
   * "messaging_0_14_orders_slo_1":
     Provides {
       orders_slo_param_0: "msojpjeuvbkrzm",
@@ -84,7 +79,6 @@ Expectations for "orders_slo"
       threshold: 95.87,
       window_in_days: 30
     }
-
   * "messaging_0_14_orders_slo_2":
     Provides {
       orders_slo_param_0: "wibtcdsb",
@@ -109,7 +103,6 @@ Expectations for "shipping_slo"
       threshold: 98.84,
       window_in_days: 90
     }
-
   * "messaging_0_14_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "yzgsbbqbpszvjl",
@@ -123,7 +116,6 @@ Expectations for "shipping_slo"
       threshold: 97.14,
       window_in_days: 90
     }
-
   * "messaging_0_14_shipping_slo_2":
     Provides {
       shipping_slo_param_0: "zcqivdbbzufdrtr",
@@ -153,7 +145,6 @@ Expectations for "inventory_slo"
       threshold: 95.01,
       window_in_days: 7
     }
-
   * "messaging_0_14_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "ztfdslesw",
@@ -168,7 +159,6 @@ Expectations for "inventory_slo"
       threshold: 99.54,
       window_in_days: 30
     }
-
   * "messaging_0_14_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "lukpsemfsgibjgf",
@@ -196,7 +186,6 @@ Expectations for "notifications_slo"
       threshold: 99.38,
       window_in_days: 7
     }
-
   * "messaging_0_14_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "iiqju",

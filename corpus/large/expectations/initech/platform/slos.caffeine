@@ -9,7 +9,6 @@ Expectations for "messaging_slo"
       threshold: 98.42,
       window_in_days: 30
     }
-
   * "platform_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "bjencmioqjxtajs",
@@ -20,7 +19,6 @@ Expectations for "messaging_slo"
       threshold: 97.24,
       window_in_days: 30
     }
-
   * "platform_messaging_slo_2":
     Provides {
       messaging_slo_param_0: "jaqjeawugsrok",
@@ -31,7 +29,6 @@ Expectations for "messaging_slo"
       threshold: 96.83,
       window_in_days: 90
     }
-
   * "platform_messaging_slo_3":
     Provides {
       messaging_slo_param_0: "axryvm",
@@ -42,7 +39,6 @@ Expectations for "messaging_slo"
       threshold: 98.12,
       window_in_days: 7
     }
-
   * "platform_messaging_slo_4":
     Provides {
       messaging_slo_param_0: "tkcqjlrweekie",
@@ -63,16 +59,11 @@ Expectations for "scheduler_slo"
       scheduler_slo_param_3: true,
       scheduler_slo_param_4: 73.27,
       scheduler_slo_param_5: 89.9,
-      scheduler_slo_param_6: {
-        key_0: "vcqavjuxiwlydu",
-        key_1: "wyqqbnioisdrzzt",
-        key_2: "nfhkdcobkcnudd"
-      },
+      scheduler_slo_param_6: { key_0: "vcqavjuxiwlydu", key_1: "wyqqbnioisdrzzt", key_2: "nfhkdcobkcnudd" },
       scheduler_slo_param_7: 40,
       threshold: 97.43,
       window_in_days: 90
     }
-
   * "platform_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "fqtgbuiycrljip",
@@ -86,7 +77,6 @@ Expectations for "scheduler_slo"
       threshold: 96.02,
       window_in_days: 90
     }
-
   * "platform_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "oqzsrjxng",
@@ -95,16 +85,11 @@ Expectations for "scheduler_slo"
       scheduler_slo_param_3: true,
       scheduler_slo_param_4: 68.32,
       scheduler_slo_param_5: 27.14,
-      scheduler_slo_param_6: {
-        key_0: "wawqgjzciw",
-        key_1: "cfzosbxhmtarj",
-        key_2: "gznvqwxva"
-      },
+      scheduler_slo_param_6: { key_0: "wawqgjzciw", key_1: "cfzosbxhmtarj", key_2: "gznvqwxva" },
       scheduler_slo_param_7: 47,
       threshold: 96.13,
       window_in_days: 30
     }
-
   * "platform_scheduler_slo_3":
     Provides {
       scheduler_slo_param_0: "rcjypqfgdzx",
@@ -118,7 +103,6 @@ Expectations for "scheduler_slo"
       threshold: 97.21,
       window_in_days: 90
     }
-
   * "platform_scheduler_slo_4":
     Provides {
       scheduler_slo_param_0: "dedazqppp",

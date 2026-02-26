@@ -9,7 +9,6 @@ Expectations for "checkout_slo"
       threshold: 95.23,
       window_in_days: 30
     }
-
   * "reliability_2_9_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "lnkza",
@@ -20,7 +19,6 @@ Expectations for "checkout_slo"
       threshold: 99.1,
       window_in_days: 90
     }
-
   * "reliability_2_9_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "zlyrzhhkgetn",
@@ -43,7 +41,6 @@ Expectations for "auth_slo"
       threshold: 95.83,
       window_in_days: 30
     }
-
   * "reliability_2_9_auth_slo_1":
     Provides {
       auth_slo_param_0: "gstnhdgscfx",
@@ -54,7 +51,6 @@ Expectations for "auth_slo"
       threshold: 97.39,
       window_in_days: 7
     }
-
   * "reliability_2_9_auth_slo_2":
     Provides {
       auth_slo_param_0: "gcrtxz",
@@ -78,7 +74,6 @@ Expectations for "catalog_slo"
       threshold: 99.81,
       window_in_days: 90
     }
-
   * "reliability_2_9_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "dwuufbsrowm",
@@ -90,7 +85,6 @@ Expectations for "catalog_slo"
       threshold: 95.26,
       window_in_days: 90
     }
-
   * "reliability_2_9_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "mwzrclskvzh",
@@ -102,7 +96,6 @@ Expectations for "catalog_slo"
       threshold: 98.39,
       window_in_days: 90
     }
-
   * "reliability_2_9_catalog_slo_3":
     Provides {
       catalog_slo_param_0: "envrpxcvz",
@@ -114,7 +107,6 @@ Expectations for "catalog_slo"
       threshold: 99.25,
       window_in_days: 7
     }
-
   * "reliability_2_9_catalog_slo_4":
     Provides {
       catalog_slo_param_0: "btdxqovxijzzxj",
@@ -126,7 +118,6 @@ Expectations for "catalog_slo"
       threshold: 98.3,
       window_in_days: 7
     }
-
 Expectations for "scheduler_slo"
   * "reliability_10_9_scheduler_slo_0":
     Provides {
@@ -140,7 +131,6 @@ Expectations for "scheduler_slo"
       threshold: 97.34,
       window_in_days: 90
     }
-
   * "reliability_10_9_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "krkgndflwl",
@@ -153,7 +143,6 @@ Expectations for "scheduler_slo"
       threshold: 99.9,
       window_in_days: 90
     }
-
   * "reliability_10_9_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "xbzcbnqyzr",
@@ -166,7 +155,6 @@ Expectations for "scheduler_slo"
       threshold: 97.13,
       window_in_days: 7
     }
-
   * "reliability_10_9_scheduler_slo_3":
     Provides {
       scheduler_slo_param_0: "fazdusgry",
@@ -192,7 +180,6 @@ Expectations for "recommendations_slo"
       threshold: 99.02,
       window_in_days: 7
     }
-
   * "reliability_10_9_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "vbxcwzsyg",
@@ -204,7 +191,6 @@ Expectations for "recommendations_slo"
       threshold: 97.22,
       window_in_days: 90
     }
-
   * "reliability_10_9_recommendations_slo_2":
     Provides {
       recommendations_slo_param_0: "ezflzqvtjwciwz",
@@ -216,7 +202,6 @@ Expectations for "recommendations_slo"
       threshold: 95.27,
       window_in_days: 30
     }
-
   * "reliability_10_9_recommendations_slo_3":
     Provides {
       recommendations_slo_param_0: "wfjzuochnfkpafa",
@@ -243,7 +228,6 @@ Expectations for "gateway_slo"
       threshold: 99.4,
       window_in_days: 30
     }
-
   * "reliability_10_9_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "apvendxntqk",
@@ -257,7 +241,6 @@ Expectations for "gateway_slo"
       threshold: 98.39,
       window_in_days: 30
     }
-
   * "reliability_10_9_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "pcaza",
@@ -283,7 +266,6 @@ Expectations for "auth_slo"
       threshold: 98.39,
       window_in_days: 30
     }
-
   * "reliability_10_9_auth_slo_1":
     Provides {
       auth_slo_param_0: "abfkcjikj",
@@ -294,7 +276,6 @@ Expectations for "auth_slo"
       threshold: 95.24,
       window_in_days: 7
     }
-
   * "reliability_10_9_auth_slo_2":
     Provides {
       auth_slo_param_0: "hxqkqppsaqvdb",
@@ -305,7 +286,6 @@ Expectations for "auth_slo"
       threshold: 97.54,
       window_in_days: 30
     }
-
 Expectations for "search_slo"
   * "reliability_18_9_search_slo_0":
     Provides {
@@ -318,7 +298,6 @@ Expectations for "search_slo"
       threshold: 98.0,
       window_in_days: 30
     }
-
   * "reliability_18_9_search_slo_1":
     Provides {
       search_slo_param_0: "polpk",
@@ -330,7 +309,6 @@ Expectations for "search_slo"
       threshold: 96.06,
       window_in_days: 30
     }
-
   * "reliability_18_9_search_slo_2":
     Provides {
       search_slo_param_0: "dmnrzprplnuv",
@@ -342,7 +320,6 @@ Expectations for "search_slo"
       threshold: 99.61,
       window_in_days: 7
     }
-
   * "reliability_18_9_search_slo_3":
     Provides {
       search_slo_param_0: "nrseoaxyd",
@@ -354,7 +331,6 @@ Expectations for "search_slo"
       threshold: 98.19,
       window_in_days: 7
     }
-
   * "reliability_18_9_search_slo_4":
     Provides {
       search_slo_param_0: "uuysz",
@@ -366,7 +342,6 @@ Expectations for "search_slo"
       threshold: 98.2,
       window_in_days: 7
     }
-
 Expectations for "recommendations_slo"
   * "reliability_26_9_recommendations_slo_0":
     Provides {
@@ -379,7 +354,6 @@ Expectations for "recommendations_slo"
       threshold: 95.58,
       window_in_days: 90
     }
-
   * "reliability_26_9_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "pabriiztap",
@@ -391,7 +365,6 @@ Expectations for "recommendations_slo"
       threshold: 99.56,
       window_in_days: 7
     }
-
   * "reliability_26_9_recommendations_slo_2":
     Provides {
       recommendations_slo_param_0: "sabrbx",
@@ -416,7 +389,6 @@ Expectations for "search_slo"
       threshold: 97.55,
       window_in_days: 30
     }
-
   * "reliability_26_9_search_slo_1":
     Provides {
       search_slo_param_0: "cdtyocezg",
@@ -428,7 +400,6 @@ Expectations for "search_slo"
       threshold: 96.8,
       window_in_days: 7
     }
-
   * "reliability_26_9_search_slo_2":
     Provides {
       search_slo_param_0: "rwgmifpqyqpvrw",
@@ -440,7 +411,6 @@ Expectations for "search_slo"
       threshold: 95.47,
       window_in_days: 7
     }
-
   * "reliability_26_9_search_slo_3":
     Provides {
       search_slo_param_0: "jtjrk",
@@ -452,7 +422,6 @@ Expectations for "search_slo"
       threshold: 99.15,
       window_in_days: 7
     }
-
   * "reliability_26_9_search_slo_4":
     Provides {
       search_slo_param_0: "vhnwdazpezwylie",
@@ -477,7 +446,6 @@ Expectations for "analytics_slo"
       threshold: 98.78,
       window_in_days: 90
     }
-
   * "reliability_26_9_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "ryedt",

@@ -9,7 +9,6 @@ Expectations for "auth_slo"
       threshold: 99.57,
       window_in_days: 90
     }
-
   * "sre_3_11_auth_slo_1":
     Provides {
       auth_slo_param_0: "fngkptrwnya",
@@ -20,7 +19,6 @@ Expectations for "auth_slo"
       threshold: 96.22,
       window_in_days: 30
     }
-
   * "sre_3_11_auth_slo_2":
     Provides {
       auth_slo_param_0: "wclvomptesvgi",
@@ -31,7 +29,6 @@ Expectations for "auth_slo"
       threshold: 95.69,
       window_in_days: 90
     }
-
 Expectations for "monitoring_slo"
   * "sre_11_11_monitoring_slo_0":
     Provides {
@@ -45,7 +42,6 @@ Expectations for "monitoring_slo"
       threshold: 96.33,
       window_in_days: 90
     }
-
   * "sre_11_11_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "jgitnwdpr",
@@ -58,7 +54,6 @@ Expectations for "monitoring_slo"
       threshold: 98.58,
       window_in_days: 90
     }
-
   * "sre_11_11_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "xdgpxmcsuf",
@@ -99,7 +94,6 @@ Expectations for "shipping_slo"
       threshold: 98.41,
       window_in_days: 30
     }
-
   * "sre_11_11_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "ssziwaa",
@@ -113,7 +107,6 @@ Expectations for "shipping_slo"
       threshold: 98.0,
       window_in_days: 90
     }
-
   * "sre_11_11_shipping_slo_2":
     Provides {
       shipping_slo_param_0: "fncbihabh",

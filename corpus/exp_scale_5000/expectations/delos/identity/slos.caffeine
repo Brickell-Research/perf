@@ -9,7 +9,6 @@ Expectations for "checkout_slo"
       threshold: 96.84,
       window_in_days: 7
     }
-
   * "identity_6_15_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "vorlgtjguxmc",
@@ -20,7 +19,6 @@ Expectations for "checkout_slo"
       threshold: 95.44,
       window_in_days: 90
     }
-
   * "identity_6_15_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "wupeek",
@@ -31,7 +29,6 @@ Expectations for "checkout_slo"
       threshold: 98.38,
       window_in_days: 7
     }
-
   * "identity_6_15_checkout_slo_3":
     Provides {
       checkout_slo_param_0: "pqfos",
@@ -55,7 +52,6 @@ Expectations for "cart_slo"
       threshold: 97.68,
       window_in_days: 30
     }
-
   * "identity_6_15_cart_slo_1":
     Provides {
       cart_slo_param_0: "tnfgnom",
@@ -67,7 +63,6 @@ Expectations for "cart_slo"
       threshold: 99.78,
       window_in_days: 7
     }
-
   * "identity_6_15_cart_slo_2":
     Provides {
       cart_slo_param_0: "dwuxi",
@@ -93,7 +88,6 @@ Expectations for "scheduler_slo"
       threshold: 97.99,
       window_in_days: 30
     }
-
   * "identity_6_15_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "pieze",
@@ -106,7 +100,6 @@ Expectations for "scheduler_slo"
       threshold: 97.81,
       window_in_days: 7
     }
-
   * "identity_6_15_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "mhfojotw",
@@ -132,7 +125,6 @@ Expectations for "search_slo"
       threshold: 95.05,
       window_in_days: 90
     }
-
   * "identity_6_15_search_slo_1":
     Provides {
       search_slo_param_0: "ijwbldlwgllgcpu",
@@ -144,7 +136,6 @@ Expectations for "search_slo"
       threshold: 96.74,
       window_in_days: 90
     }
-
   * "identity_6_15_search_slo_2":
     Provides {
       search_slo_param_0: "gaglrpnrxzw",
@@ -156,7 +147,6 @@ Expectations for "search_slo"
       threshold: 98.76,
       window_in_days: 90
     }
-
   * "identity_6_15_search_slo_3":
     Provides {
       search_slo_param_0: "hndqfviegxdtir",
@@ -168,7 +158,6 @@ Expectations for "search_slo"
       threshold: 96.01,
       window_in_days: 90
     }
-
   * "identity_6_15_search_slo_4":
     Provides {
       search_slo_param_0: "lemvbsuamikp",
@@ -193,7 +182,6 @@ Expectations for "payments_slo"
       threshold: 97.6,
       window_in_days: 30
     }
-
   * "identity_6_15_payments_slo_1":
     Provides {
       payments_slo_param_0: "samuus",
@@ -205,7 +193,6 @@ Expectations for "payments_slo"
       threshold: 96.69,
       window_in_days: 90
     }
-
   * "identity_6_15_payments_slo_2":
     Provides {
       payments_slo_param_0: "joyjtmvq",
@@ -217,7 +204,6 @@ Expectations for "payments_slo"
       threshold: 99.98,
       window_in_days: 30
     }
-
   * "identity_6_15_payments_slo_3":
     Provides {
       payments_slo_param_0: "gwpqyujnckiogvp",
@@ -229,7 +215,6 @@ Expectations for "payments_slo"
       threshold: 97.42,
       window_in_days: 30
     }
-
 Expectations for "payments_slo"
   * "identity_14_15_payments_slo_0":
     Provides {
@@ -242,7 +227,6 @@ Expectations for "payments_slo"
       threshold: 98.83,
       window_in_days: 30
     }
-
   * "identity_14_15_payments_slo_1":
     Provides {
       payments_slo_param_0: "exvfojoynlcwpx",
@@ -254,7 +238,6 @@ Expectations for "payments_slo"
       threshold: 97.07,
       window_in_days: 90
     }
-
   * "identity_14_15_payments_slo_2":
     Provides {
       payments_slo_param_0: "niwnd",
@@ -266,7 +249,6 @@ Expectations for "payments_slo"
       threshold: 97.68,
       window_in_days: 90
     }
-
   * "identity_14_15_payments_slo_3":
     Provides {
       payments_slo_param_0: "eymymmhabh",
@@ -296,7 +278,6 @@ Expectations for "logging_slo"
       threshold: 98.09,
       window_in_days: 90
     }
-
   * "identity_14_15_logging_slo_1":
     Provides {
       logging_slo_param_0: "cyeitrepfvxhftq",
@@ -313,7 +294,6 @@ Expectations for "logging_slo"
       threshold: 96.81,
       window_in_days: 30
     }
-
   * "identity_14_15_logging_slo_2":
     Provides {
       logging_slo_param_0: "aslznrueu",
@@ -330,7 +310,6 @@ Expectations for "logging_slo"
       threshold: 98.44,
       window_in_days: 90
     }
-
   * "identity_14_15_logging_slo_3":
     Provides {
       logging_slo_param_0: "mbgdgcr",
@@ -347,7 +326,6 @@ Expectations for "logging_slo"
       threshold: 98.21,
       window_in_days: 90
     }
-
   * "identity_14_15_logging_slo_4":
     Provides {
       logging_slo_param_0: "gjmvu",
@@ -377,7 +355,6 @@ Expectations for "billing_slo"
       threshold: 98.67,
       window_in_days: 30
     }
-
   * "identity_14_15_billing_slo_1":
     Provides {
       billing_slo_param_0: "tvcmjqnxwjb",
@@ -389,7 +366,6 @@ Expectations for "billing_slo"
       threshold: 99.78,
       window_in_days: 7
     }
-
   * "identity_14_15_billing_slo_2":
     Provides {
       billing_slo_param_0: "nimwyryguxrgvx",
@@ -401,7 +377,6 @@ Expectations for "billing_slo"
       threshold: 98.14,
       window_in_days: 90
     }
-
   * "identity_14_15_billing_slo_3":
     Provides {
       billing_slo_param_0: "nxwpskcdaent",
@@ -413,7 +388,6 @@ Expectations for "billing_slo"
       threshold: 96.02,
       window_in_days: 30
     }
-
   * "identity_14_15_billing_slo_4":
     Provides {
       billing_slo_param_0: "lincyfjs",
@@ -438,7 +412,6 @@ Expectations for "recommendations_slo"
       threshold: 99.53,
       window_in_days: 90
     }
-
   * "identity_14_15_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "vgcjhdgrcwrim",
@@ -450,7 +423,6 @@ Expectations for "recommendations_slo"
       threshold: 95.97,
       window_in_days: 7
     }
-
 Expectations for "notifications_slo"
   * "identity_22_15_notifications_slo_0":
     Provides {
@@ -463,7 +435,6 @@ Expectations for "notifications_slo"
       threshold: 95.27,
       window_in_days: 90
     }
-
   * "identity_22_15_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "tbuytlzq",
@@ -489,7 +460,6 @@ Expectations for "scheduler_slo"
       threshold: 97.36,
       window_in_days: 7
     }
-
   * "identity_22_15_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "mtwqbyevstujyr",
@@ -502,7 +472,6 @@ Expectations for "scheduler_slo"
       threshold: 99.27,
       window_in_days: 7
     }
-
   * "identity_22_15_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "ojyxwxnc",

@@ -4,35 +4,25 @@ Expectations for "profiles_slo"
       profiles_slo_param_0: "gonrurwjjbobww",
       profiles_slo_param_1: "xlozrcq",
       profiles_slo_param_2: "archived",
-      profiles_slo_param_3: {
-        key_0: "omxcpkfnaxlfrh",
-        key_1: "vzfziuipgz",
-        key_2: "xmnsec"
-      },
+      profiles_slo_param_3: { key_0: "omxcpkfnaxlfrh", key_1: "vzfziuipgz", key_2: "xmnsec" },
       profiles_slo_param_4: 891,
       profiles_slo_param_5: 76,
       req_2_field_0: "zilcphhwrkbdps",
       threshold: 98.85,
       window_in_days: 30
     }
-
   * "infrastructure_2_3_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "cefunjcziggafq",
       profiles_slo_param_1: "hjnaxtktm",
       profiles_slo_param_2: "inactive",
-      profiles_slo_param_3: {
-        key_0: "gvavpqgmswkvht",
-        key_1: "jumcba",
-        key_2: "nsucbestrhcx"
-      },
+      profiles_slo_param_3: { key_0: "gvavpqgmswkvht", key_1: "jumcba", key_2: "nsucbestrhcx" },
       profiles_slo_param_4: 629,
       profiles_slo_param_5: 76,
       req_2_field_0: "ayuvgllscvlsl",
       threshold: 99.89,
       window_in_days: 30
     }
-
   * "infrastructure_2_3_profiles_slo_2":
     Provides {
       profiles_slo_param_0: "xtqpgcddyroputx",
@@ -45,7 +35,6 @@ Expectations for "profiles_slo"
       threshold: 95.53,
       window_in_days: 7
     }
-
   * "infrastructure_2_3_profiles_slo_3":
     Provides {
       profiles_slo_param_0: "dwecizm",
@@ -58,7 +47,6 @@ Expectations for "profiles_slo"
       threshold: 95.13,
       window_in_days: 30
     }
-
   * "infrastructure_2_3_profiles_slo_4":
     Provides {
       profiles_slo_param_0: "iaezxqahblhkn",
@@ -83,7 +71,6 @@ Expectations for "checkout_slo"
       threshold: 99.06,
       window_in_days: 7
     }
-
   * "infrastructure_2_3_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "yhuiatamstmgl",
@@ -94,7 +81,6 @@ Expectations for "checkout_slo"
       threshold: 95.57,
       window_in_days: 30
     }
-
   * "infrastructure_2_3_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "ajloq",
@@ -105,7 +91,6 @@ Expectations for "checkout_slo"
       threshold: 95.96,
       window_in_days: 7
     }
-
   * "infrastructure_2_3_checkout_slo_3":
     Provides {
       checkout_slo_param_0: "krsstcewgcyy",
@@ -116,7 +101,6 @@ Expectations for "checkout_slo"
       threshold: 95.01,
       window_in_days: 7
     }
-
   * "infrastructure_2_3_checkout_slo_4":
     Provides {
       checkout_slo_param_0: "gjmgrhmcrwv",

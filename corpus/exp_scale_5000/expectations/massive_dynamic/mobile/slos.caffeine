@@ -12,7 +12,6 @@ Expectations for "gateway_slo"
       threshold: 96.64,
       window_in_days: 7
     }
-
   * "mobile_7_4_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "ukfuefmsktvrzp",
@@ -26,7 +25,6 @@ Expectations for "gateway_slo"
       threshold: 99.34,
       window_in_days: 90
     }
-
   * "mobile_7_4_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "edrzwlhfkxya",
@@ -40,7 +38,6 @@ Expectations for "gateway_slo"
       threshold: 99.89,
       window_in_days: 30
     }
-
 Expectations for "inventory_slo"
   * "mobile_15_4_inventory_slo_0":
     Provides {
@@ -56,7 +53,6 @@ Expectations for "inventory_slo"
       threshold: 96.58,
       window_in_days: 7
     }
-
   * "mobile_15_4_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "hxohik",
@@ -71,7 +67,6 @@ Expectations for "inventory_slo"
       threshold: 97.95,
       window_in_days: 30
     }
-
   * "mobile_15_4_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "wuosws",
@@ -86,7 +81,6 @@ Expectations for "inventory_slo"
       threshold: 97.19,
       window_in_days: 7
     }
-
   * "mobile_15_4_inventory_slo_3":
     Provides {
       inventory_slo_param_0: "ayyoyiyl",
@@ -145,7 +139,6 @@ Expectations for "notifications_slo"
       threshold: 95.99,
       window_in_days: 90
     }
-
   * "mobile_15_4_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "sfxkwcnrehtwqi",
@@ -157,7 +150,6 @@ Expectations for "notifications_slo"
       threshold: 98.19,
       window_in_days: 7
     }
-
   * "mobile_15_4_notifications_slo_2":
     Provides {
       notifications_slo_param_0: "avyfjcpwu",
@@ -169,7 +161,6 @@ Expectations for "notifications_slo"
       threshold: 96.6,
       window_in_days: 30
     }
-
 Expectations for "auth_slo"
   * "mobile_23_4_auth_slo_0":
     Provides {
@@ -181,7 +172,6 @@ Expectations for "auth_slo"
       threshold: 97.99,
       window_in_days: 90
     }
-
   * "mobile_23_4_auth_slo_1":
     Provides {
       auth_slo_param_0: "bdqwmqyqiqd",
@@ -192,7 +182,6 @@ Expectations for "auth_slo"
       threshold: 95.5,
       window_in_days: 7
     }
-
   * "mobile_23_4_auth_slo_2":
     Provides {
       auth_slo_param_0: "despirvvrzpjc",

@@ -8,7 +8,6 @@ Expectations for "orders_slo"
       threshold: 95.15,
       window_in_days: 30
     }
-
   * "growth_2_2_orders_slo_1":
     Provides {
       orders_slo_param_0: "rxjlswxic",
@@ -18,7 +17,6 @@ Expectations for "orders_slo"
       threshold: 98.37,
       window_in_days: 30
     }
-
   * "growth_2_2_orders_slo_2":
     Provides {
       orders_slo_param_0: "lgyvmdueob",
@@ -28,7 +26,6 @@ Expectations for "orders_slo"
       threshold: 97.88,
       window_in_days: 30
     }
-
   * "growth_2_2_orders_slo_3":
     Provides {
       orders_slo_param_0: "crcwrsxeusmrxes",
@@ -51,7 +48,6 @@ Expectations for "catalog_slo"
       threshold: 98.83,
       window_in_days: 7
     }
-
   * "growth_2_2_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "umrts",
@@ -63,7 +59,6 @@ Expectations for "catalog_slo"
       threshold: 95.66,
       window_in_days: 90
     }
-
   * "growth_2_2_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "hesszprzwoysarh",
@@ -75,7 +70,6 @@ Expectations for "catalog_slo"
       threshold: 98.26,
       window_in_days: 7
     }
-
   * "growth_2_2_catalog_slo_3":
     Provides {
       catalog_slo_param_0: "jdvsrt",
@@ -87,7 +81,6 @@ Expectations for "catalog_slo"
       threshold: 96.75,
       window_in_days: 90
     }
-
 Expectations for "auth_slo"
   * "growth_10_2_auth_slo_0":
     Provides {
@@ -99,7 +92,6 @@ Expectations for "auth_slo"
       threshold: 95.17,
       window_in_days: 90
     }
-
   * "growth_10_2_auth_slo_1":
     Provides {
       auth_slo_param_0: "gzeetvcw",
@@ -122,7 +114,6 @@ Expectations for "checkout_slo"
       threshold: 99.67,
       window_in_days: 7
     }
-
   * "growth_10_2_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "vpqirlnkjfrra",
@@ -133,7 +124,6 @@ Expectations for "checkout_slo"
       threshold: 98.2,
       window_in_days: 90
     }
-
   * "growth_10_2_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "cklam",
@@ -144,7 +134,6 @@ Expectations for "checkout_slo"
       threshold: 95.93,
       window_in_days: 30
     }
-
   * "growth_10_2_checkout_slo_3":
     Provides {
       checkout_slo_param_0: "hkbqiipgvla",
@@ -155,7 +144,6 @@ Expectations for "checkout_slo"
       threshold: 97.86,
       window_in_days: 7
     }
-
   * "growth_10_2_checkout_slo_4":
     Provides {
       checkout_slo_param_0: "oebfzbpzx",
@@ -178,7 +166,6 @@ Expectations for "users_slo"
       threshold: 99.54,
       window_in_days: 30
     }
-
   * "growth_10_2_users_slo_1":
     Provides {
       users_slo_param_0: "ksssrjuhuwv",
@@ -189,7 +176,6 @@ Expectations for "users_slo"
       threshold: 99.78,
       window_in_days: 30
     }
-
   * "growth_10_2_users_slo_2":
     Provides {
       users_slo_param_0: "ttdxbslozhzlco",
@@ -200,7 +186,6 @@ Expectations for "users_slo"
       threshold: 98.63,
       window_in_days: 90
     }
-
   * "growth_10_2_users_slo_3":
     Provides {
       users_slo_param_0: "sojamzcjlikdk",
@@ -211,7 +196,6 @@ Expectations for "users_slo"
       threshold: 97.39,
       window_in_days: 30
     }
-
   * "growth_10_2_users_slo_4":
     Provides {
       users_slo_param_0: "gwcwqwsdk",
@@ -235,7 +219,6 @@ Expectations for "payments_slo"
       threshold: 96.21,
       window_in_days: 7
     }
-
   * "growth_10_2_payments_slo_1":
     Provides {
       payments_slo_param_0: "avjkyfjhtsnclt",
@@ -247,7 +230,6 @@ Expectations for "payments_slo"
       threshold: 98.85,
       window_in_days: 7
     }
-
   * "growth_10_2_payments_slo_2":
     Provides {
       payments_slo_param_0: "zzqgjkjvjp",
@@ -259,7 +241,6 @@ Expectations for "payments_slo"
       threshold: 96.07,
       window_in_days: 7
     }
-
 Expectations for "analytics_slo"
   * "growth_18_2_analytics_slo_0":
     Provides {
@@ -285,7 +266,6 @@ Expectations for "payments_slo"
       threshold: 99.55,
       window_in_days: 7
     }
-
   * "growth_18_2_payments_slo_1":
     Provides {
       payments_slo_param_0: "xuewoen",
@@ -297,7 +277,6 @@ Expectations for "payments_slo"
       threshold: 97.83,
       window_in_days: 90
     }
-
   * "growth_18_2_payments_slo_2":
     Provides {
       payments_slo_param_0: "hsomjicpivq",
@@ -309,7 +288,6 @@ Expectations for "payments_slo"
       threshold: 99.67,
       window_in_days: 90
     }
-
 Expectations for "shipping_slo"
   * "growth_26_2_shipping_slo_0":
     Provides {
@@ -337,7 +315,6 @@ Expectations for "billing_slo"
       threshold: 95.28,
       window_in_days: 90
     }
-
   * "growth_26_2_billing_slo_1":
     Provides {
       billing_slo_param_0: "wgwalkodpwf",
@@ -349,7 +326,6 @@ Expectations for "billing_slo"
       threshold: 97.72,
       window_in_days: 30
     }
-
   * "growth_26_2_billing_slo_2":
     Provides {
       billing_slo_param_0: "yxxyed",
@@ -361,7 +337,6 @@ Expectations for "billing_slo"
       threshold: 99.44,
       window_in_days: 7
     }
-
   * "growth_26_2_billing_slo_3":
     Provides {
       billing_slo_param_0: "bkupstpptf",
@@ -373,7 +348,6 @@ Expectations for "billing_slo"
       threshold: 97.11,
       window_in_days: 7
     }
-
   * "growth_26_2_billing_slo_4":
     Provides {
       billing_slo_param_0: "iphhwggakrgleqt",
@@ -400,7 +374,6 @@ Expectations for "messaging_slo"
       threshold: 99.74,
       window_in_days: 30
     }
-
   * "growth_26_2_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "hxamf",
@@ -427,7 +400,6 @@ Expectations for "recommendations_slo"
       threshold: 96.77,
       window_in_days: 30
     }
-
   * "growth_26_2_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "jfmmumtfdnryu",
@@ -451,7 +423,6 @@ Expectations for "users_slo"
       threshold: 97.77,
       window_in_days: 90
     }
-
   * "growth_26_2_users_slo_1":
     Provides {
       users_slo_param_0: "pkximnhnqbtsh",
@@ -462,7 +433,6 @@ Expectations for "users_slo"
       threshold: 99.62,
       window_in_days: 7
     }
-
   * "growth_26_2_users_slo_2":
     Provides {
       users_slo_param_0: "ubilbrrlv",
@@ -473,7 +443,6 @@ Expectations for "users_slo"
       threshold: 99.15,
       window_in_days: 90
     }
-
   * "growth_26_2_users_slo_3":
     Provides {
       users_slo_param_0: "jhlcx",

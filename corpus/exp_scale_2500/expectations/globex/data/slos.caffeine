@@ -10,7 +10,6 @@ Expectations for "recommendations_slo"
       threshold: 96.71,
       window_in_days: 90
     }
-
   * "data_1_7_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "fqtyxlo",
@@ -22,7 +21,6 @@ Expectations for "recommendations_slo"
       threshold: 98.16,
       window_in_days: 30
     }
-
   * "data_1_7_recommendations_slo_2":
     Provides {
       recommendations_slo_param_0: "tuhnczppziqk",
@@ -34,7 +32,6 @@ Expectations for "recommendations_slo"
       threshold: 99.82,
       window_in_days: 30
     }
-
   * "data_1_7_recommendations_slo_3":
     Provides {
       recommendations_slo_param_0: "nxupaqrtkaipd",
@@ -59,7 +56,6 @@ Expectations for "catalog_slo"
       threshold: 97.56,
       window_in_days: 90
     }
-
   * "data_1_7_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "raauuemolppelw",
@@ -71,7 +67,6 @@ Expectations for "catalog_slo"
       threshold: 99.41,
       window_in_days: 30
     }
-
   * "data_1_7_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "uamwqt",
@@ -83,7 +78,6 @@ Expectations for "catalog_slo"
       threshold: 97.38,
       window_in_days: 90
     }
-
   * "data_1_7_catalog_slo_3":
     Provides {
       catalog_slo_param_0: "zeinmzd",
@@ -113,7 +107,6 @@ Expectations for "logging_slo"
       threshold: 99.51,
       window_in_days: 90
     }
-
   * "data_1_7_logging_slo_1":
     Provides {
       logging_slo_param_0: "bnjttzqcduf",
@@ -130,7 +123,6 @@ Expectations for "logging_slo"
       threshold: 99.25,
       window_in_days: 90
     }
-
   * "data_1_7_logging_slo_2":
     Provides {
       logging_slo_param_0: "xqjzzbzetqenjfy",
@@ -147,7 +139,6 @@ Expectations for "logging_slo"
       threshold: 95.54,
       window_in_days: 7
     }
-
   * "data_1_7_logging_slo_3":
     Provides {
       logging_slo_param_0: "blydmtbzuoswoys",
@@ -178,7 +169,6 @@ Expectations for "profiles_slo"
       threshold: 98.31,
       window_in_days: 90
     }
-
   * "data_1_7_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "ftqyxoaqfdkrbqx",
@@ -191,41 +181,30 @@ Expectations for "profiles_slo"
       threshold: 98.32,
       window_in_days: 90
     }
-
   * "data_1_7_profiles_slo_2":
     Provides {
       profiles_slo_param_0: "clgurfdqylxizy",
       profiles_slo_param_1: "ybjiftod",
       profiles_slo_param_2: "active",
-      profiles_slo_param_3: {
-        key_0: "hklctxnalo",
-        key_1: "tnwrsdgxwhm",
-        key_2: "nggtingkobe"
-      },
+      profiles_slo_param_3: { key_0: "hklctxnalo", key_1: "tnwrsdgxwhm", key_2: "nggtingkobe" },
       profiles_slo_param_4: 7654,
       profiles_slo_param_5: 76,
       req_2_field_0: "prvxuvkvpfm",
       threshold: 95.16,
       window_in_days: 7
     }
-
   * "data_1_7_profiles_slo_3":
     Provides {
       profiles_slo_param_0: "ffwuzsrhksqgmot",
       profiles_slo_param_1: "rylbwccn",
       profiles_slo_param_2: "active",
-      profiles_slo_param_3: {
-        key_0: "pqralntmtf",
-        key_1: "havmko",
-        key_2: "kjitsimxfgbsvu"
-      },
+      profiles_slo_param_3: { key_0: "pqralntmtf", key_1: "havmko", key_2: "kjitsimxfgbsvu" },
       profiles_slo_param_4: 5942,
       profiles_slo_param_5: 62,
       req_2_field_0: "ylbgivqbvqkf",
       threshold: 99.4,
       window_in_days: 30
     }
-
   * "data_1_7_profiles_slo_4":
     Provides {
       profiles_slo_param_0: "zutfnug",
@@ -238,7 +217,6 @@ Expectations for "profiles_slo"
       threshold: 98.08,
       window_in_days: 90
     }
-
 Expectations for "inventory_slo"
   * "data_9_7_inventory_slo_0":
     Provides {
@@ -254,7 +232,6 @@ Expectations for "inventory_slo"
       threshold: 96.43,
       window_in_days: 30
     }
-
   * "data_9_7_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "lbbpsv",

@@ -12,7 +12,6 @@ Expectations for "shipping_slo"
       threshold: 95.13,
       window_in_days: 30
     }
-
   * "sre_7_11_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "chzcupzchqwp",
@@ -57,7 +56,6 @@ Expectations for "gateway_slo"
       threshold: 98.61,
       window_in_days: 7
     }
-
   * "sre_7_11_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "lzntscddrk",

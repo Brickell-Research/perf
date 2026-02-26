@@ -10,7 +10,6 @@ Expectations for "billing_slo"
       threshold: 96.62,
       window_in_days: 30
     }
-
   * "reliability_3_9_billing_slo_1":
     Provides {
       billing_slo_param_0: "zokdlqfnskwfwv",
@@ -22,7 +21,6 @@ Expectations for "billing_slo"
       threshold: 98.27,
       window_in_days: 7
     }
-
 Expectations for "users_slo"
   * "reliability_11_9_users_slo_0":
     Provides {
@@ -34,7 +32,6 @@ Expectations for "users_slo"
       threshold: 95.18,
       window_in_days: 90
     }
-
   * "reliability_11_9_users_slo_1":
     Provides {
       users_slo_param_0: "tyfvphwaepuy",
@@ -45,7 +42,6 @@ Expectations for "users_slo"
       threshold: 97.63,
       window_in_days: 90
     }
-
   * "reliability_11_9_users_slo_2":
     Provides {
       users_slo_param_0: "utpbxas",
@@ -56,7 +52,6 @@ Expectations for "users_slo"
       threshold: 98.61,
       window_in_days: 30
     }
-
   * "reliability_11_9_users_slo_3":
     Provides {
       users_slo_param_0: "nahby",
@@ -67,7 +62,6 @@ Expectations for "users_slo"
       threshold: 99.65,
       window_in_days: 90
     }
-
   * "reliability_11_9_users_slo_4":
     Provides {
       users_slo_param_0: "wbqrusvdfsdxt",
@@ -92,17 +86,12 @@ Expectations for "profiles_slo"
       threshold: 95.85,
       window_in_days: 7
     }
-
   * "reliability_11_9_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "zrkicrx",
       profiles_slo_param_1: "ufvahngrcydqsp",
       profiles_slo_param_2: "draft",
-      profiles_slo_param_3: {
-        key_0: "tjugaecxmkqwd",
-        key_1: "gwdjtfnqmrnd",
-        key_2: "cjdigzcoggfzj"
-      },
+      profiles_slo_param_3: { key_0: "tjugaecxmkqwd", key_1: "gwdjtfnqmrnd", key_2: "cjdigzcoggfzj" },
       profiles_slo_param_4: 1920,
       profiles_slo_param_5: 62,
       req_2_field_0: "ocyswi",
@@ -125,7 +114,6 @@ Expectations for "inventory_slo"
       threshold: 98.02,
       window_in_days: 90
     }
-
   * "reliability_11_9_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "jxsbsarwtmhz",
@@ -140,7 +128,6 @@ Expectations for "inventory_slo"
       threshold: 97.93,
       window_in_days: 90
     }
-
   * "reliability_11_9_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "gcitsunoqqpxwey",
@@ -155,7 +142,6 @@ Expectations for "inventory_slo"
       threshold: 95.75,
       window_in_days: 90
     }
-
   * "reliability_11_9_inventory_slo_3":
     Provides {
       inventory_slo_param_0: "hsgnsulwwxrtjl",
@@ -170,7 +156,6 @@ Expectations for "inventory_slo"
       threshold: 95.76,
       window_in_days: 30
     }
-
   * "reliability_11_9_inventory_slo_4":
     Provides {
       inventory_slo_param_0: "ucizvhrufds",
@@ -197,7 +182,6 @@ Expectations for "auth_slo"
       threshold: 95.38,
       window_in_days: 90
     }
-
   * "reliability_11_9_auth_slo_1":
     Provides {
       auth_slo_param_0: "ygbuvzscfziiz",
@@ -222,7 +206,6 @@ Expectations for "monitoring_slo"
       threshold: 98.25,
       window_in_days: 90
     }
-
 Expectations for "analytics_slo"
   * "reliability_19_9_analytics_slo_0":
     Provides {
@@ -235,7 +218,6 @@ Expectations for "analytics_slo"
       threshold: 99.12,
       window_in_days: 30
     }
-
   * "reliability_19_9_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "gpoyaxxibyqog",
@@ -247,7 +229,6 @@ Expectations for "analytics_slo"
       threshold: 98.36,
       window_in_days: 30
     }
-
   * "reliability_19_9_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "tzenqkxz",
@@ -259,7 +240,6 @@ Expectations for "analytics_slo"
       threshold: 95.68,
       window_in_days: 30
     }
-
   * "reliability_19_9_analytics_slo_3":
     Provides {
       analytics_slo_param_0: "favfrech",
@@ -271,7 +251,6 @@ Expectations for "analytics_slo"
       threshold: 99.68,
       window_in_days: 30
     }
-
 Expectations for "users_slo"
   * "reliability_27_9_users_slo_0":
     Provides {
@@ -283,7 +262,6 @@ Expectations for "users_slo"
       threshold: 96.07,
       window_in_days: 30
     }
-
   * "reliability_27_9_users_slo_1":
     Provides {
       users_slo_param_0: "xtxhfgoa",

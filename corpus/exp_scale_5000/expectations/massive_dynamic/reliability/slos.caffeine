@@ -10,7 +10,6 @@ Expectations for "search_slo"
       threshold: 96.56,
       window_in_days: 30
     }
-
   * "reliability_7_9_search_slo_1":
     Provides {
       search_slo_param_0: "uhtxahb",
@@ -22,7 +21,6 @@ Expectations for "search_slo"
       threshold: 95.96,
       window_in_days: 90
     }
-
   * "reliability_7_9_search_slo_2":
     Provides {
       search_slo_param_0: "tzrwmobckfqngc",
@@ -34,7 +32,6 @@ Expectations for "search_slo"
       threshold: 95.34,
       window_in_days: 7
     }
-
   * "reliability_7_9_search_slo_3":
     Provides {
       search_slo_param_0: "myluyjqpkrkeob",
@@ -46,7 +43,6 @@ Expectations for "search_slo"
       threshold: 99.84,
       window_in_days: 7
     }
-
   * "reliability_7_9_search_slo_4":
     Provides {
       search_slo_param_0: "verktstayevp",
@@ -84,7 +80,6 @@ Expectations for "analytics_slo"
       threshold: 96.27,
       window_in_days: 90
     }
-
   * "reliability_7_9_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "cmdbovore",
@@ -96,7 +91,6 @@ Expectations for "analytics_slo"
       threshold: 97.71,
       window_in_days: 30
     }
-
   * "reliability_7_9_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "yiplmsbsgh",
@@ -108,7 +102,6 @@ Expectations for "analytics_slo"
       threshold: 97.9,
       window_in_days: 30
     }
-
   * "reliability_7_9_analytics_slo_3":
     Provides {
       analytics_slo_param_0: "szyniprl",
@@ -120,7 +113,6 @@ Expectations for "analytics_slo"
       threshold: 98.09,
       window_in_days: 90
     }
-
   * "reliability_7_9_analytics_slo_4":
     Provides {
       analytics_slo_param_0: "euoidvjd",
@@ -132,7 +124,6 @@ Expectations for "analytics_slo"
       threshold: 98.25,
       window_in_days: 90
     }
-
 Expectations for "recommendations_slo"
   * "reliability_15_9_recommendations_slo_0":
     Provides {
@@ -145,7 +136,6 @@ Expectations for "recommendations_slo"
       threshold: 95.85,
       window_in_days: 90
     }
-
   * "reliability_15_9_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "jwyczixoefheer",
@@ -170,7 +160,6 @@ Expectations for "search_slo"
       threshold: 99.52,
       window_in_days: 7
     }
-
 Expectations for "notifications_slo"
   * "reliability_23_9_notifications_slo_0":
     Provides {

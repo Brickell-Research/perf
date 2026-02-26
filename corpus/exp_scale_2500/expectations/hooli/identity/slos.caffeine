@@ -10,7 +10,6 @@ Expectations for "recommendations_slo"
       threshold: 97.52,
       window_in_days: 7
     }
-
 Expectations for "cart_slo"
   * "identity_11_15_cart_slo_0":
     Provides {
@@ -23,7 +22,6 @@ Expectations for "cart_slo"
       threshold: 97.8,
       window_in_days: 30
     }
-
   * "identity_11_15_cart_slo_1":
     Provides {
       cart_slo_param_0: "nxpvhysmtem",
@@ -35,7 +33,6 @@ Expectations for "cart_slo"
       threshold: 96.49,
       window_in_days: 90
     }
-
   * "identity_11_15_cart_slo_2":
     Provides {
       cart_slo_param_0: "dlehff",
@@ -47,7 +44,6 @@ Expectations for "cart_slo"
       threshold: 96.57,
       window_in_days: 7
     }
-
   * "identity_11_15_cart_slo_3":
     Provides {
       cart_slo_param_0: "xsmolgddbcmnuqe",
@@ -71,7 +67,6 @@ Expectations for "auth_slo"
       threshold: 95.44,
       window_in_days: 7
     }
-
   * "identity_11_15_auth_slo_1":
     Provides {
       auth_slo_param_0: "iatekvfsvkarwsr",
@@ -82,7 +77,6 @@ Expectations for "auth_slo"
       threshold: 98.72,
       window_in_days: 30
     }
-
   * "identity_11_15_auth_slo_2":
     Provides {
       auth_slo_param_0: "pufispvrcnc",
@@ -120,7 +114,6 @@ Expectations for "users_slo"
       threshold: 95.23,
       window_in_days: 30
     }
-
   * "identity_11_15_users_slo_1":
     Provides {
       users_slo_param_0: "zxukvjrpxlmqxt",
@@ -131,7 +124,6 @@ Expectations for "users_slo"
       threshold: 97.83,
       window_in_days: 30
     }
-
   * "identity_11_15_users_slo_2":
     Provides {
       users_slo_param_0: "nwequbnvfdao",
@@ -142,7 +134,6 @@ Expectations for "users_slo"
       threshold: 95.12,
       window_in_days: 90
     }
-
   * "identity_11_15_users_slo_3":
     Provides {
       users_slo_param_0: "ktqpwculuaxl",

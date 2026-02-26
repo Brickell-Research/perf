@@ -12,7 +12,6 @@ Expectations for "messaging_slo"
       threshold: 95.24,
       window_in_days: 7
     }
-
   * "analytics_5_17_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "kxztytwowaycpu",
@@ -26,7 +25,6 @@ Expectations for "messaging_slo"
       threshold: 95.91,
       window_in_days: 7
     }
-
   * "analytics_5_17_messaging_slo_2":
     Provides {
       messaging_slo_param_0: "utnltuvdyfupvhi",
@@ -40,7 +38,6 @@ Expectations for "messaging_slo"
       threshold: 96.55,
       window_in_days: 90
     }
-
   * "analytics_5_17_messaging_slo_3":
     Provides {
       messaging_slo_param_0: "btewi",
@@ -68,7 +65,6 @@ Expectations for "monitoring_slo"
       threshold: 99.14,
       window_in_days: 30
     }
-
 Expectations for "billing_slo"
   * "analytics_13_17_billing_slo_0":
     Provides {
@@ -81,7 +77,6 @@ Expectations for "billing_slo"
       threshold: 96.8,
       window_in_days: 30
     }
-
   * "analytics_13_17_billing_slo_1":
     Provides {
       billing_slo_param_0: "vxxnmxvggtgw",
@@ -107,7 +102,6 @@ Expectations for "monitoring_slo"
       threshold: 98.47,
       window_in_days: 7
     }
-
   * "analytics_13_17_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "aixmsjgni",
@@ -120,7 +114,6 @@ Expectations for "monitoring_slo"
       threshold: 96.39,
       window_in_days: 30
     }
-
 Expectations for "recommendations_slo"
   * "analytics_21_17_recommendations_slo_0":
     Provides {
@@ -133,7 +126,6 @@ Expectations for "recommendations_slo"
       threshold: 95.99,
       window_in_days: 7
     }
-
   * "analytics_21_17_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "nnqehbds",
@@ -145,7 +137,6 @@ Expectations for "recommendations_slo"
       threshold: 96.76,
       window_in_days: 30
     }
-
   * "analytics_21_17_recommendations_slo_2":
     Provides {
       recommendations_slo_param_0: "vavpillc",
@@ -157,7 +148,6 @@ Expectations for "recommendations_slo"
       threshold: 98.35,
       window_in_days: 7
     }
-
   * "analytics_21_17_recommendations_slo_3":
     Provides {
       recommendations_slo_param_0: "bymlxknwtk",
@@ -183,7 +173,6 @@ Expectations for "monitoring_slo"
       threshold: 96.05,
       window_in_days: 90
     }
-
   * "analytics_21_17_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "sdiwhxt",
@@ -196,7 +185,6 @@ Expectations for "monitoring_slo"
       threshold: 98.74,
       window_in_days: 7
     }
-
   * "analytics_21_17_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "elwcuknhiaogjx",
@@ -209,7 +197,6 @@ Expectations for "monitoring_slo"
       threshold: 97.12,
       window_in_days: 90
     }
-
   * "analytics_21_17_monitoring_slo_3":
     Provides {
       monitoring_slo_param_0: "ruucxiwljnhutg",

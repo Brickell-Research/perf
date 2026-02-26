@@ -10,7 +10,6 @@ Expectations for "notifications_slo"
       threshold: 98.74,
       window_in_days: 90
     }
-
   * "growth_2_2_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "tfqvkqeqadoj",
@@ -22,7 +21,6 @@ Expectations for "notifications_slo"
       threshold: 99.03,
       window_in_days: 30
     }
-
   * "growth_2_2_notifications_slo_2":
     Provides {
       notifications_slo_param_0: "prxfozelw",
@@ -34,7 +32,6 @@ Expectations for "notifications_slo"
       threshold: 99.51,
       window_in_days: 90
     }
-
   * "growth_2_2_notifications_slo_3":
     Provides {
       notifications_slo_param_0: "qgowevy",
@@ -58,7 +55,6 @@ Expectations for "checkout_slo"
       threshold: 98.36,
       window_in_days: 7
     }
-
   * "growth_2_2_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "wvhdxeew",
@@ -69,7 +65,6 @@ Expectations for "checkout_slo"
       threshold: 96.16,
       window_in_days: 90
     }
-
   * "growth_2_2_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "asvqvvqfi",
@@ -80,7 +75,6 @@ Expectations for "checkout_slo"
       threshold: 97.49,
       window_in_days: 7
     }
-
 Expectations for "search_slo"
   * "growth_10_2_search_slo_0":
     Provides {
@@ -106,7 +100,6 @@ Expectations for "analytics_slo"
       threshold: 95.24,
       window_in_days: 90
     }
-
   * "growth_10_2_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "gurabjjfffptq",
@@ -118,7 +111,6 @@ Expectations for "analytics_slo"
       threshold: 96.22,
       window_in_days: 30
     }
-
   * "growth_10_2_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "mbbtefxvu",
@@ -145,7 +137,6 @@ Expectations for "gateway_slo"
       threshold: 95.67,
       window_in_days: 90
     }
-
   * "growth_10_2_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "dupcsbmnjjrhu",
@@ -175,7 +166,6 @@ Expectations for "inventory_slo"
       threshold: 98.12,
       window_in_days: 90
     }
-
   * "growth_10_2_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "zwcgparddqtbpms",

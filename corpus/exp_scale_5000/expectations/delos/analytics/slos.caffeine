@@ -15,7 +15,6 @@ Expectations for "logging_slo"
       threshold: 96.54,
       window_in_days: 30
     }
-
 Expectations for "scheduler_slo"
   * "analytics_14_17_scheduler_slo_0":
     Provides {
@@ -41,7 +40,6 @@ Expectations for "auth_slo"
       threshold: 99.98,
       window_in_days: 30
     }
-
   * "analytics_14_17_auth_slo_1":
     Provides {
       auth_slo_param_0: "bwwbqmiosfnu",
@@ -64,7 +62,6 @@ Expectations for "checkout_slo"
       threshold: 98.33,
       window_in_days: 30
     }
-
 Expectations for "shipping_slo"
   * "analytics_22_17_shipping_slo_0":
     Provides {
@@ -79,7 +76,6 @@ Expectations for "shipping_slo"
       threshold: 99.47,
       window_in_days: 7
     }
-
   * "analytics_22_17_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "paywarmfuzbavu",
@@ -93,7 +89,6 @@ Expectations for "shipping_slo"
       threshold: 95.3,
       window_in_days: 30
     }
-
   * "analytics_22_17_shipping_slo_2":
     Provides {
       shipping_slo_param_0: "yzkexiwkehayxf",

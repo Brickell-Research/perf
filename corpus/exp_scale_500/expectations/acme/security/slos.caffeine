@@ -12,7 +12,6 @@ Expectations for "messaging_slo"
       threshold: 99.77,
       window_in_days: 90
     }
-
   * "security_0_8_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "zmpzknszvscdj",
@@ -26,7 +25,6 @@ Expectations for "messaging_slo"
       threshold: 99.76,
       window_in_days: 30
     }
-
   * "security_0_8_messaging_slo_2":
     Provides {
       messaging_slo_param_0: "jsqejezeanpuaj",
@@ -40,7 +38,6 @@ Expectations for "messaging_slo"
       threshold: 99.06,
       window_in_days: 90
     }
-
   * "security_0_8_messaging_slo_3":
     Provides {
       messaging_slo_param_0: "vpdspjvvko",
@@ -67,7 +64,6 @@ Expectations for "catalog_slo"
       threshold: 96.33,
       window_in_days: 7
     }
-
   * "security_0_8_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "uejfrgbkneqqe",
@@ -79,7 +75,6 @@ Expectations for "catalog_slo"
       threshold: 97.74,
       window_in_days: 30
     }
-
   * "security_0_8_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "fesfxesgp",
@@ -116,7 +111,6 @@ Expectations for "payments_slo"
       threshold: 98.34,
       window_in_days: 30
     }
-
   * "security_0_8_payments_slo_1":
     Provides {
       payments_slo_param_0: "cvlmvepikyj",
@@ -128,7 +122,6 @@ Expectations for "payments_slo"
       threshold: 99.94,
       window_in_days: 7
     }
-
   * "security_0_8_payments_slo_2":
     Provides {
       payments_slo_param_0: "nsgmhxwl",
@@ -155,7 +148,6 @@ Expectations for "gateway_slo"
       threshold: 97.32,
       window_in_days: 7
     }
-
   * "security_0_8_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "ztayugjuyuqrz",

@@ -22,7 +22,6 @@ Expectations for "payments_slo"
       threshold: 97.5,
       window_in_days: 90
     }
-
   * "identity_6_15_payments_slo_1":
     Provides {
       payments_slo_param_0: "yazrzqpfkog",
@@ -49,7 +48,6 @@ Expectations for "gateway_slo"
       threshold: 97.38,
       window_in_days: 30
     }
-
   * "identity_6_15_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "dzyocxglscq",
@@ -63,7 +61,6 @@ Expectations for "gateway_slo"
       threshold: 96.56,
       window_in_days: 90
     }
-
   * "identity_6_15_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "aylqfpxzq",
@@ -77,7 +74,6 @@ Expectations for "gateway_slo"
       threshold: 95.5,
       window_in_days: 90
     }
-
   * "identity_6_15_gateway_slo_3":
     Provides {
       gateway_slo_param_0: "timknhtamqoapl",
@@ -91,7 +87,6 @@ Expectations for "gateway_slo"
       threshold: 97.64,
       window_in_days: 30
     }
-
   * "identity_6_15_gateway_slo_4":
     Provides {
       gateway_slo_param_0: "ozahrtcvi",

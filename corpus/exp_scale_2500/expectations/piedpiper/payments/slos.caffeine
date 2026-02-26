@@ -11,7 +11,6 @@ Expectations for "monitoring_slo"
       threshold: 99.0,
       window_in_days: 30
     }
-
   * "payments_4_1_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "ulleflhikwn",
@@ -24,7 +23,6 @@ Expectations for "monitoring_slo"
       threshold: 97.5,
       window_in_days: 7
     }
-
   * "payments_4_1_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "fnapcgdkrfxyps",
@@ -37,7 +35,6 @@ Expectations for "monitoring_slo"
       threshold: 96.44,
       window_in_days: 30
     }
-
   * "payments_4_1_monitoring_slo_3":
     Provides {
       monitoring_slo_param_0: "cyphyrd",
@@ -50,7 +47,6 @@ Expectations for "monitoring_slo"
       threshold: 97.43,
       window_in_days: 90
     }
-
   * "payments_4_1_monitoring_slo_4":
     Provides {
       monitoring_slo_param_0: "nygdqelhslmxns",
@@ -78,7 +74,6 @@ Expectations for "gateway_slo"
       threshold: 98.31,
       window_in_days: 90
     }
-
   * "payments_4_1_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "aaqgj",
@@ -92,7 +87,6 @@ Expectations for "gateway_slo"
       threshold: 97.69,
       window_in_days: 90
     }
-
 Expectations for "monitoring_slo"
   * "payments_12_1_monitoring_slo_0":
     Provides {
@@ -106,7 +100,6 @@ Expectations for "monitoring_slo"
       threshold: 99.56,
       window_in_days: 90
     }
-
   * "payments_12_1_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "wevybvevcsae",
@@ -131,7 +124,6 @@ Expectations for "users_slo"
       threshold: 96.39,
       window_in_days: 7
     }
-
   * "payments_12_1_users_slo_1":
     Provides {
       users_slo_param_0: "catdd",
@@ -142,7 +134,6 @@ Expectations for "users_slo"
       threshold: 97.77,
       window_in_days: 90
     }
-
   * "payments_12_1_users_slo_2":
     Provides {
       users_slo_param_0: "nfmoexlyvofoj",
@@ -153,7 +144,6 @@ Expectations for "users_slo"
       threshold: 96.09,
       window_in_days: 30
     }
-
   * "payments_12_1_users_slo_3":
     Provides {
       users_slo_param_0: "ivejqsnbrz",
@@ -164,7 +154,6 @@ Expectations for "users_slo"
       threshold: 95.51,
       window_in_days: 90
     }
-
   * "payments_12_1_users_slo_4":
     Provides {
       users_slo_param_0: "jyusyimxkul",
@@ -193,7 +182,6 @@ Expectations for "logging_slo"
       threshold: 96.27,
       window_in_days: 90
     }
-
   * "payments_12_1_logging_slo_1":
     Provides {
       logging_slo_param_0: "tylyybvuvs",
@@ -210,7 +198,6 @@ Expectations for "logging_slo"
       threshold: 97.92,
       window_in_days: 90
     }
-
   * "payments_12_1_logging_slo_2":
     Provides {
       logging_slo_param_0: "kbqhkfzjufwxi",
@@ -227,7 +214,6 @@ Expectations for "logging_slo"
       threshold: 99.04,
       window_in_days: 7
     }
-
   * "payments_12_1_logging_slo_3":
     Provides {
       logging_slo_param_0: "fvvovxobuf",

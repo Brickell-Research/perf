@@ -11,7 +11,6 @@ Expectations for "profiles_slo"
       threshold: 98.28,
       window_in_days: 90
     }
-
 Expectations for "billing_slo"
   * "platform_10_0_billing_slo_0":
     Provides {
@@ -24,7 +23,6 @@ Expectations for "billing_slo"
       threshold: 98.21,
       window_in_days: 30
     }
-
 Expectations for "analytics_slo"
   * "platform_18_0_analytics_slo_0":
     Provides {
@@ -37,7 +35,6 @@ Expectations for "analytics_slo"
       threshold: 95.56,
       window_in_days: 90
     }
-
   * "platform_18_0_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "tfltlwilhzzlmch",
@@ -49,7 +46,6 @@ Expectations for "analytics_slo"
       threshold: 96.64,
       window_in_days: 30
     }
-
   * "platform_18_0_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "pskqbr",
@@ -61,7 +57,6 @@ Expectations for "analytics_slo"
       threshold: 95.72,
       window_in_days: 30
     }
-
   * "platform_18_0_analytics_slo_3":
     Provides {
       analytics_slo_param_0: "xdsgxc",
@@ -86,7 +81,6 @@ Expectations for "billing_slo"
       threshold: 97.82,
       window_in_days: 90
     }
-
   * "platform_18_0_billing_slo_1":
     Provides {
       billing_slo_param_0: "kmrujvr",
@@ -98,7 +92,6 @@ Expectations for "billing_slo"
       threshold: 99.96,
       window_in_days: 30
     }
-
   * "platform_18_0_billing_slo_2":
     Provides {
       billing_slo_param_0: "zlxhaluqy",
@@ -110,7 +103,6 @@ Expectations for "billing_slo"
       threshold: 97.72,
       window_in_days: 90
     }
-
   * "platform_18_0_billing_slo_3":
     Provides {
       billing_slo_param_0: "akrkywj",
@@ -153,7 +145,6 @@ Expectations for "catalog_slo"
       threshold: 96.33,
       window_in_days: 30
     }
-
 Expectations for "cart_slo"
   * "platform_26_0_cart_slo_0":
     Provides {
@@ -166,7 +157,6 @@ Expectations for "cart_slo"
       threshold: 98.86,
       window_in_days: 90
     }
-
   * "platform_26_0_cart_slo_1":
     Provides {
       cart_slo_param_0: "vxgnri",
@@ -178,7 +168,6 @@ Expectations for "cart_slo"
       threshold: 97.22,
       window_in_days: 30
     }
-
   * "platform_26_0_cart_slo_2":
     Provides {
       cart_slo_param_0: "beskhdocguxqlg",
@@ -190,7 +179,6 @@ Expectations for "cart_slo"
       threshold: 98.05,
       window_in_days: 90
     }
-
   * "platform_26_0_cart_slo_3":
     Provides {
       cart_slo_param_0: "duwjpqamh",

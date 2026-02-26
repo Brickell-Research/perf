@@ -10,7 +10,6 @@ Expectations for "payments_slo"
       threshold: 98.27,
       window_in_days: 30
     }
-
   * "search_2_13_payments_slo_1":
     Provides {
       payments_slo_param_0: "brxrc",
@@ -22,7 +21,6 @@ Expectations for "payments_slo"
       threshold: 98.46,
       window_in_days: 30
     }
-
   * "search_2_13_payments_slo_2":
     Provides {
       payments_slo_param_0: "jlxmjzfclwsztb",
@@ -34,7 +32,6 @@ Expectations for "payments_slo"
       threshold: 99.72,
       window_in_days: 7
     }
-
   * "search_2_13_payments_slo_3":
     Provides {
       payments_slo_param_0: "vekhdyml",
@@ -46,7 +43,6 @@ Expectations for "payments_slo"
       threshold: 99.99,
       window_in_days: 90
     }
-
   * "search_2_13_payments_slo_4":
     Provides {
       payments_slo_param_0: "qoeobmmg",
@@ -58,7 +54,6 @@ Expectations for "payments_slo"
       threshold: 99.21,
       window_in_days: 7
     }
-
 Expectations for "cart_slo"
   * "search_10_13_cart_slo_0":
     Provides {
@@ -71,7 +66,6 @@ Expectations for "cart_slo"
       threshold: 95.22,
       window_in_days: 90
     }
-
   * "search_10_13_cart_slo_1":
     Provides {
       cart_slo_param_0: "tqcrxfvem",
@@ -83,7 +77,6 @@ Expectations for "cart_slo"
       threshold: 96.36,
       window_in_days: 30
     }
-
   * "search_10_13_cart_slo_2":
     Provides {
       cart_slo_param_0: "agurwvrkqtxe",
@@ -113,7 +106,6 @@ Expectations for "logging_slo"
       threshold: 96.68,
       window_in_days: 90
     }
-
   * "search_10_13_logging_slo_1":
     Provides {
       logging_slo_param_0: "llycgii",
@@ -130,7 +122,6 @@ Expectations for "logging_slo"
       threshold: 96.62,
       window_in_days: 7
     }
-
   * "search_10_13_logging_slo_2":
     Provides {
       logging_slo_param_0: "fsgbcsfngch",
@@ -147,7 +138,6 @@ Expectations for "logging_slo"
       threshold: 98.03,
       window_in_days: 7
     }
-
   * "search_10_13_logging_slo_3":
     Provides {
       logging_slo_param_0: "wrzsqt",
@@ -179,7 +169,6 @@ Expectations for "gateway_slo"
       threshold: 95.78,
       window_in_days: 90
     }
-
   * "search_10_13_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "nhhzyz",
@@ -193,7 +182,6 @@ Expectations for "gateway_slo"
       threshold: 97.18,
       window_in_days: 30
     }
-
   * "search_10_13_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "iljpamdzrvawktx",

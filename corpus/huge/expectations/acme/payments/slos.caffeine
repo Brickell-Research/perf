@@ -18,7 +18,6 @@ Expectations for "orders_slo"
       threshold: 99.88,
       window_in_days: 7
     }
-
   * "payments_orders_slo_1":
     Provides {
       orders_slo_param_0: "kbkvzpcs",
@@ -38,7 +37,6 @@ Expectations for "orders_slo"
       threshold: 99.96,
       window_in_days: 7
     }
-
   * "payments_orders_slo_2":
     Provides {
       orders_slo_param_0: "dwozu",
@@ -58,7 +56,6 @@ Expectations for "orders_slo"
       threshold: 99.88,
       window_in_days: 7
     }
-
   * "payments_orders_slo_3":
     Provides {
       orders_slo_param_0: "fatkg",
@@ -78,7 +75,6 @@ Expectations for "orders_slo"
       threshold: 97.71,
       window_in_days: 30
     }
-
   * "payments_orders_slo_4":
     Provides {
       orders_slo_param_0: "vrlhqywzu",
@@ -98,7 +94,6 @@ Expectations for "orders_slo"
       threshold: 99.91,
       window_in_days: 90
     }
-
   * "payments_orders_slo_5":
     Provides {
       orders_slo_param_0: "ueqffvsujgbcdaz",
@@ -118,7 +113,6 @@ Expectations for "orders_slo"
       threshold: 98.58,
       window_in_days: 30
     }
-
   * "payments_orders_slo_6":
     Provides {
       orders_slo_param_0: "ptiuym",
@@ -138,7 +132,6 @@ Expectations for "orders_slo"
       threshold: 98.76,
       window_in_days: 30
     }
-
   * "payments_orders_slo_7":
     Provides {
       orders_slo_param_0: "oipksl",
@@ -148,11 +141,7 @@ Expectations for "orders_slo"
       orders_slo_param_4: 4986,
       orders_slo_param_5: [4321],
       orders_slo_param_6: 32.94,
-      orders_slo_param_7: {
-        key_0: "hedldwtxzkl",
-        key_1: "ngmmhu",
-        key_2: "fghcowrtfczb"
-      },
+      orders_slo_param_7: { key_0: "hedldwtxzkl", key_1: "ngmmhu", key_2: "fghcowrtfczb" },
       orders_slo_param_8: 4.55,
       orders_slo_param_9: "draft",
       orders_slo_param_10: 44.9,
@@ -178,7 +167,6 @@ Expectations for "inventory_slo"
       threshold: 97.59,
       window_in_days: 7
     }
-
   * "payments_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "bgccxognhwskkfv",
@@ -193,7 +181,6 @@ Expectations for "inventory_slo"
       threshold: 99.49,
       window_in_days: 7
     }
-
   * "payments_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "rlazw",
@@ -208,7 +195,6 @@ Expectations for "inventory_slo"
       threshold: 98.87,
       window_in_days: 7
     }
-
   * "payments_inventory_slo_3":
     Provides {
       inventory_slo_param_0: "uimjorglv",
@@ -223,7 +209,6 @@ Expectations for "inventory_slo"
       threshold: 97.88,
       window_in_days: 90
     }
-
   * "payments_inventory_slo_4":
     Provides {
       inventory_slo_param_0: "jtfyqzwrxly",
@@ -238,7 +223,6 @@ Expectations for "inventory_slo"
       threshold: 98.11,
       window_in_days: 90
     }
-
   * "payments_inventory_slo_5":
     Provides {
       inventory_slo_param_0: "hhuabhp",
@@ -253,7 +237,6 @@ Expectations for "inventory_slo"
       threshold: 99.97,
       window_in_days: 7
     }
-
   * "payments_inventory_slo_6":
     Provides {
       inventory_slo_param_0: "pcfmjvqkzcg",
@@ -268,7 +251,6 @@ Expectations for "inventory_slo"
       threshold: 95.69,
       window_in_days: 30
     }
-
   * "payments_inventory_slo_7":
     Provides {
       inventory_slo_param_0: "nrjjmylxat",
@@ -299,7 +281,6 @@ Expectations for "shipping_slo"
       threshold: 95.12,
       window_in_days: 90
     }
-
   * "payments_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "kyhmegwgplrd",
@@ -314,7 +295,6 @@ Expectations for "shipping_slo"
       threshold: 97.9,
       window_in_days: 7
     }
-
   * "payments_shipping_slo_2":
     Provides {
       shipping_slo_param_0: "qrlxjdwlaenwfxn",
@@ -329,7 +309,6 @@ Expectations for "shipping_slo"
       threshold: 96.16,
       window_in_days: 90
     }
-
   * "payments_shipping_slo_3":
     Provides {
       shipping_slo_param_0: "mrigux",
@@ -344,7 +323,6 @@ Expectations for "shipping_slo"
       threshold: 99.93,
       window_in_days: 90
     }
-
   * "payments_shipping_slo_4":
     Provides {
       shipping_slo_param_0: "fglhfevvepqrf",
@@ -359,7 +337,6 @@ Expectations for "shipping_slo"
       threshold: 95.59,
       window_in_days: 7
     }
-
   * "payments_shipping_slo_5":
     Provides {
       shipping_slo_param_0: "pifyx",
@@ -374,7 +351,6 @@ Expectations for "shipping_slo"
       threshold: 96.0,
       window_in_days: 7
     }
-
   * "payments_shipping_slo_6":
     Provides {
       shipping_slo_param_0: "fvitxbm",
@@ -389,7 +365,6 @@ Expectations for "shipping_slo"
       threshold: 98.4,
       window_in_days: 90
     }
-
   * "payments_shipping_slo_7":
     Provides {
       shipping_slo_param_0: "obtsl",

@@ -12,7 +12,6 @@ Expectations for "auth_slo"
       threshold: 95.41,
       window_in_days: 7
     }
-
   * "growth_auth_slo_1":
     Provides {
       auth_slo_param_0: "mqozvvwktizqhx",
@@ -26,7 +25,6 @@ Expectations for "auth_slo"
       threshold: 95.29,
       window_in_days: 90
     }
-
   * "growth_auth_slo_2":
     Provides {
       auth_slo_param_0: "qcplylhcuhmcjda",
@@ -40,7 +38,6 @@ Expectations for "auth_slo"
       threshold: 97.34,
       window_in_days: 30
     }
-
   * "growth_auth_slo_3":
     Provides {
       auth_slo_param_0: "takrl",
@@ -54,7 +51,6 @@ Expectations for "auth_slo"
       threshold: 96.13,
       window_in_days: 90
     }
-
   * "growth_auth_slo_4":
     Provides {
       auth_slo_param_0: "khikpmc",
@@ -68,7 +64,6 @@ Expectations for "auth_slo"
       threshold: 98.41,
       window_in_days: 7
     }
-
   * "growth_auth_slo_5":
     Provides {
       auth_slo_param_0: "bwockopmahdig",
@@ -82,7 +77,6 @@ Expectations for "auth_slo"
       threshold: 98.77,
       window_in_days: 30
     }
-
   * "growth_auth_slo_6":
     Provides {
       auth_slo_param_0: "rqcklxic",
@@ -96,7 +90,6 @@ Expectations for "auth_slo"
       threshold: 97.83,
       window_in_days: 7
     }
-
   * "growth_auth_slo_7":
     Provides {
       auth_slo_param_0: "itpcycma",
@@ -130,7 +123,6 @@ Expectations for "payments_slo"
       threshold: 99.21,
       window_in_days: 30
     }
-
   * "growth_payments_slo_1":
     Provides {
       payments_slo_param_0: "sewqwbnyumqwwx",
@@ -149,7 +141,6 @@ Expectations for "payments_slo"
       threshold: 99.84,
       window_in_days: 30
     }
-
   * "growth_payments_slo_2":
     Provides {
       payments_slo_param_0: "umwyoqlkrb",
@@ -168,7 +159,6 @@ Expectations for "payments_slo"
       threshold: 95.41,
       window_in_days: 30
     }
-
   * "growth_payments_slo_3":
     Provides {
       payments_slo_param_0: "hybhmdwbwg",
@@ -187,7 +177,6 @@ Expectations for "payments_slo"
       threshold: 95.14,
       window_in_days: 7
     }
-
   * "growth_payments_slo_4":
     Provides {
       payments_slo_param_0: "bddoosdfdo",
@@ -206,7 +195,6 @@ Expectations for "payments_slo"
       threshold: 97.59,
       window_in_days: 7
     }
-
   * "growth_payments_slo_5":
     Provides {
       payments_slo_param_0: "zjmikshxwqvpot",
@@ -225,7 +213,6 @@ Expectations for "payments_slo"
       threshold: 96.98,
       window_in_days: 7
     }
-
   * "growth_payments_slo_6":
     Provides {
       payments_slo_param_0: "mwkzaabgx",
@@ -244,7 +231,6 @@ Expectations for "payments_slo"
       threshold: 99.45,
       window_in_days: 7
     }
-
   * "growth_payments_slo_7":
     Provides {
       payments_slo_param_0: "ygiqv",
@@ -284,7 +270,6 @@ Expectations for "orders_slo"
       threshold: 97.1,
       window_in_days: 90
     }
-
   * "growth_orders_slo_1":
     Provides {
       orders_slo_param_0: "zqrjz",
@@ -294,11 +279,7 @@ Expectations for "orders_slo"
       orders_slo_param_4: 472,
       orders_slo_param_5: [815, 6560],
       orders_slo_param_6: 60.37,
-      orders_slo_param_7: {
-        key_0: "pzjqjhokxgmoyj",
-        key_1: "slbotxchljpjk",
-        key_2: "gtnxrfyaa"
-      },
+      orders_slo_param_7: { key_0: "pzjqjhokxgmoyj", key_1: "slbotxchljpjk", key_2: "gtnxrfyaa" },
       orders_slo_param_8: 36.54,
       orders_slo_param_9: "active",
       orders_slo_param_10: 42.67,
@@ -308,7 +289,6 @@ Expectations for "orders_slo"
       threshold: 95.06,
       window_in_days: 7
     }
-
   * "growth_orders_slo_2":
     Provides {
       orders_slo_param_0: "gbyyhir",
@@ -328,7 +308,6 @@ Expectations for "orders_slo"
       threshold: 95.92,
       window_in_days: 7
     }
-
   * "growth_orders_slo_3":
     Provides {
       orders_slo_param_0: "jobgxwewwabkboc",
@@ -348,7 +327,6 @@ Expectations for "orders_slo"
       threshold: 99.99,
       window_in_days: 90
     }
-
   * "growth_orders_slo_4":
     Provides {
       orders_slo_param_0: "cazxsgidwrilnko",
@@ -368,7 +346,6 @@ Expectations for "orders_slo"
       threshold: 96.45,
       window_in_days: 90
     }
-
   * "growth_orders_slo_5":
     Provides {
       orders_slo_param_0: "mhouqvpnnmx",
@@ -378,11 +355,7 @@ Expectations for "orders_slo"
       orders_slo_param_4: 1692,
       orders_slo_param_5: [1211],
       orders_slo_param_6: 44.24,
-      orders_slo_param_7: {
-        key_0: "vzhaxghyvip",
-        key_1: "hgrnrszyjeoc",
-        key_2: "afggaybqupkkjss"
-      },
+      orders_slo_param_7: { key_0: "vzhaxghyvip", key_1: "hgrnrszyjeoc", key_2: "afggaybqupkkjss" },
       orders_slo_param_8: 94.33,
       orders_slo_param_9: "pending",
       orders_slo_param_10: 55.02,
@@ -392,7 +365,6 @@ Expectations for "orders_slo"
       threshold: 99.84,
       window_in_days: 7
     }
-
   * "growth_orders_slo_6":
     Provides {
       orders_slo_param_0: "dmvorgcygouxmp",
@@ -412,7 +384,6 @@ Expectations for "orders_slo"
       threshold: 97.65,
       window_in_days: 30
     }
-
   * "growth_orders_slo_7":
     Provides {
       orders_slo_param_0: "zvqtrxsokdrfbrn",

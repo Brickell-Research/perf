@@ -10,7 +10,6 @@ Expectations for "analytics_slo"
       threshold: 97.5,
       window_in_days: 90
     }
-
   * "devops_7_10_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "iuplrpegdigksis",
@@ -37,7 +36,6 @@ Expectations for "messaging_slo"
       threshold: 99.96,
       window_in_days: 7
     }
-
   * "devops_7_10_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "vemurdywqpqwsi",
@@ -51,7 +49,6 @@ Expectations for "messaging_slo"
       threshold: 95.73,
       window_in_days: 30
     }
-
 Expectations for "messaging_slo"
   * "devops_15_10_messaging_slo_0":
     Provides {
@@ -66,7 +63,6 @@ Expectations for "messaging_slo"
       threshold: 98.9,
       window_in_days: 30
     }
-
   * "devops_15_10_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "azkbjqjnbwabw",
@@ -80,7 +76,6 @@ Expectations for "messaging_slo"
       threshold: 99.0,
       window_in_days: 7
     }
-
   * "devops_15_10_messaging_slo_2":
     Provides {
       messaging_slo_param_0: "unohzmebxxdu",
@@ -94,7 +89,6 @@ Expectations for "messaging_slo"
       threshold: 98.55,
       window_in_days: 7
     }
-
   * "devops_15_10_messaging_slo_3":
     Provides {
       messaging_slo_param_0: "vhuctafepaczfvk",
@@ -126,7 +120,6 @@ Expectations for "logging_slo"
       threshold: 98.4,
       window_in_days: 90
     }
-
   * "devops_15_10_logging_slo_1":
     Provides {
       logging_slo_param_0: "rxoxjj",
@@ -143,7 +136,6 @@ Expectations for "logging_slo"
       threshold: 99.86,
       window_in_days: 90
     }
-
   * "devops_15_10_logging_slo_2":
     Provides {
       logging_slo_param_0: "gpvlpehqjmrql",
@@ -160,7 +152,6 @@ Expectations for "logging_slo"
       threshold: 97.35,
       window_in_days: 30
     }
-
   * "devops_15_10_logging_slo_3":
     Provides {
       logging_slo_param_0: "fsspsnsd",
@@ -191,7 +182,6 @@ Expectations for "scheduler_slo"
       threshold: 97.66,
       window_in_days: 7
     }
-
 Expectations for "monitoring_slo"
   * "devops_23_10_monitoring_slo_0":
     Provides {
@@ -218,7 +208,6 @@ Expectations for "billing_slo"
       threshold: 99.96,
       window_in_days: 90
     }
-
   * "devops_23_10_billing_slo_1":
     Provides {
       billing_slo_param_0: "mvhvh",

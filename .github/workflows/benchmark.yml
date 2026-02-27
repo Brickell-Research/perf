@@ -4,54 +4,27 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      version:
+        description: 'Caffeine version to benchmark (e.g., 4.5.1). Leave empty for latest.'
+        required: false
+        type: string
 
 jobs:
   benchmark:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
-
-      - name: Checkout caffeine_lang
-        uses: actions/checkout@v4
-        with:
-          repository: Brickell-Research/caffeine_lang
-          path: caffeine_lang
-
-      - uses: erlef/setup-beam@v1
-        with:
-          otp-version: "27"
-          gleam-version: "1.14.0"
-
-      - uses: denoland/setup-deno@v2
-        with:
-          deno-version: "2.5.6"
 
       - name: Install hyperfine
         run: |
           wget -q https://github.com/sharkdp/hyperfine/releases/download/v1.20.0/hyperfine_1.20.0_amd64.deb
           sudo dpkg -i hyperfine_1.20.0_amd64.deb
 
-      - name: Build & benchmark
-        run: make build bench WARMUP=5 RUNS=15
-
-      - name: Check regression
-        run: |
-          skip=0
-          for f in complexity.json scaling.json; do
-            if [ ! -f "baseline/$f" ]; then
-              echo "⚠ baseline/$f not found — skipping regression for $f"
-              skip=$((skip + 1))
-              continue
-            fi
-            if [ ! -f "results/$f" ]; then
-              echo "✗ results/$f missing — benchmark may have failed"
-              exit 1
-            fi
-            python3 compare.py "baseline/$f" "results/$f" --threshold 20
-          done
-          if [ "$skip" -eq 2 ]; then
-            echo "No baseline found — skipping regression check. Download the benchmark-results artifact and commit it as baseline/ to enable."
-          fi
+      - name: Download & benchmark
+        run: make ci-check VERSION=${{ inputs.version || 'latest' }}
 
       - name: Upload results
         if: always()

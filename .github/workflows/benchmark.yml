@@ -36,8 +36,12 @@ jobs:
 
       - name: Check regression
         run: |
-          python3 compare.py baseline/complexity.json results/complexity.json --threshold 20
-          python3 compare.py baseline/scaling.json results/scaling.json --threshold 20
+          if [ -d baseline ]; then
+            python3 compare.py baseline/complexity.json results/complexity.json --threshold 20
+            python3 compare.py baseline/scaling.json results/scaling.json --threshold 20
+          else
+            echo "No baseline found — skipping regression check. Download the benchmark-results artifact and commit it as baseline/ to enable."
+          fi
 
       - name: Upload results
         if: always()

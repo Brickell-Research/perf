@@ -138,7 +138,7 @@ Blueprints for "SLO"
       shipping_slo_param_5: Integer { x | x in ( 7..298 ) },
       shipping_slo_param_6: List(Float),
       shipping_slo_param_7: Optional(Boolean),
-      shipping_slo_param_8: Defaulted(Boolean, False)
+      shipping_slo_param_8: Defaulted(Boolean, false)
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -275,7 +275,7 @@ Blueprints for "SLO"
       profiles_slo_param_7: _type_4,
       profiles_slo_param_8: String,
       profiles_slo_param_9: String { x | x in { "active", "pending" } },
-      profiles_slo_param_10: Defaulted(Boolean, False)
+      profiles_slo_param_10: Defaulted(Boolean, false)
     }
     Provides {
       vendor: "datadog",
@@ -330,7 +330,7 @@ Blueprints for "SLO"
       gateway_slo_param_3: Optional(Float),
       gateway_slo_param_4: Integer,
       gateway_slo_param_5: Boolean,
-      gateway_slo_param_6: Defaulted(Boolean, False)
+      gateway_slo_param_6: Defaulted(Boolean, false)
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -393,7 +393,7 @@ Blueprints for "SLO"
       monitoring_slo_param_4: String { x | x in { "active", "archived", "draft", "inactive", "published" } },
       monitoring_slo_param_5: String { x | x in { "pending", "published" } },
       monitoring_slo_param_6: String { x | x in { "active", "archived", "draft", "published" } },
-      monitoring_slo_param_7: Defaulted(Boolean, False),
+      monitoring_slo_param_7: Defaulted(Boolean, false),
       monitoring_slo_param_8: Dict(String, Float),
       monitoring_slo_param_9: _type_8,
       monitoring_slo_param_10: _type_5,
@@ -527,7 +527,7 @@ Blueprints for "SLO"
       etl_pipeline_slo_param_7: String,
       etl_pipeline_slo_param_8: _type_7,
       etl_pipeline_slo_param_9: Integer { x | x in { 47, 79, 80 } },
-      etl_pipeline_slo_param_10: Defaulted(Boolean, False),
+      etl_pipeline_slo_param_10: Defaulted(Boolean, false),
       etl_pipeline_slo_param_11: _type_2
     }
     Provides {
@@ -1008,7 +1008,7 @@ Blueprints for "SLO"
       intrusion_detection_slo_param_2: String,
       intrusion_detection_slo_param_3: Boolean,
       intrusion_detection_slo_param_4: Defaulted(Integer, 0),
-      intrusion_detection_slo_param_5: Defaulted(Boolean, False)
+      intrusion_detection_slo_param_5: Defaulted(Boolean, false)
     }
     Provides {
       vendor: "datadog",

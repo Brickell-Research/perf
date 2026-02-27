@@ -297,7 +297,7 @@ Blueprints for "SLO"
     Requires {
       catalog_slo_param_0: String,
       catalog_slo_param_1: String,
-      catalog_slo_param_2: Defaulted(Boolean, False),
+      catalog_slo_param_2: Defaulted(Boolean, false),
       catalog_slo_param_3: Integer { x | x in { 11, 26, 55, 74 } },
       catalog_slo_param_4: Integer,
       catalog_slo_param_5: Integer,
@@ -545,7 +545,7 @@ Blueprints for "SLO"
       data_warehouse_slo_param_1: String,
       data_warehouse_slo_param_2: Integer { x | x in ( 2..806 ) },
       data_warehouse_slo_param_3: List(Boolean),
-      data_warehouse_slo_param_4: Defaulted(Boolean, False),
+      data_warehouse_slo_param_4: Defaulted(Boolean, false),
       data_warehouse_slo_param_5: _type_6,
       data_warehouse_slo_param_6: Defaulted(Float, 0.0),
       data_warehouse_slo_param_7: Optional(Float),
@@ -749,7 +749,7 @@ Blueprints for "SLO"
       webhook_relay_slo_param_3: _type_6,
       webhook_relay_slo_param_4: String,
       webhook_relay_slo_param_5: Integer { x | x in { 66, 82 } },
-      webhook_relay_slo_param_6: Defaulted(Boolean, False),
+      webhook_relay_slo_param_6: Defaulted(Boolean, false),
       webhook_relay_slo_param_7: _type_4,
       webhook_relay_slo_param_8: Optional(Boolean),
       webhook_relay_slo_param_9: Integer { x | x in { 10, 19, 29 } },
@@ -915,9 +915,9 @@ Blueprints for "SLO"
       config_server_slo_param_1: String,
       config_server_slo_param_2: Defaulted(Float, 0.0),
       config_server_slo_param_3: _type_1,
-      config_server_slo_param_4: Defaulted(Boolean, False),
+      config_server_slo_param_4: Defaulted(Boolean, false),
       config_server_slo_param_5: Defaulted(Float, 0.0),
-      config_server_slo_param_6: Defaulted(Boolean, False),
+      config_server_slo_param_6: Defaulted(Boolean, false),
       config_server_slo_param_7: _type_9,
       config_server_slo_param_8: Boolean,
       config_server_slo_param_9: Float
@@ -937,7 +937,7 @@ Blueprints for "SLO"
       secrets_manager_slo_param_2: Boolean,
       secrets_manager_slo_param_3: _type_0,
       secrets_manager_slo_param_4: List(Float),
-      secrets_manager_slo_param_5: Defaulted(Boolean, False),
+      secrets_manager_slo_param_5: Defaulted(Boolean, false),
       secrets_manager_slo_param_6: Integer { x | x in ( 33..946 ) },
       secrets_manager_slo_param_7: String,
       secrets_manager_slo_param_8: Integer { x | x in { 36, 80, 82 } }
@@ -1023,7 +1023,7 @@ Blueprints for "SLO"
       intrusion_detection_slo_param_6: _type_9,
       intrusion_detection_slo_param_7: Boolean,
       intrusion_detection_slo_param_8: Defaulted(Float, 0.0),
-      intrusion_detection_slo_param_9: Defaulted(Boolean, False)
+      intrusion_detection_slo_param_9: Defaulted(Boolean, false)
     }
     Provides {
       evaluation: "numerator / denominator",

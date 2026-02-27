@@ -22,7 +22,7 @@ Blueprints for "SLO"
       checkout_slo_param_1: String,
       checkout_slo_param_2: Integer,
       checkout_slo_param_3: Boolean,
-      checkout_slo_param_4: Defaulted(Boolean, False),
+      checkout_slo_param_4: Defaulted(Boolean, false),
       checkout_slo_param_5: Defaulted(String, "default")
     }
     Provides {

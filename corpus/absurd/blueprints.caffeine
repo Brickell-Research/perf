@@ -59,7 +59,7 @@ Blueprints for "SLO"
       auth_slo_param_3: String { x | x in { "inactive", "pending" } },
       auth_slo_param_4: Boolean,
       auth_slo_param_5: List(Integer),
-      auth_slo_param_6: Defaulted(Boolean, False),
+      auth_slo_param_6: Defaulted(Boolean, false),
       auth_slo_param_7: Optional(Boolean)
     }
     Provides {
@@ -227,9 +227,9 @@ Blueprints for "SLO"
       recommendations_slo_param_5: Optional(Float),
       recommendations_slo_param_6: Optional(Integer),
       recommendations_slo_param_7: Optional(Boolean),
-      recommendations_slo_param_8: Defaulted(Boolean, False),
+      recommendations_slo_param_8: Defaulted(Boolean, false),
       recommendations_slo_param_9: Optional(Integer),
-      recommendations_slo_param_10: Defaulted(Boolean, False)
+      recommendations_slo_param_10: Defaulted(Boolean, false)
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -285,7 +285,7 @@ Blueprints for "SLO"
       profiles_slo_param_0: String,
       profiles_slo_param_1: String,
       profiles_slo_param_2: String,
-      profiles_slo_param_3: Defaulted(Boolean, False),
+      profiles_slo_param_3: Defaulted(Boolean, false),
       profiles_slo_param_4: Boolean,
       profiles_slo_param_5: Integer { x | x in ( 39..928 ) },
       profiles_slo_param_6: Boolean,
@@ -331,7 +331,7 @@ Blueprints for "SLO"
       cart_slo_param_2: Optional(Integer),
       cart_slo_param_3: String { x | x in { "draft", "inactive", "pending" } },
       cart_slo_param_4: _type_1,
-      cart_slo_param_5: Defaulted(Boolean, False),
+      cart_slo_param_5: Defaulted(Boolean, false),
       cart_slo_param_6: Integer { x | x in ( 33..803 ) },
       cart_slo_param_7: Defaulted(String, "default"),
       cart_slo_param_8: Optional(String),
@@ -614,7 +614,7 @@ Blueprints for "SLO"
       circuit_breaker_slo_param_0: String,
       circuit_breaker_slo_param_1: String,
       circuit_breaker_slo_param_2: Optional(Integer),
-      circuit_breaker_slo_param_3: Defaulted(Boolean, False),
+      circuit_breaker_slo_param_3: Defaulted(Boolean, false),
       circuit_breaker_slo_param_4: _type_4,
       circuit_breaker_slo_param_5: _type_5
     }
@@ -876,7 +876,7 @@ Blueprints for "SLO"
       ab_testing_slo_param_0: String,
       ab_testing_slo_param_1: String,
       ab_testing_slo_param_2: String { x | x in { "active", "archived", "inactive" } },
-      ab_testing_slo_param_3: Defaulted(Boolean, False),
+      ab_testing_slo_param_3: Defaulted(Boolean, false),
       ab_testing_slo_param_4: _type_8,
       ab_testing_slo_param_5: String { x | x in { "active", "draft", "published" } },
       ab_testing_slo_param_6: Integer,
@@ -899,7 +899,7 @@ Blueprints for "SLO"
       config_server_slo_param_3: String,
       config_server_slo_param_4: Float,
       config_server_slo_param_5: String,
-      config_server_slo_param_6: Defaulted(Boolean, False),
+      config_server_slo_param_6: Defaulted(Boolean, false),
       config_server_slo_param_7: Float,
       config_server_slo_param_8: _type_9
     }
@@ -1021,7 +1021,7 @@ Blueprints for "SLO"
       compliance_checker_slo_param_1: String,
       compliance_checker_slo_param_2: Defaulted(String, "default"),
       compliance_checker_slo_param_3: List(String),
-      compliance_checker_slo_param_4: Defaulted(Boolean, False),
+      compliance_checker_slo_param_4: Defaulted(Boolean, false),
       compliance_checker_slo_param_5: String,
       compliance_checker_slo_param_6: _type_4,
       compliance_checker_slo_param_7: _type_7,

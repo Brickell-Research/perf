@@ -1,0 +1,23 @@
+.github/workflows/benchmark.yml
+  bfdb223caa9a5282 39,42-44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.5",
+  "base_commit_sha": "af5e60f167d038e2892bfc15a24421db8e48a7df",
+  "prompts": {
+    "bfdb223caa9a5282": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2ee35b74-b8fc-43a9-820c-62212f98d51a",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "robertDurst <me@robdurst.com>",
+      "messages": [],
+      "total_additions": 6,
+      "total_deletions": 2,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    }
+  }
+}

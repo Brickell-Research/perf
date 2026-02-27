@@ -37,6 +37,7 @@ check-deps: ## Check that required tools are installed
 
 build: ## Build the caffeine compiler (production-equivalent Deno binary)
 	@cd $(CAFFEINE_CLI) && gleam build --target javascript
+	@cd $(CAFFEINE_ROOT)/caffeine_lsp && gleam build --target javascript
 	@cd $(CAFFEINE_ROOT) && deno compile --no-check \
 		--allow-read --allow-write --allow-env --allow-run \
 		--include lsp_server.ts \

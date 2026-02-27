@@ -15,6 +15,7 @@ Expectations for "logging_slo"
       threshold: 98.39,
       window_in_days: 90
     }
+
   * "backend_5_5_logging_slo_1":
     Provides {
       logging_slo_param_0: "ufyjjsxrsjmox",
@@ -31,6 +32,7 @@ Expectations for "logging_slo"
       threshold: 97.69,
       window_in_days: 30
     }
+
   * "backend_5_5_logging_slo_2":
     Provides {
       logging_slo_param_0: "cyrezcigwrx",
@@ -61,6 +63,7 @@ Expectations for "scheduler_slo"
       threshold: 97.26,
       window_in_days: 90
     }
+
   * "backend_5_5_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "vknsfz",
@@ -73,6 +76,7 @@ Expectations for "scheduler_slo"
       threshold: 96.43,
       window_in_days: 7
     }
+
   * "backend_5_5_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "nfinmpixumzln",
@@ -85,6 +89,7 @@ Expectations for "scheduler_slo"
       threshold: 99.82,
       window_in_days: 90
     }
+
   * "backend_5_5_scheduler_slo_3":
     Provides {
       scheduler_slo_param_0: "xzjizuledm",
@@ -97,6 +102,7 @@ Expectations for "scheduler_slo"
       threshold: 96.02,
       window_in_days: 30
     }
+
 Expectations for "auth_slo"
   * "backend_13_5_auth_slo_0":
     Provides {
@@ -108,6 +114,7 @@ Expectations for "auth_slo"
       threshold: 97.43,
       window_in_days: 90
     }
+
   * "backend_13_5_auth_slo_1":
     Provides {
       auth_slo_param_0: "uuygtwauulawaqm",
@@ -131,6 +138,7 @@ Expectations for "payments_slo"
       threshold: 99.25,
       window_in_days: 30
     }
+
   * "backend_13_5_payments_slo_1":
     Provides {
       payments_slo_param_0: "hiwxsdcb",
@@ -142,6 +150,7 @@ Expectations for "payments_slo"
       threshold: 95.65,
       window_in_days: 30
     }
+
   * "backend_13_5_payments_slo_2":
     Provides {
       payments_slo_param_0: "ldudyynsb",
@@ -153,6 +162,7 @@ Expectations for "payments_slo"
       threshold: 98.22,
       window_in_days: 7
     }
+
   * "backend_13_5_payments_slo_3":
     Provides {
       payments_slo_param_0: "fzlbvefjlp",
@@ -164,6 +174,7 @@ Expectations for "payments_slo"
       threshold: 95.11,
       window_in_days: 90
     }
+
   * "backend_13_5_payments_slo_4":
     Provides {
       payments_slo_param_0: "ntxhnnttbf",

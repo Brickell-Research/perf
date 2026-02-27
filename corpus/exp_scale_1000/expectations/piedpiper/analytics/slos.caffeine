@@ -10,6 +10,7 @@ Expectations for "search_slo"
       threshold: 96.31,
       window_in_days: 7
     }
+
   * "analytics_4_17_search_slo_1":
     Provides {
       search_slo_param_0: "jtymcrfruvix",
@@ -33,6 +34,7 @@ Expectations for "auth_slo"
       threshold: 99.48,
       window_in_days: 90
     }
+
   * "analytics_4_17_auth_slo_1":
     Provides {
       auth_slo_param_0: "oxmfnywnpqztc",
@@ -55,6 +57,7 @@ Expectations for "users_slo"
       threshold: 97.09,
       window_in_days: 90
     }
+
   * "analytics_4_17_users_slo_1":
     Provides {
       users_slo_param_0: "lwwbkivqzw",
@@ -65,6 +68,7 @@ Expectations for "users_slo"
       threshold: 96.56,
       window_in_days: 30
     }
+
   * "analytics_4_17_users_slo_2":
     Provides {
       users_slo_param_0: "mjblwi",

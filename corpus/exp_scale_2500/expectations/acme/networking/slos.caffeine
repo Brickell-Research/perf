@@ -24,6 +24,7 @@ Expectations for "scheduler_slo"
       threshold: 98.02,
       window_in_days: 90
     }
+
   * "networking_0_19_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "vdoyunrsrpw",
@@ -36,6 +37,7 @@ Expectations for "scheduler_slo"
       threshold: 98.85,
       window_in_days: 90
     }
+
 Expectations for "gateway_slo"
   * "networking_8_19_gateway_slo_0":
     Provides {
@@ -50,6 +52,7 @@ Expectations for "gateway_slo"
       threshold: 98.36,
       window_in_days: 90
     }
+
   * "networking_8_19_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "cemyjqlzuxhsht",
@@ -63,6 +66,7 @@ Expectations for "gateway_slo"
       threshold: 96.91,
       window_in_days: 30
     }
+
   * "networking_8_19_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "stoprffe",
@@ -76,6 +80,7 @@ Expectations for "gateway_slo"
       threshold: 95.1,
       window_in_days: 30
     }
+
   * "networking_8_19_gateway_slo_3":
     Provides {
       gateway_slo_param_0: "vnhostapknssn",
@@ -89,6 +94,7 @@ Expectations for "gateway_slo"
       threshold: 97.89,
       window_in_days: 90
     }
+
   * "networking_8_19_gateway_slo_4":
     Provides {
       gateway_slo_param_0: "jfpomwrg",
@@ -117,6 +123,7 @@ Expectations for "shipping_slo"
       threshold: 95.12,
       window_in_days: 30
     }
+
   * "networking_8_19_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "diflgnwejke",
@@ -156,6 +163,7 @@ Expectations for "monitoring_slo"
       threshold: 95.83,
       window_in_days: 7
     }
+
   * "networking_8_19_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "ufowlskcqmasup",
@@ -168,6 +176,7 @@ Expectations for "monitoring_slo"
       threshold: 95.99,
       window_in_days: 7
     }
+
   * "networking_8_19_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "hnfyhaig",
@@ -193,6 +202,7 @@ Expectations for "cart_slo"
       threshold: 95.61,
       window_in_days: 30
     }
+
   * "networking_8_19_cart_slo_1":
     Provides {
       cart_slo_param_0: "fvmymbpln",
@@ -204,6 +214,7 @@ Expectations for "cart_slo"
       threshold: 96.99,
       window_in_days: 30
     }
+
   * "networking_8_19_cart_slo_2":
     Provides {
       cart_slo_param_0: "mvfpqfribvmrwul",

@@ -45,6 +45,7 @@ Expectations for "auth_slo"
       threshold: 95.78,
       window_in_days: 90
     }
+
   * "sre_2_11_auth_slo_1":
     Provides {
       auth_slo_param_0: "wizwrfadiqlcqv",
@@ -55,6 +56,7 @@ Expectations for "auth_slo"
       threshold: 98.09,
       window_in_days: 90
     }
+
 Expectations for "users_slo"
   * "sre_10_11_users_slo_0":
     Provides {
@@ -79,6 +81,7 @@ Expectations for "analytics_slo"
       threshold: 99.24,
       window_in_days: 30
     }
+
   * "sre_10_11_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "lcrmlycds",
@@ -90,6 +93,7 @@ Expectations for "analytics_slo"
       threshold: 98.32,
       window_in_days: 30
     }
+
   * "sre_10_11_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "gxzql",
@@ -101,6 +105,7 @@ Expectations for "analytics_slo"
       threshold: 99.33,
       window_in_days: 90
     }
+
   * "sre_10_11_analytics_slo_3":
     Provides {
       analytics_slo_param_0: "hpprlfkkrcgb",
@@ -112,6 +117,7 @@ Expectations for "analytics_slo"
       threshold: 96.97,
       window_in_days: 30
     }
+
   * "sre_10_11_analytics_slo_4":
     Provides {
       analytics_slo_param_0: "jlmmeklwgjtqa",
@@ -137,6 +143,7 @@ Expectations for "profiles_slo"
       threshold: 99.74,
       window_in_days: 90
     }
+
   * "sre_10_11_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "yzhqstyytdugeu",
@@ -149,6 +156,7 @@ Expectations for "profiles_slo"
       threshold: 99.67,
       window_in_days: 30
     }
+
   * "sre_10_11_profiles_slo_2":
     Provides {
       profiles_slo_param_0: "azwhl",

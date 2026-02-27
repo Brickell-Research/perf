@@ -26,6 +26,7 @@ Expectations for "cart_slo"
       threshold: 97.14,
       window_in_days: 30
     }
+
   * "ml_0_12_cart_slo_1":
     Provides {
       cart_slo_param_0: "hxwbw",
@@ -65,6 +66,7 @@ Expectations for "shipping_slo"
       threshold: 95.8,
       window_in_days: 30
     }
+
   * "ml_0_12_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "enoigtqfcvg",
@@ -78,6 +80,7 @@ Expectations for "shipping_slo"
       threshold: 99.49,
       window_in_days: 90
     }
+
   * "ml_0_12_shipping_slo_2":
     Provides {
       shipping_slo_param_0: "gczyikktggz",

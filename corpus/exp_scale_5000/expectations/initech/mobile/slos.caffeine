@@ -12,6 +12,7 @@ Expectations for "shipping_slo"
       threshold: 96.12,
       window_in_days: 30
     }
+
   * "mobile_2_4_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "dprmehukdfn",
@@ -38,6 +39,7 @@ Expectations for "payments_slo"
       threshold: 97.66,
       window_in_days: 30
     }
+
   * "mobile_2_4_payments_slo_1":
     Provides {
       payments_slo_param_0: "bcdiunygkt",
@@ -49,6 +51,7 @@ Expectations for "payments_slo"
       threshold: 97.02,
       window_in_days: 90
     }
+
   * "mobile_2_4_payments_slo_2":
     Provides {
       payments_slo_param_0: "omtdz",
@@ -60,6 +63,7 @@ Expectations for "payments_slo"
       threshold: 97.36,
       window_in_days: 30
     }
+
   * "mobile_2_4_payments_slo_3":
     Provides {
       payments_slo_param_0: "llohiwobcivkvhz",
@@ -71,6 +75,7 @@ Expectations for "payments_slo"
       threshold: 98.82,
       window_in_days: 30
     }
+
   * "mobile_2_4_payments_slo_4":
     Provides {
       payments_slo_param_0: "dllwq",
@@ -95,6 +100,7 @@ Expectations for "catalog_slo"
       threshold: 96.28,
       window_in_days: 7
     }
+
   * "mobile_2_4_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "jcfbqap",
@@ -106,6 +112,7 @@ Expectations for "catalog_slo"
       threshold: 95.34,
       window_in_days: 90
     }
+
   * "mobile_2_4_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "qofpbsmgdgmavi",
@@ -117,6 +124,7 @@ Expectations for "catalog_slo"
       threshold: 95.95,
       window_in_days: 7
     }
+
   * "mobile_2_4_catalog_slo_3":
     Provides {
       catalog_slo_param_0: "afhvlxjifeal",
@@ -128,6 +136,7 @@ Expectations for "catalog_slo"
       threshold: 98.67,
       window_in_days: 30
     }
+
 Expectations for "notifications_slo"
   * "mobile_10_4_notifications_slo_0":
     Provides {
@@ -140,6 +149,7 @@ Expectations for "notifications_slo"
       threshold: 95.53,
       window_in_days: 30
     }
+
   * "mobile_10_4_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "fvabtaizvgaimz",
@@ -151,6 +161,7 @@ Expectations for "notifications_slo"
       threshold: 98.71,
       window_in_days: 7
     }
+
   * "mobile_10_4_notifications_slo_2":
     Provides {
       notifications_slo_param_0: "ftxmbgjbfurwr",
@@ -162,6 +173,7 @@ Expectations for "notifications_slo"
       threshold: 95.01,
       window_in_days: 7
     }
+
   * "mobile_10_4_notifications_slo_3":
     Provides {
       notifications_slo_param_0: "igametfvmq",
@@ -184,6 +196,7 @@ Expectations for "orders_slo"
       threshold: 95.14,
       window_in_days: 30
     }
+
   * "mobile_10_4_orders_slo_1":
     Provides {
       orders_slo_param_0: "jhidsnw",
@@ -193,6 +206,7 @@ Expectations for "orders_slo"
       threshold: 96.72,
       window_in_days: 30
     }
+
   * "mobile_10_4_orders_slo_2":
     Provides {
       orders_slo_param_0: "ozzlewwoi",
@@ -202,6 +216,7 @@ Expectations for "orders_slo"
       threshold: 97.57,
       window_in_days: 7
     }
+
   * "mobile_10_4_orders_slo_3":
     Provides {
       orders_slo_param_0: "hwsjtcwr",
@@ -226,6 +241,7 @@ Expectations for "gateway_slo"
       threshold: 99.68,
       window_in_days: 7
     }
+
   * "mobile_10_4_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "bvxxsygodlhtg",
@@ -239,6 +255,7 @@ Expectations for "gateway_slo"
       threshold: 95.65,
       window_in_days: 7
     }
+
   * "mobile_10_4_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "zfgeyl",
@@ -252,6 +269,7 @@ Expectations for "gateway_slo"
       threshold: 97.13,
       window_in_days: 7
     }
+
   * "mobile_10_4_gateway_slo_3":
     Provides {
       gateway_slo_param_0: "zjzhkvmp",
@@ -265,6 +283,7 @@ Expectations for "gateway_slo"
       threshold: 99.67,
       window_in_days: 7
     }
+
   * "mobile_10_4_gateway_slo_4":
     Provides {
       gateway_slo_param_0: "ndcdr",
@@ -291,6 +310,7 @@ Expectations for "payments_slo"
       threshold: 98.3,
       window_in_days: 7
     }
+
   * "mobile_10_4_payments_slo_1":
     Provides {
       payments_slo_param_0: "cvsnvqyy",
@@ -302,6 +322,7 @@ Expectations for "payments_slo"
       threshold: 98.71,
       window_in_days: 30
     }
+
   * "mobile_10_4_payments_slo_2":
     Provides {
       payments_slo_param_0: "plkfiwuos",
@@ -313,6 +334,7 @@ Expectations for "payments_slo"
       threshold: 98.81,
       window_in_days: 90
     }
+
   * "mobile_10_4_payments_slo_3":
     Provides {
       payments_slo_param_0: "pbzda",
@@ -324,6 +346,7 @@ Expectations for "payments_slo"
       threshold: 96.76,
       window_in_days: 7
     }
+
 Expectations for "scheduler_slo"
   * "mobile_18_4_scheduler_slo_0":
     Provides {
@@ -337,6 +360,7 @@ Expectations for "scheduler_slo"
       threshold: 97.82,
       window_in_days: 7
     }
+
   * "mobile_18_4_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "lhqmpyzevzsyjob",
@@ -349,6 +373,7 @@ Expectations for "scheduler_slo"
       threshold: 99.43,
       window_in_days: 90
     }
+
   * "mobile_18_4_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "xgsqll",
@@ -361,6 +386,7 @@ Expectations for "scheduler_slo"
       threshold: 95.14,
       window_in_days: 30
     }
+
 Expectations for "orders_slo"
   * "mobile_26_4_orders_slo_0":
     Provides {
@@ -371,6 +397,7 @@ Expectations for "orders_slo"
       threshold: 98.89,
       window_in_days: 7
     }
+
   * "mobile_26_4_orders_slo_1":
     Provides {
       orders_slo_param_0: "ozaknlxhsyl",
@@ -380,6 +407,7 @@ Expectations for "orders_slo"
       threshold: 98.15,
       window_in_days: 7
     }
+
   * "mobile_26_4_orders_slo_2":
     Provides {
       orders_slo_param_0: "mmhqlmivgzlcyom",
@@ -389,6 +417,7 @@ Expectations for "orders_slo"
       threshold: 96.89,
       window_in_days: 90
     }
+
   * "mobile_26_4_orders_slo_3":
     Provides {
       orders_slo_param_0: "ivwghnkstt",
@@ -398,6 +427,7 @@ Expectations for "orders_slo"
       threshold: 95.96,
       window_in_days: 90
     }
+
   * "mobile_26_4_orders_slo_4":
     Provides {
       orders_slo_param_0: "lxlocsf",

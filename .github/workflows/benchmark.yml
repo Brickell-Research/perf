@@ -36,10 +36,20 @@ jobs:
 
       - name: Check regression
         run: |
-          if [ -d baseline ]; then
-            python3 compare.py baseline/complexity.json results/complexity.json --threshold 20
-            python3 compare.py baseline/scaling.json results/scaling.json --threshold 20
-          else
+          skip=0
+          for f in complexity.json scaling.json; do
+            if [ ! -f "baseline/$f" ]; then
+              echo "⚠ baseline/$f not found — skipping regression for $f"
+              skip=$((skip + 1))
+              continue
+            fi
+            if [ ! -f "results/$f" ]; then
+              echo "✗ results/$f missing — benchmark may have failed"
+              exit 1
+            fi
+            python3 compare.py "baseline/$f" "results/$f" --threshold 20
+          done
+          if [ "$skip" -eq 2 ]; then
             echo "No baseline found — skipping regression check. Download the benchmark-results artifact and commit it as baseline/ to enable."
           fi
 

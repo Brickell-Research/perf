@@ -12,6 +12,7 @@ Expectations for "messaging_slo"
       threshold: 95.64,
       window_in_days: 7
     }
+
   * "data_4_7_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "ichrp",
@@ -25,6 +26,7 @@ Expectations for "messaging_slo"
       threshold: 99.79,
       window_in_days: 30
     }
+
 Expectations for "logging_slo"
   * "data_12_7_logging_slo_0":
     Provides {
@@ -42,6 +44,7 @@ Expectations for "logging_slo"
       threshold: 97.9,
       window_in_days: 7
     }
+
   * "data_12_7_logging_slo_1":
     Provides {
       logging_slo_param_0: "fbnpr",
@@ -58,6 +61,7 @@ Expectations for "logging_slo"
       threshold: 96.36,
       window_in_days: 90
     }
+
   * "data_12_7_logging_slo_2":
     Provides {
       logging_slo_param_0: "fvypcaxevl",
@@ -74,6 +78,7 @@ Expectations for "logging_slo"
       threshold: 98.7,
       window_in_days: 90
     }
+
   * "data_12_7_logging_slo_3":
     Provides {
       logging_slo_param_0: "mgnrct",
@@ -90,6 +95,7 @@ Expectations for "logging_slo"
       threshold: 99.43,
       window_in_days: 90
     }
+
 Expectations for "billing_slo"
   * "data_20_7_billing_slo_0":
     Provides {
@@ -102,6 +108,7 @@ Expectations for "billing_slo"
       threshold: 96.48,
       window_in_days: 7
     }
+
   * "data_20_7_billing_slo_1":
     Provides {
       billing_slo_param_0: "zfjua",
@@ -129,6 +136,7 @@ Expectations for "inventory_slo"
       threshold: 96.18,
       window_in_days: 90
     }
+
   * "data_20_7_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "iyodz",
@@ -143,6 +151,7 @@ Expectations for "inventory_slo"
       threshold: 95.23,
       window_in_days: 30
     }
+
   * "data_20_7_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "trtomggcklenlm",

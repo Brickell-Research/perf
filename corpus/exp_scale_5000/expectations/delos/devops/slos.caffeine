@@ -10,6 +10,7 @@ Expectations for "cart_slo"
       threshold: 96.39,
       window_in_days: 90
     }
+
   * "devops_6_10_cart_slo_1":
     Provides {
       cart_slo_param_0: "ttyycl",
@@ -32,6 +33,7 @@ Expectations for "orders_slo"
       threshold: 98.96,
       window_in_days: 90
     }
+
   * "devops_6_10_orders_slo_1":
     Provides {
       orders_slo_param_0: "ucjxagpmhzsdlh",
@@ -41,6 +43,7 @@ Expectations for "orders_slo"
       threshold: 96.29,
       window_in_days: 7
     }
+
   * "devops_6_10_orders_slo_2":
     Provides {
       orders_slo_param_0: "yggokyqtqoi",
@@ -50,6 +53,7 @@ Expectations for "orders_slo"
       threshold: 96.61,
       window_in_days: 7
     }
+
   * "devops_6_10_orders_slo_3":
     Provides {
       orders_slo_param_0: "cprvrxmcxi",
@@ -59,6 +63,7 @@ Expectations for "orders_slo"
       threshold: 95.66,
       window_in_days: 90
     }
+
   * "devops_6_10_orders_slo_4":
     Provides {
       orders_slo_param_0: "uivwdxump",
@@ -83,6 +88,7 @@ Expectations for "gateway_slo"
       threshold: 98.64,
       window_in_days: 30
     }
+
   * "devops_6_10_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "enqizovwkkwsoda",
@@ -96,6 +102,7 @@ Expectations for "gateway_slo"
       threshold: 95.57,
       window_in_days: 7
     }
+
   * "devops_6_10_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "cjgkh",
@@ -109,6 +116,7 @@ Expectations for "gateway_slo"
       threshold: 97.86,
       window_in_days: 30
     }
+
 Expectations for "gateway_slo"
   * "devops_14_10_gateway_slo_0":
     Provides {
@@ -136,6 +144,7 @@ Expectations for "notifications_slo"
       threshold: 99.38,
       window_in_days: 30
     }
+
   * "devops_14_10_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "sbntblo",
@@ -147,6 +156,7 @@ Expectations for "notifications_slo"
       threshold: 95.63,
       window_in_days: 90
     }
+
   * "devops_14_10_notifications_slo_2":
     Provides {
       notifications_slo_param_0: "xjqxxfmlbfyzdsi",
@@ -158,6 +168,7 @@ Expectations for "notifications_slo"
       threshold: 98.01,
       window_in_days: 30
     }
+
   * "devops_14_10_notifications_slo_3":
     Provides {
       notifications_slo_param_0: "nyztas",
@@ -169,6 +180,7 @@ Expectations for "notifications_slo"
       threshold: 96.83,
       window_in_days: 7
     }
+
   * "devops_14_10_notifications_slo_4":
     Provides {
       notifications_slo_param_0: "fpgrbetsnzytb",
@@ -212,6 +224,7 @@ Expectations for "scheduler_slo"
       threshold: 98.21,
       window_in_days: 30
     }
+
   * "devops_14_10_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "bwdyhesntcyebi",
@@ -224,6 +237,7 @@ Expectations for "scheduler_slo"
       threshold: 99.17,
       window_in_days: 90
     }
+
   * "devops_14_10_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "dlkubdk",
@@ -236,6 +250,7 @@ Expectations for "scheduler_slo"
       threshold: 96.12,
       window_in_days: 90
     }
+
   * "devops_14_10_scheduler_slo_3":
     Provides {
       scheduler_slo_param_0: "bpijzuerumrxc",
@@ -248,6 +263,7 @@ Expectations for "scheduler_slo"
       threshold: 99.47,
       window_in_days: 7
     }
+
 Expectations for "billing_slo"
   * "devops_22_10_billing_slo_0":
     Provides {
@@ -260,6 +276,7 @@ Expectations for "billing_slo"
       threshold: 95.81,
       window_in_days: 7
     }
+
   * "devops_22_10_billing_slo_1":
     Provides {
       billing_slo_param_0: "ldiznyjkvrdnqo",
@@ -271,6 +288,7 @@ Expectations for "billing_slo"
       threshold: 98.56,
       window_in_days: 30
     }
+
   * "devops_22_10_billing_slo_2":
     Provides {
       billing_slo_param_0: "tmgptdel",
@@ -282,6 +300,7 @@ Expectations for "billing_slo"
       threshold: 97.52,
       window_in_days: 30
     }
+
   * "devops_22_10_billing_slo_3":
     Provides {
       billing_slo_param_0: "qpgfok",
@@ -293,6 +312,7 @@ Expectations for "billing_slo"
       threshold: 97.8,
       window_in_days: 30
     }
+
   * "devops_22_10_billing_slo_4":
     Provides {
       billing_slo_param_0: "zyomvliiia",

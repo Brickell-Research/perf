@@ -12,6 +12,7 @@ Expectations for "shipping_slo"
       threshold: 96.05,
       window_in_days: 30
     }
+
   * "devops_4_10_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "gqzrem",
@@ -25,6 +26,7 @@ Expectations for "shipping_slo"
       threshold: 97.6,
       window_in_days: 7
     }
+
   * "devops_4_10_shipping_slo_2":
     Provides {
       shipping_slo_param_0: "eebtnobod",
@@ -50,6 +52,7 @@ Expectations for "checkout_slo"
       threshold: 98.51,
       window_in_days: 30
     }
+
   * "devops_4_10_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "fxaxhlmonu",
@@ -60,6 +63,7 @@ Expectations for "checkout_slo"
       threshold: 99.42,
       window_in_days: 7
     }
+
   * "devops_4_10_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "qmkfrmctqswjc",
@@ -70,6 +74,7 @@ Expectations for "checkout_slo"
       threshold: 99.99,
       window_in_days: 90
     }
+
   * "devops_4_10_checkout_slo_3":
     Provides {
       checkout_slo_param_0: "uysakjevbizbhq",
@@ -80,6 +85,7 @@ Expectations for "checkout_slo"
       threshold: 96.79,
       window_in_days: 7
     }
+
   * "devops_4_10_checkout_slo_4":
     Provides {
       checkout_slo_param_0: "nfjhowbi",
@@ -90,6 +96,7 @@ Expectations for "checkout_slo"
       threshold: 98.18,
       window_in_days: 30
     }
+
 Expectations for "logging_slo"
   * "devops_12_10_logging_slo_0":
     Provides {
@@ -107,6 +114,7 @@ Expectations for "logging_slo"
       threshold: 98.89,
       window_in_days: 7
     }
+
   * "devops_12_10_logging_slo_1":
     Provides {
       logging_slo_param_0: "jymxqehkcqfuwn",
@@ -123,6 +131,7 @@ Expectations for "logging_slo"
       threshold: 97.43,
       window_in_days: 90
     }
+
   * "devops_12_10_logging_slo_2":
     Provides {
       logging_slo_param_0: "xgobxy",
@@ -139,6 +148,7 @@ Expectations for "logging_slo"
       threshold: 95.19,
       window_in_days: 90
     }
+
   * "devops_12_10_logging_slo_3":
     Provides {
       logging_slo_param_0: "uwhuadw",
@@ -155,6 +165,7 @@ Expectations for "logging_slo"
       threshold: 98.33,
       window_in_days: 7
     }
+
   * "devops_12_10_logging_slo_4":
     Provides {
       logging_slo_param_0: "ppdgws",
@@ -186,6 +197,7 @@ Expectations for "shipping_slo"
       threshold: 99.03,
       window_in_days: 7
     }
+
   * "devops_12_10_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "uczbzsbtcjx",
@@ -199,6 +211,7 @@ Expectations for "shipping_slo"
       threshold: 97.76,
       window_in_days: 7
     }
+
   * "devops_12_10_shipping_slo_2":
     Provides {
       shipping_slo_param_0: "civizo",
@@ -212,6 +225,7 @@ Expectations for "shipping_slo"
       threshold: 95.62,
       window_in_days: 30
     }
+
   * "devops_12_10_shipping_slo_3":
     Provides {
       shipping_slo_param_0: "hvaxizozc",
@@ -238,6 +252,7 @@ Expectations for "payments_slo"
       threshold: 98.65,
       window_in_days: 90
     }
+
   * "devops_12_10_payments_slo_1":
     Provides {
       payments_slo_param_0: "gzaugw",

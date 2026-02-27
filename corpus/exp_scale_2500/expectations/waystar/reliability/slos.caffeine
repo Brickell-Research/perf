@@ -23,6 +23,7 @@ Expectations for "notifications_slo"
       threshold: 95.38,
       window_in_days: 30
     }
+
   * "reliability_5_9_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "vavbgf",
@@ -34,6 +35,7 @@ Expectations for "notifications_slo"
       threshold: 99.45,
       window_in_days: 30
     }
+
 Expectations for "payments_slo"
   * "reliability_13_9_payments_slo_0":
     Provides {
@@ -46,6 +48,7 @@ Expectations for "payments_slo"
       threshold: 95.32,
       window_in_days: 7
     }
+
   * "reliability_13_9_payments_slo_1":
     Provides {
       payments_slo_param_0: "oazvgfytnwwldky",
@@ -57,6 +60,7 @@ Expectations for "payments_slo"
       threshold: 96.06,
       window_in_days: 30
     }
+
   * "reliability_13_9_payments_slo_2":
     Provides {
       payments_slo_param_0: "ogcavlxwotbkxk",
@@ -68,6 +72,7 @@ Expectations for "payments_slo"
       threshold: 98.61,
       window_in_days: 7
     }
+
   * "reliability_13_9_payments_slo_3":
     Provides {
       payments_slo_param_0: "hnclfikrg",
@@ -79,6 +84,7 @@ Expectations for "payments_slo"
       threshold: 96.73,
       window_in_days: 7
     }
+
   * "reliability_13_9_payments_slo_4":
     Provides {
       payments_slo_param_0: "enagoheeijap",
@@ -105,6 +111,7 @@ Expectations for "gateway_slo"
       threshold: 95.93,
       window_in_days: 30
     }
+
   * "reliability_13_9_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "homeicvlmt",
@@ -118,6 +125,7 @@ Expectations for "gateway_slo"
       threshold: 96.36,
       window_in_days: 90
     }
+
   * "reliability_13_9_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "uccwjsaxlmi",
@@ -131,6 +139,7 @@ Expectations for "gateway_slo"
       threshold: 96.34,
       window_in_days: 90
     }
+
   * "reliability_13_9_gateway_slo_3":
     Provides {
       gateway_slo_param_0: "gtkiftlp",
@@ -180,6 +189,7 @@ Expectations for "users_slo"
       threshold: 95.36,
       window_in_days: 7
     }
+
   * "reliability_13_9_users_slo_1":
     Provides {
       users_slo_param_0: "jxbjzywbshi",

@@ -11,6 +11,7 @@ Expectations for "profiles_slo"
       threshold: 95.19,
       window_in_days: 30
     }
+
   * "identity_4_15_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "vkpyzamexriw",
@@ -36,6 +37,7 @@ Expectations for "recommendations_slo"
       threshold: 96.56,
       window_in_days: 7
     }
+
   * "identity_4_15_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "beerro",
@@ -47,6 +49,7 @@ Expectations for "recommendations_slo"
       threshold: 98.9,
       window_in_days: 7
     }
+
   * "identity_4_15_recommendations_slo_2":
     Provides {
       recommendations_slo_param_0: "bqwepkmpwuvzkkq",
@@ -58,6 +61,7 @@ Expectations for "recommendations_slo"
       threshold: 99.04,
       window_in_days: 30
     }
+
   * "identity_4_15_recommendations_slo_3":
     Provides {
       recommendations_slo_param_0: "xstsmrbb",
@@ -69,6 +73,7 @@ Expectations for "recommendations_slo"
       threshold: 99.38,
       window_in_days: 7
     }
+
   * "identity_4_15_recommendations_slo_4":
     Provides {
       recommendations_slo_param_0: "fucnclmduvzg",
@@ -92,6 +97,7 @@ Expectations for "checkout_slo"
       threshold: 95.43,
       window_in_days: 90
     }
+
   * "identity_4_15_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "rfvcir",
@@ -133,6 +139,7 @@ Expectations for "notifications_slo"
       threshold: 95.22,
       window_in_days: 7
     }
+
   * "identity_4_15_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "bcskygqrv",
@@ -144,6 +151,7 @@ Expectations for "notifications_slo"
       threshold: 95.05,
       window_in_days: 7
     }
+
   * "identity_4_15_notifications_slo_2":
     Provides {
       notifications_slo_param_0: "jplosrv",
@@ -155,6 +163,7 @@ Expectations for "notifications_slo"
       threshold: 95.49,
       window_in_days: 30
     }
+
   * "identity_4_15_notifications_slo_3":
     Provides {
       notifications_slo_param_0: "dueywjob",
@@ -166,6 +175,7 @@ Expectations for "notifications_slo"
       threshold: 98.99,
       window_in_days: 30
     }
+
 Expectations for "monitoring_slo"
   * "identity_12_15_monitoring_slo_0":
     Provides {
@@ -192,6 +202,7 @@ Expectations for "cart_slo"
       threshold: 95.53,
       window_in_days: 7
     }
+
   * "identity_12_15_cart_slo_1":
     Provides {
       cart_slo_param_0: "fyifkyw",
@@ -203,6 +214,7 @@ Expectations for "cart_slo"
       threshold: 96.02,
       window_in_days: 7
     }
+
 Expectations for "monitoring_slo"
   * "identity_20_15_monitoring_slo_0":
     Provides {
@@ -216,6 +228,7 @@ Expectations for "monitoring_slo"
       threshold: 98.77,
       window_in_days: 90
     }
+
   * "identity_20_15_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "ilwdro",
@@ -228,6 +241,7 @@ Expectations for "monitoring_slo"
       threshold: 99.24,
       window_in_days: 30
     }
+
   * "identity_20_15_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "gmqkcgtj",
@@ -251,6 +265,7 @@ Expectations for "orders_slo"
       threshold: 99.37,
       window_in_days: 90
     }
+
   * "identity_20_15_orders_slo_1":
     Provides {
       orders_slo_param_0: "cvxhzlhuphyrky",
@@ -260,6 +275,7 @@ Expectations for "orders_slo"
       threshold: 97.48,
       window_in_days: 30
     }
+
   * "identity_20_15_orders_slo_2":
     Provides {
       orders_slo_param_0: "kxlbbu",
@@ -269,6 +285,7 @@ Expectations for "orders_slo"
       threshold: 95.1,
       window_in_days: 30
     }
+
   * "identity_20_15_orders_slo_3":
     Provides {
       orders_slo_param_0: "kykwmtlynwee",
@@ -278,6 +295,7 @@ Expectations for "orders_slo"
       threshold: 97.79,
       window_in_days: 90
     }
+
   * "identity_20_15_orders_slo_4":
     Provides {
       orders_slo_param_0: "optilc",

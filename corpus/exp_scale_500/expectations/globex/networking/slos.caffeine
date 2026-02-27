@@ -13,6 +13,7 @@ Expectations for "inventory_slo"
       threshold: 97.28,
       window_in_days: 90
     }
+
   * "networking_1_19_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "jesbc",
@@ -27,6 +28,7 @@ Expectations for "inventory_slo"
       threshold: 95.79,
       window_in_days: 7
     }
+
   * "networking_1_19_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "vacfukfqvttvc",
@@ -41,6 +43,7 @@ Expectations for "inventory_slo"
       threshold: 97.16,
       window_in_days: 30
     }
+
   * "networking_1_19_inventory_slo_3":
     Provides {
       inventory_slo_param_0: "dnnwkndw",
@@ -68,6 +71,7 @@ Expectations for "catalog_slo"
       threshold: 97.05,
       window_in_days: 30
     }
+
   * "networking_1_19_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "citnmw",
@@ -91,6 +95,7 @@ Expectations for "checkout_slo"
       threshold: 96.57,
       window_in_days: 30
     }
+
   * "networking_1_19_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "sstqvicjnndc",
@@ -113,6 +118,7 @@ Expectations for "auth_slo"
       threshold: 97.21,
       window_in_days: 30
     }
+
   * "networking_1_19_auth_slo_1":
     Provides {
       auth_slo_param_0: "jxnfjkel",
@@ -123,6 +129,7 @@ Expectations for "auth_slo"
       threshold: 99.28,
       window_in_days: 7
     }
+
   * "networking_1_19_auth_slo_2":
     Provides {
       auth_slo_param_0: "yitonthl",
@@ -133,6 +140,7 @@ Expectations for "auth_slo"
       threshold: 99.44,
       window_in_days: 30
     }
+
   * "networking_1_19_auth_slo_3":
     Provides {
       auth_slo_param_0: "hxtbtzgvydcxqwh",
@@ -143,6 +151,7 @@ Expectations for "auth_slo"
       threshold: 95.63,
       window_in_days: 7
     }
+
   * "networking_1_19_auth_slo_4":
     Provides {
       auth_slo_param_0: "lzpvr",
@@ -168,6 +177,7 @@ Expectations for "gateway_slo"
       threshold: 96.31,
       window_in_days: 30
     }
+
   * "networking_1_19_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "nlmcgvnitm",

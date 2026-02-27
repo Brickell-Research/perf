@@ -12,6 +12,7 @@ Expectations for "shipping_slo"
       threshold: 98.04,
       window_in_days: 90
     }
+
   * "backend_3_5_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "ctiwhcedcvbxcre",
@@ -25,6 +26,7 @@ Expectations for "shipping_slo"
       threshold: 98.11,
       window_in_days: 7
     }
+
   * "backend_3_5_shipping_slo_2":
     Provides {
       shipping_slo_param_0: "pdqfugawrjpqzi",
@@ -38,6 +40,7 @@ Expectations for "shipping_slo"
       threshold: 95.03,
       window_in_days: 90
     }
+
   * "backend_3_5_shipping_slo_3":
     Provides {
       shipping_slo_param_0: "hsgzeweevmzcfbd",
@@ -77,6 +80,7 @@ Expectations for "notifications_slo"
       threshold: 99.4,
       window_in_days: 90
     }
+
   * "backend_3_5_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "inevupwwz",
@@ -104,6 +108,7 @@ Expectations for "inventory_slo"
       threshold: 98.39,
       window_in_days: 90
     }
+
   * "backend_3_5_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "rndradh",
@@ -118,6 +123,7 @@ Expectations for "inventory_slo"
       threshold: 96.19,
       window_in_days: 90
     }
+
   * "backend_3_5_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "ttbvkgkfpdzo",
@@ -132,6 +138,7 @@ Expectations for "inventory_slo"
       threshold: 99.94,
       window_in_days: 7
     }
+
   * "backend_3_5_inventory_slo_3":
     Provides {
       inventory_slo_param_0: "ypqeuxmssmgefdt",

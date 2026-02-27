@@ -15,6 +15,7 @@ Expectations for "logging_slo"
       threshold: 96.05,
       window_in_days: 90
     }
+
   * "networking_2_19_logging_slo_1":
     Provides {
       logging_slo_param_0: "lyonppdcgyhsn",
@@ -43,6 +44,7 @@ Expectations for "users_slo"
       threshold: 96.3,
       window_in_days: 90
     }
+
   * "networking_2_19_users_slo_1":
     Provides {
       users_slo_param_0: "hljgmhnqlmwhnmz",
@@ -53,6 +55,7 @@ Expectations for "users_slo"
       threshold: 97.49,
       window_in_days: 30
     }
+
   * "networking_2_19_users_slo_2":
     Provides {
       users_slo_param_0: "avfvhcitz",
@@ -63,6 +66,7 @@ Expectations for "users_slo"
       threshold: 96.3,
       window_in_days: 30
     }
+
   * "networking_2_19_users_slo_3":
     Provides {
       users_slo_param_0: "ioiywaqqcb",
@@ -73,6 +77,7 @@ Expectations for "users_slo"
       threshold: 99.47,
       window_in_days: 7
     }
+
   * "networking_2_19_users_slo_4":
     Provides {
       users_slo_param_0: "xuenfozgfu",
@@ -83,6 +88,7 @@ Expectations for "users_slo"
       threshold: 96.48,
       window_in_days: 90
     }
+
 Expectations for "gateway_slo"
   * "networking_10_19_gateway_slo_0":
     Provides {
@@ -97,6 +103,7 @@ Expectations for "gateway_slo"
       threshold: 97.26,
       window_in_days: 90
     }
+
   * "networking_10_19_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "exqpylrhyywtnr",
@@ -110,6 +117,7 @@ Expectations for "gateway_slo"
       threshold: 99.93,
       window_in_days: 7
     }
+
   * "networking_10_19_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "nznfwkgqkki",
@@ -138,6 +146,7 @@ Expectations for "messaging_slo"
       threshold: 95.93,
       window_in_days: 7
     }
+
   * "networking_10_19_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "vfxuvm",
@@ -151,6 +160,7 @@ Expectations for "messaging_slo"
       threshold: 95.37,
       window_in_days: 7
     }
+
   * "networking_10_19_messaging_slo_2":
     Provides {
       messaging_slo_param_0: "xycroc",
@@ -187,13 +197,18 @@ Expectations for "profiles_slo"
       profiles_slo_param_0: "mgpdwcykridrn",
       profiles_slo_param_1: "sxtdcjwqvs",
       profiles_slo_param_2: "inactive",
-      profiles_slo_param_3: { key_0: "ubniyodgpzo", key_1: "asyzjypmsaesrm", key_2: "xmrhawz" },
+      profiles_slo_param_3: {
+        key_0: "ubniyodgpzo",
+        key_1: "asyzjypmsaesrm",
+        key_2: "xmrhawz"
+      },
       profiles_slo_param_4: 1248,
       profiles_slo_param_5: 70,
       req_2_field_0: "zetmdegddhst",
       threshold: 95.63,
       window_in_days: 90
     }
+
   * "networking_10_19_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "ilyfufvlyh",
@@ -206,6 +221,7 @@ Expectations for "profiles_slo"
       threshold: 97.4,
       window_in_days: 30
     }
+
   * "networking_10_19_profiles_slo_2":
     Provides {
       profiles_slo_param_0: "thcvfjigknor",
@@ -218,18 +234,24 @@ Expectations for "profiles_slo"
       threshold: 97.36,
       window_in_days: 30
     }
+
   * "networking_10_19_profiles_slo_3":
     Provides {
       profiles_slo_param_0: "ohnrdett",
       profiles_slo_param_1: "wpwyzwcjhzyjwaj",
       profiles_slo_param_2: "active",
-      profiles_slo_param_3: { key_0: "agegvod", key_1: "hfduygymtrqlzpo", key_2: "hleuqlpmye" },
+      profiles_slo_param_3: {
+        key_0: "agegvod",
+        key_1: "hfduygymtrqlzpo",
+        key_2: "hleuqlpmye"
+      },
       profiles_slo_param_4: 4086,
       profiles_slo_param_5: 70,
       req_2_field_0: "wneoxj",
       threshold: 96.75,
       window_in_days: 7
     }
+
   * "networking_10_19_profiles_slo_4":
     Provides {
       profiles_slo_param_0: "vapsyi",
@@ -242,6 +264,7 @@ Expectations for "profiles_slo"
       threshold: 98.73,
       window_in_days: 90
     }
+
 Expectations for "monitoring_slo"
   * "networking_18_19_monitoring_slo_0":
     Provides {
@@ -255,6 +278,7 @@ Expectations for "monitoring_slo"
       threshold: 95.27,
       window_in_days: 30
     }
+
   * "networking_18_19_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "rzgregn",
@@ -267,6 +291,7 @@ Expectations for "monitoring_slo"
       threshold: 95.31,
       window_in_days: 7
     }
+
   * "networking_18_19_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "oflntfvuxbcku",
@@ -292,6 +317,7 @@ Expectations for "notifications_slo"
       threshold: 97.72,
       window_in_days: 90
     }
+
   * "networking_18_19_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "rqsemmgebpoy",
@@ -303,6 +329,7 @@ Expectations for "notifications_slo"
       threshold: 98.14,
       window_in_days: 30
     }
+
   * "networking_18_19_notifications_slo_2":
     Provides {
       notifications_slo_param_0: "vyjokgn",
@@ -314,6 +341,7 @@ Expectations for "notifications_slo"
       threshold: 97.73,
       window_in_days: 90
     }
+
   * "networking_18_19_notifications_slo_3":
     Provides {
       notifications_slo_param_0: "ywyvmrxccx",
@@ -325,6 +353,7 @@ Expectations for "notifications_slo"
       threshold: 96.97,
       window_in_days: 90
     }
+
 Expectations for "profiles_slo"
   * "networking_26_19_profiles_slo_0":
     Provides {
@@ -338,6 +367,7 @@ Expectations for "profiles_slo"
       threshold: 99.54,
       window_in_days: 90
     }
+
   * "networking_26_19_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "xnlhev",
@@ -350,6 +380,7 @@ Expectations for "profiles_slo"
       threshold: 96.67,
       window_in_days: 30
     }
+
   * "networking_26_19_profiles_slo_2":
     Provides {
       profiles_slo_param_0: "vykalec",

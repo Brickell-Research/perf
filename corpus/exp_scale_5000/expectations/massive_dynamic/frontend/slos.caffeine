@@ -8,6 +8,7 @@ Expectations for "orders_slo"
       threshold: 99.87,
       window_in_days: 7
     }
+
   * "frontend_7_6_orders_slo_1":
     Provides {
       orders_slo_param_0: "qmfvf",
@@ -33,6 +34,7 @@ Expectations for "inventory_slo"
       threshold: 97.11,
       window_in_days: 30
     }
+
   * "frontend_7_6_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "ssjqbrmqr",
@@ -47,6 +49,7 @@ Expectations for "inventory_slo"
       threshold: 95.61,
       window_in_days: 7
     }
+
   * "frontend_7_6_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "usbhujhcgiotfu",
@@ -61,6 +64,7 @@ Expectations for "inventory_slo"
       threshold: 97.62,
       window_in_days: 30
     }
+
   * "frontend_7_6_inventory_slo_3":
     Provides {
       inventory_slo_param_0: "dtfbtu",
@@ -75,6 +79,7 @@ Expectations for "inventory_slo"
       threshold: 99.44,
       window_in_days: 90
     }
+
   * "frontend_7_6_inventory_slo_4":
     Provides {
       inventory_slo_param_0: "hgardbzsarxf",
@@ -118,6 +123,7 @@ Expectations for "profiles_slo"
       threshold: 95.7,
       window_in_days: 7
     }
+
   * "frontend_7_6_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "rekedckviyfte",
@@ -142,6 +148,7 @@ Expectations for "users_slo"
       threshold: 98.13,
       window_in_days: 90
     }
+
   * "frontend_7_6_users_slo_1":
     Provides {
       users_slo_param_0: "hjikvxqgnf",
@@ -152,6 +159,7 @@ Expectations for "users_slo"
       threshold: 95.7,
       window_in_days: 7
     }
+
   * "frontend_7_6_users_slo_2":
     Provides {
       users_slo_param_0: "jollemqrlaxnfgq",
@@ -162,6 +170,7 @@ Expectations for "users_slo"
       threshold: 95.39,
       window_in_days: 30
     }
+
 Expectations for "checkout_slo"
   * "frontend_15_6_checkout_slo_0":
     Provides {
@@ -173,6 +182,7 @@ Expectations for "checkout_slo"
       threshold: 96.26,
       window_in_days: 30
     }
+
   * "frontend_15_6_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "eosxa",
@@ -183,6 +193,7 @@ Expectations for "checkout_slo"
       threshold: 97.6,
       window_in_days: 90
     }
+
   * "frontend_15_6_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "ygpnfraeapsjq",
@@ -205,6 +216,7 @@ Expectations for "auth_slo"
       threshold: 95.91,
       window_in_days: 30
     }
+
   * "frontend_15_6_auth_slo_1":
     Provides {
       auth_slo_param_0: "doitel",
@@ -215,6 +227,7 @@ Expectations for "auth_slo"
       threshold: 96.39,
       window_in_days: 90
     }
+
   * "frontend_15_6_auth_slo_2":
     Provides {
       auth_slo_param_0: "dnacz",
@@ -225,6 +238,7 @@ Expectations for "auth_slo"
       threshold: 99.46,
       window_in_days: 7
     }
+
   * "frontend_15_6_auth_slo_3":
     Provides {
       auth_slo_param_0: "vyktslzsu",
@@ -235,6 +249,7 @@ Expectations for "auth_slo"
       threshold: 97.97,
       window_in_days: 7
     }
+
   * "frontend_15_6_auth_slo_4":
     Provides {
       auth_slo_param_0: "dravdqjpnkeg",
@@ -259,6 +274,7 @@ Expectations for "scheduler_slo"
       threshold: 97.74,
       window_in_days: 30
     }
+
   * "frontend_15_6_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "wmyozzfy",
@@ -271,6 +287,7 @@ Expectations for "scheduler_slo"
       threshold: 95.86,
       window_in_days: 30
     }
+
   * "frontend_15_6_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "ckkibjxegenssu",
@@ -283,6 +300,7 @@ Expectations for "scheduler_slo"
       threshold: 99.9,
       window_in_days: 30
     }
+
   * "frontend_15_6_scheduler_slo_3":
     Provides {
       scheduler_slo_param_0: "ljlrg",
@@ -295,6 +313,7 @@ Expectations for "scheduler_slo"
       threshold: 96.24,
       window_in_days: 7
     }
+
   * "frontend_15_6_scheduler_slo_4":
     Provides {
       scheduler_slo_param_0: "srnskcvklloj",
@@ -323,6 +342,7 @@ Expectations for "inventory_slo"
       threshold: 98.97,
       window_in_days: 30
     }
+
   * "frontend_15_6_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "bcifcvhzb",
@@ -337,6 +357,7 @@ Expectations for "inventory_slo"
       threshold: 95.72,
       window_in_days: 90
     }
+
   * "frontend_15_6_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "wkzwbdw",
@@ -351,6 +372,7 @@ Expectations for "inventory_slo"
       threshold: 99.87,
       window_in_days: 7
     }
+
 Expectations for "payments_slo"
   * "frontend_23_6_payments_slo_0":
     Provides {
@@ -363,6 +385,7 @@ Expectations for "payments_slo"
       threshold: 97.31,
       window_in_days: 90
     }
+
   * "frontend_23_6_payments_slo_1":
     Provides {
       payments_slo_param_0: "mmqdmwmahzrpup",
@@ -374,6 +397,7 @@ Expectations for "payments_slo"
       threshold: 98.15,
       window_in_days: 7
     }
+
   * "frontend_23_6_payments_slo_2":
     Provides {
       payments_slo_param_0: "tbppckkg",
@@ -397,6 +421,7 @@ Expectations for "auth_slo"
       threshold: 95.03,
       window_in_days: 30
     }
+
   * "frontend_23_6_auth_slo_1":
     Provides {
       auth_slo_param_0: "jyfkiifqoqcammp",
@@ -422,6 +447,7 @@ Expectations for "messaging_slo"
       threshold: 95.28,
       window_in_days: 90
     }
+
   * "frontend_23_6_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "ftfdf",
@@ -435,6 +461,7 @@ Expectations for "messaging_slo"
       threshold: 99.49,
       window_in_days: 30
     }
+
   * "frontend_23_6_messaging_slo_2":
     Provides {
       messaging_slo_param_0: "lnbmtmmf",
@@ -448,6 +475,7 @@ Expectations for "messaging_slo"
       threshold: 95.21,
       window_in_days: 7
     }
+
   * "frontend_23_6_messaging_slo_3":
     Provides {
       messaging_slo_param_0: "pppezew",
@@ -461,6 +489,7 @@ Expectations for "messaging_slo"
       threshold: 95.58,
       window_in_days: 7
     }
+
   * "frontend_23_6_messaging_slo_4":
     Provides {
       messaging_slo_param_0: "qxjjxptiyjbc",
@@ -487,6 +516,7 @@ Expectations for "cart_slo"
       threshold: 96.77,
       window_in_days: 7
     }
+
   * "frontend_23_6_cart_slo_1":
     Provides {
       cart_slo_param_0: "dejqhjszxnnoiu",
@@ -498,6 +528,7 @@ Expectations for "cart_slo"
       threshold: 99.7,
       window_in_days: 30
     }
+
   * "frontend_23_6_cart_slo_2":
     Provides {
       cart_slo_param_0: "dmtohczlgxxglj",
@@ -509,6 +540,7 @@ Expectations for "cart_slo"
       threshold: 95.83,
       window_in_days: 90
     }
+
   * "frontend_23_6_cart_slo_3":
     Provides {
       cart_slo_param_0: "azxaz",
@@ -533,6 +565,7 @@ Expectations for "search_slo"
       threshold: 97.56,
       window_in_days: 30
     }
+
   * "frontend_23_6_search_slo_1":
     Provides {
       search_slo_param_0: "qathialjbj",

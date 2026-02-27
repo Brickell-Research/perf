@@ -25,6 +25,7 @@ Expectations for "monitoring_slo"
       threshold: 99.58,
       window_in_days: 90
     }
+
   * "observability_4_18_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "htkby",
@@ -37,6 +38,7 @@ Expectations for "monitoring_slo"
       threshold: 96.9,
       window_in_days: 30
     }
+
   * "observability_4_18_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "ygeyyydcyl",
@@ -49,6 +51,7 @@ Expectations for "monitoring_slo"
       threshold: 97.86,
       window_in_days: 90
     }
+
   * "observability_4_18_monitoring_slo_3":
     Provides {
       monitoring_slo_param_0: "ibdcmrfwmvan",
@@ -73,6 +76,7 @@ Expectations for "users_slo"
       threshold: 97.09,
       window_in_days: 90
     }
+
   * "observability_4_18_users_slo_1":
     Provides {
       users_slo_param_0: "aolrqh",
@@ -96,6 +100,7 @@ Expectations for "analytics_slo"
       threshold: 99.32,
       window_in_days: 90
     }
+
   * "observability_4_18_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "mhspelqrcqsdiqo",
@@ -107,6 +112,7 @@ Expectations for "analytics_slo"
       threshold: 96.11,
       window_in_days: 7
     }
+
 Expectations for "profiles_slo"
   * "observability_12_18_profiles_slo_0":
     Provides {
@@ -120,18 +126,24 @@ Expectations for "profiles_slo"
       threshold: 98.89,
       window_in_days: 30
     }
+
   * "observability_12_18_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "yvutkjugytckxix",
       profiles_slo_param_1: "ogzhhdi",
       profiles_slo_param_2: "archived",
-      profiles_slo_param_3: { key_0: "ysjrsnvqhsxgno", key_1: "ohanl", key_2: "vhdhnpwqpjjejsz" },
+      profiles_slo_param_3: {
+        key_0: "ysjrsnvqhsxgno",
+        key_1: "ohanl",
+        key_2: "vhdhnpwqpjjejsz"
+      },
       profiles_slo_param_4: 2367,
       profiles_slo_param_5: 76,
       req_2_field_0: "qzzdxnkmybnexjd",
       threshold: 99.8,
       window_in_days: 90
     }
+
   * "observability_12_18_profiles_slo_2":
     Provides {
       profiles_slo_param_0: "uljyna",
@@ -144,12 +156,17 @@ Expectations for "profiles_slo"
       threshold: 96.87,
       window_in_days: 30
     }
+
   * "observability_12_18_profiles_slo_3":
     Provides {
       profiles_slo_param_0: "ltasykqsivf",
       profiles_slo_param_1: "lcohybzwjyr",
       profiles_slo_param_2: "published",
-      profiles_slo_param_3: { key_0: "nmzhlbbwarcco", key_1: "snvviekud", key_2: "caaxupx" },
+      profiles_slo_param_3: {
+        key_0: "nmzhlbbwarcco",
+        key_1: "snvviekud",
+        key_2: "caaxupx"
+      },
       profiles_slo_param_4: 315,
       profiles_slo_param_5: 62,
       req_2_field_0: "fypmnk",
@@ -171,6 +188,7 @@ Expectations for "messaging_slo"
       threshold: 98.56,
       window_in_days: 90
     }
+
   * "observability_12_18_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "tdtpfku",
@@ -184,6 +202,7 @@ Expectations for "messaging_slo"
       threshold: 98.5,
       window_in_days: 90
     }
+
   * "observability_12_18_messaging_slo_2":
     Provides {
       messaging_slo_param_0: "dvaxsttfudgke",

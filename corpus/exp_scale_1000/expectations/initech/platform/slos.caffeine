@@ -8,6 +8,7 @@ Expectations for "orders_slo"
       threshold: 98.51,
       window_in_days: 90
     }
+
   * "platform_2_0_orders_slo_1":
     Provides {
       orders_slo_param_0: "ukveghjpbc",
@@ -17,6 +18,7 @@ Expectations for "orders_slo"
       threshold: 95.24,
       window_in_days: 30
     }
+
   * "platform_2_0_orders_slo_2":
     Provides {
       orders_slo_param_0: "lwldfgdhov",
@@ -26,6 +28,7 @@ Expectations for "orders_slo"
       threshold: 97.0,
       window_in_days: 7
     }
+
   * "platform_2_0_orders_slo_3":
     Provides {
       orders_slo_param_0: "oxqnuctkcwvdsq",
@@ -48,6 +51,7 @@ Expectations for "catalog_slo"
       threshold: 96.31,
       window_in_days: 7
     }
+
   * "platform_2_0_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "vgallfsftxnxwpd",
@@ -59,6 +63,7 @@ Expectations for "catalog_slo"
       threshold: 99.96,
       window_in_days: 30
     }
+
   * "platform_2_0_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "lqobj",
@@ -83,6 +88,7 @@ Expectations for "billing_slo"
       threshold: 97.98,
       window_in_days: 7
     }
+
   * "platform_2_0_billing_slo_1":
     Provides {
       billing_slo_param_0: "igwjwjilgtqdw",
@@ -109,6 +115,7 @@ Expectations for "gateway_slo"
       threshold: 95.97,
       window_in_days: 30
     }
+
   * "platform_2_0_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "bbvjfnkbg",
@@ -122,6 +129,7 @@ Expectations for "gateway_slo"
       threshold: 97.74,
       window_in_days: 30
     }
+
   * "platform_2_0_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "rrwenhrorls",
@@ -149,12 +157,17 @@ Expectations for "profiles_slo"
       threshold: 99.96,
       window_in_days: 90
     }
+
   * "platform_2_0_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "iufgmtamydycqrt",
       profiles_slo_param_1: "naqljzeuzfmr",
       profiles_slo_param_2: "published",
-      profiles_slo_param_3: { key_0: "iinwjzbjppscfkw", key_1: "wcjhwm", key_2: "eeghfomeoao" },
+      profiles_slo_param_3: {
+        key_0: "iinwjzbjppscfkw",
+        key_1: "wcjhwm",
+        key_2: "eeghfomeoao"
+      },
       profiles_slo_param_4: 9273,
       profiles_slo_param_5: 70,
       req_2_field_0: "hkaccapywnamwsv",

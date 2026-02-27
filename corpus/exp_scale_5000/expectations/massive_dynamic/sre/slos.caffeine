@@ -11,6 +11,7 @@ Expectations for "monitoring_slo"
       threshold: 95.69,
       window_in_days: 90
     }
+
   * "sre_7_11_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "yamigzwmgv",
@@ -23,6 +24,7 @@ Expectations for "monitoring_slo"
       threshold: 95.14,
       window_in_days: 90
     }
+
   * "sre_7_11_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "rfyuuoowbdl",
@@ -35,6 +37,7 @@ Expectations for "monitoring_slo"
       threshold: 98.24,
       window_in_days: 7
     }
+
   * "sre_7_11_monitoring_slo_3":
     Provides {
       monitoring_slo_param_0: "crqvgnzj",
@@ -47,6 +50,7 @@ Expectations for "monitoring_slo"
       threshold: 95.05,
       window_in_days: 90
     }
+
   * "sre_7_11_monitoring_slo_4":
     Provides {
       monitoring_slo_param_0: "adunfzzjg",
@@ -74,6 +78,7 @@ Expectations for "gateway_slo"
       threshold: 97.36,
       window_in_days: 30
     }
+
 Expectations for "cart_slo"
   * "sre_15_11_cart_slo_0":
     Provides {
@@ -86,6 +91,7 @@ Expectations for "cart_slo"
       threshold: 97.89,
       window_in_days: 7
     }
+
   * "sre_15_11_cart_slo_1":
     Provides {
       cart_slo_param_0: "huohmthwfpzds",
@@ -109,6 +115,7 @@ Expectations for "checkout_slo"
       threshold: 99.94,
       window_in_days: 90
     }
+
   * "sre_15_11_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "nweuscrljdxezj",
@@ -119,6 +126,7 @@ Expectations for "checkout_slo"
       threshold: 99.37,
       window_in_days: 30
     }
+
   * "sre_15_11_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "etzeothvovntuey",
@@ -129,6 +137,7 @@ Expectations for "checkout_slo"
       threshold: 99.26,
       window_in_days: 30
     }
+
   * "sre_15_11_checkout_slo_3":
     Provides {
       checkout_slo_param_0: "ehokpfsdv",
@@ -139,6 +148,7 @@ Expectations for "checkout_slo"
       threshold: 95.63,
       window_in_days: 30
     }
+
   * "sre_15_11_checkout_slo_4":
     Provides {
       checkout_slo_param_0: "whrwfglo",
@@ -149,6 +159,7 @@ Expectations for "checkout_slo"
       threshold: 95.18,
       window_in_days: 30
     }
+
 Expectations for "search_slo"
   * "sre_23_11_search_slo_0":
     Provides {

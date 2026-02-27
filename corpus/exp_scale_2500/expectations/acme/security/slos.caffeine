@@ -12,6 +12,7 @@ Expectations for "messaging_slo"
       threshold: 95.92,
       window_in_days: 90
     }
+
   * "security_0_8_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "lqujfmyfxwxfhmo",
@@ -25,6 +26,7 @@ Expectations for "messaging_slo"
       threshold: 97.46,
       window_in_days: 90
     }
+
   * "security_0_8_messaging_slo_2":
     Provides {
       messaging_slo_param_0: "lqcgewn",
@@ -38,6 +40,7 @@ Expectations for "messaging_slo"
       threshold: 95.63,
       window_in_days: 30
     }
+
   * "security_0_8_messaging_slo_3":
     Provides {
       messaging_slo_param_0: "suwplc",
@@ -51,6 +54,7 @@ Expectations for "messaging_slo"
       threshold: 99.66,
       window_in_days: 7
     }
+
   * "security_0_8_messaging_slo_4":
     Provides {
       messaging_slo_param_0: "tzvtxwrlafmb",
@@ -77,6 +81,7 @@ Expectations for "recommendations_slo"
       threshold: 96.85,
       window_in_days: 7
     }
+
   * "security_0_8_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "knuiriebh",
@@ -88,6 +93,7 @@ Expectations for "recommendations_slo"
       threshold: 97.48,
       window_in_days: 90
     }
+
   * "security_0_8_recommendations_slo_2":
     Provides {
       recommendations_slo_param_0: "vtzssprbmehheb",
@@ -99,6 +105,7 @@ Expectations for "recommendations_slo"
       threshold: 97.64,
       window_in_days: 30
     }
+
 Expectations for "shipping_slo"
   * "security_8_8_shipping_slo_0":
     Provides {
@@ -113,6 +120,7 @@ Expectations for "shipping_slo"
       threshold: 98.22,
       window_in_days: 30
     }
+
   * "security_8_8_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "vpzwunklfezj",
@@ -126,6 +134,7 @@ Expectations for "shipping_slo"
       threshold: 98.5,
       window_in_days: 30
     }
+
   * "security_8_8_shipping_slo_2":
     Provides {
       shipping_slo_param_0: "tylrtfunjqi",
@@ -139,6 +148,7 @@ Expectations for "shipping_slo"
       threshold: 98.75,
       window_in_days: 90
     }
+
   * "security_8_8_shipping_slo_3":
     Provides {
       shipping_slo_param_0: "bfrbkmgtumeca",
@@ -152,6 +162,7 @@ Expectations for "shipping_slo"
       threshold: 96.04,
       window_in_days: 7
     }
+
   * "security_8_8_shipping_slo_4":
     Provides {
       shipping_slo_param_0: "icwocsebwtoq",
@@ -176,6 +187,7 @@ Expectations for "orders_slo"
       threshold: 98.87,
       window_in_days: 30
     }
+
   * "security_8_8_orders_slo_1":
     Provides {
       orders_slo_param_0: "fdvkaiszoelybaw",
@@ -185,6 +197,7 @@ Expectations for "orders_slo"
       threshold: 96.98,
       window_in_days: 30
     }
+
   * "security_8_8_orders_slo_2":
     Provides {
       orders_slo_param_0: "gsswlird",
@@ -207,6 +220,7 @@ Expectations for "recommendations_slo"
       threshold: 97.79,
       window_in_days: 90
     }
+
   * "security_8_8_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "fapbc",
@@ -218,6 +232,7 @@ Expectations for "recommendations_slo"
       threshold: 97.88,
       window_in_days: 7
     }
+
   * "security_8_8_recommendations_slo_2":
     Provides {
       recommendations_slo_param_0: "lrxomcx",
@@ -229,6 +244,7 @@ Expectations for "recommendations_slo"
       threshold: 98.72,
       window_in_days: 90
     }
+
   * "security_8_8_recommendations_slo_3":
     Provides {
       recommendations_slo_param_0: "fybzftvjs",
@@ -240,6 +256,7 @@ Expectations for "recommendations_slo"
       threshold: 96.38,
       window_in_days: 7
     }
+
   * "security_8_8_recommendations_slo_4":
     Provides {
       recommendations_slo_param_0: "noikyhhu",
@@ -269,6 +286,7 @@ Expectations for "logging_slo"
       threshold: 98.59,
       window_in_days: 7
     }
+
   * "security_8_8_logging_slo_1":
     Provides {
       logging_slo_param_0: "bgchniifiknm",
@@ -298,6 +316,7 @@ Expectations for "catalog_slo"
       threshold: 95.85,
       window_in_days: 30
     }
+
   * "security_8_8_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "dhxliu",
@@ -309,6 +328,7 @@ Expectations for "catalog_slo"
       threshold: 97.46,
       window_in_days: 7
     }
+
   * "security_8_8_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "cmbim",

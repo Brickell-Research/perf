@@ -15,6 +15,7 @@ Expectations for "push_notifications_slo"
       threshold: 96.38,
       window_in_days: 30
     }
+
   * "networking_push_notifications_slo_1":
     Provides {
       push_notifications_slo_param_0: "fixccyahzmz",
@@ -22,7 +23,11 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_2: false,
       push_notifications_slo_param_3: 67.64,
       push_notifications_slo_param_4: 42.66,
-      push_notifications_slo_param_5: { key_0: "fexnntsnnjqkqr", key_1: "owtxjmvxc", key_2: "gyvfnbwji" },
+      push_notifications_slo_param_5: {
+        key_0: "fexnntsnnjqkqr",
+        key_1: "owtxjmvxc",
+        key_2: "gyvfnbwji"
+      },
       push_notifications_slo_param_6: 506,
       push_notifications_slo_param_7: "test",
       push_notifications_slo_param_8: 957,
@@ -31,6 +36,7 @@ Expectations for "push_notifications_slo"
       threshold: 96.35,
       window_in_days: 90
     }
+
   * "networking_push_notifications_slo_2":
     Provides {
       push_notifications_slo_param_0: "gtyeqeopoino",
@@ -47,6 +53,7 @@ Expectations for "push_notifications_slo"
       threshold: 96.12,
       window_in_days: 7
     }
+
   * "networking_push_notifications_slo_3":
     Provides {
       push_notifications_slo_param_0: "tffdmtmtw",
@@ -63,6 +70,7 @@ Expectations for "push_notifications_slo"
       threshold: 96.69,
       window_in_days: 30
     }
+
   * "networking_push_notifications_slo_4":
     Provides {
       push_notifications_slo_param_0: "qfnuycqxomipl",
@@ -79,6 +87,7 @@ Expectations for "push_notifications_slo"
       threshold: 95.7,
       window_in_days: 90
     }
+
   * "networking_push_notifications_slo_5":
     Provides {
       push_notifications_slo_param_0: "wykqipfcljmu",
@@ -86,7 +95,11 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_2: true,
       push_notifications_slo_param_3: 82.53,
       push_notifications_slo_param_4: 57.68,
-      push_notifications_slo_param_5: { key_0: "fyztukenjgiptwk", key_1: "bcxkyssj", key_2: "jgqkxcnvnfaeqq" },
+      push_notifications_slo_param_5: {
+        key_0: "fyztukenjgiptwk",
+        key_1: "bcxkyssj",
+        key_2: "jgqkxcnvnfaeqq"
+      },
       push_notifications_slo_param_6: 680,
       push_notifications_slo_param_7: "canary",
       push_notifications_slo_param_8: 575,
@@ -95,6 +108,7 @@ Expectations for "push_notifications_slo"
       threshold: 98.09,
       window_in_days: 30
     }
+
   * "networking_push_notifications_slo_6":
     Provides {
       push_notifications_slo_param_0: "conwiml",
@@ -111,6 +125,7 @@ Expectations for "push_notifications_slo"
       threshold: 97.95,
       window_in_days: 7
     }
+
   * "networking_push_notifications_slo_7":
     Provides {
       push_notifications_slo_param_0: "pcworokwipfclb",
@@ -118,7 +133,11 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_2: false,
       push_notifications_slo_param_3: 93.77,
       push_notifications_slo_param_4: 38.15,
-      push_notifications_slo_param_5: { key_0: "qluaxgkddpt", key_1: "vhmcfu", key_2: "xbvoxdqgtfns" },
+      push_notifications_slo_param_5: {
+        key_0: "qluaxgkddpt",
+        key_1: "vhmcfu",
+        key_2: "xbvoxdqgtfns"
+      },
       push_notifications_slo_param_6: 123,
       push_notifications_slo_param_7: "test",
       push_notifications_slo_param_8: 9721,
@@ -127,6 +146,7 @@ Expectations for "push_notifications_slo"
       threshold: 97.07,
       window_in_days: 7
     }
+
   * "networking_push_notifications_slo_8":
     Provides {
       push_notifications_slo_param_0: "xxtozumaldmqywy",
@@ -143,6 +163,7 @@ Expectations for "push_notifications_slo"
       threshold: 98.12,
       window_in_days: 30
     }
+
   * "networking_push_notifications_slo_9":
     Provides {
       push_notifications_slo_param_0: "eqxbbbqp",
@@ -159,6 +180,7 @@ Expectations for "push_notifications_slo"
       threshold: 95.53,
       window_in_days: 7
     }
+
   * "networking_push_notifications_slo_10":
     Provides {
       push_notifications_slo_param_0: "hmdvjiysxcpjj",
@@ -175,6 +197,7 @@ Expectations for "push_notifications_slo"
       threshold: 95.1,
       window_in_days: 7
     }
+
   * "networking_push_notifications_slo_11":
     Provides {
       push_notifications_slo_param_0: "ufcctvyqmtg",
@@ -182,7 +205,11 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_2: false,
       push_notifications_slo_param_3: 38.35,
       push_notifications_slo_param_4: 43.08,
-      push_notifications_slo_param_5: { key_0: "kdoinyoaosviwk", key_1: "hppujcjjx", key_2: "vqplfcskahs" },
+      push_notifications_slo_param_5: {
+        key_0: "kdoinyoaosviwk",
+        key_1: "hppujcjjx",
+        key_2: "vqplfcskahs"
+      },
       push_notifications_slo_param_6: 724,
       push_notifications_slo_param_7: "test",
       push_notifications_slo_param_8: 4380,
@@ -191,6 +218,7 @@ Expectations for "push_notifications_slo"
       threshold: 96.03,
       window_in_days: 30
     }
+
   * "networking_push_notifications_slo_12":
     Provides {
       push_notifications_slo_param_0: "qpnldyyjhuiair",
@@ -207,6 +235,7 @@ Expectations for "push_notifications_slo"
       threshold: 95.94,
       window_in_days: 30
     }
+
   * "networking_push_notifications_slo_13":
     Provides {
       push_notifications_slo_param_0: "aejqppm",
@@ -214,7 +243,11 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_2: true,
       push_notifications_slo_param_3: 33.97,
       push_notifications_slo_param_4: 46.56,
-      push_notifications_slo_param_5: { key_0: "kklskqdd", key_1: "dzelciewfwtizlm", key_2: "ptakjyovgdx" },
+      push_notifications_slo_param_5: {
+        key_0: "kklskqdd",
+        key_1: "dzelciewfwtizlm",
+        key_2: "ptakjyovgdx"
+      },
       push_notifications_slo_param_6: 355,
       push_notifications_slo_param_7: "canary",
       push_notifications_slo_param_8: 8345,
@@ -223,6 +256,7 @@ Expectations for "push_notifications_slo"
       threshold: 99.28,
       window_in_days: 90
     }
+
   * "networking_push_notifications_slo_14":
     Provides {
       push_notifications_slo_param_0: "dhgnt",
@@ -239,6 +273,7 @@ Expectations for "push_notifications_slo"
       threshold: 97.81,
       window_in_days: 90
     }
+
   * "networking_push_notifications_slo_15":
     Provides {
       push_notifications_slo_param_0: "odhztgd",
@@ -255,6 +290,7 @@ Expectations for "push_notifications_slo"
       threshold: 98.9,
       window_in_days: 30
     }
+
   * "networking_push_notifications_slo_16":
     Provides {
       push_notifications_slo_param_0: "bxdrfvaolxibex",
@@ -271,6 +307,7 @@ Expectations for "push_notifications_slo"
       threshold: 99.41,
       window_in_days: 7
     }
+
   * "networking_push_notifications_slo_17":
     Provides {
       push_notifications_slo_param_0: "cebanjf",
@@ -278,7 +315,11 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_2: false,
       push_notifications_slo_param_3: 98.64,
       push_notifications_slo_param_4: 44.4,
-      push_notifications_slo_param_5: { key_0: "dqzzrkdztx", key_1: "mnygkeafxy", key_2: "tpefmhblycaj" },
+      push_notifications_slo_param_5: {
+        key_0: "dqzzrkdztx",
+        key_1: "mnygkeafxy",
+        key_2: "tpefmhblycaj"
+      },
       push_notifications_slo_param_6: 717,
       push_notifications_slo_param_7: "canary",
       push_notifications_slo_param_8: 4312,
@@ -287,6 +328,7 @@ Expectations for "push_notifications_slo"
       threshold: 97.07,
       window_in_days: 90
     }
+
   * "networking_push_notifications_slo_18":
     Provides {
       push_notifications_slo_param_0: "wopotjpgtip",
@@ -303,6 +345,7 @@ Expectations for "push_notifications_slo"
       threshold: 97.48,
       window_in_days: 30
     }
+
   * "networking_push_notifications_slo_19":
     Provides {
       push_notifications_slo_param_0: "aaqxjemmcbb",
@@ -319,6 +362,7 @@ Expectations for "push_notifications_slo"
       threshold: 99.4,
       window_in_days: 7
     }
+
   * "networking_push_notifications_slo_20":
     Provides {
       push_notifications_slo_param_0: "afiszebxzsmwu",
@@ -335,6 +379,7 @@ Expectations for "push_notifications_slo"
       threshold: 97.96,
       window_in_days: 30
     }
+
   * "networking_push_notifications_slo_21":
     Provides {
       push_notifications_slo_param_0: "iquexctfvo",
@@ -351,6 +396,7 @@ Expectations for "push_notifications_slo"
       threshold: 97.62,
       window_in_days: 7
     }
+
   * "networking_push_notifications_slo_22":
     Provides {
       push_notifications_slo_param_0: "kyeieepwlgrl",
@@ -367,6 +413,7 @@ Expectations for "push_notifications_slo"
       threshold: 96.51,
       window_in_days: 7
     }
+
   * "networking_push_notifications_slo_23":
     Provides {
       push_notifications_slo_param_0: "wegkxynwavg",
@@ -374,7 +421,11 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_2: true,
       push_notifications_slo_param_3: 94.36,
       push_notifications_slo_param_4: 46.25,
-      push_notifications_slo_param_5: { key_0: "dkxpnfoxyw", key_1: "caqadggmkavz", key_2: "kwdtbsgyqbp" },
+      push_notifications_slo_param_5: {
+        key_0: "dkxpnfoxyw",
+        key_1: "caqadggmkavz",
+        key_2: "kwdtbsgyqbp"
+      },
       push_notifications_slo_param_6: 436,
       push_notifications_slo_param_7: "test",
       push_notifications_slo_param_8: 3340,
@@ -383,6 +434,7 @@ Expectations for "push_notifications_slo"
       threshold: 99.05,
       window_in_days: 30
     }
+
   * "networking_push_notifications_slo_24":
     Provides {
       push_notifications_slo_param_0: "vcjseavmzbeaqnj",

@@ -10,6 +10,7 @@ Expectations for "notifications_slo"
       threshold: 99.34,
       window_in_days: 90
     }
+
   * "mobile_0_4_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "okgspqji",
@@ -21,6 +22,7 @@ Expectations for "notifications_slo"
       threshold: 98.29,
       window_in_days: 30
     }
+
   * "mobile_0_4_notifications_slo_2":
     Provides {
       notifications_slo_param_0: "khpikufqwvkbij",
@@ -44,6 +46,7 @@ Expectations for "users_slo"
       threshold: 95.78,
       window_in_days: 90
     }
+
   * "mobile_0_4_users_slo_1":
     Provides {
       users_slo_param_0: "uuulnzkdko",
@@ -54,6 +57,7 @@ Expectations for "users_slo"
       threshold: 98.91,
       window_in_days: 30
     }
+
   * "mobile_0_4_users_slo_2":
     Provides {
       users_slo_param_0: "ahizexjrq",
@@ -77,6 +81,7 @@ Expectations for "search_slo"
       threshold: 97.18,
       window_in_days: 7
     }
+
   * "mobile_0_4_search_slo_1":
     Provides {
       search_slo_param_0: "olnksexcxl",
@@ -88,6 +93,7 @@ Expectations for "search_slo"
       threshold: 96.27,
       window_in_days: 30
     }
+
   * "mobile_0_4_search_slo_2":
     Provides {
       search_slo_param_0: "kvmueeqvlejkcv",
@@ -99,6 +105,7 @@ Expectations for "search_slo"
       threshold: 96.76,
       window_in_days: 7
     }
+
 Expectations for "scheduler_slo"
   * "mobile_8_4_scheduler_slo_0":
     Provides {
@@ -112,6 +119,7 @@ Expectations for "scheduler_slo"
       threshold: 95.72,
       window_in_days: 90
     }
+
   * "mobile_8_4_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "hkkcfkuchxem",
@@ -124,6 +132,7 @@ Expectations for "scheduler_slo"
       threshold: 96.49,
       window_in_days: 90
     }
+
   * "mobile_8_4_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "hmlhe",
@@ -136,6 +145,7 @@ Expectations for "scheduler_slo"
       threshold: 95.13,
       window_in_days: 7
     }
+
   * "mobile_8_4_scheduler_slo_3":
     Provides {
       scheduler_slo_param_0: "nrahndjhgd",
@@ -148,6 +158,7 @@ Expectations for "scheduler_slo"
       threshold: 97.18,
       window_in_days: 7
     }
+
   * "mobile_8_4_scheduler_slo_4":
     Provides {
       scheduler_slo_param_0: "rounsstwjqzyrd",

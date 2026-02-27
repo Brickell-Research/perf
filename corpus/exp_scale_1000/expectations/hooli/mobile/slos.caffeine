@@ -9,6 +9,7 @@ Expectations for "users_slo"
       threshold: 96.0,
       window_in_days: 7
     }
+
   * "mobile_3_4_users_slo_1":
     Provides {
       users_slo_param_0: "nrhsrwggxmww",
@@ -31,6 +32,7 @@ Expectations for "checkout_slo"
       threshold: 96.22,
       window_in_days: 7
     }
+
   * "mobile_3_4_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "wwhid",
@@ -41,6 +43,7 @@ Expectations for "checkout_slo"
       threshold: 95.99,
       window_in_days: 90
     }
+
   * "mobile_3_4_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "dsnazok",
@@ -84,6 +87,7 @@ Expectations for "logging_slo"
       threshold: 98.95,
       window_in_days: 7
     }
+
   * "mobile_3_4_logging_slo_1":
     Provides {
       logging_slo_param_0: "njptxcdgfc",
@@ -100,6 +104,7 @@ Expectations for "logging_slo"
       threshold: 95.16,
       window_in_days: 30
     }
+
   * "mobile_3_4_logging_slo_2":
     Provides {
       logging_slo_param_0: "jkqobqichjh",
@@ -116,6 +121,7 @@ Expectations for "logging_slo"
       threshold: 99.14,
       window_in_days: 90
     }
+
   * "mobile_3_4_logging_slo_3":
     Provides {
       logging_slo_param_0: "sqbtes",
@@ -145,6 +151,7 @@ Expectations for "search_slo"
       threshold: 97.01,
       window_in_days: 7
     }
+
   * "mobile_3_4_search_slo_1":
     Provides {
       search_slo_param_0: "nosikxbta",

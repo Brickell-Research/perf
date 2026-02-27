@@ -38,6 +38,7 @@ Expectations for "profiles_slo"
       threshold: 97.03,
       window_in_days: 7
     }
+
   * "backend_4_5_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "fxxrs",
@@ -50,6 +51,7 @@ Expectations for "profiles_slo"
       threshold: 97.32,
       window_in_days: 90
     }
+
   * "backend_4_5_profiles_slo_2":
     Provides {
       profiles_slo_param_0: "ithhgfezfc",
@@ -62,6 +64,7 @@ Expectations for "profiles_slo"
       threshold: 95.29,
       window_in_days: 7
     }
+
   * "backend_4_5_profiles_slo_3":
     Provides {
       profiles_slo_param_0: "bojbqjpodcng",
@@ -74,6 +77,7 @@ Expectations for "profiles_slo"
       threshold: 96.66,
       window_in_days: 30
     }
+
   * "backend_4_5_profiles_slo_4":
     Provides {
       profiles_slo_param_0: "ynnuwrbstafwkqv",
@@ -115,6 +119,7 @@ Expectations for "analytics_slo"
       threshold: 96.75,
       window_in_days: 90
     }
+
   * "backend_4_5_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "moeil",
@@ -126,6 +131,7 @@ Expectations for "analytics_slo"
       threshold: 97.75,
       window_in_days: 7
     }
+
   * "backend_4_5_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "kdbasbddqhtck",
@@ -137,6 +143,7 @@ Expectations for "analytics_slo"
       threshold: 99.7,
       window_in_days: 90
     }
+
 Expectations for "notifications_slo"
   * "backend_12_5_notifications_slo_0":
     Provides {
@@ -149,6 +156,7 @@ Expectations for "notifications_slo"
       threshold: 98.49,
       window_in_days: 7
     }
+
   * "backend_12_5_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "ljgheojsbpb",
@@ -160,6 +168,7 @@ Expectations for "notifications_slo"
       threshold: 96.85,
       window_in_days: 30
     }
+
   * "backend_12_5_notifications_slo_2":
     Provides {
       notifications_slo_param_0: "tgydyrqe",
@@ -171,6 +180,7 @@ Expectations for "notifications_slo"
       threshold: 95.57,
       window_in_days: 30
     }
+
   * "backend_12_5_notifications_slo_3":
     Provides {
       notifications_slo_param_0: "xghntjbfijwalq",
@@ -200,6 +210,7 @@ Expectations for "logging_slo"
       threshold: 95.39,
       window_in_days: 7
     }
+
   * "backend_12_5_logging_slo_1":
     Provides {
       logging_slo_param_0: "bkjjubd",
@@ -216,6 +227,7 @@ Expectations for "logging_slo"
       threshold: 96.95,
       window_in_days: 90
     }
+
   * "backend_12_5_logging_slo_2":
     Provides {
       logging_slo_param_0: "gxbigwwmicjrvb",

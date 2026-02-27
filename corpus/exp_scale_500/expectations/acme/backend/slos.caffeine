@@ -12,6 +12,7 @@ Expectations for "gateway_slo"
       threshold: 95.58,
       window_in_days: 90
     }
+
   * "backend_0_5_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "okgfydhvoqjq",
@@ -25,6 +26,7 @@ Expectations for "gateway_slo"
       threshold: 96.2,
       window_in_days: 30
     }
+
   * "backend_0_5_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "ponufsmmctmnpl",
@@ -51,6 +53,7 @@ Expectations for "cart_slo"
       threshold: 97.65,
       window_in_days: 30
     }
+
   * "backend_0_5_cart_slo_1":
     Provides {
       cart_slo_param_0: "yjrfgfijcs",
@@ -75,6 +78,7 @@ Expectations for "billing_slo"
       threshold: 95.79,
       window_in_days: 90
     }
+
   * "backend_0_5_billing_slo_1":
     Provides {
       billing_slo_param_0: "lfxafjoedkrgb",
@@ -86,6 +90,7 @@ Expectations for "billing_slo"
       threshold: 99.47,
       window_in_days: 30
     }
+
   * "backend_0_5_billing_slo_2":
     Provides {
       billing_slo_param_0: "rdsblltkidtdsk",
@@ -97,6 +102,7 @@ Expectations for "billing_slo"
       threshold: 98.05,
       window_in_days: 90
     }
+
   * "backend_0_5_billing_slo_3":
     Provides {
       billing_slo_param_0: "yzyqbxwi",
@@ -108,6 +114,7 @@ Expectations for "billing_slo"
       threshold: 96.57,
       window_in_days: 90
     }
+
   * "backend_0_5_billing_slo_4":
     Provides {
       billing_slo_param_0: "gqyhguyiz",
@@ -132,6 +139,7 @@ Expectations for "analytics_slo"
       threshold: 97.29,
       window_in_days: 7
     }
+
   * "backend_0_5_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "rrxshehwr",
@@ -143,6 +151,7 @@ Expectations for "analytics_slo"
       threshold: 96.6,
       window_in_days: 90
     }
+
   * "backend_0_5_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "siuceudeacw",
@@ -154,6 +163,7 @@ Expectations for "analytics_slo"
       threshold: 96.32,
       window_in_days: 30
     }
+
   * "backend_0_5_analytics_slo_3":
     Provides {
       analytics_slo_param_0: "gtivey",
@@ -165,6 +175,7 @@ Expectations for "analytics_slo"
       threshold: 96.39,
       window_in_days: 90
     }
+
   * "backend_0_5_analytics_slo_4":
     Provides {
       analytics_slo_param_0: "pesxosihuwku",
@@ -187,6 +198,7 @@ Expectations for "orders_slo"
       threshold: 96.8,
       window_in_days: 7
     }
+
   * "backend_0_5_orders_slo_1":
     Provides {
       orders_slo_param_0: "ijnqravbvpxo",

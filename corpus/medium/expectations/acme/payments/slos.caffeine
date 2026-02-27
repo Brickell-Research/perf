@@ -6,6 +6,7 @@ Expectations for "payments_slo"
       threshold: 96.55,
       window_in_days: 7
     }
+
   * "payments_payments_slo_1":
     Provides {
       payments_slo_param_0: "agmwbkq",
@@ -13,6 +14,7 @@ Expectations for "payments_slo"
       threshold: 98.88,
       window_in_days: 7
     }
+
   * "payments_payments_slo_2":
     Provides {
       payments_slo_param_0: "usmoxdd",
@@ -31,6 +33,7 @@ Expectations for "orders_slo"
       threshold: 96.94,
       window_in_days: 90
     }
+
   * "payments_orders_slo_1":
     Provides {
       orders_slo_param_0: "wtjaj",
@@ -40,6 +43,7 @@ Expectations for "orders_slo"
       threshold: 98.61,
       window_in_days: 30
     }
+
   * "payments_orders_slo_2":
     Provides {
       orders_slo_param_0: "znxprcl",

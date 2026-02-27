@@ -12,6 +12,7 @@ Expectations for "messaging_slo"
       threshold: 95.15,
       window_in_days: 30
     }
+
   * "reliability_4_9_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "vrnqrxebpnidiqe",
@@ -25,6 +26,7 @@ Expectations for "messaging_slo"
       threshold: 99.32,
       window_in_days: 7
     }
+
   * "reliability_4_9_messaging_slo_2":
     Provides {
       messaging_slo_param_0: "btrmt",
@@ -38,6 +40,7 @@ Expectations for "messaging_slo"
       threshold: 99.22,
       window_in_days: 90
     }
+
 Expectations for "scheduler_slo"
   * "reliability_12_9_scheduler_slo_0":
     Provides {
@@ -51,13 +54,18 @@ Expectations for "scheduler_slo"
       threshold: 99.28,
       window_in_days: 30
     }
+
 Expectations for "profiles_slo"
   * "reliability_20_9_profiles_slo_0":
     Provides {
       profiles_slo_param_0: "jvjhnqv",
       profiles_slo_param_1: "vkqeauplt",
       profiles_slo_param_2: "active",
-      profiles_slo_param_3: { key_0: "hrhgcsgiedym", key_1: "lcjskqgppnvsgt", key_2: "skabqyqu" },
+      profiles_slo_param_3: {
+        key_0: "hrhgcsgiedym",
+        key_1: "lcjskqgppnvsgt",
+        key_2: "skabqyqu"
+      },
       profiles_slo_param_4: 5103,
       profiles_slo_param_5: 70,
       req_2_field_0: "prsmeyzgm",
@@ -93,6 +101,7 @@ Expectations for "logging_slo"
       threshold: 99.83,
       window_in_days: 7
     }
+
   * "reliability_20_9_logging_slo_1":
     Provides {
       logging_slo_param_0: "idjmrlb",
@@ -125,6 +134,7 @@ Expectations for "inventory_slo"
       threshold: 98.96,
       window_in_days: 7
     }
+
   * "reliability_20_9_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "miaawldukrkyisf",
@@ -153,6 +163,7 @@ Expectations for "scheduler_slo"
       threshold: 96.14,
       window_in_days: 30
     }
+
   * "reliability_20_9_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "vhzqknmybgyggd",
@@ -165,6 +176,7 @@ Expectations for "scheduler_slo"
       threshold: 95.79,
       window_in_days: 90
     }
+
   * "reliability_20_9_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "qigdieqtvdebdu",
@@ -177,6 +189,7 @@ Expectations for "scheduler_slo"
       threshold: 97.29,
       window_in_days: 90
     }
+
   * "reliability_20_9_scheduler_slo_3":
     Provides {
       scheduler_slo_param_0: "zwtabgghcebju",

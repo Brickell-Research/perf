@@ -19,6 +19,7 @@ Expectations for "dns_resolver_slo"
       threshold: 97.55,
       window_in_days: 7
     }
+
   * "platform_dns_resolver_slo_1":
     Provides {
       dns_resolver_slo_param_0: "nwonzhatci",
@@ -39,6 +40,7 @@ Expectations for "dns_resolver_slo"
       threshold: 97.11,
       window_in_days: 7
     }
+
   * "platform_dns_resolver_slo_2":
     Provides {
       dns_resolver_slo_param_0: "sbjfeio",
@@ -59,6 +61,7 @@ Expectations for "dns_resolver_slo"
       threshold: 95.77,
       window_in_days: 90
     }
+
   * "platform_dns_resolver_slo_3":
     Provides {
       dns_resolver_slo_param_0: "ffpconz",
@@ -67,7 +70,11 @@ Expectations for "dns_resolver_slo"
       dns_resolver_slo_param_3: 52.75,
       dns_resolver_slo_param_4: "pending",
       dns_resolver_slo_param_5: [false, true, true, true],
-      dns_resolver_slo_param_6: { key_0: "gbdpydxsj", key_1: "kwqohrerzvdkjy", key_2: "ntpjvdlinoy" },
+      dns_resolver_slo_param_6: {
+        key_0: "gbdpydxsj",
+        key_1: "kwqohrerzvdkjy",
+        key_2: "ntpjvdlinoy"
+      },
       dns_resolver_slo_param_7: 34.35,
       dns_resolver_slo_param_8: { key_0: 60.24 },
       dns_resolver_slo_param_9: 67.12,
@@ -79,6 +86,7 @@ Expectations for "dns_resolver_slo"
       threshold: 97.89,
       window_in_days: 90
     }
+
   * "platform_dns_resolver_slo_4":
     Provides {
       dns_resolver_slo_param_0: "lqdqk",
@@ -99,6 +107,7 @@ Expectations for "dns_resolver_slo"
       threshold: 99.5,
       window_in_days: 7
     }
+
   * "platform_dns_resolver_slo_5":
     Provides {
       dns_resolver_slo_param_0: "engnuawoerbmr",
@@ -107,7 +116,11 @@ Expectations for "dns_resolver_slo"
       dns_resolver_slo_param_3: 47.93,
       dns_resolver_slo_param_4: "pending",
       dns_resolver_slo_param_5: [false, false, true],
-      dns_resolver_slo_param_6: { key_0: "jfxykcgovzrxhl", key_1: "nmsad", key_2: "ewuaqfjrbhhy" },
+      dns_resolver_slo_param_6: {
+        key_0: "jfxykcgovzrxhl",
+        key_1: "nmsad",
+        key_2: "ewuaqfjrbhhy"
+      },
       dns_resolver_slo_param_7: 25.21,
       dns_resolver_slo_param_8: { key_0: 59.53, key_1: 4.34, key_2: 48.4 },
       dns_resolver_slo_param_9: 66.53,
@@ -119,6 +132,7 @@ Expectations for "dns_resolver_slo"
       threshold: 96.5,
       window_in_days: 7
     }
+
   * "platform_dns_resolver_slo_6":
     Provides {
       dns_resolver_slo_param_0: "dudxplmiley",
@@ -139,6 +153,7 @@ Expectations for "dns_resolver_slo"
       threshold: 98.55,
       window_in_days: 30
     }
+
   * "platform_dns_resolver_slo_7":
     Provides {
       dns_resolver_slo_param_0: "ierevdwcdnmpl",
@@ -175,6 +190,7 @@ Expectations for "session_manager_slo"
       threshold: 97.97,
       window_in_days: 90
     }
+
   * "platform_session_manager_slo_1":
     Provides {
       session_manager_slo_param_0: "hhqktnnqyvplj",
@@ -189,6 +205,7 @@ Expectations for "session_manager_slo"
       threshold: 97.61,
       window_in_days: 30
     }
+
   * "platform_session_manager_slo_2":
     Provides {
       session_manager_slo_param_0: "cefanilnuppzv",
@@ -203,6 +220,7 @@ Expectations for "session_manager_slo"
       threshold: 96.74,
       window_in_days: 7
     }
+
   * "platform_session_manager_slo_3":
     Provides {
       session_manager_slo_param_0: "bbnvuwsbiwh",
@@ -217,6 +235,7 @@ Expectations for "session_manager_slo"
       threshold: 97.72,
       window_in_days: 30
     }
+
   * "platform_session_manager_slo_4":
     Provides {
       session_manager_slo_param_0: "jaxhnjgbskaczmy",
@@ -231,6 +250,7 @@ Expectations for "session_manager_slo"
       threshold: 98.06,
       window_in_days: 30
     }
+
   * "platform_session_manager_slo_5":
     Provides {
       session_manager_slo_param_0: "wtjwgvitl",
@@ -245,6 +265,7 @@ Expectations for "session_manager_slo"
       threshold: 99.12,
       window_in_days: 30
     }
+
   * "platform_session_manager_slo_6":
     Provides {
       session_manager_slo_param_0: "eddge",
@@ -259,6 +280,7 @@ Expectations for "session_manager_slo"
       threshold: 96.54,
       window_in_days: 90
     }
+
   * "platform_session_manager_slo_7":
     Provides {
       session_manager_slo_param_0: "dhyasod",
@@ -286,6 +308,7 @@ Expectations for "token_service_slo"
       threshold: 99.01,
       window_in_days: 30
     }
+
   * "platform_token_service_slo_1":
     Provides {
       token_service_slo_param_0: "wshkcmoozb",
@@ -297,6 +320,7 @@ Expectations for "token_service_slo"
       threshold: 96.8,
       window_in_days: 7
     }
+
   * "platform_token_service_slo_2":
     Provides {
       token_service_slo_param_0: "kdexhcyxrahtlvw",
@@ -308,6 +332,7 @@ Expectations for "token_service_slo"
       threshold: 99.13,
       window_in_days: 30
     }
+
   * "platform_token_service_slo_3":
     Provides {
       token_service_slo_param_0: "ocacocynxcuokt",
@@ -319,6 +344,7 @@ Expectations for "token_service_slo"
       threshold: 97.62,
       window_in_days: 30
     }
+
   * "platform_token_service_slo_4":
     Provides {
       token_service_slo_param_0: "gnfvocoomqoc",
@@ -330,6 +356,7 @@ Expectations for "token_service_slo"
       threshold: 97.7,
       window_in_days: 90
     }
+
   * "platform_token_service_slo_5":
     Provides {
       token_service_slo_param_0: "hybefzkhesa",
@@ -341,6 +368,7 @@ Expectations for "token_service_slo"
       threshold: 95.01,
       window_in_days: 7
     }
+
   * "platform_token_service_slo_6":
     Provides {
       token_service_slo_param_0: "ojutz",
@@ -352,6 +380,7 @@ Expectations for "token_service_slo"
       threshold: 98.42,
       window_in_days: 7
     }
+
   * "platform_token_service_slo_7":
     Provides {
       token_service_slo_param_0: "tpnustqkothz",

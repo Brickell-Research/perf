@@ -10,6 +10,7 @@ Expectations for "notifications_slo"
       threshold: 98.7,
       window_in_days: 7
     }
+
   * "search_0_13_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "ibzust",
@@ -21,6 +22,7 @@ Expectations for "notifications_slo"
       threshold: 95.16,
       window_in_days: 7
     }
+
   * "search_0_13_notifications_slo_2":
     Provides {
       notifications_slo_param_0: "zkxjxoh",
@@ -32,6 +34,7 @@ Expectations for "notifications_slo"
       threshold: 98.21,
       window_in_days: 7
     }
+
   * "search_0_13_notifications_slo_3":
     Provides {
       notifications_slo_param_0: "qazypnsfp",
@@ -43,6 +46,7 @@ Expectations for "notifications_slo"
       threshold: 96.98,
       window_in_days: 90
     }
+
   * "search_0_13_notifications_slo_4":
     Provides {
       notifications_slo_param_0: "ftvuqmvjpcs",
@@ -54,6 +58,7 @@ Expectations for "notifications_slo"
       threshold: 95.75,
       window_in_days: 30
     }
+
 Expectations for "auth_slo"
   * "search_8_13_auth_slo_0":
     Provides {
@@ -65,6 +70,7 @@ Expectations for "auth_slo"
       threshold: 95.08,
       window_in_days: 30
     }
+
   * "search_8_13_auth_slo_1":
     Provides {
       auth_slo_param_0: "eptgov",
@@ -75,6 +81,7 @@ Expectations for "auth_slo"
       threshold: 95.77,
       window_in_days: 30
     }
+
   * "search_8_13_auth_slo_2":
     Provides {
       auth_slo_param_0: "myndwng",
@@ -85,6 +92,7 @@ Expectations for "auth_slo"
       threshold: 99.14,
       window_in_days: 7
     }
+
   * "search_8_13_auth_slo_3":
     Provides {
       auth_slo_param_0: "nkouqu",
@@ -95,6 +103,7 @@ Expectations for "auth_slo"
       threshold: 97.81,
       window_in_days: 90
     }
+
   * "search_8_13_auth_slo_4":
     Provides {
       auth_slo_param_0: "qtlooookao",
@@ -118,6 +127,7 @@ Expectations for "search_slo"
       threshold: 99.73,
       window_in_days: 7
     }
+
   * "search_8_13_search_slo_1":
     Provides {
       search_slo_param_0: "oamiwfofacxms",
@@ -129,6 +139,7 @@ Expectations for "search_slo"
       threshold: 97.78,
       window_in_days: 30
     }
+
   * "search_8_13_search_slo_2":
     Provides {
       search_slo_param_0: "ekecrtk",

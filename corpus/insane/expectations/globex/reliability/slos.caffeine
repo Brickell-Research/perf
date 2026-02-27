@@ -15,6 +15,7 @@ Expectations for "logging_slo"
       threshold: 95.69,
       window_in_days: 7
     }
+
   * "reliability_logging_slo_1":
     Provides {
       logging_slo_param_0: "xcbhqwssqddzth",
@@ -31,6 +32,7 @@ Expectations for "logging_slo"
       threshold: 98.96,
       window_in_days: 30
     }
+
   * "reliability_logging_slo_2":
     Provides {
       logging_slo_param_0: "wacqcdutkywun",
@@ -47,6 +49,7 @@ Expectations for "logging_slo"
       threshold: 96.15,
       window_in_days: 7
     }
+
   * "reliability_logging_slo_3":
     Provides {
       logging_slo_param_0: "ayeyo",
@@ -63,6 +66,7 @@ Expectations for "logging_slo"
       threshold: 96.78,
       window_in_days: 30
     }
+
   * "reliability_logging_slo_4":
     Provides {
       logging_slo_param_0: "iwslckkxfcyietd",
@@ -79,6 +83,7 @@ Expectations for "logging_slo"
       threshold: 95.63,
       window_in_days: 90
     }
+
   * "reliability_logging_slo_5":
     Provides {
       logging_slo_param_0: "kvkhmdbxkyryfmn",
@@ -95,6 +100,7 @@ Expectations for "logging_slo"
       threshold: 96.99,
       window_in_days: 30
     }
+
   * "reliability_logging_slo_6":
     Provides {
       logging_slo_param_0: "wvzlikhcaxjrj",
@@ -104,13 +110,18 @@ Expectations for "logging_slo"
       logging_slo_param_4: 5.49,
       logging_slo_param_5: true,
       logging_slo_param_6: false,
-      logging_slo_param_7: { key_0: "tvytcbmavdgn", key_1: "qvsvsdqzad", key_2: "bfjofoqj" },
+      logging_slo_param_7: {
+        key_0: "tvytcbmavdgn",
+        key_1: "qvsvsdqzad",
+        key_2: "bfjofoqj"
+      },
       logging_slo_param_8: 24.26,
       logging_slo_param_9: "inactive",
       logging_slo_param_10: { key_0: false },
       threshold: 98.81,
       window_in_days: 30
     }
+
   * "reliability_logging_slo_7":
     Provides {
       logging_slo_param_0: "orplzkln",
@@ -127,6 +138,7 @@ Expectations for "logging_slo"
       threshold: 97.95,
       window_in_days: 7
     }
+
   * "reliability_logging_slo_8":
     Provides {
       logging_slo_param_0: "aialyoiw",
@@ -143,6 +155,7 @@ Expectations for "logging_slo"
       threshold: 97.41,
       window_in_days: 90
     }
+
   * "reliability_logging_slo_9":
     Provides {
       logging_slo_param_0: "bgkekspdi",
@@ -152,13 +165,18 @@ Expectations for "logging_slo"
       logging_slo_param_4: 47.89,
       logging_slo_param_5: true,
       logging_slo_param_6: true,
-      logging_slo_param_7: { key_0: "bxuxvqynwwwrvo", key_1: "cdycjdtjxqpke", key_2: "auznwsifcmjblk" },
+      logging_slo_param_7: {
+        key_0: "bxuxvqynwwwrvo",
+        key_1: "cdycjdtjxqpke",
+        key_2: "auznwsifcmjblk"
+      },
       logging_slo_param_8: 50.76,
       logging_slo_param_9: "draft",
       logging_slo_param_10: { key_0: false, key_1: false, key_2: false },
       threshold: 99.78,
       window_in_days: 90
     }
+
   * "reliability_logging_slo_10":
     Provides {
       logging_slo_param_0: "wfyfmx",
@@ -175,6 +193,7 @@ Expectations for "logging_slo"
       threshold: 98.79,
       window_in_days: 30
     }
+
   * "reliability_logging_slo_11":
     Provides {
       logging_slo_param_0: "onpdikhytty",
@@ -191,6 +210,7 @@ Expectations for "logging_slo"
       threshold: 98.95,
       window_in_days: 90
     }
+
   * "reliability_logging_slo_12":
     Provides {
       logging_slo_param_0: "wqkazbarhrh",
@@ -207,6 +227,7 @@ Expectations for "logging_slo"
       threshold: 95.47,
       window_in_days: 30
     }
+
   * "reliability_logging_slo_13":
     Provides {
       logging_slo_param_0: "zvdyan",
@@ -223,6 +244,7 @@ Expectations for "logging_slo"
       threshold: 96.09,
       window_in_days: 90
     }
+
   * "reliability_logging_slo_14":
     Provides {
       logging_slo_param_0: "ofohbmvkovxrr",

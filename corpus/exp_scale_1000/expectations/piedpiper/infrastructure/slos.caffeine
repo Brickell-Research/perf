@@ -9,6 +9,7 @@ Expectations for "auth_slo"
       threshold: 98.37,
       window_in_days: 7
     }
+
   * "infrastructure_4_3_auth_slo_1":
     Provides {
       auth_slo_param_0: "yaxhlectp",
@@ -19,6 +20,7 @@ Expectations for "auth_slo"
       threshold: 97.61,
       window_in_days: 30
     }
+
   * "infrastructure_4_3_auth_slo_2":
     Provides {
       auth_slo_param_0: "tlvqdiremhxqw",
@@ -42,6 +44,7 @@ Expectations for "payments_slo"
       threshold: 99.86,
       window_in_days: 30
     }
+
   * "infrastructure_4_3_payments_slo_1":
     Provides {
       payments_slo_param_0: "sdmcyaqojbem",

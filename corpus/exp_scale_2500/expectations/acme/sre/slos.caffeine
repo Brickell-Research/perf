@@ -24,6 +24,7 @@ Expectations for "analytics_slo"
       threshold: 95.91,
       window_in_days: 90
     }
+
   * "sre_0_11_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "jwrnaqmbwc",
@@ -48,6 +49,7 @@ Expectations for "notifications_slo"
       threshold: 99.08,
       window_in_days: 7
     }
+
   * "sre_0_11_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "zttplrfltb",
@@ -75,6 +77,7 @@ Expectations for "inventory_slo"
       threshold: 95.56,
       window_in_days: 30
     }
+
   * "sre_0_11_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "ijyirj",
@@ -89,6 +92,7 @@ Expectations for "inventory_slo"
       threshold: 97.52,
       window_in_days: 30
     }
+
   * "sre_0_11_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "kcpxijzsb",
@@ -103,6 +107,7 @@ Expectations for "inventory_slo"
       threshold: 95.69,
       window_in_days: 7
     }
+
   * "sre_0_11_inventory_slo_3":
     Provides {
       inventory_slo_param_0: "crfpaigzu",
@@ -117,6 +122,7 @@ Expectations for "inventory_slo"
       threshold: 97.57,
       window_in_days: 90
     }
+
   * "sre_0_11_inventory_slo_4":
     Provides {
       inventory_slo_param_0: "jawncsnfgztyfyb",
@@ -149,6 +155,7 @@ Expectations for "logging_slo"
       threshold: 97.22,
       window_in_days: 30
     }
+
 Expectations for "auth_slo"
   * "sre_8_11_auth_slo_0":
     Provides {
@@ -160,6 +167,7 @@ Expectations for "auth_slo"
       threshold: 95.05,
       window_in_days: 7
     }
+
   * "sre_8_11_auth_slo_1":
     Provides {
       auth_slo_param_0: "fvwzuszmco",

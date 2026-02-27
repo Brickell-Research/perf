@@ -9,6 +9,7 @@ Expectations for "checkout_slo"
       threshold: 98.53,
       window_in_days: 7
     }
+
   * "platform_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "bainhmos",
@@ -19,6 +20,7 @@ Expectations for "checkout_slo"
       threshold: 95.95,
       window_in_days: 30
     }
+
   * "platform_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "khgylwo",
@@ -39,6 +41,7 @@ Expectations for "auth_slo"
       threshold: 95.66,
       window_in_days: 30
     }
+
   * "platform_auth_slo_1":
     Provides {
       auth_slo_param_0: "wjevsp",
@@ -47,6 +50,7 @@ Expectations for "auth_slo"
       threshold: 97.05,
       window_in_days: 90
     }
+
   * "platform_auth_slo_2":
     Provides {
       auth_slo_param_0: "gucwwfvl",

@@ -12,6 +12,7 @@ Expectations for "gateway_slo"
       threshold: 99.0,
       window_in_days: 90
     }
+
   * "mobile_1_4_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "hrvshkalj",
@@ -25,6 +26,7 @@ Expectations for "gateway_slo"
       threshold: 96.93,
       window_in_days: 7
     }
+
 Expectations for "cart_slo"
   * "mobile_9_4_cart_slo_0":
     Provides {
@@ -37,6 +39,7 @@ Expectations for "cart_slo"
       threshold: 97.54,
       window_in_days: 30
     }
+
   * "mobile_9_4_cart_slo_1":
     Provides {
       cart_slo_param_0: "kopaswnfve",
@@ -61,6 +64,7 @@ Expectations for "search_slo"
       threshold: 96.96,
       window_in_days: 90
     }
+
   * "mobile_9_4_search_slo_1":
     Provides {
       search_slo_param_0: "usgadhbcrfj",
@@ -72,6 +76,7 @@ Expectations for "search_slo"
       threshold: 95.34,
       window_in_days: 7
     }
+
   * "mobile_9_4_search_slo_2":
     Provides {
       search_slo_param_0: "zhptlzv",
@@ -83,6 +88,7 @@ Expectations for "search_slo"
       threshold: 96.69,
       window_in_days: 30
     }
+
   * "mobile_9_4_search_slo_3":
     Provides {
       search_slo_param_0: "jwczgmsvboiut",
@@ -94,6 +100,7 @@ Expectations for "search_slo"
       threshold: 96.56,
       window_in_days: 90
     }
+
   * "mobile_9_4_search_slo_4":
     Provides {
       search_slo_param_0: "fqbxledeg",
@@ -132,6 +139,7 @@ Expectations for "users_slo"
       threshold: 95.5,
       window_in_days: 7
     }
+
   * "mobile_9_4_users_slo_1":
     Provides {
       users_slo_param_0: "pwnvinhgbdeqgxb",
@@ -142,6 +150,7 @@ Expectations for "users_slo"
       threshold: 95.92,
       window_in_days: 7
     }
+
   * "mobile_9_4_users_slo_2":
     Provides {
       users_slo_param_0: "uavmhutksb",
@@ -152,6 +161,7 @@ Expectations for "users_slo"
       threshold: 98.47,
       window_in_days: 90
     }
+
   * "mobile_9_4_users_slo_3":
     Provides {
       users_slo_param_0: "gvwlnmoeplgrxag",
@@ -162,6 +172,7 @@ Expectations for "users_slo"
       threshold: 99.01,
       window_in_days: 90
     }
+
   * "mobile_9_4_users_slo_4":
     Provides {
       users_slo_param_0: "vyehpxnrshjyqzy",

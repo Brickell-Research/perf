@@ -12,6 +12,7 @@ Expectations for "gateway_slo"
       threshold: 95.63,
       window_in_days: 30
     }
+
   * "reliability_4_9_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "ylayhyyjq",
@@ -25,6 +26,7 @@ Expectations for "gateway_slo"
       threshold: 95.09,
       window_in_days: 30
     }
+
   * "reliability_4_9_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "cspikgbdr",
@@ -38,6 +40,7 @@ Expectations for "gateway_slo"
       threshold: 95.15,
       window_in_days: 7
     }
+
   * "reliability_4_9_gateway_slo_3":
     Provides {
       gateway_slo_param_0: "milkyuvwoikjpdq",
@@ -51,6 +54,7 @@ Expectations for "gateway_slo"
       threshold: 99.56,
       window_in_days: 90
     }
+
   * "reliability_4_9_gateway_slo_4":
     Provides {
       gateway_slo_param_0: "tmggax",
@@ -77,6 +81,7 @@ Expectations for "catalog_slo"
       threshold: 99.45,
       window_in_days: 7
     }
+
   * "reliability_4_9_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "zntnfk",
@@ -88,6 +93,7 @@ Expectations for "catalog_slo"
       threshold: 96.27,
       window_in_days: 30
     }
+
   * "reliability_4_9_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "nujhtnblocqhm",
@@ -99,6 +105,7 @@ Expectations for "catalog_slo"
       threshold: 97.12,
       window_in_days: 7
     }
+
   * "reliability_4_9_catalog_slo_3":
     Provides {
       catalog_slo_param_0: "moxcub",
@@ -110,6 +117,7 @@ Expectations for "catalog_slo"
       threshold: 99.87,
       window_in_days: 90
     }
+
   * "reliability_4_9_catalog_slo_4":
     Provides {
       catalog_slo_param_0: "xctjfhkmt",
@@ -134,6 +142,7 @@ Expectations for "notifications_slo"
       threshold: 98.97,
       window_in_days: 30
     }
+
   * "reliability_4_9_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "bfpodapbg",
@@ -145,6 +154,7 @@ Expectations for "notifications_slo"
       threshold: 98.65,
       window_in_days: 90
     }
+
 Expectations for "messaging_slo"
   * "reliability_12_9_messaging_slo_0":
     Provides {
@@ -159,6 +169,7 @@ Expectations for "messaging_slo"
       threshold: 98.44,
       window_in_days: 90
     }
+
   * "reliability_12_9_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "phzuztvd",
@@ -172,6 +183,7 @@ Expectations for "messaging_slo"
       threshold: 99.7,
       window_in_days: 90
     }
+
   * "reliability_12_9_messaging_slo_2":
     Provides {
       messaging_slo_param_0: "qgdtwfvekxt",
@@ -185,6 +197,7 @@ Expectations for "messaging_slo"
       threshold: 96.73,
       window_in_days: 90
     }
+
   * "reliability_12_9_messaging_slo_3":
     Provides {
       messaging_slo_param_0: "ldlbljlzitybrg",
@@ -210,6 +223,7 @@ Expectations for "users_slo"
       threshold: 98.66,
       window_in_days: 7
     }
+
   * "reliability_12_9_users_slo_1":
     Provides {
       users_slo_param_0: "jrekasuenldqxmm",
@@ -232,6 +246,7 @@ Expectations for "auth_slo"
       threshold: 95.03,
       window_in_days: 7
     }
+
   * "reliability_12_9_auth_slo_1":
     Provides {
       auth_slo_param_0: "mertujvalnoqwal",
@@ -242,6 +257,7 @@ Expectations for "auth_slo"
       threshold: 95.84,
       window_in_days: 7
     }
+
   * "reliability_12_9_auth_slo_2":
     Provides {
       auth_slo_param_0: "tvskwbx",
@@ -265,6 +281,7 @@ Expectations for "catalog_slo"
       threshold: 97.41,
       window_in_days: 7
     }
+
   * "reliability_12_9_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "dxlphoyytulhn",
@@ -276,6 +293,7 @@ Expectations for "catalog_slo"
       threshold: 97.21,
       window_in_days: 90
     }
+
   * "reliability_12_9_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "iwobpiet",
@@ -287,6 +305,7 @@ Expectations for "catalog_slo"
       threshold: 95.37,
       window_in_days: 90
     }
+
   * "reliability_12_9_catalog_slo_3":
     Provides {
       catalog_slo_param_0: "bxgyyppcrbhoc",
@@ -298,6 +317,7 @@ Expectations for "catalog_slo"
       threshold: 96.3,
       window_in_days: 30
     }
+
   * "reliability_12_9_catalog_slo_4":
     Provides {
       catalog_slo_param_0: "quzxjofwqyugrnu",
@@ -322,6 +342,7 @@ Expectations for "payments_slo"
       threshold: 98.42,
       window_in_days: 30
     }
+
   * "reliability_12_9_payments_slo_1":
     Provides {
       payments_slo_param_0: "bjccfz",
@@ -333,6 +354,7 @@ Expectations for "payments_slo"
       threshold: 96.89,
       window_in_days: 30
     }
+
   * "reliability_12_9_payments_slo_2":
     Provides {
       payments_slo_param_0: "koqic",
@@ -344,6 +366,7 @@ Expectations for "payments_slo"
       threshold: 95.93,
       window_in_days: 7
     }
+
   * "reliability_12_9_payments_slo_3":
     Provides {
       payments_slo_param_0: "ajyslvdsqj",
@@ -355,6 +378,7 @@ Expectations for "payments_slo"
       threshold: 95.81,
       window_in_days: 90
     }
+
   * "reliability_12_9_payments_slo_4":
     Provides {
       payments_slo_param_0: "ykoespg",

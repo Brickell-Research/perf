@@ -4,25 +4,35 @@ Expectations for "profiles_slo"
       profiles_slo_param_0: "xkqklxywowpcdp",
       profiles_slo_param_1: "oxypgqlqlxfhlkm",
       profiles_slo_param_2: "archived",
-      profiles_slo_param_3: { key_0: "kyqvgonkdeiy", key_1: "gxzzf", key_2: "ivnctgxlgmjf" },
+      profiles_slo_param_3: {
+        key_0: "kyqvgonkdeiy",
+        key_1: "gxzzf",
+        key_2: "ivnctgxlgmjf"
+      },
       profiles_slo_param_4: 9207,
       profiles_slo_param_5: 70,
       req_2_field_0: "cvjhsjegdulh",
       threshold: 98.69,
       window_in_days: 7
     }
+
   * "mobile_1_4_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "jbzlwmfvjxhvlvp",
       profiles_slo_param_1: "jvfrhaakvevk",
       profiles_slo_param_2: "inactive",
-      profiles_slo_param_3: { key_0: "nzbbyackxjbyfps", key_1: "jozcjnv", key_2: "pxvqxzybfnwdq" },
+      profiles_slo_param_3: {
+        key_0: "nzbbyackxjbyfps",
+        key_1: "jozcjnv",
+        key_2: "pxvqxzybfnwdq"
+      },
       profiles_slo_param_4: 1723,
       profiles_slo_param_5: 76,
       req_2_field_0: "ytgaoxhrrwrlldp",
       threshold: 97.82,
       window_in_days: 90
     }
+
   * "mobile_1_4_profiles_slo_2":
     Provides {
       profiles_slo_param_0: "psrmq",
@@ -48,6 +58,7 @@ Expectations for "search_slo"
       threshold: 96.94,
       window_in_days: 30
     }
+
   * "mobile_1_4_search_slo_1":
     Provides {
       search_slo_param_0: "yybvqueheqkknas",
@@ -59,6 +70,7 @@ Expectations for "search_slo"
       threshold: 97.22,
       window_in_days: 90
     }
+
   * "mobile_1_4_search_slo_2":
     Provides {
       search_slo_param_0: "kuqabkvtuabi",

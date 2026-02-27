@@ -27,6 +27,7 @@ Expectations for "users_slo"
       threshold: 99.61,
       window_in_days: 30
     }
+
   * "platform_7_0_users_slo_1":
     Provides {
       users_slo_param_0: "phogtygtqg",
@@ -48,6 +49,7 @@ Expectations for "orders_slo"
       threshold: 96.8,
       window_in_days: 7
     }
+
   * "platform_7_0_orders_slo_1":
     Provides {
       orders_slo_param_0: "ggwbc",
@@ -57,6 +59,7 @@ Expectations for "orders_slo"
       threshold: 95.82,
       window_in_days: 90
     }
+
   * "platform_7_0_orders_slo_2":
     Provides {
       orders_slo_param_0: "jfzeprnme",
@@ -66,6 +69,7 @@ Expectations for "orders_slo"
       threshold: 96.49,
       window_in_days: 90
     }
+
   * "platform_7_0_orders_slo_3":
     Provides {
       orders_slo_param_0: "bsguqikrquaujpb",

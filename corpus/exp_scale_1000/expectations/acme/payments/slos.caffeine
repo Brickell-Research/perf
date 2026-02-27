@@ -10,6 +10,7 @@ Expectations for "recommendations_slo"
       threshold: 96.33,
       window_in_days: 30
     }
+
   * "payments_0_1_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "dkktaoqwnoy",
@@ -21,6 +22,7 @@ Expectations for "recommendations_slo"
       threshold: 95.8,
       window_in_days: 7
     }
+
   * "payments_0_1_recommendations_slo_2":
     Provides {
       recommendations_slo_param_0: "bqwelae",
@@ -32,6 +34,7 @@ Expectations for "recommendations_slo"
       threshold: 99.41,
       window_in_days: 7
     }
+
   * "payments_0_1_recommendations_slo_3":
     Provides {
       recommendations_slo_param_0: "rexiqkwm",
@@ -43,6 +46,7 @@ Expectations for "recommendations_slo"
       threshold: 96.49,
       window_in_days: 7
     }
+
   * "payments_0_1_recommendations_slo_4":
     Provides {
       recommendations_slo_param_0: "msqxrvkwlqiz",
@@ -66,6 +70,7 @@ Expectations for "auth_slo"
       threshold: 99.23,
       window_in_days: 30
     }
+
   * "payments_0_1_auth_slo_1":
     Provides {
       auth_slo_param_0: "mnnnqxwkdsyb",
@@ -91,6 +96,7 @@ Expectations for "messaging_slo"
       threshold: 96.0,
       window_in_days: 30
     }
+
   * "payments_0_1_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "wvdzcrqr",
@@ -118,6 +124,7 @@ Expectations for "monitoring_slo"
       threshold: 99.05,
       window_in_days: 7
     }
+
   * "payments_0_1_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "ypwkflx",
@@ -130,6 +137,7 @@ Expectations for "monitoring_slo"
       threshold: 99.33,
       window_in_days: 90
     }
+
   * "payments_0_1_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "bsmblkv",
@@ -142,6 +150,7 @@ Expectations for "monitoring_slo"
       threshold: 98.12,
       window_in_days: 7
     }
+
   * "payments_0_1_monitoring_slo_3":
     Provides {
       monitoring_slo_param_0: "evsmoqfcuhaircg",
@@ -154,6 +163,7 @@ Expectations for "monitoring_slo"
       threshold: 98.64,
       window_in_days: 30
     }
+
   * "payments_0_1_monitoring_slo_4":
     Provides {
       monitoring_slo_param_0: "znphghil",
@@ -181,6 +191,7 @@ Expectations for "gateway_slo"
       threshold: 96.44,
       window_in_days: 30
     }
+
   * "payments_0_1_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "xgzcftnd",
@@ -194,6 +205,7 @@ Expectations for "gateway_slo"
       threshold: 95.61,
       window_in_days: 30
     }
+
   * "payments_0_1_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "xdbqll",

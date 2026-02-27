@@ -10,6 +10,7 @@ Expectations for "cart_slo"
       threshold: 98.31,
       window_in_days: 90
     }
+
   * "infrastructure_cart_slo_1":
     Provides {
       cart_slo_param_0: "tobmq",
@@ -21,6 +22,7 @@ Expectations for "cart_slo"
       threshold: 95.04,
       window_in_days: 90
     }
+
   * "infrastructure_cart_slo_2":
     Provides {
       cart_slo_param_0: "jcjweghy",
@@ -32,6 +34,7 @@ Expectations for "cart_slo"
       threshold: 95.05,
       window_in_days: 30
     }
+
   * "infrastructure_cart_slo_3":
     Provides {
       cart_slo_param_0: "dxqnimgwbcef",
@@ -43,6 +46,7 @@ Expectations for "cart_slo"
       threshold: 99.63,
       window_in_days: 30
     }
+
   * "infrastructure_cart_slo_4":
     Provides {
       cart_slo_param_0: "pkxciiqspkxuytn",
@@ -65,6 +69,7 @@ Expectations for "gateway_slo"
       threshold: 98.19,
       window_in_days: 30
     }
+
   * "infrastructure_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "mfcikeantd",
@@ -74,6 +79,7 @@ Expectations for "gateway_slo"
       threshold: 95.94,
       window_in_days: 90
     }
+
   * "infrastructure_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "ketkjgkgtxu",
@@ -83,6 +89,7 @@ Expectations for "gateway_slo"
       threshold: 95.51,
       window_in_days: 30
     }
+
   * "infrastructure_gateway_slo_3":
     Provides {
       gateway_slo_param_0: "ssgdmii",
@@ -92,6 +99,7 @@ Expectations for "gateway_slo"
       threshold: 95.61,
       window_in_days: 90
     }
+
   * "infrastructure_gateway_slo_4":
     Provides {
       gateway_slo_param_0: "kzgzftcr",

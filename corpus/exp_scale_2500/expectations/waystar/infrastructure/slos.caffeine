@@ -24,6 +24,7 @@ Expectations for "notifications_slo"
       threshold: 96.61,
       window_in_days: 7
     }
+
 Expectations for "shipping_slo"
   * "infrastructure_13_3_shipping_slo_0":
     Provides {
@@ -38,6 +39,7 @@ Expectations for "shipping_slo"
       threshold: 98.59,
       window_in_days: 90
     }
+
   * "infrastructure_13_3_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "wkwhdsfzg",
@@ -51,6 +53,7 @@ Expectations for "shipping_slo"
       threshold: 95.38,
       window_in_days: 90
     }
+
   * "infrastructure_13_3_shipping_slo_2":
     Provides {
       shipping_slo_param_0: "awfrlllzskg",
@@ -77,6 +80,7 @@ Expectations for "catalog_slo"
       threshold: 99.94,
       window_in_days: 90
     }
+
   * "infrastructure_13_3_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "vqafgzjlfdizkkf",
@@ -88,6 +92,7 @@ Expectations for "catalog_slo"
       threshold: 98.58,
       window_in_days: 90
     }
+
   * "infrastructure_13_3_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "wgxtxfufbmcrglg",
@@ -99,6 +104,7 @@ Expectations for "catalog_slo"
       threshold: 99.26,
       window_in_days: 7
     }
+
   * "infrastructure_13_3_catalog_slo_3":
     Provides {
       catalog_slo_param_0: "ejzuzvfeeej",
@@ -110,6 +116,7 @@ Expectations for "catalog_slo"
       threshold: 97.47,
       window_in_days: 7
     }
+
   * "infrastructure_13_3_catalog_slo_4":
     Provides {
       catalog_slo_param_0: "xnqksvtuxdysgx",
@@ -134,6 +141,7 @@ Expectations for "search_slo"
       threshold: 95.23,
       window_in_days: 30
     }
+
   * "infrastructure_13_3_search_slo_1":
     Provides {
       search_slo_param_0: "osmxapwrlerhlwq",
@@ -145,6 +153,7 @@ Expectations for "search_slo"
       threshold: 99.27,
       window_in_days: 90
     }
+
   * "infrastructure_13_3_search_slo_2":
     Provides {
       search_slo_param_0: "himcixukdygsvac",
@@ -156,6 +165,7 @@ Expectations for "search_slo"
       threshold: 99.68,
       window_in_days: 30
     }
+
   * "infrastructure_13_3_search_slo_3":
     Provides {
       search_slo_param_0: "eezasgsmbou",
@@ -167,6 +177,7 @@ Expectations for "search_slo"
       threshold: 99.83,
       window_in_days: 90
     }
+
   * "infrastructure_13_3_search_slo_4":
     Provides {
       search_slo_param_0: "crpvlzjokw",

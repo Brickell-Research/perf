@@ -15,6 +15,7 @@ Expectations for "notifications_slo"
       threshold: 98.33,
       window_in_days: 30
     }
+
   * "frontend_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "cqqgxovmjzfmxdx",
@@ -31,6 +32,7 @@ Expectations for "notifications_slo"
       threshold: 97.8,
       window_in_days: 30
     }
+
   * "frontend_notifications_slo_2":
     Provides {
       notifications_slo_param_0: "ercqzawnr",
@@ -47,6 +49,7 @@ Expectations for "notifications_slo"
       threshold: 97.43,
       window_in_days: 90
     }
+
   * "frontend_notifications_slo_3":
     Provides {
       notifications_slo_param_0: "wgqivrckozhv",
@@ -63,6 +66,7 @@ Expectations for "notifications_slo"
       threshold: 99.1,
       window_in_days: 90
     }
+
   * "frontend_notifications_slo_4":
     Provides {
       notifications_slo_param_0: "uwqgphlxhifqam",
@@ -79,6 +83,7 @@ Expectations for "notifications_slo"
       threshold: 98.44,
       window_in_days: 90
     }
+
   * "frontend_notifications_slo_5":
     Provides {
       notifications_slo_param_0: "dhjnycjclywrwox",
@@ -95,11 +100,16 @@ Expectations for "notifications_slo"
       threshold: 95.84,
       window_in_days: 90
     }
+
   * "frontend_notifications_slo_6":
     Provides {
       notifications_slo_param_0: "yxbcyggsct",
       notifications_slo_param_1: "ulhclhwapny",
-      notifications_slo_param_2: { key_0: "jsnbvrfke", key_1: "kcsuoejgsfmmftp", key_2: "mzlkjbdqfb" },
+      notifications_slo_param_2: {
+        key_0: "jsnbvrfke",
+        key_1: "kcsuoejgsfmmftp",
+        key_2: "mzlkjbdqfb"
+      },
       notifications_slo_param_3: "ctkwos",
       notifications_slo_param_4: [false, true],
       notifications_slo_param_5: [806, 8535, 7934],
@@ -111,6 +121,7 @@ Expectations for "notifications_slo"
       threshold: 95.12,
       window_in_days: 7
     }
+
   * "frontend_notifications_slo_7":
     Provides {
       notifications_slo_param_0: "hurwppmygklsgks",
@@ -127,6 +138,7 @@ Expectations for "notifications_slo"
       threshold: 95.49,
       window_in_days: 90
     }
+
   * "frontend_notifications_slo_8":
     Provides {
       notifications_slo_param_0: "zowyiz",
@@ -143,6 +155,7 @@ Expectations for "notifications_slo"
       threshold: 99.25,
       window_in_days: 90
     }
+
   * "frontend_notifications_slo_9":
     Provides {
       notifications_slo_param_0: "wtgznsslqx",
@@ -159,6 +172,7 @@ Expectations for "notifications_slo"
       threshold: 95.86,
       window_in_days: 90
     }
+
   * "frontend_notifications_slo_10":
     Provides {
       notifications_slo_param_0: "ybpjivhcvshde",
@@ -175,6 +189,7 @@ Expectations for "notifications_slo"
       threshold: 97.43,
       window_in_days: 7
     }
+
   * "frontend_notifications_slo_11":
     Provides {
       notifications_slo_param_0: "wjxqnmxqbdrf",
@@ -191,11 +206,16 @@ Expectations for "notifications_slo"
       threshold: 99.13,
       window_in_days: 90
     }
+
   * "frontend_notifications_slo_12":
     Provides {
       notifications_slo_param_0: "bvggpyfogt",
       notifications_slo_param_1: "mzvgvghzfhhfvzp",
-      notifications_slo_param_2: { key_0: "ciyglsbmxce", key_1: "ungjwmwviaxlvg", key_2: "hykgnbydu" },
+      notifications_slo_param_2: {
+        key_0: "ciyglsbmxce",
+        key_1: "ungjwmwviaxlvg",
+        key_2: "hykgnbydu"
+      },
       notifications_slo_param_3: "qikhkskrgtn",
       notifications_slo_param_4: [false, false, false, true],
       notifications_slo_param_5: [9378, 3229],
@@ -207,6 +227,7 @@ Expectations for "notifications_slo"
       threshold: 99.15,
       window_in_days: 7
     }
+
   * "frontend_notifications_slo_13":
     Provides {
       notifications_slo_param_0: "rgqasakkn",
@@ -223,6 +244,7 @@ Expectations for "notifications_slo"
       threshold: 96.44,
       window_in_days: 30
     }
+
   * "frontend_notifications_slo_14":
     Provides {
       notifications_slo_param_0: "vaaqmiocfkkdrp",
@@ -239,6 +261,7 @@ Expectations for "notifications_slo"
       threshold: 97.14,
       window_in_days: 90
     }
+
   * "frontend_notifications_slo_15":
     Provides {
       notifications_slo_param_0: "zqwhpgdvyuo",
@@ -255,6 +278,7 @@ Expectations for "notifications_slo"
       threshold: 96.89,
       window_in_days: 90
     }
+
   * "frontend_notifications_slo_16":
     Provides {
       notifications_slo_param_0: "zbnqsm",
@@ -271,6 +295,7 @@ Expectations for "notifications_slo"
       threshold: 98.21,
       window_in_days: 30
     }
+
   * "frontend_notifications_slo_17":
     Provides {
       notifications_slo_param_0: "ehmlyl",
@@ -287,6 +312,7 @@ Expectations for "notifications_slo"
       threshold: 99.96,
       window_in_days: 7
     }
+
   * "frontend_notifications_slo_18":
     Provides {
       notifications_slo_param_0: "wxonrfwcamfbdi",
@@ -303,6 +329,7 @@ Expectations for "notifications_slo"
       threshold: 97.85,
       window_in_days: 30
     }
+
   * "frontend_notifications_slo_19":
     Provides {
       notifications_slo_param_0: "kljhutgcjj",
@@ -319,6 +346,7 @@ Expectations for "notifications_slo"
       threshold: 95.67,
       window_in_days: 30
     }
+
   * "frontend_notifications_slo_20":
     Provides {
       notifications_slo_param_0: "jadodzgmachxt",
@@ -335,6 +363,7 @@ Expectations for "notifications_slo"
       threshold: 99.62,
       window_in_days: 30
     }
+
   * "frontend_notifications_slo_21":
     Provides {
       notifications_slo_param_0: "ehyiuqqkscvgpyk",
@@ -351,6 +380,7 @@ Expectations for "notifications_slo"
       threshold: 99.41,
       window_in_days: 30
     }
+
   * "frontend_notifications_slo_22":
     Provides {
       notifications_slo_param_0: "pysyecym",
@@ -367,6 +397,7 @@ Expectations for "notifications_slo"
       threshold: 98.61,
       window_in_days: 7
     }
+
   * "frontend_notifications_slo_23":
     Provides {
       notifications_slo_param_0: "zaqqd",
@@ -383,6 +414,7 @@ Expectations for "notifications_slo"
       threshold: 96.42,
       window_in_days: 7
     }
+
   * "frontend_notifications_slo_24":
     Provides {
       notifications_slo_param_0: "vyfnitdeclmhzo",

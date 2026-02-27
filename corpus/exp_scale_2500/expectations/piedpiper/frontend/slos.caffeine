@@ -8,6 +8,7 @@ Expectations for "orders_slo"
       threshold: 99.6,
       window_in_days: 30
     }
+
   * "frontend_4_6_orders_slo_1":
     Provides {
       orders_slo_param_0: "iuxwrzxkn",
@@ -17,6 +18,7 @@ Expectations for "orders_slo"
       threshold: 98.58,
       window_in_days: 7
     }
+
   * "frontend_4_6_orders_slo_2":
     Provides {
       orders_slo_param_0: "qzlghvqv",
@@ -26,6 +28,7 @@ Expectations for "orders_slo"
       threshold: 96.12,
       window_in_days: 30
     }
+
   * "frontend_4_6_orders_slo_3":
     Provides {
       orders_slo_param_0: "pbaardsf",
@@ -35,6 +38,7 @@ Expectations for "orders_slo"
       threshold: 99.95,
       window_in_days: 90
     }
+
 Expectations for "notifications_slo"
   * "frontend_12_6_notifications_slo_0":
     Provides {
@@ -47,6 +51,7 @@ Expectations for "notifications_slo"
       threshold: 97.04,
       window_in_days: 30
     }
+
   * "frontend_12_6_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "nqvijrwhdrc",
@@ -70,6 +75,7 @@ Expectations for "users_slo"
       threshold: 95.1,
       window_in_days: 90
     }
+
   * "frontend_12_6_users_slo_1":
     Provides {
       users_slo_param_0: "pnmtyui",
@@ -80,6 +86,7 @@ Expectations for "users_slo"
       threshold: 95.3,
       window_in_days: 30
     }
+
   * "frontend_12_6_users_slo_2":
     Provides {
       users_slo_param_0: "wrhfilstzkzn",
@@ -105,6 +112,7 @@ Expectations for "messaging_slo"
       threshold: 97.91,
       window_in_days: 90
     }
+
   * "frontend_12_6_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "ojfsvmgcww",
@@ -118,6 +126,7 @@ Expectations for "messaging_slo"
       threshold: 99.83,
       window_in_days: 30
     }
+
   * "frontend_12_6_messaging_slo_2":
     Provides {
       messaging_slo_param_0: "azowxjkwnysiih",
@@ -131,6 +140,7 @@ Expectations for "messaging_slo"
       threshold: 96.99,
       window_in_days: 7
     }
+
   * "frontend_12_6_messaging_slo_3":
     Provides {
       messaging_slo_param_0: "cqygpux",

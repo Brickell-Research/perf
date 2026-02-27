@@ -10,6 +10,7 @@ Expectations for "cart_slo"
       threshold: 96.0,
       window_in_days: 90
     }
+
   * "reliability_2_9_cart_slo_1":
     Provides {
       cart_slo_param_0: "zwipkwggfcgv",
@@ -21,6 +22,7 @@ Expectations for "cart_slo"
       threshold: 95.75,
       window_in_days: 7
     }
+
   * "reliability_2_9_cart_slo_2":
     Provides {
       cart_slo_param_0: "wlnlghiszbfnozs",
@@ -44,6 +46,7 @@ Expectations for "users_slo"
       threshold: 97.48,
       window_in_days: 30
     }
+
   * "reliability_2_9_users_slo_1":
     Provides {
       users_slo_param_0: "nsjyibbh",
@@ -54,6 +57,7 @@ Expectations for "users_slo"
       threshold: 99.14,
       window_in_days: 7
     }
+
   * "reliability_2_9_users_slo_2":
     Provides {
       users_slo_param_0: "ysxnbctkob",
@@ -64,6 +68,7 @@ Expectations for "users_slo"
       threshold: 98.24,
       window_in_days: 7
     }
+
   * "reliability_2_9_users_slo_3":
     Provides {
       users_slo_param_0: "ydfwwkjgqjgv",
@@ -85,6 +90,7 @@ Expectations for "orders_slo"
       threshold: 98.58,
       window_in_days: 90
     }
+
   * "reliability_2_9_orders_slo_1":
     Provides {
       orders_slo_param_0: "fbzsqz",
@@ -94,6 +100,7 @@ Expectations for "orders_slo"
       threshold: 95.06,
       window_in_days: 7
     }
+
   * "reliability_2_9_orders_slo_2":
     Provides {
       orders_slo_param_0: "fgqttenlk",
@@ -103,6 +110,7 @@ Expectations for "orders_slo"
       threshold: 95.59,
       window_in_days: 90
     }
+
   * "reliability_2_9_orders_slo_3":
     Provides {
       orders_slo_param_0: "ynzts",
@@ -112,6 +120,7 @@ Expectations for "orders_slo"
       threshold: 99.09,
       window_in_days: 90
     }
+
   * "reliability_2_9_orders_slo_4":
     Provides {
       orders_slo_param_0: "qbazbjgzkoby",

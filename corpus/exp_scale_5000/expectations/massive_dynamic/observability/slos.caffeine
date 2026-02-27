@@ -11,6 +11,7 @@ Expectations for "scheduler_slo"
       threshold: 98.02,
       window_in_days: 30
     }
+
   * "observability_7_18_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "opdgwxex",
@@ -23,6 +24,7 @@ Expectations for "scheduler_slo"
       threshold: 96.96,
       window_in_days: 90
     }
+
   * "observability_7_18_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "srgbmt",
@@ -35,6 +37,7 @@ Expectations for "scheduler_slo"
       threshold: 97.67,
       window_in_days: 90
     }
+
   * "observability_7_18_scheduler_slo_3":
     Provides {
       scheduler_slo_param_0: "ckrzskvngup",
@@ -59,6 +62,7 @@ Expectations for "users_slo"
       threshold: 95.26,
       window_in_days: 30
     }
+
   * "observability_7_18_users_slo_1":
     Provides {
       users_slo_param_0: "rlteekxlksol",
@@ -69,6 +73,7 @@ Expectations for "users_slo"
       threshold: 98.99,
       window_in_days: 90
     }
+
 Expectations for "checkout_slo"
   * "observability_15_18_checkout_slo_0":
     Provides {
@@ -80,6 +85,7 @@ Expectations for "checkout_slo"
       threshold: 96.82,
       window_in_days: 90
     }
+
   * "observability_15_18_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "mhnbk",
@@ -90,6 +96,7 @@ Expectations for "checkout_slo"
       threshold: 97.33,
       window_in_days: 30
     }
+
   * "observability_15_18_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "ofcvrfkdt",
@@ -113,6 +120,7 @@ Expectations for "billing_slo"
       threshold: 98.4,
       window_in_days: 7
     }
+
   * "observability_15_18_billing_slo_1":
     Provides {
       billing_slo_param_0: "yscxlysxwsv",
@@ -140,6 +148,7 @@ Expectations for "inventory_slo"
       threshold: 99.91,
       window_in_days: 7
     }
+
   * "observability_15_18_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "gegzp",
@@ -154,6 +163,7 @@ Expectations for "inventory_slo"
       threshold: 99.58,
       window_in_days: 30
     }
+
   * "observability_15_18_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "bucxhqcic",
@@ -168,6 +178,7 @@ Expectations for "inventory_slo"
       threshold: 98.59,
       window_in_days: 90
     }
+
   * "observability_15_18_inventory_slo_3":
     Provides {
       inventory_slo_param_0: "egrnzffnp",
@@ -182,6 +193,7 @@ Expectations for "inventory_slo"
       threshold: 95.34,
       window_in_days: 7
     }
+
   * "observability_15_18_inventory_slo_4":
     Provides {
       inventory_slo_param_0: "lpzovjyksmv",
@@ -196,6 +208,7 @@ Expectations for "inventory_slo"
       threshold: 96.6,
       window_in_days: 30
     }
+
 Expectations for "gateway_slo"
   * "observability_23_18_gateway_slo_0":
     Provides {

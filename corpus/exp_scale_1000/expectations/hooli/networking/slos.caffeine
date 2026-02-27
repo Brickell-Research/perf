@@ -13,6 +13,7 @@ Expectations for "inventory_slo"
       threshold: 99.19,
       window_in_days: 7
     }
+
   * "networking_3_19_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "mtmmlmturpvhx",
@@ -27,6 +28,7 @@ Expectations for "inventory_slo"
       threshold: 98.82,
       window_in_days: 7
     }
+
   * "networking_3_19_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "rwqrmswgczoqlf",
@@ -54,6 +56,7 @@ Expectations for "notifications_slo"
       threshold: 98.41,
       window_in_days: 30
     }
+
   * "networking_3_19_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "mvsmodrhrr",
@@ -65,6 +68,7 @@ Expectations for "notifications_slo"
       threshold: 99.22,
       window_in_days: 90
     }
+
   * "networking_3_19_notifications_slo_2":
     Provides {
       notifications_slo_param_0: "btwegucbovjyq",
@@ -76,6 +80,7 @@ Expectations for "notifications_slo"
       threshold: 99.22,
       window_in_days: 30
     }
+
   * "networking_3_19_notifications_slo_3":
     Provides {
       notifications_slo_param_0: "bsjtlph",
@@ -87,6 +92,7 @@ Expectations for "notifications_slo"
       threshold: 95.75,
       window_in_days: 90
     }
+
   * "networking_3_19_notifications_slo_4":
     Provides {
       notifications_slo_param_0: "mwujktelveoulxe",
@@ -116,6 +122,7 @@ Expectations for "logging_slo"
       threshold: 99.29,
       window_in_days: 90
     }
+
   * "networking_3_19_logging_slo_1":
     Provides {
       logging_slo_param_0: "ecsimwsmjgn",
@@ -132,6 +139,7 @@ Expectations for "logging_slo"
       threshold: 99.17,
       window_in_days: 7
     }
+
   * "networking_3_19_logging_slo_2":
     Provides {
       logging_slo_param_0: "mttzrcvgnf",
@@ -148,6 +156,7 @@ Expectations for "logging_slo"
       threshold: 98.8,
       window_in_days: 30
     }
+
   * "networking_3_19_logging_slo_3":
     Provides {
       logging_slo_param_0: "hfphwldhule",

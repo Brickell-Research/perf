@@ -11,6 +11,7 @@ Expectations for "monitoring_slo"
       threshold: 96.43,
       window_in_days: 30
     }
+
   * "mobile_0_4_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "qgczbpiqc",
@@ -23,6 +24,7 @@ Expectations for "monitoring_slo"
       threshold: 95.19,
       window_in_days: 7
     }
+
   * "mobile_0_4_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "wqyzsiivicevytg",
@@ -50,6 +52,7 @@ Expectations for "messaging_slo"
       threshold: 99.3,
       window_in_days: 30
     }
+
   * "mobile_0_4_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "wrjbzmnkzcqq",
@@ -63,6 +66,7 @@ Expectations for "messaging_slo"
       threshold: 97.36,
       window_in_days: 7
     }
+
   * "mobile_0_4_messaging_slo_2":
     Provides {
       messaging_slo_param_0: "zdkcucx",
@@ -76,6 +80,7 @@ Expectations for "messaging_slo"
       threshold: 95.45,
       window_in_days: 90
     }
+
   * "mobile_0_4_messaging_slo_3":
     Provides {
       messaging_slo_param_0: "dnvjtoamolerb",

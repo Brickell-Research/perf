@@ -10,6 +10,7 @@ Expectations for "recommendations_slo"
       threshold: 97.83,
       window_in_days: 90
     }
+
   * "commerce_4_16_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "ieedlijnebxy",
@@ -21,6 +22,7 @@ Expectations for "recommendations_slo"
       threshold: 98.42,
       window_in_days: 90
     }
+
   * "commerce_4_16_recommendations_slo_2":
     Provides {
       recommendations_slo_param_0: "ydtmkt",
@@ -32,6 +34,7 @@ Expectations for "recommendations_slo"
       threshold: 98.62,
       window_in_days: 90
     }
+
 Expectations for "notifications_slo"
   * "commerce_12_16_notifications_slo_0":
     Provides {
@@ -44,6 +47,7 @@ Expectations for "notifications_slo"
       threshold: 97.64,
       window_in_days: 90
     }
+
   * "commerce_12_16_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "mwsijmvfzbyh",
@@ -55,6 +59,7 @@ Expectations for "notifications_slo"
       threshold: 98.51,
       window_in_days: 7
     }
+
   * "commerce_12_16_notifications_slo_2":
     Provides {
       notifications_slo_param_0: "pvdbld",
@@ -66,6 +71,7 @@ Expectations for "notifications_slo"
       threshold: 96.4,
       window_in_days: 7
     }
+
   * "commerce_12_16_notifications_slo_3":
     Provides {
       notifications_slo_param_0: "xkzlpb",
@@ -91,6 +97,7 @@ Expectations for "monitoring_slo"
       threshold: 95.56,
       window_in_days: 7
     }
+
   * "commerce_12_16_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "arymepteohsjph",
@@ -103,6 +110,7 @@ Expectations for "monitoring_slo"
       threshold: 98.09,
       window_in_days: 30
     }
+
   * "commerce_12_16_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "qtgpdrfysetvuno",
@@ -115,6 +123,7 @@ Expectations for "monitoring_slo"
       threshold: 96.0,
       window_in_days: 7
     }
+
   * "commerce_12_16_monitoring_slo_3":
     Provides {
       monitoring_slo_param_0: "tkwfyrol",
@@ -141,6 +150,7 @@ Expectations for "scheduler_slo"
       threshold: 95.83,
       window_in_days: 30
     }
+
   * "commerce_12_16_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "cxioowo",
@@ -165,6 +175,7 @@ Expectations for "auth_slo"
       threshold: 96.54,
       window_in_days: 90
     }
+
   * "commerce_12_16_auth_slo_1":
     Provides {
       auth_slo_param_0: "hzsatnlpdq",
@@ -175,6 +186,7 @@ Expectations for "auth_slo"
       threshold: 99.13,
       window_in_days: 90
     }
+
   * "commerce_12_16_auth_slo_2":
     Provides {
       auth_slo_param_0: "akxpbgrovd",
@@ -185,6 +197,7 @@ Expectations for "auth_slo"
       threshold: 98.38,
       window_in_days: 90
     }
+
 Expectations for "analytics_slo"
   * "commerce_20_16_analytics_slo_0":
     Provides {
@@ -197,6 +210,7 @@ Expectations for "analytics_slo"
       threshold: 97.68,
       window_in_days: 90
     }
+
   * "commerce_20_16_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "iujryfnbfti",
@@ -221,6 +235,7 @@ Expectations for "recommendations_slo"
       threshold: 95.14,
       window_in_days: 90
     }
+
   * "commerce_20_16_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "zzeiupclizog",
@@ -232,6 +247,7 @@ Expectations for "recommendations_slo"
       threshold: 99.44,
       window_in_days: 30
     }
+
   * "commerce_20_16_recommendations_slo_2":
     Provides {
       recommendations_slo_param_0: "klvkwhayhkm",
@@ -243,6 +259,7 @@ Expectations for "recommendations_slo"
       threshold: 96.1,
       window_in_days: 30
     }
+
   * "commerce_20_16_recommendations_slo_3":
     Provides {
       recommendations_slo_param_0: "xotjgjdkik",
@@ -266,6 +283,7 @@ Expectations for "auth_slo"
       threshold: 97.68,
       window_in_days: 7
     }
+
   * "commerce_20_16_auth_slo_1":
     Provides {
       auth_slo_param_0: "scxvzblstmdz",
@@ -276,6 +294,7 @@ Expectations for "auth_slo"
       threshold: 96.27,
       window_in_days: 7
     }
+
   * "commerce_20_16_auth_slo_2":
     Provides {
       auth_slo_param_0: "gxxyypvimqwivow",
@@ -286,6 +305,7 @@ Expectations for "auth_slo"
       threshold: 97.01,
       window_in_days: 7
     }
+
   * "commerce_20_16_auth_slo_3":
     Provides {
       auth_slo_param_0: "cavrqgrhjhwbp",

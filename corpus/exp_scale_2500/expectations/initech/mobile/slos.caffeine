@@ -13,6 +13,7 @@ Expectations for "inventory_slo"
       threshold: 97.91,
       window_in_days: 90
     }
+
   * "mobile_2_4_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "xwwqbl",
@@ -27,6 +28,7 @@ Expectations for "inventory_slo"
       threshold: 98.34,
       window_in_days: 7
     }
+
   * "mobile_2_4_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "snjffdzjquxynq",
@@ -41,6 +43,7 @@ Expectations for "inventory_slo"
       threshold: 99.44,
       window_in_days: 30
     }
+
   * "mobile_2_4_inventory_slo_3":
     Provides {
       inventory_slo_param_0: "defwrzwlqcwkvha",
@@ -55,6 +58,7 @@ Expectations for "inventory_slo"
       threshold: 97.49,
       window_in_days: 7
     }
+
   * "mobile_2_4_inventory_slo_4":
     Provides {
       inventory_slo_param_0: "htusbqqugdwadg",
@@ -84,6 +88,7 @@ Expectations for "gateway_slo"
       threshold: 99.7,
       window_in_days: 30
     }
+
   * "mobile_2_4_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "ejxbwrgchwh",
@@ -97,6 +102,7 @@ Expectations for "gateway_slo"
       threshold: 97.34,
       window_in_days: 7
     }
+
   * "mobile_2_4_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "lqwqtzeqnqw",
@@ -110,6 +116,7 @@ Expectations for "gateway_slo"
       threshold: 98.76,
       window_in_days: 90
     }
+
   * "mobile_2_4_gateway_slo_3":
     Provides {
       gateway_slo_param_0: "nhwigh",
@@ -137,6 +144,7 @@ Expectations for "scheduler_slo"
       threshold: 96.85,
       window_in_days: 90
     }
+
   * "mobile_2_4_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "rmutnlousmnf",
@@ -149,6 +157,7 @@ Expectations for "scheduler_slo"
       threshold: 98.83,
       window_in_days: 90
     }
+
   * "mobile_2_4_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "vxixu",
@@ -161,6 +170,7 @@ Expectations for "scheduler_slo"
       threshold: 95.24,
       window_in_days: 90
     }
+
   * "mobile_2_4_scheduler_slo_3":
     Provides {
       scheduler_slo_param_0: "yarqq",
@@ -173,6 +183,7 @@ Expectations for "scheduler_slo"
       threshold: 97.84,
       window_in_days: 7
     }
+
 Expectations for "auth_slo"
   * "mobile_10_4_auth_slo_0":
     Provides {
@@ -184,6 +195,7 @@ Expectations for "auth_slo"
       threshold: 96.97,
       window_in_days: 90
     }
+
   * "mobile_10_4_auth_slo_1":
     Provides {
       auth_slo_param_0: "artdkymxfuh",
@@ -194,6 +206,7 @@ Expectations for "auth_slo"
       threshold: 97.4,
       window_in_days: 90
     }
+
   * "mobile_10_4_auth_slo_2":
     Provides {
       auth_slo_param_0: "sbhqgthghkqkekm",
@@ -204,6 +217,7 @@ Expectations for "auth_slo"
       threshold: 99.45,
       window_in_days: 30
     }
+
   * "mobile_10_4_auth_slo_3":
     Provides {
       auth_slo_param_0: "voaeocgluga",
@@ -254,6 +268,7 @@ Expectations for "catalog_slo"
       threshold: 98.32,
       window_in_days: 30
     }
+
   * "mobile_10_4_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "jpfrb",
@@ -265,6 +280,7 @@ Expectations for "catalog_slo"
       threshold: 96.17,
       window_in_days: 30
     }
+
   * "mobile_10_4_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "iouor",
@@ -276,6 +292,7 @@ Expectations for "catalog_slo"
       threshold: 99.34,
       window_in_days: 90
     }
+
   * "mobile_10_4_catalog_slo_3":
     Provides {
       catalog_slo_param_0: "mrqtmpg",
@@ -300,6 +317,7 @@ Expectations for "recommendations_slo"
       threshold: 96.91,
       window_in_days: 7
     }
+
   * "mobile_10_4_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "hgizwmw",
@@ -311,6 +329,7 @@ Expectations for "recommendations_slo"
       threshold: 96.63,
       window_in_days: 30
     }
+
   * "mobile_10_4_recommendations_slo_2":
     Provides {
       recommendations_slo_param_0: "ctxpgsr",
@@ -322,6 +341,7 @@ Expectations for "recommendations_slo"
       threshold: 97.21,
       window_in_days: 7
     }
+
   * "mobile_10_4_recommendations_slo_3":
     Provides {
       recommendations_slo_param_0: "rsjevmkrzcwq",
@@ -333,6 +353,7 @@ Expectations for "recommendations_slo"
       threshold: 97.13,
       window_in_days: 7
     }
+
   * "mobile_10_4_recommendations_slo_4":
     Provides {
       recommendations_slo_param_0: "cgfpjg",

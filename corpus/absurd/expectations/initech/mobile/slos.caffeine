@@ -5,7 +5,11 @@ Expectations for "certificate_authority_slo"
       certificate_authority_slo_param_1: "nftwsppsbmjxd",
       certificate_authority_slo_param_2: 67.48,
       certificate_authority_slo_param_3: "mqpqvbvltrejb",
-      certificate_authority_slo_param_4: { key_0: "qsckvubxhhglt", key_1: "ltrarmjivm", key_2: "jmmkxhuflu" },
+      certificate_authority_slo_param_4: {
+        key_0: "qsckvubxhhglt",
+        key_1: "ltrarmjivm",
+        key_2: "jmmkxhuflu"
+      },
       certificate_authority_slo_param_5: 54.85,
       certificate_authority_slo_param_6: 68.06,
       certificate_authority_slo_param_7: true,
@@ -13,6 +17,7 @@ Expectations for "certificate_authority_slo"
       threshold: 96.64,
       window_in_days: 90
     }
+
   * "mobile_certificate_authority_slo_1":
     Provides {
       certificate_authority_slo_param_0: "ulbmyhnr",
@@ -27,13 +32,18 @@ Expectations for "certificate_authority_slo"
       threshold: 96.32,
       window_in_days: 90
     }
+
   * "mobile_certificate_authority_slo_2":
     Provides {
       certificate_authority_slo_param_0: "pgmmwipdroicn",
       certificate_authority_slo_param_1: "zgsdugurzxgp",
       certificate_authority_slo_param_2: 56.66,
       certificate_authority_slo_param_3: "omhnwceq",
-      certificate_authority_slo_param_4: { key_0: "ggrbvtekwsxaia", key_1: "oltwlb", key_2: "nppbyzrgoux" },
+      certificate_authority_slo_param_4: {
+        key_0: "ggrbvtekwsxaia",
+        key_1: "oltwlb",
+        key_2: "nppbyzrgoux"
+      },
       certificate_authority_slo_param_5: 88.56,
       certificate_authority_slo_param_6: 89.79,
       certificate_authority_slo_param_7: false,
@@ -41,6 +51,7 @@ Expectations for "certificate_authority_slo"
       threshold: 98.92,
       window_in_days: 90
     }
+
   * "mobile_certificate_authority_slo_3":
     Provides {
       certificate_authority_slo_param_0: "ctyzy",
@@ -55,6 +66,7 @@ Expectations for "certificate_authority_slo"
       threshold: 99.41,
       window_in_days: 30
     }
+
   * "mobile_certificate_authority_slo_4":
     Provides {
       certificate_authority_slo_param_0: "rjnqxhfzkliahy",
@@ -69,6 +81,7 @@ Expectations for "certificate_authority_slo"
       threshold: 96.84,
       window_in_days: 7
     }
+
   * "mobile_certificate_authority_slo_5":
     Provides {
       certificate_authority_slo_param_0: "huxoxlsdmxlzs",
@@ -83,13 +96,18 @@ Expectations for "certificate_authority_slo"
       threshold: 99.29,
       window_in_days: 90
     }
+
   * "mobile_certificate_authority_slo_6":
     Provides {
       certificate_authority_slo_param_0: "dweuc",
       certificate_authority_slo_param_1: "agbhhvmvzvsdiqe",
       certificate_authority_slo_param_2: 58.18,
       certificate_authority_slo_param_3: "ndybqjhwx",
-      certificate_authority_slo_param_4: { key_0: "jvwsjukew", key_1: "yyaufinayeqnfv", key_2: "zcwswtwiwvm" },
+      certificate_authority_slo_param_4: {
+        key_0: "jvwsjukew",
+        key_1: "yyaufinayeqnfv",
+        key_2: "zcwswtwiwvm"
+      },
       certificate_authority_slo_param_5: 14.2,
       certificate_authority_slo_param_6: 51.31,
       certificate_authority_slo_param_7: false,
@@ -97,6 +115,7 @@ Expectations for "certificate_authority_slo"
       threshold: 97.7,
       window_in_days: 90
     }
+
   * "mobile_certificate_authority_slo_7":
     Provides {
       certificate_authority_slo_param_0: "rvubfrxmoibct",
@@ -111,13 +130,18 @@ Expectations for "certificate_authority_slo"
       threshold: 98.9,
       window_in_days: 7
     }
+
   * "mobile_certificate_authority_slo_8":
     Provides {
       certificate_authority_slo_param_0: "gzyysmzk",
       certificate_authority_slo_param_1: "uvcofd",
       certificate_authority_slo_param_2: 45.58,
       certificate_authority_slo_param_3: "ctgvgxvplg",
-      certificate_authority_slo_param_4: { key_0: "qffmkdnuvk", key_1: "uawhsyeto", key_2: "scsmujkqlyblvi" },
+      certificate_authority_slo_param_4: {
+        key_0: "qffmkdnuvk",
+        key_1: "uawhsyeto",
+        key_2: "scsmujkqlyblvi"
+      },
       certificate_authority_slo_param_5: 32.99,
       certificate_authority_slo_param_6: 37.37,
       certificate_authority_slo_param_7: false,
@@ -125,6 +149,7 @@ Expectations for "certificate_authority_slo"
       threshold: 97.2,
       window_in_days: 30
     }
+
   * "mobile_certificate_authority_slo_9":
     Provides {
       certificate_authority_slo_param_0: "vgknqrnlsf",
@@ -139,6 +164,7 @@ Expectations for "certificate_authority_slo"
       threshold: 99.44,
       window_in_days: 30
     }
+
   * "mobile_certificate_authority_slo_10":
     Provides {
       certificate_authority_slo_param_0: "qpkcrwdvyjmbx",
@@ -153,6 +179,7 @@ Expectations for "certificate_authority_slo"
       threshold: 99.36,
       window_in_days: 7
     }
+
   * "mobile_certificate_authority_slo_11":
     Provides {
       certificate_authority_slo_param_0: "yefhlxdhrsml",
@@ -167,6 +194,7 @@ Expectations for "certificate_authority_slo"
       threshold: 99.45,
       window_in_days: 30
     }
+
   * "mobile_certificate_authority_slo_12":
     Provides {
       certificate_authority_slo_param_0: "yfrmbskyxzbneun",
@@ -181,6 +209,7 @@ Expectations for "certificate_authority_slo"
       threshold: 96.8,
       window_in_days: 30
     }
+
   * "mobile_certificate_authority_slo_13":
     Provides {
       certificate_authority_slo_param_0: "rbbjijnbsf",
@@ -195,6 +224,7 @@ Expectations for "certificate_authority_slo"
       threshold: 95.66,
       window_in_days: 7
     }
+
   * "mobile_certificate_authority_slo_14":
     Provides {
       certificate_authority_slo_param_0: "atqclgdrupjcv",
@@ -209,6 +239,7 @@ Expectations for "certificate_authority_slo"
       threshold: 99.66,
       window_in_days: 7
     }
+
   * "mobile_certificate_authority_slo_15":
     Provides {
       certificate_authority_slo_param_0: "tlvwrrefijfmru",
@@ -223,6 +254,7 @@ Expectations for "certificate_authority_slo"
       threshold: 95.89,
       window_in_days: 90
     }
+
   * "mobile_certificate_authority_slo_16":
     Provides {
       certificate_authority_slo_param_0: "zeoyjcaur",
@@ -237,6 +269,7 @@ Expectations for "certificate_authority_slo"
       threshold: 96.14,
       window_in_days: 90
     }
+
   * "mobile_certificate_authority_slo_17":
     Provides {
       certificate_authority_slo_param_0: "ibwzekeecbgax",
@@ -251,6 +284,7 @@ Expectations for "certificate_authority_slo"
       threshold: 95.14,
       window_in_days: 7
     }
+
   * "mobile_certificate_authority_slo_18":
     Provides {
       certificate_authority_slo_param_0: "iknwwefkp",
@@ -265,6 +299,7 @@ Expectations for "certificate_authority_slo"
       threshold: 98.39,
       window_in_days: 30
     }
+
   * "mobile_certificate_authority_slo_19":
     Provides {
       certificate_authority_slo_param_0: "maubzdsry",
@@ -279,6 +314,7 @@ Expectations for "certificate_authority_slo"
       threshold: 97.67,
       window_in_days: 30
     }
+
   * "mobile_certificate_authority_slo_20":
     Provides {
       certificate_authority_slo_param_0: "chwmuyy",
@@ -293,6 +329,7 @@ Expectations for "certificate_authority_slo"
       threshold: 98.98,
       window_in_days: 30
     }
+
   * "mobile_certificate_authority_slo_21":
     Provides {
       certificate_authority_slo_param_0: "largbahccyovbwj",
@@ -307,13 +344,18 @@ Expectations for "certificate_authority_slo"
       threshold: 96.38,
       window_in_days: 30
     }
+
   * "mobile_certificate_authority_slo_22":
     Provides {
       certificate_authority_slo_param_0: "aokdqxol",
       certificate_authority_slo_param_1: "jindxaxhaskfdv",
       certificate_authority_slo_param_2: 53.93,
       certificate_authority_slo_param_3: "povqssocrbja",
-      certificate_authority_slo_param_4: { key_0: "uhnasdruqgjza", key_1: "pkhcmlihivfo", key_2: "mdpbeshaykdpr" },
+      certificate_authority_slo_param_4: {
+        key_0: "uhnasdruqgjza",
+        key_1: "pkhcmlihivfo",
+        key_2: "mdpbeshaykdpr"
+      },
       certificate_authority_slo_param_5: 87.62,
       certificate_authority_slo_param_6: 41.51,
       certificate_authority_slo_param_7: true,
@@ -321,6 +363,7 @@ Expectations for "certificate_authority_slo"
       threshold: 99.11,
       window_in_days: 30
     }
+
   * "mobile_certificate_authority_slo_23":
     Provides {
       certificate_authority_slo_param_0: "gqbmoafkxb",
@@ -335,6 +378,7 @@ Expectations for "certificate_authority_slo"
       threshold: 95.1,
       window_in_days: 7
     }
+
   * "mobile_certificate_authority_slo_24":
     Provides {
       certificate_authority_slo_param_0: "ewdsdha",

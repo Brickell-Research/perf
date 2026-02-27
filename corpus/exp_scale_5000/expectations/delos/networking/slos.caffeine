@@ -10,6 +10,7 @@ Expectations for "notifications_slo"
       threshold: 95.6,
       window_in_days: 7
     }
+
   * "networking_6_19_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "lltxttavysmx",
@@ -21,6 +22,7 @@ Expectations for "notifications_slo"
       threshold: 96.04,
       window_in_days: 90
     }
+
 Expectations for "payments_slo"
   * "networking_14_19_payments_slo_0":
     Provides {
@@ -33,6 +35,7 @@ Expectations for "payments_slo"
       threshold: 98.62,
       window_in_days: 90
     }
+
 Expectations for "catalog_slo"
   * "networking_22_19_catalog_slo_0":
     Provides {

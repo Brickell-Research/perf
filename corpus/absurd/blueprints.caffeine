@@ -3,16 +3,24 @@ _type_1 (Type): Float { x | x in ( 37.1..94.3 ) }
 _type_2 (Type): Float { x | x in ( 47.0..61.8 ) }
 _type_3 (Type): Float { x | x in ( 10.7..60.9 ) }
 _type_4 (Type): Float { x | x in ( 48.3..98.0 ) }
-_type_5 (Type): String { x | x in { "perf", "demo", "staging" } }
+_type_5 (Type): String { x | x in { "demo", "perf", "staging" } }
 _type_6 (Type): Float { x | x in ( 12.8..80.3 ) }
-_type_7 (Type): String { x | x in { "demo", "staging", "canary", "test" } }
-_type_8 (Type): String { x | x in { "test", "development", "canary" } }
+_type_7 (Type): String { x | x in { "canary", "demo", "staging", "test" } }
+_type_8 (Type): String { x | x in { "canary", "development", "test" } }
 _type_9 (Type): Float { x | x in ( 42.4..69.7 ) }
 
 _req_0 (Requires): { req_0_field_0: Boolean }
 _req_1 (Requires): { req_1_field_0: Boolean }
-_req_2 (Requires): { req_2_field_0: Integer, req_2_field_1: String, req_2_field_2: Integer }
-_req_3 (Requires): { req_3_field_0: Float, req_3_field_1: Boolean, req_3_field_2: Boolean }
+_req_2 (Requires): {
+  req_2_field_0: Integer,
+  req_2_field_1: String,
+  req_2_field_2: Integer
+}
+_req_3 (Requires): {
+  req_3_field_0: Float,
+  req_3_field_1: Boolean,
+  req_3_field_2: Boolean
+}
 _req_4 (Requires): { req_4_field_0: String, req_4_field_1: Float }
 _prov_0 (Provides): { vendor: "datadog" }
 _prov_1 (Provides): { vendor: "datadog" }
@@ -33,7 +41,7 @@ Blueprints for "SLO"
       checkout_slo_param_7: _type_8,
       checkout_slo_param_8: _type_1,
       checkout_slo_param_9: Defaulted(Integer, 0),
-      checkout_slo_param_10: List(String),
+      checkout_slo_param_10: List(String)
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -42,6 +50,7 @@ Blueprints for "SLO"
         denominator: "sum:cache.evictions.total{$checkout_slo_param_0->checkout_slo_param_0$}"
       }
     }
+
   * "auth_slo" extends [_prov_0, _prov_4]:
     Requires {
       auth_slo_param_0: String,
@@ -50,8 +59,8 @@ Blueprints for "SLO"
       auth_slo_param_3: String { x | x in { "inactive", "pending" } },
       auth_slo_param_4: Boolean,
       auth_slo_param_5: List(Integer),
-      auth_slo_param_6: Defaulted(Boolean, false),
-      auth_slo_param_7: Optional(Boolean),
+      auth_slo_param_6: Defaulted(Boolean, False),
+      auth_slo_param_7: Optional(Boolean)
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -60,6 +69,7 @@ Blueprints for "SLO"
         denominator: "sum:db.queries.total{$auth_slo_param_0->auth_slo_param_0$}"
       }
     }
+
   * "payments_slo" extends [_prov_0, _req_3]:
     Requires {
       payments_slo_param_0: String,
@@ -71,7 +81,7 @@ Blueprints for "SLO"
       payments_slo_param_6: Defaulted(String, "default"),
       payments_slo_param_7: _type_3,
       payments_slo_param_8: Integer,
-      payments_slo_param_9: Dict(String, Integer),
+      payments_slo_param_9: Dict(String, Integer)
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -80,18 +90,19 @@ Blueprints for "SLO"
         denominator: "sum:db.queries.total{$payments_slo_param_0->payments_slo_param_0$}"
       }
     }
+
   * "orders_slo" extends [_prov_2]:
     Requires {
       orders_slo_param_0: String,
       orders_slo_param_1: String,
       orders_slo_param_2: Optional(Boolean),
       orders_slo_param_3: Boolean,
-      orders_slo_param_4: String { x | x in { "published", "inactive", "active", "pending", "archived" } },
+      orders_slo_param_4: String { x | x in { "active", "archived", "inactive", "pending", "published" } },
       orders_slo_param_5: List(Boolean),
       orders_slo_param_6: Optional(String),
       orders_slo_param_7: Integer,
       orders_slo_param_8: String,
-      orders_slo_param_9: Defaulted(Float, 0.0),
+      orders_slo_param_9: Defaulted(Float, 0.0)
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -100,6 +111,7 @@ Blueprints for "SLO"
         denominator: "sum:cache.misses.total{$orders_slo_param_0->orders_slo_param_0$}"
       }
     }
+
   * "inventory_slo" extends [_prov_0]:
     Requires {
       inventory_slo_param_0: String,
@@ -111,7 +123,7 @@ Blueprints for "SLO"
       inventory_slo_param_6: Integer { x | x in ( 33..980 ) },
       inventory_slo_param_7: List(String),
       inventory_slo_param_8: Integer,
-      inventory_slo_param_9: String,
+      inventory_slo_param_9: String
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -120,6 +132,7 @@ Blueprints for "SLO"
         denominator: "sum:http.errors.total{$inventory_slo_param_0->inventory_slo_param_0$}"
       }
     }
+
   * "shipping_slo":
     Requires {
       shipping_slo_param_0: String,
@@ -132,7 +145,7 @@ Blueprints for "SLO"
       shipping_slo_param_7: _type_4,
       shipping_slo_param_8: Integer { x | x in { 4, 96, 98 } },
       shipping_slo_param_9: Defaulted(Integer, 0),
-      shipping_slo_param_10: _type_1,
+      shipping_slo_param_10: _type_1
     }
     Provides {
       vendor: "datadog",
@@ -142,6 +155,7 @@ Blueprints for "SLO"
         denominator: "sum:http.latency.p99.total{$shipping_slo_param_0->shipping_slo_param_0$}"
       }
     }
+
   * "notifications_slo" extends [_req_0]:
     Requires {
       notifications_slo_param_0: String,
@@ -153,7 +167,7 @@ Blueprints for "SLO"
       notifications_slo_param_6: String,
       notifications_slo_param_7: _type_2,
       notifications_slo_param_8: Float { x | x in ( 7.8..92.3 ) },
-      notifications_slo_param_9: Dict(String, Float),
+      notifications_slo_param_9: Dict(String, Float)
     }
     Provides {
       vendor: "datadog",
@@ -163,6 +177,7 @@ Blueprints for "SLO"
         denominator: "sum:queue.messages.total{$notifications_slo_param_0->notifications_slo_param_0$}"
       }
     }
+
   * "analytics_slo" extends [_prov_2]:
     Requires {
       analytics_slo_param_0: String,
@@ -170,7 +185,7 @@ Blueprints for "SLO"
       analytics_slo_param_2: List(Integer),
       analytics_slo_param_3: Float,
       analytics_slo_param_4: Boolean,
-      analytics_slo_param_5: _type_0,
+      analytics_slo_param_5: _type_0
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -179,6 +194,7 @@ Blueprints for "SLO"
         denominator: "sum:http.latency.p50.total{$analytics_slo_param_0->analytics_slo_param_0$}"
       }
     }
+
   * "search_slo" extends [_prov_0, _prov_1]:
     Requires {
       search_slo_param_0: String,
@@ -191,7 +207,7 @@ Blueprints for "SLO"
       search_slo_param_7: Float,
       search_slo_param_8: Optional(String),
       search_slo_param_9: Integer { x | x in { 31, 45, 85 } },
-      search_slo_param_10: Float,
+      search_slo_param_10: Float
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -200,6 +216,7 @@ Blueprints for "SLO"
         denominator: "sum:network.throughput.total{$search_slo_param_0->search_slo_param_0$}"
       }
     }
+
   * "recommendations_slo" extends [_prov_1]:
     Requires {
       recommendations_slo_param_0: String,
@@ -210,9 +227,9 @@ Blueprints for "SLO"
       recommendations_slo_param_5: Optional(Float),
       recommendations_slo_param_6: Optional(Integer),
       recommendations_slo_param_7: Optional(Boolean),
-      recommendations_slo_param_8: Defaulted(Boolean, false),
+      recommendations_slo_param_8: Defaulted(Boolean, False),
       recommendations_slo_param_9: Optional(Integer),
-      recommendations_slo_param_10: Defaulted(Boolean, false),
+      recommendations_slo_param_10: Defaulted(Boolean, False)
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -221,6 +238,7 @@ Blueprints for "SLO"
         denominator: "sum:http.latency.p95.total{$recommendations_slo_param_0->recommendations_slo_param_0$}"
       }
     }
+
   * "billing_slo" extends [_prov_4]:
     Requires {
       billing_slo_param_0: String,
@@ -229,7 +247,7 @@ Blueprints for "SLO"
       billing_slo_param_3: Float { x | x in ( 43.2..75.2 ) },
       billing_slo_param_4: Optional(Boolean),
       billing_slo_param_5: Defaulted(Integer, 0),
-      billing_slo_param_6: Float,
+      billing_slo_param_6: Float
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -238,6 +256,7 @@ Blueprints for "SLO"
         denominator: "sum:http.latency.p99.total{$billing_slo_param_0->billing_slo_param_0$}"
       }
     }
+
   * "users_slo" extends [_prov_4, _prov_1, _req_3]:
     Requires {
       users_slo_param_0: String,
@@ -249,9 +268,9 @@ Blueprints for "SLO"
       users_slo_param_6: Float { x | x in ( 45.1..95.6 ) },
       users_slo_param_7: Float { x | x in ( 1.2..97.5 ) },
       users_slo_param_8: Defaulted(Float, 0.0),
-      users_slo_param_9: String { x | x in { "draft", "active" } },
+      users_slo_param_9: String { x | x in { "active", "draft" } },
       users_slo_param_10: Float { x | x in ( 23.3..80.6 ) },
-      users_slo_param_11: Defaulted(String, "default"),
+      users_slo_param_11: Defaulted(String, "default")
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -260,19 +279,20 @@ Blueprints for "SLO"
         denominator: "sum:cache.misses.total{$users_slo_param_0->users_slo_param_0$}"
       }
     }
+
   * "profiles_slo" extends [_prov_3, _req_3]:
     Requires {
       profiles_slo_param_0: String,
       profiles_slo_param_1: String,
       profiles_slo_param_2: String,
-      profiles_slo_param_3: Defaulted(Boolean, false),
+      profiles_slo_param_3: Defaulted(Boolean, False),
       profiles_slo_param_4: Boolean,
       profiles_slo_param_5: Integer { x | x in ( 39..928 ) },
       profiles_slo_param_6: Boolean,
       profiles_slo_param_7: String,
       profiles_slo_param_8: Boolean,
       profiles_slo_param_9: _type_7,
-      profiles_slo_param_10: _type_4,
+      profiles_slo_param_10: _type_4
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -281,6 +301,7 @@ Blueprints for "SLO"
         denominator: "sum:queue.latency.total{$profiles_slo_param_0->profiles_slo_param_0$}"
       }
     }
+
   * "catalog_slo" extends [_prov_0]:
     Requires {
       catalog_slo_param_0: String,
@@ -293,7 +314,7 @@ Blueprints for "SLO"
       catalog_slo_param_7: _type_9,
       catalog_slo_param_8: Optional(Float),
       catalog_slo_param_9: _type_2,
-      catalog_slo_param_10: Optional(String),
+      catalog_slo_param_10: Optional(String)
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -302,18 +323,19 @@ Blueprints for "SLO"
         denominator: "sum:queue.latency.total{$catalog_slo_param_0->catalog_slo_param_0$}"
       }
     }
+
   * "cart_slo" extends [_req_3]:
     Requires {
       cart_slo_param_0: String,
       cart_slo_param_1: String,
       cart_slo_param_2: Optional(Integer),
-      cart_slo_param_3: String { x | x in { "inactive", "draft", "pending" } },
+      cart_slo_param_3: String { x | x in { "draft", "inactive", "pending" } },
       cart_slo_param_4: _type_1,
-      cart_slo_param_5: Defaulted(Boolean, false),
+      cart_slo_param_5: Defaulted(Boolean, False),
       cart_slo_param_6: Integer { x | x in ( 33..803 ) },
       cart_slo_param_7: Defaulted(String, "default"),
       cart_slo_param_8: Optional(String),
-      cart_slo_param_9: Optional(Float),
+      cart_slo_param_9: Optional(Float)
     }
     Provides {
       vendor: "datadog",
@@ -323,6 +345,7 @@ Blueprints for "SLO"
         denominator: "sum:http.latency.p50.total{$cart_slo_param_0->cart_slo_param_0$}"
       }
     }
+
   * "gateway_slo":
     Requires {
       gateway_slo_param_0: String,
@@ -335,7 +358,7 @@ Blueprints for "SLO"
       gateway_slo_param_7: String,
       gateway_slo_param_8: List(Integer),
       gateway_slo_param_9: Optional(Float),
-      gateway_slo_param_10: Dict(String, Float),
+      gateway_slo_param_10: Dict(String, Float)
     }
     Provides {
       vendor: "datadog",
@@ -345,6 +368,7 @@ Blueprints for "SLO"
         denominator: "sum:disk.io.total{$gateway_slo_param_0->gateway_slo_param_0$}"
       }
     }
+
   * "messaging_slo" extends [_prov_1, _prov_3]:
     Requires {
       messaging_slo_param_0: String,
@@ -355,7 +379,7 @@ Blueprints for "SLO"
       messaging_slo_param_5: Boolean,
       messaging_slo_param_6: Optional(String),
       messaging_slo_param_7: Float,
-      messaging_slo_param_8: String,
+      messaging_slo_param_8: String
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -364,6 +388,7 @@ Blueprints for "SLO"
         denominator: "sum:queue.latency.total{$messaging_slo_param_0->messaging_slo_param_0$}"
       }
     }
+
   * "scheduler_slo" extends [_req_3]:
     Requires {
       scheduler_slo_param_0: String,
@@ -373,7 +398,7 @@ Blueprints for "SLO"
       scheduler_slo_param_4: Float { x | x in ( 28.4..98.1 ) },
       scheduler_slo_param_5: String,
       scheduler_slo_param_6: Integer,
-      scheduler_slo_param_7: Integer,
+      scheduler_slo_param_7: Integer
     }
     Provides {
       vendor: "datadog",
@@ -383,6 +408,7 @@ Blueprints for "SLO"
         denominator: "sum:cache.hits.total{$scheduler_slo_param_0->scheduler_slo_param_0$}"
       }
     }
+
   * "monitoring_slo":
     Requires {
       monitoring_slo_param_0: String,
@@ -390,7 +416,7 @@ Blueprints for "SLO"
       monitoring_slo_param_2: Integer,
       monitoring_slo_param_3: Boolean,
       monitoring_slo_param_4: _type_1,
-      monitoring_slo_param_5: _type_2,
+      monitoring_slo_param_5: _type_2
     }
     Provides {
       vendor: "datadog",
@@ -400,6 +426,7 @@ Blueprints for "SLO"
         denominator: "sum:http.errors.total{$monitoring_slo_param_0->monitoring_slo_param_0$}"
       }
     }
+
   * "logging_slo" extends [_prov_3, _prov_1, _req_2]:
     Requires {
       logging_slo_param_0: String,
@@ -409,7 +436,7 @@ Blueprints for "SLO"
       logging_slo_param_4: Integer,
       logging_slo_param_5: Float { x | x in ( 42.7..73.7 ) },
       logging_slo_param_6: Float,
-      logging_slo_param_7: Float,
+      logging_slo_param_7: Float
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -418,6 +445,7 @@ Blueprints for "SLO"
         denominator: "sum:cache.latency.total{$logging_slo_param_0->logging_slo_param_0$}"
       }
     }
+
   * "cache_slo" extends [_prov_4, _req_3]:
     Requires {
       cache_slo_param_0: String,
@@ -431,7 +459,7 @@ Blueprints for "SLO"
       cache_slo_param_8: Boolean,
       cache_slo_param_9: Float,
       cache_slo_param_10: String,
-      cache_slo_param_11: Integer { x | x in { 5, 9, 35, 82 } },
+      cache_slo_param_11: Integer { x | x in { 35, 5, 82, 9 } }
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -440,6 +468,7 @@ Blueprints for "SLO"
         denominator: "sum:grpc.errors.total{$cache_slo_param_0->cache_slo_param_0$}"
       }
     }
+
   * "storage_slo" extends [_req_3]:
     Requires {
       storage_slo_param_0: String,
@@ -449,7 +478,7 @@ Blueprints for "SLO"
       storage_slo_param_4: Dict(String, String),
       storage_slo_param_5: Integer { x | x in ( 10..664 ) },
       storage_slo_param_6: Dict(String, String),
-      storage_slo_param_7: Integer,
+      storage_slo_param_7: Integer
     }
     Provides {
       vendor: "datadog",
@@ -459,6 +488,7 @@ Blueprints for "SLO"
         denominator: "sum:http.latency.p50.total{$storage_slo_param_0->storage_slo_param_0$}"
       }
     }
+
   * "cdn_slo" extends [_prov_2, _prov_0]:
     Requires {
       cdn_slo_param_0: String,
@@ -469,7 +499,7 @@ Blueprints for "SLO"
       cdn_slo_param_5: _type_0,
       cdn_slo_param_6: Float { x | x in ( 4.8..69.6 ) },
       cdn_slo_param_7: _type_2,
-      cdn_slo_param_8: Defaulted(Float, 0.0),
+      cdn_slo_param_8: Defaulted(Float, 0.0)
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -478,16 +508,17 @@ Blueprints for "SLO"
         denominator: "sum:cache.misses.total{$cdn_slo_param_0->cdn_slo_param_0$}"
       }
     }
+
   * "ml_inference_slo" extends [_prov_1, _prov_2, _req_3]:
     Requires {
       ml_inference_slo_param_0: String,
       ml_inference_slo_param_1: String,
       ml_inference_slo_param_2: List(String),
-      ml_inference_slo_param_3: String { x | x in { "inactive", "active", "archived" } },
+      ml_inference_slo_param_3: String { x | x in { "active", "archived", "inactive" } },
       ml_inference_slo_param_4: List(String),
-      ml_inference_slo_param_5: String { x | x in { "published", "draft", "pending" } },
+      ml_inference_slo_param_5: String { x | x in { "draft", "pending", "published" } },
       ml_inference_slo_param_6: _type_8,
-      ml_inference_slo_param_7: Integer { x | x in ( 16..931 ) },
+      ml_inference_slo_param_7: Integer { x | x in ( 16..931 ) }
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -496,6 +527,7 @@ Blueprints for "SLO"
         denominator: "sum:grpc.latency.total{$ml_inference_slo_param_0->ml_inference_slo_param_0$}"
       }
     }
+
   * "etl_pipeline_slo" extends [_prov_1, _req_4]:
     Requires {
       etl_pipeline_slo_param_0: String,
@@ -504,10 +536,10 @@ Blueprints for "SLO"
       etl_pipeline_slo_param_3: List(Integer),
       etl_pipeline_slo_param_4: Boolean,
       etl_pipeline_slo_param_5: _type_8,
-      etl_pipeline_slo_param_6: String { x | x in { "archived", "pending", "active", "published" } },
+      etl_pipeline_slo_param_6: String { x | x in { "active", "archived", "pending", "published" } },
       etl_pipeline_slo_param_7: String,
       etl_pipeline_slo_param_8: Dict(String, Float),
-      etl_pipeline_slo_param_9: Dict(String, String),
+      etl_pipeline_slo_param_9: Dict(String, String)
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -516,6 +548,7 @@ Blueprints for "SLO"
         denominator: "sum:db.connections.total{$etl_pipeline_slo_param_0->etl_pipeline_slo_param_0$}"
       }
     }
+
   * "data_warehouse_slo" extends [_prov_4]:
     Requires {
       data_warehouse_slo_param_0: String,
@@ -526,9 +559,9 @@ Blueprints for "SLO"
       data_warehouse_slo_param_5: Integer { x | x in { 24, 42 } },
       data_warehouse_slo_param_6: Float,
       data_warehouse_slo_param_7: Integer { x | x in { 10, 26, 77, 78 } },
-      data_warehouse_slo_param_8: String { x | x in { "archived", "inactive", "published", "active" } },
+      data_warehouse_slo_param_8: String { x | x in { "active", "archived", "inactive", "published" } },
       data_warehouse_slo_param_9: _type_2,
-      data_warehouse_slo_param_10: Defaulted(Integer, 0),
+      data_warehouse_slo_param_10: Defaulted(Integer, 0)
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -537,15 +570,16 @@ Blueprints for "SLO"
         denominator: "sum:http.latency.p95.total{$data_warehouse_slo_param_0->data_warehouse_slo_param_0$}"
       }
     }
+
   * "event_bus_slo":
     Requires {
       event_bus_slo_param_0: String,
       event_bus_slo_param_1: String,
       event_bus_slo_param_2: Dict(String, Boolean),
       event_bus_slo_param_3: List(Float),
-      event_bus_slo_param_4: String { x | x in { "inactive", "published", "pending", "active", "draft" } },
+      event_bus_slo_param_4: String { x | x in { "active", "draft", "inactive", "pending", "published" } },
       event_bus_slo_param_5: List(Boolean),
-      event_bus_slo_param_6: Float,
+      event_bus_slo_param_6: Float
     }
     Provides {
       vendor: "datadog",
@@ -555,6 +589,7 @@ Blueprints for "SLO"
         denominator: "sum:cache.latency.total{$event_bus_slo_param_0->event_bus_slo_param_0$}"
       }
     }
+
   * "rate_limiter_slo":
     Requires {
       rate_limiter_slo_param_0: String,
@@ -563,7 +598,7 @@ Blueprints for "SLO"
       rate_limiter_slo_param_3: String,
       rate_limiter_slo_param_4: Integer { x | x in ( 24..400 ) },
       rate_limiter_slo_param_5: _type_8,
-      rate_limiter_slo_param_6: Integer { x | x in ( 44..431 ) },
+      rate_limiter_slo_param_6: Integer { x | x in ( 44..431 ) }
     }
     Provides {
       vendor: "datadog",
@@ -573,14 +608,15 @@ Blueprints for "SLO"
         denominator: "sum:cpu.utilization.total{$rate_limiter_slo_param_0->rate_limiter_slo_param_0$}"
       }
     }
+
   * "circuit_breaker_slo" extends [_prov_4, _prov_1]:
     Requires {
       circuit_breaker_slo_param_0: String,
       circuit_breaker_slo_param_1: String,
       circuit_breaker_slo_param_2: Optional(Integer),
-      circuit_breaker_slo_param_3: Defaulted(Boolean, false),
+      circuit_breaker_slo_param_3: Defaulted(Boolean, False),
       circuit_breaker_slo_param_4: _type_4,
-      circuit_breaker_slo_param_5: _type_5,
+      circuit_breaker_slo_param_5: _type_5
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -589,6 +625,7 @@ Blueprints for "SLO"
         denominator: "sum:db.connections.total{$circuit_breaker_slo_param_0->circuit_breaker_slo_param_0$}"
       }
     }
+
   * "load_balancer_slo":
     Requires {
       load_balancer_slo_param_0: String,
@@ -600,7 +637,7 @@ Blueprints for "SLO"
       load_balancer_slo_param_6: _type_6,
       load_balancer_slo_param_7: String,
       load_balancer_slo_param_8: Float,
-      load_balancer_slo_param_9: Defaulted(Float, 0.0),
+      load_balancer_slo_param_9: Defaulted(Float, 0.0)
     }
     Provides {
       vendor: "datadog",
@@ -610,6 +647,7 @@ Blueprints for "SLO"
         denominator: "sum:network.throughput.total{$load_balancer_slo_param_0->load_balancer_slo_param_0$}"
       }
     }
+
   * "dns_resolver_slo" extends [_req_4]:
     Requires {
       dns_resolver_slo_param_0: String,
@@ -623,7 +661,7 @@ Blueprints for "SLO"
       dns_resolver_slo_param_8: Float,
       dns_resolver_slo_param_9: Integer { x | x in { 19, 55, 88 } },
       dns_resolver_slo_param_10: _type_5,
-      dns_resolver_slo_param_11: Float,
+      dns_resolver_slo_param_11: Float
     }
     Provides {
       vendor: "datadog",
@@ -633,6 +671,7 @@ Blueprints for "SLO"
         denominator: "sum:queue.latency.total{$dns_resolver_slo_param_0->dns_resolver_slo_param_0$}"
       }
     }
+
   * "session_manager_slo" extends [_prov_1, _prov_2, _req_4]:
     Requires {
       session_manager_slo_param_0: String,
@@ -640,7 +679,7 @@ Blueprints for "SLO"
       session_manager_slo_param_2: _type_5,
       session_manager_slo_param_3: Dict(String, String),
       session_manager_slo_param_4: _type_5,
-      session_manager_slo_param_5: String { x | x in { "active", "draft", "archived", "published" } },
+      session_manager_slo_param_5: String { x | x in { "active", "archived", "draft", "published" } }
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -649,6 +688,7 @@ Blueprints for "SLO"
         denominator: "sum:cache.latency.total{$session_manager_slo_param_0->session_manager_slo_param_0$}"
       }
     }
+
   * "token_service_slo" extends [_req_1]:
     Requires {
       token_service_slo_param_0: String,
@@ -657,7 +697,7 @@ Blueprints for "SLO"
       token_service_slo_param_3: Integer { x | x in ( 29..867 ) },
       token_service_slo_param_4: Integer { x | x in ( 21..322 ) },
       token_service_slo_param_5: Boolean,
-      token_service_slo_param_6: Dict(String, Float),
+      token_service_slo_param_6: Dict(String, Float)
     }
     Provides {
       vendor: "datadog",
@@ -667,6 +707,7 @@ Blueprints for "SLO"
         denominator: "sum:db.latency.total{$token_service_slo_param_0->token_service_slo_param_0$}"
       }
     }
+
   * "audit_log_slo":
     Requires {
       audit_log_slo_param_0: String,
@@ -676,7 +717,7 @@ Blueprints for "SLO"
       audit_log_slo_param_4: Defaulted(String, "default"),
       audit_log_slo_param_5: Defaulted(Integer, 0),
       audit_log_slo_param_6: Optional(Boolean),
-      audit_log_slo_param_7: _type_2,
+      audit_log_slo_param_7: _type_2
     }
     Provides {
       vendor: "datadog",
@@ -686,20 +727,21 @@ Blueprints for "SLO"
         denominator: "sum:queue.latency.total{$audit_log_slo_param_0->audit_log_slo_param_0$}"
       }
     }
+
   * "webhook_relay_slo":
     Requires {
       webhook_relay_slo_param_0: String,
       webhook_relay_slo_param_1: String,
       webhook_relay_slo_param_2: _type_0,
       webhook_relay_slo_param_3: String { x | x in { "draft", "pending" } },
-      webhook_relay_slo_param_4: String { x | x in { "active", "archived", "pending", "inactive" } },
+      webhook_relay_slo_param_4: String { x | x in { "active", "archived", "inactive", "pending" } },
       webhook_relay_slo_param_5: Integer,
       webhook_relay_slo_param_6: Float,
       webhook_relay_slo_param_7: _type_3,
       webhook_relay_slo_param_8: Dict(String, String),
       webhook_relay_slo_param_9: Optional(Integer),
       webhook_relay_slo_param_10: _type_7,
-      webhook_relay_slo_param_11: Float,
+      webhook_relay_slo_param_11: Float
     }
     Provides {
       vendor: "datadog",
@@ -709,6 +751,7 @@ Blueprints for "SLO"
         denominator: "sum:cache.hits.total{$webhook_relay_slo_param_0->webhook_relay_slo_param_0$}"
       }
     }
+
   * "media_processor_slo" extends [_prov_1, _req_0]:
     Requires {
       media_processor_slo_param_0: String,
@@ -718,7 +761,7 @@ Blueprints for "SLO"
       media_processor_slo_param_4: Optional(Boolean),
       media_processor_slo_param_5: Defaulted(Float, 0.0),
       media_processor_slo_param_6: Integer,
-      media_processor_slo_param_7: _type_9,
+      media_processor_slo_param_7: _type_9
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -727,6 +770,7 @@ Blueprints for "SLO"
         denominator: "sum:http.latency.p95.total{$media_processor_slo_param_0->media_processor_slo_param_0$}"
       }
     }
+
   * "pdf_generator_slo" extends [_req_3]:
     Requires {
       pdf_generator_slo_param_0: String,
@@ -736,7 +780,7 @@ Blueprints for "SLO"
       pdf_generator_slo_param_4: _type_1,
       pdf_generator_slo_param_5: _type_7,
       pdf_generator_slo_param_6: Boolean,
-      pdf_generator_slo_param_7: _type_6,
+      pdf_generator_slo_param_7: _type_6
     }
     Provides {
       vendor: "datadog",
@@ -746,6 +790,7 @@ Blueprints for "SLO"
         denominator: "sum:db.latency.total{$pdf_generator_slo_param_0->pdf_generator_slo_param_0$}"
       }
     }
+
   * "email_sender_slo" extends [_prov_4, _req_3]:
     Requires {
       email_sender_slo_param_0: String,
@@ -753,7 +798,7 @@ Blueprints for "SLO"
       email_sender_slo_param_2: Integer { x | x in { 57, 99 } },
       email_sender_slo_param_3: String { x | x in { "active", "published" } },
       email_sender_slo_param_4: String,
-      email_sender_slo_param_5: Boolean,
+      email_sender_slo_param_5: Boolean
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -762,6 +807,7 @@ Blueprints for "SLO"
         denominator: "sum:cache.misses.total{$email_sender_slo_param_0->email_sender_slo_param_0$}"
       }
     }
+
   * "sms_gateway_slo" extends [_req_3]:
     Requires {
       sms_gateway_slo_param_0: String,
@@ -770,7 +816,7 @@ Blueprints for "SLO"
       sms_gateway_slo_param_3: List(Boolean),
       sms_gateway_slo_param_4: String { x | x in { "draft", "pending", "published" } },
       sms_gateway_slo_param_5: Float,
-      sms_gateway_slo_param_6: Integer,
+      sms_gateway_slo_param_6: Integer
     }
     Provides {
       vendor: "datadog",
@@ -780,6 +826,7 @@ Blueprints for "SLO"
         denominator: "sum:http.requests.total{$sms_gateway_slo_param_0->sms_gateway_slo_param_0$}"
       }
     }
+
   * "push_notifications_slo" extends [_req_1]:
     Requires {
       push_notifications_slo_param_0: String,
@@ -791,7 +838,7 @@ Blueprints for "SLO"
       push_notifications_slo_param_6: Integer { x | x in ( 13..964 ) },
       push_notifications_slo_param_7: _type_8,
       push_notifications_slo_param_8: Integer,
-      push_notifications_slo_param_9: Integer,
+      push_notifications_slo_param_9: Integer
     }
     Provides {
       vendor: "datadog",
@@ -801,6 +848,7 @@ Blueprints for "SLO"
         denominator: "sum:queue.errors.total{$push_notifications_slo_param_0->push_notifications_slo_param_0$}"
       }
     }
+
   * "feature_flags_slo" extends [_prov_1, _req_3]:
     Requires {
       feature_flags_slo_param_0: String,
@@ -811,9 +859,9 @@ Blueprints for "SLO"
       feature_flags_slo_param_5: Float { x | x in ( 19.3..60.1 ) },
       feature_flags_slo_param_6: _type_7,
       feature_flags_slo_param_7: String,
-      feature_flags_slo_param_8: Integer { x | x in { 5, 12, 35 } },
+      feature_flags_slo_param_8: Integer { x | x in { 12, 35, 5 } },
       feature_flags_slo_param_9: _type_0,
-      feature_flags_slo_param_10: String { x | x in { "inactive", "archived" } },
+      feature_flags_slo_param_10: String { x | x in { "archived", "inactive" } }
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -822,17 +870,18 @@ Blueprints for "SLO"
         denominator: "sum:queue.errors.total{$feature_flags_slo_param_0->feature_flags_slo_param_0$}"
       }
     }
+
   * "ab_testing_slo" extends [_prov_4]:
     Requires {
       ab_testing_slo_param_0: String,
       ab_testing_slo_param_1: String,
-      ab_testing_slo_param_2: String { x | x in { "archived", "inactive", "active" } },
-      ab_testing_slo_param_3: Defaulted(Boolean, false),
+      ab_testing_slo_param_2: String { x | x in { "active", "archived", "inactive" } },
+      ab_testing_slo_param_3: Defaulted(Boolean, False),
       ab_testing_slo_param_4: _type_8,
-      ab_testing_slo_param_5: String { x | x in { "draft", "active", "published" } },
+      ab_testing_slo_param_5: String { x | x in { "active", "draft", "published" } },
       ab_testing_slo_param_6: Integer,
       ab_testing_slo_param_7: Float,
-      ab_testing_slo_param_8: _type_2,
+      ab_testing_slo_param_8: _type_2
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -841,17 +890,18 @@ Blueprints for "SLO"
         denominator: "sum:cpu.utilization.total{$ab_testing_slo_param_0->ab_testing_slo_param_0$}"
       }
     }
+
   * "config_server_slo" extends [_prov_1, _prov_3, _req_1]:
     Requires {
       config_server_slo_param_0: String,
       config_server_slo_param_1: String,
-      config_server_slo_param_2: String { x | x in { "published", "active", "archived", "pending", "draft" } },
+      config_server_slo_param_2: String { x | x in { "active", "archived", "draft", "pending", "published" } },
       config_server_slo_param_3: String,
       config_server_slo_param_4: Float,
       config_server_slo_param_5: String,
-      config_server_slo_param_6: Defaulted(Boolean, false),
+      config_server_slo_param_6: Defaulted(Boolean, False),
       config_server_slo_param_7: Float,
-      config_server_slo_param_8: _type_9,
+      config_server_slo_param_8: _type_9
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -860,6 +910,7 @@ Blueprints for "SLO"
         denominator: "sum:cache.evictions.total{$config_server_slo_param_0->config_server_slo_param_0$}"
       }
     }
+
   * "secrets_manager_slo" extends [_req_4]:
     Requires {
       secrets_manager_slo_param_0: String,
@@ -868,7 +919,7 @@ Blueprints for "SLO"
       secrets_manager_slo_param_3: Integer,
       secrets_manager_slo_param_4: Boolean,
       secrets_manager_slo_param_5: String,
-      secrets_manager_slo_param_6: String { x | x in { "active", "archived", "inactive", "published", "pending" } },
+      secrets_manager_slo_param_6: String { x | x in { "active", "archived", "inactive", "pending", "published" } }
     }
     Provides {
       vendor: "datadog",
@@ -878,6 +929,7 @@ Blueprints for "SLO"
         denominator: "sum:queue.messages.total{$secrets_manager_slo_param_0->secrets_manager_slo_param_0$}"
       }
     }
+
   * "certificate_authority_slo":
     Requires {
       certificate_authority_slo_param_0: String,
@@ -888,7 +940,7 @@ Blueprints for "SLO"
       certificate_authority_slo_param_5: Defaulted(Float, 0.0),
       certificate_authority_slo_param_6: _type_0,
       certificate_authority_slo_param_7: Boolean,
-      certificate_authority_slo_param_8: String,
+      certificate_authority_slo_param_8: String
     }
     Provides {
       vendor: "datadog",
@@ -898,6 +950,7 @@ Blueprints for "SLO"
         denominator: "sum:grpc.requests.total{$certificate_authority_slo_param_0->certificate_authority_slo_param_0$}"
       }
     }
+
   * "vpn_gateway_slo":
     Requires {
       vpn_gateway_slo_param_0: String,
@@ -908,7 +961,7 @@ Blueprints for "SLO"
       vpn_gateway_slo_param_5: _type_3,
       vpn_gateway_slo_param_6: Integer { x | x in ( 0..939 ) },
       vpn_gateway_slo_param_7: Boolean,
-      vpn_gateway_slo_param_8: String,
+      vpn_gateway_slo_param_8: String
     }
     Provides {
       vendor: "datadog",
@@ -918,6 +971,7 @@ Blueprints for "SLO"
         denominator: "sum:db.connections.total{$vpn_gateway_slo_param_0->vpn_gateway_slo_param_0$}"
       }
     }
+
   * "firewall_slo":
     Requires {
       firewall_slo_param_0: String,
@@ -928,7 +982,7 @@ Blueprints for "SLO"
       firewall_slo_param_5: String,
       firewall_slo_param_6: Integer,
       firewall_slo_param_7: Integer { x | x in ( 47..115 ) },
-      firewall_slo_param_8: Integer,
+      firewall_slo_param_8: Integer
     }
     Provides {
       vendor: "datadog",
@@ -938,6 +992,7 @@ Blueprints for "SLO"
         denominator: "sum:cache.hits.total{$firewall_slo_param_0->firewall_slo_param_0$}"
       }
     }
+
   * "intrusion_detection_slo":
     Requires {
       intrusion_detection_slo_param_0: String,
@@ -949,7 +1004,7 @@ Blueprints for "SLO"
       intrusion_detection_slo_param_6: Integer,
       intrusion_detection_slo_param_7: Defaulted(Float, 0.0),
       intrusion_detection_slo_param_8: List(Boolean),
-      intrusion_detection_slo_param_9: _type_6,
+      intrusion_detection_slo_param_9: _type_6
     }
     Provides {
       vendor: "datadog",
@@ -959,17 +1014,18 @@ Blueprints for "SLO"
         denominator: "sum:cache.hits.total{$intrusion_detection_slo_param_0->intrusion_detection_slo_param_0$}"
       }
     }
+
   * "compliance_checker_slo" extends [_prov_1]:
     Requires {
       compliance_checker_slo_param_0: String,
       compliance_checker_slo_param_1: String,
       compliance_checker_slo_param_2: Defaulted(String, "default"),
       compliance_checker_slo_param_3: List(String),
-      compliance_checker_slo_param_4: Defaulted(Boolean, false),
+      compliance_checker_slo_param_4: Defaulted(Boolean, False),
       compliance_checker_slo_param_5: String,
       compliance_checker_slo_param_6: _type_4,
       compliance_checker_slo_param_7: _type_7,
-      compliance_checker_slo_param_8: String,
+      compliance_checker_slo_param_8: String
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -978,6 +1034,7 @@ Blueprints for "SLO"
         denominator: "sum:http.latency.p99.total{$compliance_checker_slo_param_0->compliance_checker_slo_param_0$}"
       }
     }
+
   * "backup_service_slo" extends [_prov_0, _prov_3]:
     Requires {
       backup_service_slo_param_0: String,
@@ -990,7 +1047,7 @@ Blueprints for "SLO"
       backup_service_slo_param_7: Defaulted(Integer, 0),
       backup_service_slo_param_8: Optional(Boolean),
       backup_service_slo_param_9: _type_1,
-      backup_service_slo_param_10: Defaulted(Float, 0.0),
+      backup_service_slo_param_10: Defaulted(Float, 0.0)
     }
     Provides {
       evaluation: "numerator / denominator",

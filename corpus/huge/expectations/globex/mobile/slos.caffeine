@@ -15,6 +15,7 @@ Expectations for "rate_limiter_slo"
       threshold: 99.07,
       window_in_days: 30
     }
+
   * "mobile_rate_limiter_slo_1":
     Provides {
       rate_limiter_slo_param_0: "klicy",
@@ -31,6 +32,7 @@ Expectations for "rate_limiter_slo"
       threshold: 95.47,
       window_in_days: 90
     }
+
   * "mobile_rate_limiter_slo_2":
     Provides {
       rate_limiter_slo_param_0: "duslk",
@@ -47,6 +49,7 @@ Expectations for "rate_limiter_slo"
       threshold: 97.2,
       window_in_days: 90
     }
+
   * "mobile_rate_limiter_slo_3":
     Provides {
       rate_limiter_slo_param_0: "ahymtsvmoy",
@@ -63,6 +66,7 @@ Expectations for "rate_limiter_slo"
       threshold: 95.32,
       window_in_days: 90
     }
+
   * "mobile_rate_limiter_slo_4":
     Provides {
       rate_limiter_slo_param_0: "qxyzipxyj",
@@ -79,6 +83,7 @@ Expectations for "rate_limiter_slo"
       threshold: 98.58,
       window_in_days: 7
     }
+
   * "mobile_rate_limiter_slo_5":
     Provides {
       rate_limiter_slo_param_0: "fwhszwakltwiaej",
@@ -95,6 +100,7 @@ Expectations for "rate_limiter_slo"
       threshold: 95.08,
       window_in_days: 7
     }
+
   * "mobile_rate_limiter_slo_6":
     Provides {
       rate_limiter_slo_param_0: "bxkrjatoxngdxc",
@@ -111,6 +117,7 @@ Expectations for "rate_limiter_slo"
       threshold: 97.09,
       window_in_days: 7
     }
+
   * "mobile_rate_limiter_slo_7":
     Provides {
       rate_limiter_slo_param_0: "xdjnc",
@@ -145,6 +152,7 @@ Expectations for "circuit_breaker_slo"
       threshold: 96.79,
       window_in_days: 7
     }
+
   * "mobile_circuit_breaker_slo_1":
     Provides {
       circuit_breaker_slo_param_0: "gsbudc",
@@ -161,6 +169,7 @@ Expectations for "circuit_breaker_slo"
       threshold: 97.56,
       window_in_days: 30
     }
+
   * "mobile_circuit_breaker_slo_2":
     Provides {
       circuit_breaker_slo_param_0: "jhhtgrllzr",
@@ -177,6 +186,7 @@ Expectations for "circuit_breaker_slo"
       threshold: 97.65,
       window_in_days: 7
     }
+
   * "mobile_circuit_breaker_slo_3":
     Provides {
       circuit_breaker_slo_param_0: "gfvvgcvw",
@@ -193,6 +203,7 @@ Expectations for "circuit_breaker_slo"
       threshold: 95.98,
       window_in_days: 7
     }
+
   * "mobile_circuit_breaker_slo_4":
     Provides {
       circuit_breaker_slo_param_0: "vhiisbofufy",
@@ -209,6 +220,7 @@ Expectations for "circuit_breaker_slo"
       threshold: 96.54,
       window_in_days: 30
     }
+
   * "mobile_circuit_breaker_slo_5":
     Provides {
       circuit_breaker_slo_param_0: "rydahzrdxtnq",
@@ -225,6 +237,7 @@ Expectations for "circuit_breaker_slo"
       threshold: 96.94,
       window_in_days: 30
     }
+
   * "mobile_circuit_breaker_slo_6":
     Provides {
       circuit_breaker_slo_param_0: "tuvfba",
@@ -241,6 +254,7 @@ Expectations for "circuit_breaker_slo"
       threshold: 96.85,
       window_in_days: 7
     }
+
   * "mobile_circuit_breaker_slo_7":
     Provides {
       circuit_breaker_slo_param_0: "gxumubqnhrm",
@@ -279,6 +293,7 @@ Expectations for "load_balancer_slo"
       threshold: 97.1,
       window_in_days: 90
     }
+
   * "mobile_load_balancer_slo_1":
     Provides {
       load_balancer_slo_param_0: "kirlkopyxcvk",
@@ -299,6 +314,7 @@ Expectations for "load_balancer_slo"
       threshold: 96.42,
       window_in_days: 90
     }
+
   * "mobile_load_balancer_slo_2":
     Provides {
       load_balancer_slo_param_0: "wgnrrodbi",
@@ -319,6 +335,7 @@ Expectations for "load_balancer_slo"
       threshold: 99.84,
       window_in_days: 7
     }
+
   * "mobile_load_balancer_slo_3":
     Provides {
       load_balancer_slo_param_0: "pygjhgikcfojxh",
@@ -339,6 +356,7 @@ Expectations for "load_balancer_slo"
       threshold: 96.04,
       window_in_days: 30
     }
+
   * "mobile_load_balancer_slo_4":
     Provides {
       load_balancer_slo_param_0: "enujb",
@@ -359,6 +377,7 @@ Expectations for "load_balancer_slo"
       threshold: 96.39,
       window_in_days: 30
     }
+
   * "mobile_load_balancer_slo_5":
     Provides {
       load_balancer_slo_param_0: "byegpuve",
@@ -379,6 +398,7 @@ Expectations for "load_balancer_slo"
       threshold: 95.25,
       window_in_days: 30
     }
+
   * "mobile_load_balancer_slo_6":
     Provides {
       load_balancer_slo_param_0: "onxerqiwbepuprk",
@@ -399,6 +419,7 @@ Expectations for "load_balancer_slo"
       threshold: 95.88,
       window_in_days: 30
     }
+
   * "mobile_load_balancer_slo_7":
     Provides {
       load_balancer_slo_param_0: "tgoeawdcerr",

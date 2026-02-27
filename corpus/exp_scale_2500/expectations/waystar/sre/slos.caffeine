@@ -11,6 +11,7 @@ Expectations for "monitoring_slo"
       threshold: 97.65,
       window_in_days: 30
     }
+
   * "sre_5_11_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "myxit",
@@ -23,6 +24,7 @@ Expectations for "monitoring_slo"
       threshold: 97.0,
       window_in_days: 7
     }
+
   * "sre_5_11_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "ldmgybnfww",
@@ -62,6 +64,7 @@ Expectations for "scheduler_slo"
       threshold: 97.8,
       window_in_days: 90
     }
+
   * "sre_5_11_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "zvcndkdgsfohlv",
@@ -86,6 +89,7 @@ Expectations for "users_slo"
       threshold: 96.68,
       window_in_days: 90
     }
+
   * "sre_5_11_users_slo_1":
     Provides {
       users_slo_param_0: "ktmwn",

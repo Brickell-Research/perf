@@ -10,6 +10,7 @@ Expectations for "search_slo"
       threshold: 97.08,
       window_in_days: 90
     }
+
   * "security_4_8_search_slo_1":
     Provides {
       search_slo_param_0: "dazdmbrt",
@@ -34,6 +35,7 @@ Expectations for "payments_slo"
       threshold: 98.08,
       window_in_days: 7
     }
+
   * "security_4_8_payments_slo_1":
     Provides {
       payments_slo_param_0: "pagxc",

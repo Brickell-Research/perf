@@ -15,6 +15,7 @@ Expectations for "ml_inference_slo"
       threshold: 96.28,
       window_in_days: 30
     }
+
   * "infrastructure_ml_inference_slo_1":
     Provides {
       ml_inference_slo_param_0: "mfucg",
@@ -23,7 +24,11 @@ Expectations for "ml_inference_slo"
       ml_inference_slo_param_3: "pfkkbmzyovcrqy",
       ml_inference_slo_param_4: 54.91,
       ml_inference_slo_param_5: "active",
-      ml_inference_slo_param_6: { key_0: "ocvfxilqhqiaani", key_1: "cklnkzkbyskemsi", key_2: "vyhwkvjswplfa" },
+      ml_inference_slo_param_6: {
+        key_0: "ocvfxilqhqiaani",
+        key_1: "cklnkzkbyskemsi",
+        key_2: "vyhwkvjswplfa"
+      },
       ml_inference_slo_param_7: 57,
       ml_inference_slo_param_8: 150,
       req_2_field_0: false,
@@ -31,6 +36,7 @@ Expectations for "ml_inference_slo"
       threshold: 98.08,
       window_in_days: 90
     }
+
   * "infrastructure_ml_inference_slo_2":
     Provides {
       ml_inference_slo_param_0: "qnofdbjpboqgz",
@@ -47,6 +53,7 @@ Expectations for "ml_inference_slo"
       threshold: 99.04,
       window_in_days: 90
     }
+
   * "infrastructure_ml_inference_slo_3":
     Provides {
       ml_inference_slo_param_0: "xuoivievpuazvsb",
@@ -63,6 +70,7 @@ Expectations for "ml_inference_slo"
       threshold: 97.49,
       window_in_days: 7
     }
+
   * "infrastructure_ml_inference_slo_4":
     Provides {
       ml_inference_slo_param_0: "antumvtwc",
@@ -79,6 +87,7 @@ Expectations for "ml_inference_slo"
       threshold: 98.18,
       window_in_days: 30
     }
+
   * "infrastructure_ml_inference_slo_5":
     Provides {
       ml_inference_slo_param_0: "ecdceyyn",
@@ -87,7 +96,11 @@ Expectations for "ml_inference_slo"
       ml_inference_slo_param_3: "mlzwhdubteisewm",
       ml_inference_slo_param_4: 0.88,
       ml_inference_slo_param_5: "active",
-      ml_inference_slo_param_6: { key_0: "benultkhieim", key_1: "kwqvrkl", key_2: "dwmsoduussnlawy" },
+      ml_inference_slo_param_6: {
+        key_0: "benultkhieim",
+        key_1: "kwqvrkl",
+        key_2: "dwmsoduussnlawy"
+      },
       ml_inference_slo_param_7: 51,
       ml_inference_slo_param_8: 124,
       req_2_field_0: false,
@@ -95,6 +108,7 @@ Expectations for "ml_inference_slo"
       threshold: 97.56,
       window_in_days: 30
     }
+
   * "infrastructure_ml_inference_slo_6":
     Provides {
       ml_inference_slo_param_0: "spbdhaylfrr",
@@ -103,7 +117,11 @@ Expectations for "ml_inference_slo"
       ml_inference_slo_param_3: "aqpnk",
       ml_inference_slo_param_4: 48.18,
       ml_inference_slo_param_5: "active",
-      ml_inference_slo_param_6: { key_0: "kqfpdydnc", key_1: "auinfzexfmfggx", key_2: "wnoyrgoqhye" },
+      ml_inference_slo_param_6: {
+        key_0: "kqfpdydnc",
+        key_1: "auinfzexfmfggx",
+        key_2: "wnoyrgoqhye"
+      },
       ml_inference_slo_param_7: 98,
       ml_inference_slo_param_8: 102,
       req_2_field_0: true,
@@ -111,6 +129,7 @@ Expectations for "ml_inference_slo"
       threshold: 99.53,
       window_in_days: 7
     }
+
   * "infrastructure_ml_inference_slo_7":
     Provides {
       ml_inference_slo_param_0: "fyssreuijhleabg",
@@ -127,6 +146,7 @@ Expectations for "ml_inference_slo"
       threshold: 98.71,
       window_in_days: 7
     }
+
   * "infrastructure_ml_inference_slo_8":
     Provides {
       ml_inference_slo_param_0: "pkhaopegdllw",
@@ -143,6 +163,7 @@ Expectations for "ml_inference_slo"
       threshold: 96.15,
       window_in_days: 7
     }
+
   * "infrastructure_ml_inference_slo_9":
     Provides {
       ml_inference_slo_param_0: "thcxlfds",
@@ -159,6 +180,7 @@ Expectations for "ml_inference_slo"
       threshold: 95.87,
       window_in_days: 30
     }
+
   * "infrastructure_ml_inference_slo_10":
     Provides {
       ml_inference_slo_param_0: "ftztndnefdqm",
@@ -167,7 +189,11 @@ Expectations for "ml_inference_slo"
       ml_inference_slo_param_3: "qnhaey",
       ml_inference_slo_param_4: 95.26,
       ml_inference_slo_param_5: "published",
-      ml_inference_slo_param_6: { key_0: "htbjngqyupml", key_1: "tkedcmtka", key_2: "tpxzxcaa" },
+      ml_inference_slo_param_6: {
+        key_0: "htbjngqyupml",
+        key_1: "tkedcmtka",
+        key_2: "tpxzxcaa"
+      },
       ml_inference_slo_param_7: 98,
       ml_inference_slo_param_8: 259,
       req_2_field_0: true,
@@ -175,6 +201,7 @@ Expectations for "ml_inference_slo"
       threshold: 95.35,
       window_in_days: 90
     }
+
   * "infrastructure_ml_inference_slo_11":
     Provides {
       ml_inference_slo_param_0: "rbxebnqgrezg",
@@ -191,6 +218,7 @@ Expectations for "ml_inference_slo"
       threshold: 95.91,
       window_in_days: 90
     }
+
   * "infrastructure_ml_inference_slo_12":
     Provides {
       ml_inference_slo_param_0: "wnaxwjs",
@@ -207,6 +235,7 @@ Expectations for "ml_inference_slo"
       threshold: 97.36,
       window_in_days: 90
     }
+
   * "infrastructure_ml_inference_slo_13":
     Provides {
       ml_inference_slo_param_0: "sbxigsdetyeghuv",
@@ -223,6 +252,7 @@ Expectations for "ml_inference_slo"
       threshold: 95.23,
       window_in_days: 90
     }
+
   * "infrastructure_ml_inference_slo_14":
     Provides {
       ml_inference_slo_param_0: "kaaywfrcj",

@@ -15,6 +15,7 @@ Expectations for "logging_slo"
       threshold: 98.02,
       window_in_days: 30
     }
+
   * "networking_0_19_logging_slo_1":
     Provides {
       logging_slo_param_0: "xvajkcytmu",
@@ -31,6 +32,7 @@ Expectations for "logging_slo"
       threshold: 95.86,
       window_in_days: 7
     }
+
   * "networking_0_19_logging_slo_2":
     Provides {
       logging_slo_param_0: "jxumq",
@@ -58,6 +60,7 @@ Expectations for "orders_slo"
       threshold: 99.92,
       window_in_days: 7
     }
+
   * "networking_0_19_orders_slo_1":
     Provides {
       orders_slo_param_0: "gqeqgnec",
@@ -80,6 +83,7 @@ Expectations for "search_slo"
       threshold: 99.67,
       window_in_days: 30
     }
+
   * "networking_0_19_search_slo_1":
     Provides {
       search_slo_param_0: "spvqyoglia",
@@ -91,6 +95,7 @@ Expectations for "search_slo"
       threshold: 99.53,
       window_in_days: 30
     }
+
   * "networking_0_19_search_slo_2":
     Provides {
       search_slo_param_0: "ukwrsuwtwwbcqf",
@@ -116,6 +121,7 @@ Expectations for "scheduler_slo"
       threshold: 97.43,
       window_in_days: 90
     }
+
   * "networking_0_19_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "mhtyaryflvmz",
@@ -128,6 +134,7 @@ Expectations for "scheduler_slo"
       threshold: 96.83,
       window_in_days: 90
     }
+
   * "networking_0_19_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "csnakzayr",

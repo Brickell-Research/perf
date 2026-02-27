@@ -10,6 +10,7 @@ Expectations for "payments_slo"
       threshold: 97.5,
       window_in_days: 7
     }
+
   * "commerce_5_16_payments_slo_1":
     Provides {
       payments_slo_param_0: "holwnqkuta",
@@ -21,6 +22,7 @@ Expectations for "payments_slo"
       threshold: 96.08,
       window_in_days: 90
     }
+
   * "commerce_5_16_payments_slo_2":
     Provides {
       payments_slo_param_0: "qwrsxpp",
@@ -32,6 +34,7 @@ Expectations for "payments_slo"
       threshold: 97.66,
       window_in_days: 90
     }
+
   * "commerce_5_16_payments_slo_3":
     Provides {
       payments_slo_param_0: "hwusvh",
@@ -43,6 +46,7 @@ Expectations for "payments_slo"
       threshold: 97.72,
       window_in_days: 30
     }
+
   * "commerce_5_16_payments_slo_4":
     Provides {
       payments_slo_param_0: "gvlvndojhrjwkz",
@@ -68,6 +72,7 @@ Expectations for "profiles_slo"
       threshold: 98.31,
       window_in_days: 30
     }
+
   * "commerce_5_16_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "irdekz",
@@ -80,18 +85,24 @@ Expectations for "profiles_slo"
       threshold: 98.64,
       window_in_days: 30
     }
+
   * "commerce_5_16_profiles_slo_2":
     Provides {
       profiles_slo_param_0: "cnixjlvmxt",
       profiles_slo_param_1: "dvigcevftgplp",
       profiles_slo_param_2: "active",
-      profiles_slo_param_3: { key_0: "ojlbsmvzvmxkqps", key_1: "egefcvpewis", key_2: "yqbluruvtszdtw" },
+      profiles_slo_param_3: {
+        key_0: "ojlbsmvzvmxkqps",
+        key_1: "egefcvpewis",
+        key_2: "yqbluruvtszdtw"
+      },
       profiles_slo_param_4: 9681,
       profiles_slo_param_5: 76,
       req_2_field_0: "cqzkrrzd",
       threshold: 95.09,
       window_in_days: 7
     }
+
   * "commerce_5_16_profiles_slo_3":
     Provides {
       profiles_slo_param_0: "gvazworjh",
@@ -104,6 +115,7 @@ Expectations for "profiles_slo"
       threshold: 99.4,
       window_in_days: 30
     }
+
   * "commerce_5_16_profiles_slo_4":
     Provides {
       profiles_slo_param_0: "brhjhqtysa",

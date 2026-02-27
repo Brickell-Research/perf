@@ -10,6 +10,7 @@ Expectations for "catalog_slo"
       threshold: 99.67,
       window_in_days: 90
     }
+
   * "payments_3_1_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "gdqiszeo",
@@ -21,6 +22,7 @@ Expectations for "catalog_slo"
       threshold: 97.73,
       window_in_days: 7
     }
+
   * "payments_3_1_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "bsnpg",
@@ -32,6 +34,7 @@ Expectations for "catalog_slo"
       threshold: 95.75,
       window_in_days: 90
     }
+
   * "payments_3_1_catalog_slo_3":
     Provides {
       catalog_slo_param_0: "wvwgn",
@@ -74,6 +77,7 @@ Expectations for "cart_slo"
       threshold: 97.61,
       window_in_days: 90
     }
+
   * "payments_3_1_cart_slo_1":
     Provides {
       cart_slo_param_0: "qqcugixjl",
@@ -98,6 +102,7 @@ Expectations for "analytics_slo"
       threshold: 96.53,
       window_in_days: 90
     }
+
   * "payments_3_1_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "dvqljceilxr",
@@ -109,6 +114,7 @@ Expectations for "analytics_slo"
       threshold: 98.6,
       window_in_days: 30
     }
+
   * "payments_3_1_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "vpcfmhsjdqbu",
@@ -120,6 +126,7 @@ Expectations for "analytics_slo"
       threshold: 95.25,
       window_in_days: 30
     }
+
   * "payments_3_1_analytics_slo_3":
     Provides {
       analytics_slo_param_0: "aacxdum",
@@ -131,6 +138,7 @@ Expectations for "analytics_slo"
       threshold: 99.08,
       window_in_days: 30
     }
+
   * "payments_3_1_analytics_slo_4":
     Provides {
       analytics_slo_param_0: "qkzwj",
@@ -154,6 +162,7 @@ Expectations for "users_slo"
       threshold: 97.86,
       window_in_days: 30
     }
+
   * "payments_3_1_users_slo_1":
     Provides {
       users_slo_param_0: "gpdfahm",
@@ -164,6 +173,7 @@ Expectations for "users_slo"
       threshold: 99.28,
       window_in_days: 7
     }
+
   * "payments_3_1_users_slo_2":
     Provides {
       users_slo_param_0: "utigkozxda",
@@ -174,6 +184,7 @@ Expectations for "users_slo"
       threshold: 97.2,
       window_in_days: 30
     }
+
   * "payments_3_1_users_slo_3":
     Provides {
       users_slo_param_0: "bphdm",
@@ -184,6 +195,7 @@ Expectations for "users_slo"
       threshold: 99.29,
       window_in_days: 7
     }
+
   * "payments_3_1_users_slo_4":
     Provides {
       users_slo_param_0: "cresztkvdakyap",

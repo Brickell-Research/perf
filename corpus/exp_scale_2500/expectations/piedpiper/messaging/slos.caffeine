@@ -10,6 +10,7 @@ Expectations for "recommendations_slo"
       threshold: 98.14,
       window_in_days: 90
     }
+
   * "messaging_4_14_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "hdaqm",
@@ -35,6 +36,7 @@ Expectations for "scheduler_slo"
       threshold: 97.03,
       window_in_days: 7
     }
+
   * "messaging_4_14_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "jssal",
@@ -47,6 +49,7 @@ Expectations for "scheduler_slo"
       threshold: 99.92,
       window_in_days: 30
     }
+
   * "messaging_4_14_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "plyqic",
@@ -59,6 +62,7 @@ Expectations for "scheduler_slo"
       threshold: 97.16,
       window_in_days: 30
     }
+
 Expectations for "gateway_slo"
   * "messaging_12_14_gateway_slo_0":
     Provides {
@@ -73,6 +77,7 @@ Expectations for "gateway_slo"
       threshold: 96.48,
       window_in_days: 7
     }
+
   * "messaging_12_14_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "hwlydxgmdzjegdm",
@@ -86,6 +91,7 @@ Expectations for "gateway_slo"
       threshold: 95.6,
       window_in_days: 7
     }
+
   * "messaging_12_14_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "kflzoveslispok",
@@ -112,6 +118,7 @@ Expectations for "analytics_slo"
       threshold: 96.65,
       window_in_days: 7
     }
+
   * "messaging_12_14_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "cxtpe",
@@ -123,6 +130,7 @@ Expectations for "analytics_slo"
       threshold: 97.11,
       window_in_days: 7
     }
+
   * "messaging_12_14_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "bdwsuz",
@@ -147,6 +155,7 @@ Expectations for "cart_slo"
       threshold: 99.28,
       window_in_days: 30
     }
+
   * "messaging_12_14_cart_slo_1":
     Provides {
       cart_slo_param_0: "wzceepcrvv",
@@ -158,6 +167,7 @@ Expectations for "cart_slo"
       threshold: 97.28,
       window_in_days: 30
     }
+
   * "messaging_12_14_cart_slo_2":
     Provides {
       cart_slo_param_0: "inezvawyfhf",
@@ -169,6 +179,7 @@ Expectations for "cart_slo"
       threshold: 97.94,
       window_in_days: 90
     }
+
   * "messaging_12_14_cart_slo_3":
     Provides {
       cart_slo_param_0: "ftadlracrldau",

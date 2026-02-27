@@ -22,6 +22,7 @@ Expectations for "catalog_slo"
       threshold: 97.4,
       window_in_days: 90
     }
+
   * "backend_0_5_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "mogsgruxhtiq",
@@ -33,6 +34,7 @@ Expectations for "catalog_slo"
       threshold: 99.55,
       window_in_days: 30
     }
+
   * "backend_0_5_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "aohpf",
@@ -44,6 +46,7 @@ Expectations for "catalog_slo"
       threshold: 98.64,
       window_in_days: 7
     }
+
   * "backend_0_5_catalog_slo_3":
     Provides {
       catalog_slo_param_0: "osjax",
@@ -73,6 +76,7 @@ Expectations for "logging_slo"
       threshold: 99.57,
       window_in_days: 30
     }
+
   * "backend_0_5_logging_slo_1":
     Provides {
       logging_slo_param_0: "haytjo",
@@ -101,6 +105,7 @@ Expectations for "checkout_slo"
       threshold: 97.88,
       window_in_days: 90
     }
+
   * "backend_0_5_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "mshppbmlbia",
@@ -111,6 +116,7 @@ Expectations for "checkout_slo"
       threshold: 96.92,
       window_in_days: 90
     }
+
   * "backend_0_5_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "ilbcukglk",
@@ -121,6 +127,7 @@ Expectations for "checkout_slo"
       threshold: 96.62,
       window_in_days: 90
     }
+
   * "backend_0_5_checkout_slo_3":
     Provides {
       checkout_slo_param_0: "cpfubkldttjv",
@@ -131,6 +138,7 @@ Expectations for "checkout_slo"
       threshold: 96.13,
       window_in_days: 90
     }
+
   * "backend_0_5_checkout_slo_4":
     Provides {
       checkout_slo_param_0: "wgcfvdjyra",
@@ -157,6 +165,7 @@ Expectations for "inventory_slo"
       threshold: 99.85,
       window_in_days: 30
     }
+
 Expectations for "logging_slo"
   * "backend_8_5_logging_slo_0":
     Provides {
@@ -174,6 +183,7 @@ Expectations for "logging_slo"
       threshold: 96.79,
       window_in_days: 90
     }
+
   * "backend_8_5_logging_slo_1":
     Provides {
       logging_slo_param_0: "nwfnllfdomalei",
@@ -190,6 +200,7 @@ Expectations for "logging_slo"
       threshold: 98.94,
       window_in_days: 30
     }
+
   * "backend_8_5_logging_slo_2":
     Provides {
       logging_slo_param_0: "imgysdoqb",
@@ -206,6 +217,7 @@ Expectations for "logging_slo"
       threshold: 95.94,
       window_in_days: 7
     }
+
   * "backend_8_5_logging_slo_3":
     Provides {
       logging_slo_param_0: "shymol",
@@ -222,6 +234,7 @@ Expectations for "logging_slo"
       threshold: 98.95,
       window_in_days: 7
     }
+
   * "backend_8_5_logging_slo_4":
     Provides {
       logging_slo_param_0: "wdtznl",
@@ -252,6 +265,7 @@ Expectations for "monitoring_slo"
       threshold: 99.52,
       window_in_days: 90
     }
+
   * "backend_8_5_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "ouxrljyfmk",

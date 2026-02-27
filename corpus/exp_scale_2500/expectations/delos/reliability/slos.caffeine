@@ -9,6 +9,7 @@ Expectations for "checkout_slo"
       threshold: 96.09,
       window_in_days: 7
     }
+
   * "reliability_6_9_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "qepnnzakbzxi",
@@ -32,6 +33,7 @@ Expectations for "analytics_slo"
       threshold: 96.25,
       window_in_days: 30
     }
+
   * "reliability_6_9_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "acoek",
@@ -43,6 +45,7 @@ Expectations for "analytics_slo"
       threshold: 96.6,
       window_in_days: 7
     }
+
   * "reliability_6_9_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "vdgul",
@@ -54,6 +57,7 @@ Expectations for "analytics_slo"
       threshold: 97.06,
       window_in_days: 30
     }
+
   * "reliability_6_9_analytics_slo_3":
     Provides {
       analytics_slo_param_0: "vgzku",
@@ -65,6 +69,7 @@ Expectations for "analytics_slo"
       threshold: 96.33,
       window_in_days: 7
     }
+
   * "reliability_6_9_analytics_slo_4":
     Provides {
       analytics_slo_param_0: "fdwykkkluze",
@@ -89,6 +94,7 @@ Expectations for "billing_slo"
       threshold: 96.63,
       window_in_days: 7
     }
+
   * "reliability_6_9_billing_slo_1":
     Provides {
       billing_slo_param_0: "opegoawbbstfel",
@@ -100,6 +106,7 @@ Expectations for "billing_slo"
       threshold: 99.77,
       window_in_days: 7
     }
+
   * "reliability_6_9_billing_slo_2":
     Provides {
       billing_slo_param_0: "shefgwrlwnfce",
@@ -111,6 +118,7 @@ Expectations for "billing_slo"
       threshold: 99.11,
       window_in_days: 90
     }
+
   * "reliability_6_9_billing_slo_3":
     Provides {
       billing_slo_param_0: "gqduczpkg",
@@ -135,6 +143,7 @@ Expectations for "notifications_slo"
       threshold: 96.34,
       window_in_days: 90
     }
+
   * "reliability_6_9_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "ieindbn",
@@ -161,6 +170,7 @@ Expectations for "gateway_slo"
       threshold: 98.22,
       window_in_days: 30
     }
+
   * "reliability_6_9_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "vkeifqgsxsgen",

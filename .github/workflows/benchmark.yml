@@ -12,19 +12,20 @@ on:
 
 jobs:
   benchmark:
-    runs-on: ubuntu-latest
-    env:
-      GH_TOKEN: ${{ github.token }}
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install hyperfine
-        run: |
-          wget -q https://github.com/sharkdp/hyperfine/releases/download/v1.20.0/hyperfine_1.20.0_amd64.deb
-          sudo dpkg -i hyperfine_1.20.0_amd64.deb
+      - name: Install tools
+        run: brew install hyperfine brickell-research/caffeine/cvm
 
-      - name: Download & benchmark
-        run: make ci-check VERSION=${{ inputs.version || 'latest' }}
+      - name: Install caffeine
+        run: |
+          cvm install ${{ inputs.version || 'latest' }}
+          echo "$HOME/.cvm/current" >> $GITHUB_PATH
+
+      - name: Benchmark
+        run: make ci-check
 
       - name: Upload results
         if: always()

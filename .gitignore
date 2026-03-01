@@ -1,8 +1,8 @@
 # Benchmark results (regenerated via `make bench`)
 results/
 
-# Compiled binary (rebuilt via `make build`)
-bin/caffeine-prod
+# Downloaded binaries (managed by cvm now)
+bin/
 
 # Python
 __pycache__/

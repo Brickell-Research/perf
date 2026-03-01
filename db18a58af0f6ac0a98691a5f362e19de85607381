@@ -1,0 +1,27 @@
+.gitignore
+  2093aea9a1fb4d44 4-5
+.github/workflows/benchmark.yml
+  2093aea9a1fb4d44 15,19-22,24-25,27-28
+Makefile
+  2093aea9a1fb4d44 1,5,24-26,32,43,49-57,149
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.7",
+  "base_commit_sha": "db18a58af0f6ac0a98691a5f362e19de85607381",
+  "prompts": {
+    "2093aea9a1fb4d44": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "17ca9f12-7eb9-44f6-8faf-68d25488c61a",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "robertDurst <me@robdurst.com>",
+      "messages": [],
+      "total_additions": 57,
+      "total_deletions": 105,
+      "accepted_lines": 30,
+      "overriden_lines": 0
+    }
+  }
+}

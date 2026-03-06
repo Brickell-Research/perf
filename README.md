@@ -1,28 +1,32 @@
 # perf
 
-Benchmark suite for the [Caffeine](https://github.com/Brickell-Research/caffeine_lang) compiler. Downloads a release binary from GitHub, runs it against a pre-generated corpus of `.caffeine` files at various scales, and reports timing via [hyperfine](https://github.com/sharkdp/hyperfine).
+Benchmark suite for the [Caffeine](https://github.com/Brickell-Research/caffeine_lang) compiler. Runs the `caffeine` binary on your `PATH` against a pre-generated corpus of `.caffeine` files at various scales and reports timing via [hyperfine](https://github.com/sharkdp/hyperfine).
 
-No compiler source checkout, no Gleam toolchain, no build step. Just download and run.
+No compiler source checkout, no Gleam toolchain, no build step. Just install and run.
 
 ## Prerequisites
 
 ```
-brew install hyperfine gh
+brew install hyperfine
 ```
 
-That's it. `gh` needs to be authenticated (`gh auth login`) so it can pull release assets.
+You'll also need `caffeine` on your PATH. Use [cvm](https://github.com/Brickell-Research/cvm) (Caffeine Version Manager) to install and switch between versions:
+
+```bash
+cvm install latest
+cvm use 4.6.2
+```
 
 ## Quick Start
 
 ```bash
-# Benchmark the latest release
+# Benchmark whatever caffeine version is active
 make bench
 
-# Benchmark a specific version
-make bench VERSION=4.5.1
-
-# Benchmark whatever's on your PATH (e.g. from Homebrew)
-make bench VERSION=local
+# Switch versions and compare
+cvm use 4.5.1
+make bench
+# save results, switch, re-run, then compare
 ```
 
 ## What It Benchmarks

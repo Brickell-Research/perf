@@ -71,9 +71,3 @@ The corpus is checked into the repo so benchmarks are reproducible without any C
 ```bash
 make generate   # requires python3
 ```
-
-## All Targets
-
-```
-make help
-```

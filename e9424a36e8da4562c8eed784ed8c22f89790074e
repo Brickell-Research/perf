@@ -1,0 +1,36 @@
+generate_corpus.py
+  4cc65d8e1c12438e 440
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.8",
+  "base_commit_sha": "e9424a36e8da4562c8eed784ed8c22f89790074e",
+  "prompts": {
+    "17fc31eed5b64613": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4295a935-7135-40e6-8881-b652287cf4b3",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "robertDurst <me@robdurst.com>",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 0,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    },
+    "4cc65d8e1c12438e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4d59ab0e-e478-4981-9683-387f9aa1357e",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "robertDurst <me@robdurst.com>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}

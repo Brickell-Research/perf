@@ -8,10 +8,9 @@ Expectations for "profiles_slo"
       profiles_slo_param_4: 6459,
       profiles_slo_param_5: 70,
       req_2_field_0: "mqigtzhknais",
-      threshold: 97.29,
+      threshold: 97.29%,
       window_in_days: 90
     }
-
   * "security_5_8_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "xyfmaykypup",
@@ -21,7 +20,7 @@ Expectations for "profiles_slo"
       profiles_slo_param_4: 2182,
       profiles_slo_param_5: 76,
       req_2_field_0: "sqalqucpz",
-      threshold: 97.05,
+      threshold: 97.05%,
       window_in_days: 90
     }
 
@@ -34,7 +33,7 @@ Expectations for "payments_slo"
       payments_slo_param_3: 3871,
       payments_slo_param_4: 63,
       payments_slo_param_5: 1350,
-      threshold: 99.24,
+      threshold: 99.24%,
       window_in_days: 30
     }
 
@@ -49,10 +48,9 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 76,
       gateway_slo_param_6: 28.74,
       req_1_field_0: "kqcao",
-      threshold: 98.62,
+      threshold: 98.62%,
       window_in_days: 7
     }
-
   * "security_5_8_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "tvwrnevgzdtsb",
@@ -63,10 +61,9 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 90,
       gateway_slo_param_6: 52.61,
       req_1_field_0: "amlhb",
-      threshold: 99.62,
+      threshold: 99.62%,
       window_in_days: 90
     }
-
   * "security_5_8_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "oyegxwze",
@@ -77,10 +74,9 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 76,
       gateway_slo_param_6: 52.88,
       req_1_field_0: "ovxunkx",
-      threshold: 99.71,
+      threshold: 99.71%,
       window_in_days: 90
     }
-
   * "security_5_8_gateway_slo_3":
     Provides {
       gateway_slo_param_0: "qdgtimjfudecnus",
@@ -91,10 +87,9 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 38,
       gateway_slo_param_6: 63.37,
       req_1_field_0: "fdaoiikzbqxo",
-      threshold: 98.62,
+      threshold: 98.62%,
       window_in_days: 30
     }
-
   * "security_5_8_gateway_slo_4":
     Provides {
       gateway_slo_param_0: "pvzfxufbosyvrvm",
@@ -105,10 +100,9 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 58,
       gateway_slo_param_6: 25.51,
       req_1_field_0: "qpfnnmd",
-      threshold: 98.7,
+      threshold: 98.7%,
       window_in_days: 90
     }
-
 Expectations for "logging_slo"
   * "security_13_8_logging_slo_0":
     Provides {
@@ -123,10 +117,9 @@ Expectations for "logging_slo"
       req_0_field_0: false,
       req_0_field_1: true,
       req_0_field_2: 36.18,
-      threshold: 98.06,
+      threshold: 98.06%,
       window_in_days: 90
     }
-
   * "security_13_8_logging_slo_1":
     Provides {
       logging_slo_param_0: "arglqxzxxh",
@@ -140,10 +133,9 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 3.5,
-      threshold: 96.34,
+      threshold: 96.34%,
       window_in_days: 90
     }
-
   * "security_13_8_logging_slo_2":
     Provides {
       logging_slo_param_0: "mlxmqcf",
@@ -157,10 +149,9 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 24.81,
-      threshold: 96.41,
+      threshold: 96.41%,
       window_in_days: 7
     }
-
 Expectations for "notifications_slo"
   * "security_21_8_notifications_slo_0":
     Provides {
@@ -170,10 +161,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_3: 48.59,
       notifications_slo_param_4: 20.66,
       notifications_slo_param_5: 72.64,
-      threshold: 99.64,
+      threshold: 99.64%,
       window_in_days: 90
     }
-
   * "security_21_8_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "cglpgeaqjytcfo",
@@ -182,7 +172,7 @@ Expectations for "notifications_slo"
       notifications_slo_param_3: 49.62,
       notifications_slo_param_4: 41.61,
       notifications_slo_param_5: 51.56,
-      threshold: 97.76,
+      threshold: 97.76%,
       window_in_days: 30
     }
 
@@ -200,10 +190,9 @@ Expectations for "logging_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 11.56,
-      threshold: 95.77,
+      threshold: 95.77%,
       window_in_days: 7
     }
-
   * "security_21_8_logging_slo_1":
     Provides {
       logging_slo_param_0: "bgily",
@@ -217,10 +206,9 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 72.22,
-      threshold: 98.84,
+      threshold: 98.84%,
       window_in_days: 30
     }
-
   * "security_21_8_logging_slo_2":
     Provides {
       logging_slo_param_0: "yhdwcpcsbmq",
@@ -234,10 +222,9 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 99.97,
-      threshold: 98.62,
+      threshold: 98.62%,
       window_in_days: 7
     }
-
   * "security_21_8_logging_slo_3":
     Provides {
       logging_slo_param_0: "lczxnvmwf",
@@ -251,10 +238,9 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: false,
       req_0_field_2: 89.42,
-      threshold: 96.37,
+      threshold: 96.37%,
       window_in_days: 7
     }
-
   * "security_21_8_logging_slo_4":
     Provides {
       logging_slo_param_0: "cvkxypiet",
@@ -268,7 +254,7 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: false,
       req_0_field_2: 2.95,
-      threshold: 95.16,
+      threshold: 95.16%,
       window_in_days: 7
     }
 
@@ -283,10 +269,9 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 58,
       gateway_slo_param_6: 89.38,
       req_1_field_0: "sypkfdiks",
-      threshold: 96.73,
+      threshold: 96.73%,
       window_in_days: 30
     }
-
   * "security_21_8_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "pkqawabs",
@@ -297,10 +282,9 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 76,
       gateway_slo_param_6: 61.65,
       req_1_field_0: "zceubplmyp",
-      threshold: 96.04,
+      threshold: 96.04%,
       window_in_days: 90
     }
-
   * "security_21_8_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "voflcmviuhv",
@@ -311,6 +295,6 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 90,
       gateway_slo_param_6: 73.46,
       req_1_field_0: "dnvrttebvyai",
-      threshold: 97.66,
+      threshold: 97.66%,
       window_in_days: 90
     }

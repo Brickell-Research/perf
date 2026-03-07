@@ -13,10 +13,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: false },
       load_balancer_slo_param_10: { key_0: false },
       load_balancer_slo_param_11: 54,
-      threshold: 95.76,
+      threshold: 95.76%,
       window_in_days: 30
     }
-
   * "reliability_load_balancer_slo_1":
     Provides {
       load_balancer_slo_param_0: "mncjuujyan",
@@ -31,10 +30,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true, key_1: true },
       load_balancer_slo_param_10: { key_0: true, key_1: false, key_2: false },
       load_balancer_slo_param_11: 93,
-      threshold: 98.48,
+      threshold: 98.48%,
       window_in_days: 7
     }
-
   * "reliability_load_balancer_slo_2":
     Provides {
       load_balancer_slo_param_0: "fzhzxlqrs",
@@ -49,10 +47,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: false, key_1: false },
       load_balancer_slo_param_10: { key_0: true, key_1: true, key_2: false },
       load_balancer_slo_param_11: 54,
-      threshold: 95.78,
+      threshold: 95.78%,
       window_in_days: 30
     }
-
   * "reliability_load_balancer_slo_3":
     Provides {
       load_balancer_slo_param_0: "ceaxqhsucipa",
@@ -67,10 +64,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true, key_1: true, key_2: false },
       load_balancer_slo_param_10: { key_0: true, key_1: true, key_2: true },
       load_balancer_slo_param_11: 54,
-      threshold: 97.87,
+      threshold: 97.87%,
       window_in_days: 7
     }
-
   * "reliability_load_balancer_slo_4":
     Provides {
       load_balancer_slo_param_0: "ytpsorbb",
@@ -85,10 +81,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true, key_1: true, key_2: false },
       load_balancer_slo_param_10: { key_0: true, key_1: true, key_2: false },
       load_balancer_slo_param_11: 54,
-      threshold: 97.61,
+      threshold: 97.61%,
       window_in_days: 7
     }
-
   * "reliability_load_balancer_slo_5":
     Provides {
       load_balancer_slo_param_0: "idaqvhdteleo",
@@ -103,10 +98,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true },
       load_balancer_slo_param_10: { key_0: false, key_1: false, key_2: true },
       load_balancer_slo_param_11: 93,
-      threshold: 96.7,
+      threshold: 96.7%,
       window_in_days: 30
     }
-
   * "reliability_load_balancer_slo_6":
     Provides {
       load_balancer_slo_param_0: "jqleiiog",
@@ -121,10 +115,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true, key_1: true, key_2: false },
       load_balancer_slo_param_10: { key_0: false },
       load_balancer_slo_param_11: 93,
-      threshold: 97.84,
+      threshold: 97.84%,
       window_in_days: 90
     }
-
   * "reliability_load_balancer_slo_7":
     Provides {
       load_balancer_slo_param_0: "hrlotdhariipuac",
@@ -139,10 +132,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true, key_1: false, key_2: false },
       load_balancer_slo_param_10: { key_0: true, key_1: false, key_2: true },
       load_balancer_slo_param_11: 24,
-      threshold: 98.57,
+      threshold: 98.57%,
       window_in_days: 90
     }
-
   * "reliability_load_balancer_slo_8":
     Provides {
       load_balancer_slo_param_0: "uwebkdpzxa",
@@ -157,10 +149,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true, key_1: false },
       load_balancer_slo_param_10: { key_0: true },
       load_balancer_slo_param_11: 93,
-      threshold: 99.36,
+      threshold: 99.36%,
       window_in_days: 7
     }
-
   * "reliability_load_balancer_slo_9":
     Provides {
       load_balancer_slo_param_0: "jcenmh",
@@ -175,10 +166,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true, key_1: false, key_2: true },
       load_balancer_slo_param_10: { key_0: false },
       load_balancer_slo_param_11: 24,
-      threshold: 95.61,
+      threshold: 95.61%,
       window_in_days: 30
     }
-
   * "reliability_load_balancer_slo_10":
     Provides {
       load_balancer_slo_param_0: "oytdusvp",
@@ -193,10 +183,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: false },
       load_balancer_slo_param_10: { key_0: false, key_1: true },
       load_balancer_slo_param_11: 54,
-      threshold: 97.37,
+      threshold: 97.37%,
       window_in_days: 90
     }
-
   * "reliability_load_balancer_slo_11":
     Provides {
       load_balancer_slo_param_0: "jrthbzqu",
@@ -211,10 +200,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: false, key_1: true },
       load_balancer_slo_param_10: { key_0: false, key_1: false, key_2: false },
       load_balancer_slo_param_11: 24,
-      threshold: 97.52,
+      threshold: 97.52%,
       window_in_days: 30
     }
-
   * "reliability_load_balancer_slo_12":
     Provides {
       load_balancer_slo_param_0: "yjeuhiotnvn",
@@ -229,10 +217,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true, key_1: true },
       load_balancer_slo_param_10: { key_0: false, key_1: false, key_2: true },
       load_balancer_slo_param_11: 54,
-      threshold: 98.68,
+      threshold: 98.68%,
       window_in_days: 30
     }
-
   * "reliability_load_balancer_slo_13":
     Provides {
       load_balancer_slo_param_0: "eelurjzarzpovz",
@@ -247,10 +234,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: false, key_1: false, key_2: false },
       load_balancer_slo_param_10: { key_0: true, key_1: true },
       load_balancer_slo_param_11: 93,
-      threshold: 98.12,
+      threshold: 98.12%,
       window_in_days: 90
     }
-
   * "reliability_load_balancer_slo_14":
     Provides {
       load_balancer_slo_param_0: "eanwyspkfv",
@@ -265,6 +251,6 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true, key_1: false, key_2: true },
       load_balancer_slo_param_10: { key_0: true, key_1: false, key_2: false },
       load_balancer_slo_param_11: 24,
-      threshold: 95.83,
+      threshold: 95.83%,
       window_in_days: 7
     }

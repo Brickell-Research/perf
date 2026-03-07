@@ -10,10 +10,9 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 2132,
       inventory_slo_param_7: 74.21,
       req_1_field_0: "jpqqkfi",
-      threshold: 95.9,
+      threshold: 95.9%,
       window_in_days: 30
     }
-
   * "messaging_1_14_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "knwlcuzgi",
@@ -25,10 +24,9 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 4457,
       inventory_slo_param_7: 55.63,
       req_1_field_0: "vpxbyv",
-      threshold: 97.29,
+      threshold: 97.29%,
       window_in_days: 90
     }
-
   * "messaging_1_14_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "zncysuzbwxymsit",
@@ -40,7 +38,7 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 2902,
       inventory_slo_param_7: 22.69,
       req_1_field_0: "lmmafnyfizjqlcq",
-      threshold: 99.54,
+      threshold: 99.54%,
       window_in_days: 90
     }
 
@@ -54,10 +52,9 @@ Expectations for "scheduler_slo"
       req_0_field_0: true,
       req_0_field_1: false,
       req_0_field_2: 0.27,
-      threshold: 98.1,
+      threshold: 98.1%,
       window_in_days: 90
     }
-
   * "messaging_1_14_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "ruanlmiugltq",
@@ -67,10 +64,9 @@ Expectations for "scheduler_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 67.28,
-      threshold: 96.08,
+      threshold: 96.08%,
       window_in_days: 7
     }
-
   * "messaging_1_14_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "qjyhfqvarq",
@@ -80,6 +76,6 @@ Expectations for "scheduler_slo"
       req_0_field_0: false,
       req_0_field_1: true,
       req_0_field_2: 93.37,
-      threshold: 99.24,
+      threshold: 99.24%,
       window_in_days: 90
     }

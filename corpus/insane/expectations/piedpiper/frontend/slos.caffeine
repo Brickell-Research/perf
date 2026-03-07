@@ -9,10 +9,9 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [true],
       req_2_field_0: false,
       req_2_field_1: "forqvsc",
-      threshold: 97.58,
+      threshold: 97.58%,
       window_in_days: 30
     }
-
   * "frontend_firewall_slo_1":
     Provides {
       firewall_slo_param_0: "smljfdyftvo",
@@ -23,10 +22,9 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [false, true],
       req_2_field_0: true,
       req_2_field_1: "wllrxwzjbc",
-      threshold: 97.0,
+      threshold: 97.0%,
       window_in_days: 30
     }
-
   * "frontend_firewall_slo_2":
     Provides {
       firewall_slo_param_0: "pdodckzncr",
@@ -37,10 +35,9 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [true],
       req_2_field_0: false,
       req_2_field_1: "waedjmgvm",
-      threshold: 95.24,
+      threshold: 95.24%,
       window_in_days: 7
     }
-
   * "frontend_firewall_slo_3":
     Provides {
       firewall_slo_param_0: "kuytc",
@@ -51,10 +48,9 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [false, false],
       req_2_field_0: false,
       req_2_field_1: "eyxqdrn",
-      threshold: 96.31,
+      threshold: 96.31%,
       window_in_days: 90
     }
-
   * "frontend_firewall_slo_4":
     Provides {
       firewall_slo_param_0: "ssbxjbleway",
@@ -65,10 +61,9 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [false, true],
       req_2_field_0: false,
       req_2_field_1: "pacyesnaskvxdql",
-      threshold: 97.28,
+      threshold: 97.28%,
       window_in_days: 90
     }
-
   * "frontend_firewall_slo_5":
     Provides {
       firewall_slo_param_0: "fwekqkgwyxltqo",
@@ -79,10 +74,9 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [true, true, false],
       req_2_field_0: false,
       req_2_field_1: "bqelpwclroledk",
-      threshold: 95.37,
+      threshold: 95.37%,
       window_in_days: 30
     }
-
   * "frontend_firewall_slo_6":
     Provides {
       firewall_slo_param_0: "devhr",
@@ -93,10 +87,9 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [true, true, true],
       req_2_field_0: true,
       req_2_field_1: "khirgfn",
-      threshold: 99.04,
+      threshold: 99.04%,
       window_in_days: 7
     }
-
   * "frontend_firewall_slo_7":
     Provides {
       firewall_slo_param_0: "yjboedtwsxweeau",
@@ -107,10 +100,9 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [true],
       req_2_field_0: true,
       req_2_field_1: "ozyuna",
-      threshold: 96.29,
+      threshold: 96.29%,
       window_in_days: 7
     }
-
   * "frontend_firewall_slo_8":
     Provides {
       firewall_slo_param_0: "nutdplswnangwpk",
@@ -121,10 +113,9 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [true, true],
       req_2_field_0: false,
       req_2_field_1: "qgzwiaonhhfnaig",
-      threshold: 98.73,
+      threshold: 98.73%,
       window_in_days: 90
     }
-
   * "frontend_firewall_slo_9":
     Provides {
       firewall_slo_param_0: "movkgij",
@@ -135,10 +126,9 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [false, false, true],
       req_2_field_0: false,
       req_2_field_1: "qvefzkzip",
-      threshold: 95.62,
+      threshold: 95.62%,
       window_in_days: 90
     }
-
   * "frontend_firewall_slo_10":
     Provides {
       firewall_slo_param_0: "oejngaqzrpirstr",
@@ -149,10 +139,9 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [false, false, false],
       req_2_field_0: false,
       req_2_field_1: "vemorvywjm",
-      threshold: 95.74,
+      threshold: 95.74%,
       window_in_days: 30
     }
-
   * "frontend_firewall_slo_11":
     Provides {
       firewall_slo_param_0: "dcazl",
@@ -163,10 +152,9 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [false, true, true, false],
       req_2_field_0: true,
       req_2_field_1: "fezvzoexqn",
-      threshold: 98.18,
+      threshold: 98.18%,
       window_in_days: 7
     }
-
   * "frontend_firewall_slo_12":
     Provides {
       firewall_slo_param_0: "trmpgqqmzfuunjw",
@@ -177,10 +165,9 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [false, true, true, false],
       req_2_field_0: false,
       req_2_field_1: "hsjamaxtajth",
-      threshold: 97.4,
+      threshold: 97.4%,
       window_in_days: 30
     }
-
   * "frontend_firewall_slo_13":
     Provides {
       firewall_slo_param_0: "bxgsemgmvnldkfu",
@@ -191,10 +178,9 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [false, true, false, false],
       req_2_field_0: true,
       req_2_field_1: "xrtjarsq",
-      threshold: 96.4,
+      threshold: 96.4%,
       window_in_days: 30
     }
-
   * "frontend_firewall_slo_14":
     Provides {
       firewall_slo_param_0: "mtdcddf",
@@ -205,6 +191,6 @@ Expectations for "firewall_slo"
       firewall_slo_param_5: [true, false, true, true],
       req_2_field_0: false,
       req_2_field_1: "whnnxyv",
-      threshold: 98.74,
+      threshold: 98.74%,
       window_in_days: 7
     }

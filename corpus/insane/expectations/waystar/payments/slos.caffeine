@@ -13,10 +13,9 @@ Expectations for "auth_slo"
       auth_slo_param_9: 49.26,
       req_0_field_0: false,
       req_0_field_1: false,
-      threshold: 98.96,
+      threshold: 98.96%,
       window_in_days: 90
     }
-
   * "payments_auth_slo_1":
     Provides {
       auth_slo_param_0: "pllhtvvrbgupqy",
@@ -31,10 +30,9 @@ Expectations for "auth_slo"
       auth_slo_param_9: 62.35,
       req_0_field_0: true,
       req_0_field_1: true,
-      threshold: 98.7,
+      threshold: 98.7%,
       window_in_days: 7
     }
-
   * "payments_auth_slo_2":
     Provides {
       auth_slo_param_0: "dygnkhkk",
@@ -49,10 +47,9 @@ Expectations for "auth_slo"
       auth_slo_param_9: 41.24,
       req_0_field_0: false,
       req_0_field_1: false,
-      threshold: 96.28,
+      threshold: 96.28%,
       window_in_days: 90
     }
-
   * "payments_auth_slo_3":
     Provides {
       auth_slo_param_0: "tgdbbkapbjq",
@@ -67,10 +64,9 @@ Expectations for "auth_slo"
       auth_slo_param_9: 61.02,
       req_0_field_0: false,
       req_0_field_1: true,
-      threshold: 97.65,
+      threshold: 97.65%,
       window_in_days: 90
     }
-
   * "payments_auth_slo_4":
     Provides {
       auth_slo_param_0: "dnbbigqwmbqrqy",
@@ -85,10 +81,9 @@ Expectations for "auth_slo"
       auth_slo_param_9: 72.07,
       req_0_field_0: true,
       req_0_field_1: false,
-      threshold: 99.81,
+      threshold: 99.81%,
       window_in_days: 30
     }
-
   * "payments_auth_slo_5":
     Provides {
       auth_slo_param_0: "tyqtuvpts",
@@ -103,10 +98,9 @@ Expectations for "auth_slo"
       auth_slo_param_9: 22.81,
       req_0_field_0: true,
       req_0_field_1: false,
-      threshold: 96.41,
+      threshold: 96.41%,
       window_in_days: 30
     }
-
   * "payments_auth_slo_6":
     Provides {
       auth_slo_param_0: "bbgbwadkcstw",
@@ -121,10 +115,9 @@ Expectations for "auth_slo"
       auth_slo_param_9: 21.14,
       req_0_field_0: false,
       req_0_field_1: true,
-      threshold: 97.51,
+      threshold: 97.51%,
       window_in_days: 30
     }
-
   * "payments_auth_slo_7":
     Provides {
       auth_slo_param_0: "krolgz",
@@ -139,10 +132,9 @@ Expectations for "auth_slo"
       auth_slo_param_9: 29.52,
       req_0_field_0: true,
       req_0_field_1: false,
-      threshold: 95.72,
+      threshold: 95.72%,
       window_in_days: 30
     }
-
   * "payments_auth_slo_8":
     Provides {
       auth_slo_param_0: "lvpqrpl",
@@ -157,10 +149,9 @@ Expectations for "auth_slo"
       auth_slo_param_9: 35.08,
       req_0_field_0: true,
       req_0_field_1: true,
-      threshold: 95.35,
+      threshold: 95.35%,
       window_in_days: 7
     }
-
   * "payments_auth_slo_9":
     Provides {
       auth_slo_param_0: "jmqmbf",
@@ -175,10 +166,9 @@ Expectations for "auth_slo"
       auth_slo_param_9: 38.99,
       req_0_field_0: true,
       req_0_field_1: true,
-      threshold: 99.27,
+      threshold: 99.27%,
       window_in_days: 90
     }
-
   * "payments_auth_slo_10":
     Provides {
       auth_slo_param_0: "zgembupxs",
@@ -193,10 +183,9 @@ Expectations for "auth_slo"
       auth_slo_param_9: 54.28,
       req_0_field_0: true,
       req_0_field_1: false,
-      threshold: 97.63,
+      threshold: 97.63%,
       window_in_days: 30
     }
-
   * "payments_auth_slo_11":
     Provides {
       auth_slo_param_0: "lcimnbindqmgby",
@@ -211,10 +200,9 @@ Expectations for "auth_slo"
       auth_slo_param_9: 36.64,
       req_0_field_0: false,
       req_0_field_1: true,
-      threshold: 99.46,
+      threshold: 99.46%,
       window_in_days: 30
     }
-
   * "payments_auth_slo_12":
     Provides {
       auth_slo_param_0: "bvcbvi",
@@ -229,10 +217,9 @@ Expectations for "auth_slo"
       auth_slo_param_9: 68.31,
       req_0_field_0: true,
       req_0_field_1: false,
-      threshold: 99.08,
+      threshold: 99.08%,
       window_in_days: 30
     }
-
   * "payments_auth_slo_13":
     Provides {
       auth_slo_param_0: "ptuncnowpvwmcnd",
@@ -247,10 +234,9 @@ Expectations for "auth_slo"
       auth_slo_param_9: 29.23,
       req_0_field_0: false,
       req_0_field_1: false,
-      threshold: 98.01,
+      threshold: 98.01%,
       window_in_days: 7
     }
-
   * "payments_auth_slo_14":
     Provides {
       auth_slo_param_0: "ilwvpvjhvsd",
@@ -265,6 +251,6 @@ Expectations for "auth_slo"
       auth_slo_param_9: 19.31,
       req_0_field_0: false,
       req_0_field_1: true,
-      threshold: 95.45,
+      threshold: 95.45%,
       window_in_days: 7
     }

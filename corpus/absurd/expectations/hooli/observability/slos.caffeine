@@ -7,10 +7,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: false,
       circuit_breaker_slo_param_4: 74.21,
       circuit_breaker_slo_param_5: "perf",
-      threshold: 95.3,
+      threshold: 95.3%,
       window_in_days: 90
     }
-
   * "observability_circuit_breaker_slo_1":
     Provides {
       circuit_breaker_slo_param_0: "tjunu",
@@ -19,10 +18,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: true,
       circuit_breaker_slo_param_4: 73.28,
       circuit_breaker_slo_param_5: "demo",
-      threshold: 99.48,
+      threshold: 99.48%,
       window_in_days: 7
     }
-
   * "observability_circuit_breaker_slo_2":
     Provides {
       circuit_breaker_slo_param_0: "qdczqgk",
@@ -31,10 +29,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: false,
       circuit_breaker_slo_param_4: 82.98,
       circuit_breaker_slo_param_5: "perf",
-      threshold: 95.0,
+      threshold: 95.0%,
       window_in_days: 30
     }
-
   * "observability_circuit_breaker_slo_3":
     Provides {
       circuit_breaker_slo_param_0: "cwrwcndkuwm",
@@ -43,10 +40,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: true,
       circuit_breaker_slo_param_4: 70.9,
       circuit_breaker_slo_param_5: "demo",
-      threshold: 99.53,
+      threshold: 99.53%,
       window_in_days: 30
     }
-
   * "observability_circuit_breaker_slo_4":
     Provides {
       circuit_breaker_slo_param_0: "iabrl",
@@ -55,10 +51,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: false,
       circuit_breaker_slo_param_4: 58.84,
       circuit_breaker_slo_param_5: "perf",
-      threshold: 97.78,
+      threshold: 97.78%,
       window_in_days: 7
     }
-
   * "observability_circuit_breaker_slo_5":
     Provides {
       circuit_breaker_slo_param_0: "ildzvju",
@@ -67,10 +62,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: false,
       circuit_breaker_slo_param_4: 83.23,
       circuit_breaker_slo_param_5: "demo",
-      threshold: 95.11,
+      threshold: 95.11%,
       window_in_days: 7
     }
-
   * "observability_circuit_breaker_slo_6":
     Provides {
       circuit_breaker_slo_param_0: "lqdillnvrhzzpu",
@@ -79,10 +73,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: true,
       circuit_breaker_slo_param_4: 97.05,
       circuit_breaker_slo_param_5: "perf",
-      threshold: 99.8,
+      threshold: 99.8%,
       window_in_days: 30
     }
-
   * "observability_circuit_breaker_slo_7":
     Provides {
       circuit_breaker_slo_param_0: "tvlkd",
@@ -91,10 +84,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: false,
       circuit_breaker_slo_param_4: 66.61,
       circuit_breaker_slo_param_5: "perf",
-      threshold: 98.51,
+      threshold: 98.51%,
       window_in_days: 7
     }
-
   * "observability_circuit_breaker_slo_8":
     Provides {
       circuit_breaker_slo_param_0: "bdvzolqvl",
@@ -103,10 +95,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: false,
       circuit_breaker_slo_param_4: 54.93,
       circuit_breaker_slo_param_5: "perf",
-      threshold: 97.65,
+      threshold: 97.65%,
       window_in_days: 30
     }
-
   * "observability_circuit_breaker_slo_9":
     Provides {
       circuit_breaker_slo_param_0: "jeubfqrz",
@@ -115,10 +106,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: false,
       circuit_breaker_slo_param_4: 87.65,
       circuit_breaker_slo_param_5: "demo",
-      threshold: 95.27,
+      threshold: 95.27%,
       window_in_days: 90
     }
-
   * "observability_circuit_breaker_slo_10":
     Provides {
       circuit_breaker_slo_param_0: "mmjarozbrtftj",
@@ -127,10 +117,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: true,
       circuit_breaker_slo_param_4: 53.42,
       circuit_breaker_slo_param_5: "demo",
-      threshold: 97.26,
+      threshold: 97.26%,
       window_in_days: 90
     }
-
   * "observability_circuit_breaker_slo_11":
     Provides {
       circuit_breaker_slo_param_0: "fmqysnadnxzskwt",
@@ -139,10 +128,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: false,
       circuit_breaker_slo_param_4: 91.25,
       circuit_breaker_slo_param_5: "demo",
-      threshold: 95.31,
+      threshold: 95.31%,
       window_in_days: 90
     }
-
   * "observability_circuit_breaker_slo_12":
     Provides {
       circuit_breaker_slo_param_0: "dxkmuzfbyn",
@@ -151,10 +139,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: true,
       circuit_breaker_slo_param_4: 75.46,
       circuit_breaker_slo_param_5: "staging",
-      threshold: 98.7,
+      threshold: 98.7%,
       window_in_days: 30
     }
-
   * "observability_circuit_breaker_slo_13":
     Provides {
       circuit_breaker_slo_param_0: "jhweepulej",
@@ -163,10 +150,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: false,
       circuit_breaker_slo_param_4: 52.32,
       circuit_breaker_slo_param_5: "perf",
-      threshold: 99.28,
+      threshold: 99.28%,
       window_in_days: 90
     }
-
   * "observability_circuit_breaker_slo_14":
     Provides {
       circuit_breaker_slo_param_0: "knlzreahmk",
@@ -175,10 +161,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: false,
       circuit_breaker_slo_param_4: 60.17,
       circuit_breaker_slo_param_5: "staging",
-      threshold: 96.07,
+      threshold: 96.07%,
       window_in_days: 30
     }
-
   * "observability_circuit_breaker_slo_15":
     Provides {
       circuit_breaker_slo_param_0: "flwqofzlf",
@@ -187,10 +172,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: false,
       circuit_breaker_slo_param_4: 70.2,
       circuit_breaker_slo_param_5: "staging",
-      threshold: 99.05,
+      threshold: 99.05%,
       window_in_days: 7
     }
-
   * "observability_circuit_breaker_slo_16":
     Provides {
       circuit_breaker_slo_param_0: "tuqmswtqyilb",
@@ -199,10 +183,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: true,
       circuit_breaker_slo_param_4: 95.21,
       circuit_breaker_slo_param_5: "staging",
-      threshold: 98.7,
+      threshold: 98.7%,
       window_in_days: 30
     }
-
   * "observability_circuit_breaker_slo_17":
     Provides {
       circuit_breaker_slo_param_0: "lsefqukmdj",
@@ -211,10 +194,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: true,
       circuit_breaker_slo_param_4: 67.84,
       circuit_breaker_slo_param_5: "perf",
-      threshold: 97.37,
+      threshold: 97.37%,
       window_in_days: 90
     }
-
   * "observability_circuit_breaker_slo_18":
     Provides {
       circuit_breaker_slo_param_0: "nbmhdr",
@@ -223,10 +205,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: false,
       circuit_breaker_slo_param_4: 51.06,
       circuit_breaker_slo_param_5: "staging",
-      threshold: 99.83,
+      threshold: 99.83%,
       window_in_days: 30
     }
-
   * "observability_circuit_breaker_slo_19":
     Provides {
       circuit_breaker_slo_param_0: "qwxekt",
@@ -235,10 +216,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: false,
       circuit_breaker_slo_param_4: 85.8,
       circuit_breaker_slo_param_5: "demo",
-      threshold: 95.52,
+      threshold: 95.52%,
       window_in_days: 90
     }
-
   * "observability_circuit_breaker_slo_20":
     Provides {
       circuit_breaker_slo_param_0: "uwnnyawje",
@@ -247,10 +227,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: true,
       circuit_breaker_slo_param_4: 94.83,
       circuit_breaker_slo_param_5: "demo",
-      threshold: 97.82,
+      threshold: 97.82%,
       window_in_days: 7
     }
-
   * "observability_circuit_breaker_slo_21":
     Provides {
       circuit_breaker_slo_param_0: "xpkfcdvoeo",
@@ -259,10 +238,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: true,
       circuit_breaker_slo_param_4: 75.6,
       circuit_breaker_slo_param_5: "perf",
-      threshold: 95.99,
+      threshold: 95.99%,
       window_in_days: 7
     }
-
   * "observability_circuit_breaker_slo_22":
     Provides {
       circuit_breaker_slo_param_0: "skkqirecqxejc",
@@ -271,10 +249,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: true,
       circuit_breaker_slo_param_4: 48.31,
       circuit_breaker_slo_param_5: "demo",
-      threshold: 98.14,
+      threshold: 98.14%,
       window_in_days: 30
     }
-
   * "observability_circuit_breaker_slo_23":
     Provides {
       circuit_breaker_slo_param_0: "uqenjdgufxh",
@@ -283,10 +260,9 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: true,
       circuit_breaker_slo_param_4: 95.39,
       circuit_breaker_slo_param_5: "perf",
-      threshold: 96.59,
+      threshold: 96.59%,
       window_in_days: 7
     }
-
   * "observability_circuit_breaker_slo_24":
     Provides {
       circuit_breaker_slo_param_0: "izwfsnbfmmov",
@@ -295,6 +271,6 @@ Expectations for "circuit_breaker_slo"
       circuit_breaker_slo_param_3: false,
       circuit_breaker_slo_param_4: 81.68,
       circuit_breaker_slo_param_5: "perf",
-      threshold: 98.51,
+      threshold: 98.51%,
       window_in_days: 7
     }

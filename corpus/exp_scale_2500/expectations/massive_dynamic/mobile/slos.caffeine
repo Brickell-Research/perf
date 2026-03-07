@@ -8,10 +8,9 @@ Expectations for "monitoring_slo"
       monitoring_slo_param_4: "yvmcdlgpnxrqyp",
       monitoring_slo_param_5: 35.09,
       monitoring_slo_param_6: 48.02,
-      threshold: 96.75,
+      threshold: 96.75%,
       window_in_days: 7
     }
-
   * "mobile_7_4_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "coerxwiqaderi",
@@ -21,10 +20,9 @@ Expectations for "monitoring_slo"
       monitoring_slo_param_4: "abgnysrzcethe",
       monitoring_slo_param_5: 26.98,
       monitoring_slo_param_6: 31.46,
-      threshold: 98.63,
+      threshold: 98.63%,
       window_in_days: 7
     }
-
   * "mobile_7_4_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "nhsofym",
@@ -34,10 +32,9 @@ Expectations for "monitoring_slo"
       monitoring_slo_param_4: "drrxetepyozhach",
       monitoring_slo_param_5: 65.23,
       monitoring_slo_param_6: 17.17,
-      threshold: 98.42,
+      threshold: 98.42%,
       window_in_days: 30
     }
-
   * "mobile_7_4_monitoring_slo_3":
     Provides {
       monitoring_slo_param_0: "rxeuvdmwuqsm",
@@ -47,10 +44,9 @@ Expectations for "monitoring_slo"
       monitoring_slo_param_4: "zutzupfkmeh",
       monitoring_slo_param_5: 46.96,
       monitoring_slo_param_6: 26.26,
-      threshold: 95.32,
+      threshold: 95.32%,
       window_in_days: 90
     }
-
   * "mobile_7_4_monitoring_slo_4":
     Provides {
       monitoring_slo_param_0: "xzjcmswumj",
@@ -60,7 +56,7 @@ Expectations for "monitoring_slo"
       monitoring_slo_param_4: "hzjryufqnvhlcp",
       monitoring_slo_param_5: 27.82,
       monitoring_slo_param_6: 42.83,
-      threshold: 95.34,
+      threshold: 95.34%,
       window_in_days: 30
     }
 
@@ -78,10 +74,9 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 36.68,
-      threshold: 98.16,
+      threshold: 98.16%,
       window_in_days: 7
     }
-
   * "mobile_7_4_logging_slo_1":
     Provides {
       logging_slo_param_0: "ofhfmvkfp",
@@ -95,10 +90,9 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: false,
       req_0_field_2: 24.93,
-      threshold: 99.16,
+      threshold: 99.16%,
       window_in_days: 7
     }
-
   * "mobile_7_4_logging_slo_2":
     Provides {
       logging_slo_param_0: "tkhsv",
@@ -112,10 +106,9 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: false,
       req_0_field_2: 27.55,
-      threshold: 99.64,
+      threshold: 99.64%,
       window_in_days: 7
     }
-
   * "mobile_7_4_logging_slo_3":
     Provides {
       logging_slo_param_0: "zibalcuji",
@@ -129,10 +122,9 @@ Expectations for "logging_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 96.19,
-      threshold: 98.47,
+      threshold: 98.47%,
       window_in_days: 7
     }
-
   * "mobile_7_4_logging_slo_4":
     Provides {
       logging_slo_param_0: "tpsac",
@@ -146,7 +138,7 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: false,
       req_0_field_2: 28.07,
-      threshold: 96.84,
+      threshold: 96.84%,
       window_in_days: 7
     }
 
@@ -159,10 +151,9 @@ Expectations for "catalog_slo"
       catalog_slo_param_3: 22.27,
       catalog_slo_param_4: 71.91,
       catalog_slo_param_5: 12.26,
-      threshold: 95.43,
+      threshold: 95.43%,
       window_in_days: 90
     }
-
   * "mobile_7_4_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "zluye",
@@ -171,10 +162,9 @@ Expectations for "catalog_slo"
       catalog_slo_param_3: 56.81,
       catalog_slo_param_4: 21.92,
       catalog_slo_param_5: 56.16,
-      threshold: 96.69,
+      threshold: 96.69%,
       window_in_days: 90
     }
-
   * "mobile_7_4_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "ivsejpwb",
@@ -183,6 +173,6 @@ Expectations for "catalog_slo"
       catalog_slo_param_3: 71.14,
       catalog_slo_param_4: 70.91,
       catalog_slo_param_5: 1.03,
-      threshold: 96.7,
+      threshold: 96.7%,
       window_in_days: 30
     }

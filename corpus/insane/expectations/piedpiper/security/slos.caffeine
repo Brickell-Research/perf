@@ -12,10 +12,9 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "psehygpol",
       compliance_checker_slo_param_9: "production",
       compliance_checker_slo_param_10: true,
-      threshold: 96.89,
+      threshold: 96.89%,
       window_in_days: 7
     }
-
   * "security_compliance_checker_slo_1":
     Provides {
       compliance_checker_slo_param_0: "khsioaxjyjtk",
@@ -29,19 +28,14 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "rasotfwqotk",
       compliance_checker_slo_param_9: "test",
       compliance_checker_slo_param_10: true,
-      threshold: 99.85,
+      threshold: 99.85%,
       window_in_days: 90
     }
-
   * "security_compliance_checker_slo_2":
     Provides {
       compliance_checker_slo_param_0: "jpenqcs",
       compliance_checker_slo_param_1: "zknfowuaqosa",
-      compliance_checker_slo_param_2: {
-        key_0: "pvisbrzgpnlxoi",
-        key_1: "wenqjulhn",
-        key_2: "bjkgvycrqzb"
-      },
+      compliance_checker_slo_param_2: { key_0: "pvisbrzgpnlxoi", key_1: "wenqjulhn", key_2: "bjkgvycrqzb" },
       compliance_checker_slo_param_3: 9962,
       compliance_checker_slo_param_4: [true, false, true, true],
       compliance_checker_slo_param_5: "active",
@@ -50,10 +44,9 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "ytajtekznlkva",
       compliance_checker_slo_param_9: "demo",
       compliance_checker_slo_param_10: false,
-      threshold: 97.16,
+      threshold: 97.16%,
       window_in_days: 7
     }
-
   * "security_compliance_checker_slo_3":
     Provides {
       compliance_checker_slo_param_0: "xtmnvhvyszlskx",
@@ -67,19 +60,14 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "zppieowg",
       compliance_checker_slo_param_9: "demo",
       compliance_checker_slo_param_10: true,
-      threshold: 95.23,
+      threshold: 95.23%,
       window_in_days: 90
     }
-
   * "security_compliance_checker_slo_4":
     Provides {
       compliance_checker_slo_param_0: "sjugfgnbmpmey",
       compliance_checker_slo_param_1: "wlmikrwcxljth",
-      compliance_checker_slo_param_2: {
-        key_0: "psncu",
-        key_1: "zwohmrpvbbhbvqa",
-        key_2: "aamusngjvnc"
-      },
+      compliance_checker_slo_param_2: { key_0: "psncu", key_1: "zwohmrpvbbhbvqa", key_2: "aamusngjvnc" },
       compliance_checker_slo_param_3: 7020,
       compliance_checker_slo_param_4: [false, true, false],
       compliance_checker_slo_param_5: "inactive",
@@ -88,10 +76,9 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "ogfzanaw",
       compliance_checker_slo_param_9: "production",
       compliance_checker_slo_param_10: true,
-      threshold: 98.82,
+      threshold: 98.82%,
       window_in_days: 7
     }
-
   * "security_compliance_checker_slo_5":
     Provides {
       compliance_checker_slo_param_0: "bnxqlbkes",
@@ -105,10 +92,9 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "sjiaqusp",
       compliance_checker_slo_param_9: "demo",
       compliance_checker_slo_param_10: true,
-      threshold: 98.21,
+      threshold: 98.21%,
       window_in_days: 90
     }
-
   * "security_compliance_checker_slo_6":
     Provides {
       compliance_checker_slo_param_0: "deyqvua",
@@ -122,10 +108,9 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "iachwahacz",
       compliance_checker_slo_param_9: "production",
       compliance_checker_slo_param_10: false,
-      threshold: 96.67,
+      threshold: 96.67%,
       window_in_days: 7
     }
-
   * "security_compliance_checker_slo_7":
     Provides {
       compliance_checker_slo_param_0: "qnkcdw",
@@ -139,10 +124,9 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "quwpzr",
       compliance_checker_slo_param_9: "test",
       compliance_checker_slo_param_10: true,
-      threshold: 99.94,
+      threshold: 99.94%,
       window_in_days: 90
     }
-
   * "security_compliance_checker_slo_8":
     Provides {
       compliance_checker_slo_param_0: "pszdvcon",
@@ -156,10 +140,9 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "dmdejzyjwmobv",
       compliance_checker_slo_param_9: "development",
       compliance_checker_slo_param_10: true,
-      threshold: 95.54,
+      threshold: 95.54%,
       window_in_days: 30
     }
-
   * "security_compliance_checker_slo_9":
     Provides {
       compliance_checker_slo_param_0: "vpqfqjrgnekgjn",
@@ -173,10 +156,9 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "rwmzmekdqu",
       compliance_checker_slo_param_9: "test",
       compliance_checker_slo_param_10: true,
-      threshold: 97.12,
+      threshold: 97.12%,
       window_in_days: 7
     }
-
   * "security_compliance_checker_slo_10":
     Provides {
       compliance_checker_slo_param_0: "bdnssqtenhkcwtv",
@@ -190,19 +172,14 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "vvjof",
       compliance_checker_slo_param_9: "demo",
       compliance_checker_slo_param_10: false,
-      threshold: 95.28,
+      threshold: 95.28%,
       window_in_days: 30
     }
-
   * "security_compliance_checker_slo_11":
     Provides {
       compliance_checker_slo_param_0: "jpwqxoix",
       compliance_checker_slo_param_1: "ebjjgnodsynadwl",
-      compliance_checker_slo_param_2: {
-        key_0: "fpufyp",
-        key_1: "svhzqiyydkraw",
-        key_2: "vkalshqdalmc"
-      },
+      compliance_checker_slo_param_2: { key_0: "fpufyp", key_1: "svhzqiyydkraw", key_2: "vkalshqdalmc" },
       compliance_checker_slo_param_3: 6073,
       compliance_checker_slo_param_4: [true, true],
       compliance_checker_slo_param_5: "inactive",
@@ -211,10 +188,9 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "tzagfbcexjl",
       compliance_checker_slo_param_9: "demo",
       compliance_checker_slo_param_10: false,
-      threshold: 97.0,
+      threshold: 97.0%,
       window_in_days: 30
     }
-
   * "security_compliance_checker_slo_12":
     Provides {
       compliance_checker_slo_param_0: "kialrogdh",
@@ -228,10 +204,9 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "wllfbvxkwsqyijs",
       compliance_checker_slo_param_9: "development",
       compliance_checker_slo_param_10: false,
-      threshold: 99.09,
+      threshold: 99.09%,
       window_in_days: 30
     }
-
   * "security_compliance_checker_slo_13":
     Provides {
       compliance_checker_slo_param_0: "xregknqouircuw",
@@ -245,19 +220,14 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "kpkolvpaheol",
       compliance_checker_slo_param_9: "development",
       compliance_checker_slo_param_10: false,
-      threshold: 98.31,
+      threshold: 98.31%,
       window_in_days: 90
     }
-
   * "security_compliance_checker_slo_14":
     Provides {
       compliance_checker_slo_param_0: "hrctb",
       compliance_checker_slo_param_1: "wwaobakwcmiix",
-      compliance_checker_slo_param_2: {
-        key_0: "dmlwlzbuuzii",
-        key_1: "jltdxrnpy",
-        key_2: "eozlknyowrah"
-      },
+      compliance_checker_slo_param_2: { key_0: "dmlwlzbuuzii", key_1: "jltdxrnpy", key_2: "eozlknyowrah" },
       compliance_checker_slo_param_3: 2048,
       compliance_checker_slo_param_4: [true],
       compliance_checker_slo_param_5: "pending",
@@ -266,6 +236,6 @@ Expectations for "compliance_checker_slo"
       compliance_checker_slo_param_8: "jsktujdmexv",
       compliance_checker_slo_param_9: "demo",
       compliance_checker_slo_param_10: true,
-      threshold: 99.5,
+      threshold: 99.5%,
       window_in_days: 30
     }

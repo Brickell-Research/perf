@@ -10,10 +10,9 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 2662,
       inventory_slo_param_7: 51.08,
       req_1_field_0: "vhuktxm",
-      threshold: 95.64,
+      threshold: 95.64%,
       window_in_days: 90
     }
-
   * "networking_4_19_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "chmnfaoqcy",
@@ -25,10 +24,9 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 1902,
       inventory_slo_param_7: 84.35,
       req_1_field_0: "jurgvwoh",
-      threshold: 96.2,
+      threshold: 96.2%,
       window_in_days: 90
     }
-
   * "networking_4_19_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "fasespq",
@@ -40,10 +38,9 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 2770,
       inventory_slo_param_7: 53.3,
       req_1_field_0: "hwglvypfliithba",
-      threshold: 98.92,
+      threshold: 98.92%,
       window_in_days: 7
     }
-
   * "networking_4_19_inventory_slo_3":
     Provides {
       inventory_slo_param_0: "tqkkzhnwwqk",
@@ -55,10 +52,9 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 4612,
       inventory_slo_param_7: 66.35,
       req_1_field_0: "auweh",
-      threshold: 96.56,
+      threshold: 96.56%,
       window_in_days: 30
     }
-
   * "networking_4_19_inventory_slo_4":
     Provides {
       inventory_slo_param_0: "uacorcqucznb",
@@ -70,7 +66,7 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 5939,
       inventory_slo_param_7: 62.92,
       req_1_field_0: "sajucplncjkcc",
-      threshold: 95.88,
+      threshold: 95.88%,
       window_in_days: 90
     }
 
@@ -82,10 +78,9 @@ Expectations for "auth_slo"
       auth_slo_param_2: 8248,
       auth_slo_param_3: { key_0: 7117, key_1: 9494 },
       auth_slo_param_4: "active",
-      threshold: 95.53,
+      threshold: 95.53%,
       window_in_days: 90
     }
-
   * "networking_4_19_auth_slo_1":
     Provides {
       auth_slo_param_0: "kbwyxi",
@@ -93,10 +88,9 @@ Expectations for "auth_slo"
       auth_slo_param_2: 1021,
       auth_slo_param_3: { key_0: 1978, key_1: 7582 },
       auth_slo_param_4: "inactive",
-      threshold: 96.78,
+      threshold: 96.78%,
       window_in_days: 7
     }
-
   * "networking_4_19_auth_slo_2":
     Provides {
       auth_slo_param_0: "oqgdpyudgrryd",
@@ -104,10 +98,9 @@ Expectations for "auth_slo"
       auth_slo_param_2: 1743,
       auth_slo_param_3: { key_0: 2180, key_1: 4162, key_2: 914 },
       auth_slo_param_4: "published",
-      threshold: 97.41,
+      threshold: 97.41%,
       window_in_days: 90
     }
-
   * "networking_4_19_auth_slo_3":
     Provides {
       auth_slo_param_0: "qtebdmcyhwsanw",
@@ -115,6 +108,6 @@ Expectations for "auth_slo"
       auth_slo_param_2: 9330,
       auth_slo_param_3: { key_0: 6352, key_1: 1263, key_2: 1026 },
       auth_slo_param_4: "active",
-      threshold: 99.03,
+      threshold: 99.03%,
       window_in_days: 90
     }

@@ -7,10 +7,9 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: false,
       analytics_slo_param_4: 72.19,
       analytics_slo_param_5: 10,
-      threshold: 98.24,
+      threshold: 98.24%,
       window_in_days: 30
     }
-
   * "backend_2_5_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "ndsukomc",
@@ -19,10 +18,9 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: true,
       analytics_slo_param_4: 61.27,
       analytics_slo_param_5: 78,
-      threshold: 97.65,
+      threshold: 97.65%,
       window_in_days: 30
     }
-
   * "backend_2_5_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "qbaws",
@@ -31,10 +29,9 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: false,
       analytics_slo_param_4: 55.36,
       analytics_slo_param_5: 10,
-      threshold: 97.23,
+      threshold: 97.23%,
       window_in_days: 90
     }
-
   * "backend_2_5_analytics_slo_3":
     Provides {
       analytics_slo_param_0: "mabbctkzgzrytf",
@@ -43,7 +40,7 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: false,
       analytics_slo_param_4: 98.4,
       analytics_slo_param_5: 78,
-      threshold: 97.44,
+      threshold: 97.44%,
       window_in_days: 7
     }
 
@@ -56,10 +53,9 @@ Expectations for "catalog_slo"
       catalog_slo_param_3: 77.86,
       catalog_slo_param_4: 68.4,
       catalog_slo_param_5: 12.37,
-      threshold: 99.95,
+      threshold: 99.95%,
       window_in_days: 90
     }
-
   * "backend_2_5_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "deqhtpeeqy",
@@ -68,10 +64,9 @@ Expectations for "catalog_slo"
       catalog_slo_param_3: 41.79,
       catalog_slo_param_4: 31.72,
       catalog_slo_param_5: 23.55,
-      threshold: 95.63,
+      threshold: 95.63%,
       window_in_days: 30
     }
-
   * "backend_2_5_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "gxmifw",
@@ -80,6 +75,6 @@ Expectations for "catalog_slo"
       catalog_slo_param_3: 36.67,
       catalog_slo_param_4: 44.37,
       catalog_slo_param_5: 66.19,
-      threshold: 96.91,
+      threshold: 96.91%,
       window_in_days: 30
     }

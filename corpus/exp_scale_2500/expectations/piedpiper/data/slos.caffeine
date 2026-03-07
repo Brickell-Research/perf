@@ -12,10 +12,9 @@ Expectations for "logging_slo"
       req_0_field_0: false,
       req_0_field_1: true,
       req_0_field_2: 92.08,
-      threshold: 95.08,
+      threshold: 95.08%,
       window_in_days: 90
     }
-
   * "data_4_7_logging_slo_1":
     Provides {
       logging_slo_param_0: "nhimzemplyvit",
@@ -29,7 +28,7 @@ Expectations for "logging_slo"
       req_0_field_0: false,
       req_0_field_1: true,
       req_0_field_2: 35.68,
-      threshold: 97.3,
+      threshold: 97.3%,
       window_in_days: 90
     }
 
@@ -42,10 +41,9 @@ Expectations for "cart_slo"
       cart_slo_param_3: 1808,
       cart_slo_param_4: 24.07,
       cart_slo_param_5: 734,
-      threshold: 95.8,
+      threshold: 95.8%,
       window_in_days: 30
     }
-
   * "data_4_7_cart_slo_1":
     Provides {
       cart_slo_param_0: "evtqqgiyskufi",
@@ -54,10 +52,9 @@ Expectations for "cart_slo"
       cart_slo_param_3: 858,
       cart_slo_param_4: 27.3,
       cart_slo_param_5: 58,
-      threshold: 95.38,
+      threshold: 95.38%,
       window_in_days: 7
     }
-
   * "data_4_7_cart_slo_2":
     Provides {
       cart_slo_param_0: "tfnoxwcgvxxeeg",
@@ -66,10 +63,9 @@ Expectations for "cart_slo"
       cart_slo_param_3: 3015,
       cart_slo_param_4: 28.62,
       cart_slo_param_5: 319,
-      threshold: 96.29,
+      threshold: 96.29%,
       window_in_days: 7
     }
-
   * "data_4_7_cart_slo_3":
     Provides {
       cart_slo_param_0: "wbxie",
@@ -78,10 +74,9 @@ Expectations for "cart_slo"
       cart_slo_param_3: 3334,
       cart_slo_param_4: 62.88,
       cart_slo_param_5: 199,
-      threshold: 98.3,
+      threshold: 98.3%,
       window_in_days: 90
     }
-
 Expectations for "inventory_slo"
   * "data_12_7_inventory_slo_0":
     Provides {
@@ -94,10 +89,9 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 4385,
       inventory_slo_param_7: 24.63,
       req_1_field_0: "mktzvqwdcrlkrg",
-      threshold: 98.92,
+      threshold: 98.92%,
       window_in_days: 90
     }
-
   * "data_12_7_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "fkzzjxllkc",
@@ -109,6 +103,6 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 4472,
       inventory_slo_param_7: 44.72,
       req_1_field_0: "oalocaltdmvfyc",
-      threshold: 98.05,
+      threshold: 98.05%,
       window_in_days: 7
     }

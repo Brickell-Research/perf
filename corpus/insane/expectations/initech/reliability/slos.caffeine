@@ -13,10 +13,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true },
       load_balancer_slo_param_10: { key_0: false, key_1: false },
       load_balancer_slo_param_11: 54,
-      threshold: 98.17,
+      threshold: 98.17%,
       window_in_days: 90
     }
-
   * "reliability_load_balancer_slo_1":
     Provides {
       load_balancer_slo_param_0: "dhxpa",
@@ -31,10 +30,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true },
       load_balancer_slo_param_10: { key_0: false, key_1: false },
       load_balancer_slo_param_11: 93,
-      threshold: 96.48,
+      threshold: 96.48%,
       window_in_days: 30
     }
-
   * "reliability_load_balancer_slo_2":
     Provides {
       load_balancer_slo_param_0: "ufpqube",
@@ -49,10 +47,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: false, key_1: false, key_2: true },
       load_balancer_slo_param_10: { key_0: false, key_1: false, key_2: false },
       load_balancer_slo_param_11: 93,
-      threshold: 98.3,
+      threshold: 98.3%,
       window_in_days: 30
     }
-
   * "reliability_load_balancer_slo_3":
     Provides {
       load_balancer_slo_param_0: "vylaofnr",
@@ -67,10 +64,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true },
       load_balancer_slo_param_10: { key_0: true },
       load_balancer_slo_param_11: 24,
-      threshold: 95.05,
+      threshold: 95.05%,
       window_in_days: 90
     }
-
   * "reliability_load_balancer_slo_4":
     Provides {
       load_balancer_slo_param_0: "drywbcfjrjbcov",
@@ -85,10 +81,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: false, key_1: false },
       load_balancer_slo_param_10: { key_0: false, key_1: true },
       load_balancer_slo_param_11: 54,
-      threshold: 95.75,
+      threshold: 95.75%,
       window_in_days: 30
     }
-
   * "reliability_load_balancer_slo_5":
     Provides {
       load_balancer_slo_param_0: "cmpbjgej",
@@ -103,10 +98,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: false },
       load_balancer_slo_param_10: { key_0: false, key_1: false, key_2: false },
       load_balancer_slo_param_11: 54,
-      threshold: 96.49,
+      threshold: 96.49%,
       window_in_days: 7
     }
-
   * "reliability_load_balancer_slo_6":
     Provides {
       load_balancer_slo_param_0: "tihczeu",
@@ -121,10 +115,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true, key_1: false },
       load_balancer_slo_param_10: { key_0: false, key_1: true },
       load_balancer_slo_param_11: 93,
-      threshold: 97.32,
+      threshold: 97.32%,
       window_in_days: 7
     }
-
   * "reliability_load_balancer_slo_7":
     Provides {
       load_balancer_slo_param_0: "xpnbwnsv",
@@ -139,10 +132,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: false, key_1: true },
       load_balancer_slo_param_10: { key_0: true, key_1: true, key_2: true },
       load_balancer_slo_param_11: 24,
-      threshold: 99.68,
+      threshold: 99.68%,
       window_in_days: 7
     }
-
   * "reliability_load_balancer_slo_8":
     Provides {
       load_balancer_slo_param_0: "gpseso",
@@ -157,10 +149,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true, key_1: false, key_2: true },
       load_balancer_slo_param_10: { key_0: true, key_1: true, key_2: true },
       load_balancer_slo_param_11: 54,
-      threshold: 96.69,
+      threshold: 96.69%,
       window_in_days: 30
     }
-
   * "reliability_load_balancer_slo_9":
     Provides {
       load_balancer_slo_param_0: "ljnyjokyzuirc",
@@ -175,10 +166,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true, key_1: true },
       load_balancer_slo_param_10: { key_0: false, key_1: true, key_2: true },
       load_balancer_slo_param_11: 54,
-      threshold: 98.8,
+      threshold: 98.8%,
       window_in_days: 30
     }
-
   * "reliability_load_balancer_slo_10":
     Provides {
       load_balancer_slo_param_0: "spwqpu",
@@ -193,10 +183,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true, key_1: false },
       load_balancer_slo_param_10: { key_0: false, key_1: true },
       load_balancer_slo_param_11: 24,
-      threshold: 99.34,
+      threshold: 99.34%,
       window_in_days: 30
     }
-
   * "reliability_load_balancer_slo_11":
     Provides {
       load_balancer_slo_param_0: "ycjanpico",
@@ -211,10 +200,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: false, key_1: true, key_2: false },
       load_balancer_slo_param_10: { key_0: false, key_1: false, key_2: true },
       load_balancer_slo_param_11: 24,
-      threshold: 99.06,
+      threshold: 99.06%,
       window_in_days: 90
     }
-
   * "reliability_load_balancer_slo_12":
     Provides {
       load_balancer_slo_param_0: "pjacohbdtwyenly",
@@ -229,10 +217,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true },
       load_balancer_slo_param_10: { key_0: false, key_1: true, key_2: false },
       load_balancer_slo_param_11: 24,
-      threshold: 98.98,
+      threshold: 98.98%,
       window_in_days: 7
     }
-
   * "reliability_load_balancer_slo_13":
     Provides {
       load_balancer_slo_param_0: "kjhpaymzgig",
@@ -247,10 +234,9 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true },
       load_balancer_slo_param_10: { key_0: false, key_1: true },
       load_balancer_slo_param_11: 24,
-      threshold: 95.83,
+      threshold: 95.83%,
       window_in_days: 90
     }
-
   * "reliability_load_balancer_slo_14":
     Provides {
       load_balancer_slo_param_0: "yoeflxuaowmwi",
@@ -265,6 +251,6 @@ Expectations for "load_balancer_slo"
       load_balancer_slo_param_9: { key_0: true, key_1: true },
       load_balancer_slo_param_10: { key_0: true },
       load_balancer_slo_param_11: 93,
-      threshold: 95.3,
+      threshold: 95.3%,
       window_in_days: 30
     }

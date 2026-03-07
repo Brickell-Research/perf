@@ -7,7 +7,7 @@ Expectations for "payments_slo"
       payments_slo_param_3: 5078,
       payments_slo_param_4: 81,
       payments_slo_param_5: 2505,
-      threshold: 98.11,
+      threshold: 98.11%,
       window_in_days: 90
     }
 
@@ -18,17 +18,16 @@ Expectations for "orders_slo"
       orders_slo_param_1: "zifagwxsjozdnmm",
       orders_slo_param_2: 440,
       orders_slo_param_3: "icxlsyrdpcpulh",
-      threshold: 99.09,
+      threshold: 99.09%,
       window_in_days: 30
     }
-
   * "ml_7_12_orders_slo_1":
     Provides {
       orders_slo_param_0: "eqjgkourukypwvv",
       orders_slo_param_1: "fjaani",
       orders_slo_param_2: 69,
       orders_slo_param_3: "smtueurcucdrai",
-      threshold: 97.61,
+      threshold: 97.61%,
       window_in_days: 90
     }
 
@@ -40,10 +39,9 @@ Expectations for "users_slo"
       users_slo_param_2: "dpxchynoet",
       users_slo_param_3: ["ivekndafrrqk", "usjguslzl", "qmgdmzlsgybcisb"],
       users_slo_param_4: 81.22,
-      threshold: 96.57,
+      threshold: 96.57%,
       window_in_days: 30
     }
-
   * "ml_7_12_users_slo_1":
     Provides {
       users_slo_param_0: "zfgoedoqvakha",
@@ -51,10 +49,9 @@ Expectations for "users_slo"
       users_slo_param_2: "gseusxsfa",
       users_slo_param_3: ["kamqhjdjtrbms", "libxvwpiiqdpzqz", "gkiohnzyckpec"],
       users_slo_param_4: 84.54,
-      threshold: 98.13,
+      threshold: 98.13%,
       window_in_days: 30
     }
-
   * "ml_7_12_users_slo_2":
     Provides {
       users_slo_param_0: "lmsrdha",
@@ -62,10 +59,9 @@ Expectations for "users_slo"
       users_slo_param_2: "pybexoezxoofrx",
       users_slo_param_3: ["wzyapbqlnpssfx"],
       users_slo_param_4: 59.93,
-      threshold: 99.08,
+      threshold: 99.08%,
       window_in_days: 30
     }
-
   * "ml_7_12_users_slo_3":
     Provides {
       users_slo_param_0: "yzdqchzrm",
@@ -73,7 +69,7 @@ Expectations for "users_slo"
       users_slo_param_2: "zapwqfjemujdom",
       users_slo_param_3: ["pjsjukbyl", "ruorfevtjqjgaf"],
       users_slo_param_4: 15.39,
-      threshold: 96.29,
+      threshold: 96.29%,
       window_in_days: 90
     }
 
@@ -86,10 +82,9 @@ Expectations for "search_slo"
       search_slo_param_3: 312,
       search_slo_param_4: "active",
       req_1_field_0: "luxfnxhsc",
-      threshold: 96.59,
+      threshold: 96.59%,
       window_in_days: 30
     }
-
   * "ml_7_12_search_slo_1":
     Provides {
       search_slo_param_0: "ograazppzpzvctt",
@@ -98,6 +93,6 @@ Expectations for "search_slo"
       search_slo_param_3: 212,
       search_slo_param_4: "draft",
       req_1_field_0: "oycrwvvcafrhj",
-      threshold: 96.88,
+      threshold: 96.88%,
       window_in_days: 30
     }

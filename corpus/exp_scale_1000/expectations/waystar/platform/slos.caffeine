@@ -10,10 +10,9 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 2881,
       inventory_slo_param_7: 45.92,
       req_1_field_0: "wvotwws",
-      threshold: 95.63,
+      threshold: 95.63%,
       window_in_days: 7
     }
-
   * "platform_5_0_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "busrodmjhw",
@@ -25,10 +24,9 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 3748,
       inventory_slo_param_7: 87.24,
       req_1_field_0: "djhog",
-      threshold: 98.69,
+      threshold: 98.69%,
       window_in_days: 7
     }
-
   * "platform_5_0_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "bqwmxdvlr",
@@ -40,10 +38,9 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 1433,
       inventory_slo_param_7: 72.86,
       req_1_field_0: "rzkbufo",
-      threshold: 97.15,
+      threshold: 97.15%,
       window_in_days: 7
     }
-
   * "platform_5_0_inventory_slo_3":
     Provides {
       inventory_slo_param_0: "abzlmovqh",
@@ -55,10 +52,9 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 849,
       inventory_slo_param_7: 47.09,
       req_1_field_0: "qhikgsm",
-      threshold: 95.43,
+      threshold: 95.43%,
       window_in_days: 30
     }
-
   * "platform_5_0_inventory_slo_4":
     Provides {
       inventory_slo_param_0: "vhdopbqdl",
@@ -70,7 +66,7 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 9152,
       inventory_slo_param_7: 39.48,
       req_1_field_0: "woktqlgvftbf",
-      threshold: 97.93,
+      threshold: 97.93%,
       window_in_days: 90
     }
 
@@ -83,10 +79,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_3: 61.93,
       notifications_slo_param_4: 21.09,
       notifications_slo_param_5: 97.11,
-      threshold: 98.19,
+      threshold: 98.19%,
       window_in_days: 30
     }
-
   * "platform_5_0_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "hhimtfwfancpeb",
@@ -95,7 +90,7 @@ Expectations for "notifications_slo"
       notifications_slo_param_3: 49.8,
       notifications_slo_param_4: 31.6,
       notifications_slo_param_5: 85.74,
-      threshold: 97.36,
+      threshold: 97.36%,
       window_in_days: 7
     }
 
@@ -109,6 +104,6 @@ Expectations for "monitoring_slo"
       monitoring_slo_param_4: "juazrmtlv",
       monitoring_slo_param_5: 39.01,
       monitoring_slo_param_6: 46.7,
-      threshold: 96.68,
+      threshold: 96.68%,
       window_in_days: 7
     }

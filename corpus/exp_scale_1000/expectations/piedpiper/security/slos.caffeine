@@ -7,10 +7,9 @@ Expectations for "search_slo"
       search_slo_param_3: 297,
       search_slo_param_4: "archived",
       req_1_field_0: "odymk",
-      threshold: 97.08,
+      threshold: 97.08%,
       window_in_days: 90
     }
-
   * "security_4_8_search_slo_1":
     Provides {
       search_slo_param_0: "dazdmbrt",
@@ -19,7 +18,7 @@ Expectations for "search_slo"
       search_slo_param_3: 251,
       search_slo_param_4: "archived",
       req_1_field_0: "uzgrfn",
-      threshold: 99.33,
+      threshold: 99.33%,
       window_in_days: 30
     }
 
@@ -32,10 +31,9 @@ Expectations for "payments_slo"
       payments_slo_param_3: 2405,
       payments_slo_param_4: 63,
       payments_slo_param_5: 6432,
-      threshold: 98.08,
+      threshold: 98.08%,
       window_in_days: 7
     }
-
   * "security_4_8_payments_slo_1":
     Provides {
       payments_slo_param_0: "pagxc",
@@ -44,6 +42,6 @@ Expectations for "payments_slo"
       payments_slo_param_3: 119,
       payments_slo_param_4: 37,
       payments_slo_param_5: 162,
-      threshold: 96.16,
+      threshold: 96.16%,
       window_in_days: 7
     }

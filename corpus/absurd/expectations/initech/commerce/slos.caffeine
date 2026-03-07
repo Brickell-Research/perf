@@ -3,11 +3,7 @@ Expectations for "notifications_slo"
     Provides {
       notifications_slo_param_0: "rifagpqwyqixpg",
       notifications_slo_param_1: "ssvddgcxri",
-      notifications_slo_param_2: {
-        key_0: "wxedtbxefmihj",
-        key_1: "ocespeoztr",
-        key_2: "fkftgu"
-      },
+      notifications_slo_param_2: { key_0: "wxedtbxefmihj", key_1: "ocespeoztr", key_2: "fkftgu" },
       notifications_slo_param_3: "vdjbbmygcq",
       notifications_slo_param_4: [true, true, false, false],
       notifications_slo_param_5: [5248, 1312, 277, 1033],
@@ -16,10 +12,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 91.45,
       notifications_slo_param_9: { key_0: 31.51, key_1: 61.97, key_2: 9.25 },
       req_0_field_0: false,
-      threshold: 95.2,
+      threshold: 95.2%,
       window_in_days: 7
     }
-
   * "commerce_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "hmynn",
@@ -33,10 +28,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 92.28,
       notifications_slo_param_9: { key_0: 51.02 },
       req_0_field_0: false,
-      threshold: 97.62,
+      threshold: 97.62%,
       window_in_days: 90
     }
-
   * "commerce_notifications_slo_2":
     Provides {
       notifications_slo_param_0: "wmhxxycaai",
@@ -50,10 +44,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 74.19,
       notifications_slo_param_9: { key_0: 14.1, key_1: 92.48 },
       req_0_field_0: true,
-      threshold: 99.97,
+      threshold: 99.97%,
       window_in_days: 90
     }
-
   * "commerce_notifications_slo_3":
     Provides {
       notifications_slo_param_0: "dibmrdlcxmzccc",
@@ -67,10 +60,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 22.09,
       notifications_slo_param_9: { key_0: 15.85 },
       req_0_field_0: false,
-      threshold: 97.76,
+      threshold: 97.76%,
       window_in_days: 7
     }
-
   * "commerce_notifications_slo_4":
     Provides {
       notifications_slo_param_0: "xzwbunfs",
@@ -84,10 +76,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 77.31,
       notifications_slo_param_9: { key_0: 28.71, key_1: 71.79 },
       req_0_field_0: false,
-      threshold: 95.14,
+      threshold: 95.14%,
       window_in_days: 7
     }
-
   * "commerce_notifications_slo_5":
     Provides {
       notifications_slo_param_0: "upxfvqih",
@@ -101,19 +92,14 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 42.93,
       notifications_slo_param_9: { key_0: 21.07 },
       req_0_field_0: false,
-      threshold: 96.08,
+      threshold: 96.08%,
       window_in_days: 90
     }
-
   * "commerce_notifications_slo_6":
     Provides {
       notifications_slo_param_0: "eokdwnlfvvmf",
       notifications_slo_param_1: "umjhwg",
-      notifications_slo_param_2: {
-        key_0: "rzwlqkyxha",
-        key_1: "xnnucothvlhjp",
-        key_2: "erunqooncuzhd"
-      },
+      notifications_slo_param_2: { key_0: "rzwlqkyxha", key_1: "xnnucothvlhjp", key_2: "erunqooncuzhd" },
       notifications_slo_param_3: "dgsqadiv",
       notifications_slo_param_4: [true, false, false],
       notifications_slo_param_5: [8672],
@@ -122,19 +108,14 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 53.9,
       notifications_slo_param_9: { key_0: 78.81 },
       req_0_field_0: true,
-      threshold: 98.26,
+      threshold: 98.26%,
       window_in_days: 7
     }
-
   * "commerce_notifications_slo_7":
     Provides {
       notifications_slo_param_0: "plmypjoolrnz",
       notifications_slo_param_1: "fvmbwpmdmnv",
-      notifications_slo_param_2: {
-        key_0: "tzsfvyuftolvyx",
-        key_1: "ldmaoqo",
-        key_2: "phazhykz"
-      },
+      notifications_slo_param_2: { key_0: "tzsfvyuftolvyx", key_1: "ldmaoqo", key_2: "phazhykz" },
       notifications_slo_param_3: "cfmqggtl",
       notifications_slo_param_4: [true, true],
       notifications_slo_param_5: [4244, 3359],
@@ -143,10 +124,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 44.91,
       notifications_slo_param_9: { key_0: 67.0 },
       req_0_field_0: true,
-      threshold: 97.51,
+      threshold: 97.51%,
       window_in_days: 7
     }
-
   * "commerce_notifications_slo_8":
     Provides {
       notifications_slo_param_0: "oehyxpdcqt",
@@ -160,10 +140,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 34.86,
       notifications_slo_param_9: { key_0: 0.67, key_1: 37.53 },
       req_0_field_0: false,
-      threshold: 99.7,
+      threshold: 99.7%,
       window_in_days: 30
     }
-
   * "commerce_notifications_slo_9":
     Provides {
       notifications_slo_param_0: "orpuuuyvwtsrc",
@@ -177,10 +156,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 83.07,
       notifications_slo_param_9: { key_0: 92.21 },
       req_0_field_0: true,
-      threshold: 96.73,
+      threshold: 96.73%,
       window_in_days: 30
     }
-
   * "commerce_notifications_slo_10":
     Provides {
       notifications_slo_param_0: "nmcbkmjyyglm",
@@ -194,10 +172,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 45.0,
       notifications_slo_param_9: { key_0: 14.13, key_1: 84.49, key_2: 73.85 },
       req_0_field_0: true,
-      threshold: 98.28,
+      threshold: 98.28%,
       window_in_days: 30
     }
-
   * "commerce_notifications_slo_11":
     Provides {
       notifications_slo_param_0: "mavbtigwryif",
@@ -211,10 +188,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 44.6,
       notifications_slo_param_9: { key_0: 4.41, key_1: 50.41, key_2: 26.23 },
       req_0_field_0: true,
-      threshold: 97.23,
+      threshold: 97.23%,
       window_in_days: 90
     }
-
   * "commerce_notifications_slo_12":
     Provides {
       notifications_slo_param_0: "upynidmqddrsee",
@@ -228,10 +204,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 70.12,
       notifications_slo_param_9: { key_0: 90.87, key_1: 83.13, key_2: 95.49 },
       req_0_field_0: true,
-      threshold: 96.16,
+      threshold: 96.16%,
       window_in_days: 90
     }
-
   * "commerce_notifications_slo_13":
     Provides {
       notifications_slo_param_0: "rlcxgtk",
@@ -245,10 +220,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 14.98,
       notifications_slo_param_9: { key_0: 30.19, key_1: 71.84 },
       req_0_field_0: false,
-      threshold: 99.46,
+      threshold: 99.46%,
       window_in_days: 7
     }
-
   * "commerce_notifications_slo_14":
     Provides {
       notifications_slo_param_0: "tayvoukqf",
@@ -262,10 +236,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 64.62,
       notifications_slo_param_9: { key_0: 94.76, key_1: 97.3, key_2: 69.98 },
       req_0_field_0: true,
-      threshold: 95.78,
+      threshold: 95.78%,
       window_in_days: 90
     }
-
   * "commerce_notifications_slo_15":
     Provides {
       notifications_slo_param_0: "ddnewmoilk",
@@ -279,10 +252,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 91.19,
       notifications_slo_param_9: { key_0: 36.87 },
       req_0_field_0: true,
-      threshold: 95.53,
+      threshold: 95.53%,
       window_in_days: 30
     }
-
   * "commerce_notifications_slo_16":
     Provides {
       notifications_slo_param_0: "bpniiqj",
@@ -296,10 +268,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 88.24,
       notifications_slo_param_9: { key_0: 65.86, key_1: 21.37, key_2: 75.8 },
       req_0_field_0: false,
-      threshold: 98.5,
+      threshold: 98.5%,
       window_in_days: 30
     }
-
   * "commerce_notifications_slo_17":
     Provides {
       notifications_slo_param_0: "htykrslqvzh",
@@ -313,19 +284,14 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 65.96,
       notifications_slo_param_9: { key_0: 61.0, key_1: 34.07 },
       req_0_field_0: false,
-      threshold: 96.1,
+      threshold: 96.1%,
       window_in_days: 7
     }
-
   * "commerce_notifications_slo_18":
     Provides {
       notifications_slo_param_0: "ylkcujsfrfnx",
       notifications_slo_param_1: "ritsud",
-      notifications_slo_param_2: {
-        key_0: "gsvutawdbfqkxf",
-        key_1: "cbpahlqhx",
-        key_2: "sqnhepcpfguv"
-      },
+      notifications_slo_param_2: { key_0: "gsvutawdbfqkxf", key_1: "cbpahlqhx", key_2: "sqnhepcpfguv" },
       notifications_slo_param_3: "lrmlgnjbnku",
       notifications_slo_param_4: [true],
       notifications_slo_param_5: [9255, 2474],
@@ -334,10 +300,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 34.93,
       notifications_slo_param_9: { key_0: 23.5, key_1: 42.5, key_2: 19.46 },
       req_0_field_0: false,
-      threshold: 99.86,
+      threshold: 99.86%,
       window_in_days: 90
     }
-
   * "commerce_notifications_slo_19":
     Provides {
       notifications_slo_param_0: "tbrorfsyu",
@@ -351,19 +316,14 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 87.35,
       notifications_slo_param_9: { key_0: 15.98, key_1: 69.3 },
       req_0_field_0: true,
-      threshold: 97.77,
+      threshold: 97.77%,
       window_in_days: 90
     }
-
   * "commerce_notifications_slo_20":
     Provides {
       notifications_slo_param_0: "ivpysjladv",
       notifications_slo_param_1: "delyz",
-      notifications_slo_param_2: {
-        key_0: "thitlfwgwl",
-        key_1: "uzaol",
-        key_2: "lryiesslhltipis"
-      },
+      notifications_slo_param_2: { key_0: "thitlfwgwl", key_1: "uzaol", key_2: "lryiesslhltipis" },
       notifications_slo_param_3: "nahrrlpk",
       notifications_slo_param_4: [true],
       notifications_slo_param_5: [7772, 8068, 7762],
@@ -372,19 +332,14 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 90.32,
       notifications_slo_param_9: { key_0: 2.98, key_1: 62.68, key_2: 67.22 },
       req_0_field_0: true,
-      threshold: 95.99,
+      threshold: 95.99%,
       window_in_days: 7
     }
-
   * "commerce_notifications_slo_21":
     Provides {
       notifications_slo_param_0: "anxijbsvcikjq",
       notifications_slo_param_1: "kiewydmnmh",
-      notifications_slo_param_2: {
-        key_0: "hjbosiesv",
-        key_1: "fkgeqryhyjhe",
-        key_2: "pxifsfuimtikis"
-      },
+      notifications_slo_param_2: { key_0: "hjbosiesv", key_1: "fkgeqryhyjhe", key_2: "pxifsfuimtikis" },
       notifications_slo_param_3: "dsgez",
       notifications_slo_param_4: [false, false, true, true],
       notifications_slo_param_5: [1583],
@@ -393,10 +348,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 38.48,
       notifications_slo_param_9: { key_0: 49.04, key_1: 18.31 },
       req_0_field_0: true,
-      threshold: 95.62,
+      threshold: 95.62%,
       window_in_days: 30
     }
-
   * "commerce_notifications_slo_22":
     Provides {
       notifications_slo_param_0: "bvpbqiyqusliu",
@@ -410,10 +364,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 62.89,
       notifications_slo_param_9: { key_0: 18.77, key_1: 5.52 },
       req_0_field_0: false,
-      threshold: 98.64,
+      threshold: 98.64%,
       window_in_days: 90
     }
-
   * "commerce_notifications_slo_23":
     Provides {
       notifications_slo_param_0: "xxjgwfdslwarfas",
@@ -427,19 +380,14 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 64.31,
       notifications_slo_param_9: { key_0: 11.42 },
       req_0_field_0: false,
-      threshold: 96.62,
+      threshold: 96.62%,
       window_in_days: 30
     }
-
   * "commerce_notifications_slo_24":
     Provides {
       notifications_slo_param_0: "rdorzcv",
       notifications_slo_param_1: "aixkmhvdequ",
-      notifications_slo_param_2: {
-        key_0: "kewvmxvexxsv",
-        key_1: "vkuzubzkkrgknp",
-        key_2: "tkukzbiipyis"
-      },
+      notifications_slo_param_2: { key_0: "kewvmxvexxsv", key_1: "vkuzubzkkrgknp", key_2: "tkukzbiipyis" },
       notifications_slo_param_3: "ljuzy",
       notifications_slo_param_4: [false, false],
       notifications_slo_param_5: [662],
@@ -448,6 +396,6 @@ Expectations for "notifications_slo"
       notifications_slo_param_8: 62.85,
       notifications_slo_param_9: { key_0: 72.5 },
       req_0_field_0: true,
-      threshold: 95.63,
+      threshold: 95.63%,
       window_in_days: 30
     }

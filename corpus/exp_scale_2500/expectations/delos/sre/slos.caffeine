@@ -8,10 +8,9 @@ Expectations for "profiles_slo"
       profiles_slo_param_4: 4357,
       profiles_slo_param_5: 76,
       req_2_field_0: "ghdrvk",
-      threshold: 97.22,
+      threshold: 97.22%,
       window_in_days: 90
     }
-
   * "sre_6_11_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "evvjumevcedk",
@@ -21,10 +20,9 @@ Expectations for "profiles_slo"
       profiles_slo_param_4: 4324,
       profiles_slo_param_5: 76,
       req_2_field_0: "mrjyezoq",
-      threshold: 95.28,
+      threshold: 95.28%,
       window_in_days: 90
     }
-
   * "sre_6_11_profiles_slo_2":
     Provides {
       profiles_slo_param_0: "ufvxpvhsssa",
@@ -34,10 +32,9 @@ Expectations for "profiles_slo"
       profiles_slo_param_4: 7938,
       profiles_slo_param_5: 76,
       req_2_field_0: "ybcnieaxqn",
-      threshold: 98.31,
+      threshold: 98.31%,
       window_in_days: 30
     }
-
   * "sre_6_11_profiles_slo_3":
     Provides {
       profiles_slo_param_0: "rmxdj",
@@ -47,7 +44,7 @@ Expectations for "profiles_slo"
       profiles_slo_param_4: 2736,
       profiles_slo_param_5: 62,
       req_2_field_0: "hmndzxucy",
-      threshold: 98.27,
+      threshold: 98.27%,
       window_in_days: 90
     }
 
@@ -59,10 +56,9 @@ Expectations for "auth_slo"
       auth_slo_param_2: 1063,
       auth_slo_param_3: { key_0: 5717 },
       auth_slo_param_4: "pending",
-      threshold: 96.77,
+      threshold: 96.77%,
       window_in_days: 90
     }
-
   * "sre_6_11_auth_slo_1":
     Provides {
       auth_slo_param_0: "gxbrjnisaiqx",
@@ -70,7 +66,7 @@ Expectations for "auth_slo"
       auth_slo_param_2: 3776,
       auth_slo_param_3: { key_0: 7317, key_1: 9659, key_2: 8256 },
       auth_slo_param_4: "published",
-      threshold: 97.0,
+      threshold: 97.0%,
       window_in_days: 90
     }
 
@@ -81,6 +77,6 @@ Expectations for "orders_slo"
       orders_slo_param_1: "zmbcebadpxjc",
       orders_slo_param_2: 294,
       orders_slo_param_3: "chvqonmscicbt",
-      threshold: 96.27,
+      threshold: 96.27%,
       window_in_days: 90
     }

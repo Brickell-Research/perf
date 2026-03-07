@@ -6,10 +6,9 @@ Expectations for "users_slo"
       users_slo_param_2: "bqpqkwcdacy",
       users_slo_param_3: ["zfxzhotowblvuz", "suwnfchtxztr", "rkxeedrav", "wqblmfhfld"],
       users_slo_param_4: 7.5,
-      threshold: 95.77,
+      threshold: 95.77%,
       window_in_days: 90
     }
-
   * "growth_1_2_users_slo_1":
     Provides {
       users_slo_param_0: "mtxckt",
@@ -17,10 +16,9 @@ Expectations for "users_slo"
       users_slo_param_2: "hqiqrc",
       users_slo_param_3: ["vzsszwnwnnjuhpr", "xexvxnickuqcs", "bktekctst", "ezvmoyjj"],
       users_slo_param_4: 36.85,
-      threshold: 95.72,
+      threshold: 95.72%,
       window_in_days: 30
     }
-
   * "growth_1_2_users_slo_2":
     Provides {
       users_slo_param_0: "lntoybzqnscj",
@@ -28,10 +26,9 @@ Expectations for "users_slo"
       users_slo_param_2: "aeqjggqqbczdw",
       users_slo_param_3: ["jeizh", "ifbalfqfalhvblc", "loylsssmnioogh"],
       users_slo_param_4: 53.53,
-      threshold: 99.11,
+      threshold: 99.11%,
       window_in_days: 7
     }
-
   * "growth_1_2_users_slo_3":
     Provides {
       users_slo_param_0: "sgxxnsgbfr",
@@ -39,10 +36,9 @@ Expectations for "users_slo"
       users_slo_param_2: "kdfqbucsbvqwt",
       users_slo_param_3: ["enqgbkzkwl"],
       users_slo_param_4: 44.38,
-      threshold: 98.34,
+      threshold: 98.34%,
       window_in_days: 30
     }
-
   * "growth_1_2_users_slo_4":
     Provides {
       users_slo_param_0: "lhkguokru",
@@ -50,7 +46,7 @@ Expectations for "users_slo"
       users_slo_param_2: "wojtkpok",
       users_slo_param_3: ["dtiktjgyzroxjxs"],
       users_slo_param_4: 25.51,
-      threshold: 95.2,
+      threshold: 95.2%,
       window_in_days: 30
     }
 
@@ -68,10 +64,9 @@ Expectations for "logging_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 23.27,
-      threshold: 95.27,
+      threshold: 95.27%,
       window_in_days: 7
     }
-
   * "growth_1_2_logging_slo_1":
     Provides {
       logging_slo_param_0: "jxpbremlewla",
@@ -85,7 +80,7 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 91.79,
-      threshold: 99.35,
+      threshold: 99.35%,
       window_in_days: 30
     }
 
@@ -100,7 +95,7 @@ Expectations for "messaging_slo"
       req_0_field_0: true,
       req_0_field_1: false,
       req_0_field_2: 47.34,
-      threshold: 96.05,
+      threshold: 96.05%,
       window_in_days: 30
     }
 
@@ -112,6 +107,6 @@ Expectations for "auth_slo"
       auth_slo_param_2: 7315,
       auth_slo_param_3: { key_0: 6789, key_1: 3781, key_2: 1080 },
       auth_slo_param_4: "published",
-      threshold: 96.17,
+      threshold: 96.17%,
       window_in_days: 30
     }

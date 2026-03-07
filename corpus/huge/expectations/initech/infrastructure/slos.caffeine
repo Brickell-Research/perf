@@ -13,10 +13,9 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_9: 57.94,
       req_4_field_0: 16.96,
       req_4_field_1: false,
-      threshold: 99.94,
+      threshold: 99.94%,
       window_in_days: 30
     }
-
   * "infrastructure_push_notifications_slo_1":
     Provides {
       push_notifications_slo_param_0: "fcorz",
@@ -31,10 +30,9 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_9: 91.16,
       req_4_field_0: 28.67,
       req_4_field_1: true,
-      threshold: 98.89,
+      threshold: 98.89%,
       window_in_days: 30
     }
-
   * "infrastructure_push_notifications_slo_2":
     Provides {
       push_notifications_slo_param_0: "atnwuibzavk",
@@ -49,10 +47,9 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_9: 65.87,
       req_4_field_0: 19.27,
       req_4_field_1: false,
-      threshold: 95.18,
+      threshold: 95.18%,
       window_in_days: 7
     }
-
   * "infrastructure_push_notifications_slo_3":
     Provides {
       push_notifications_slo_param_0: "unioctcxlhukj",
@@ -67,10 +64,9 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_9: 87.19,
       req_4_field_0: 76.72,
       req_4_field_1: true,
-      threshold: 96.19,
+      threshold: 96.19%,
       window_in_days: 30
     }
-
   * "infrastructure_push_notifications_slo_4":
     Provides {
       push_notifications_slo_param_0: "orhztrnakescx",
@@ -85,10 +81,9 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_9: 50.08,
       req_4_field_0: 71.99,
       req_4_field_1: false,
-      threshold: 99.95,
+      threshold: 99.95%,
       window_in_days: 7
     }
-
   * "infrastructure_push_notifications_slo_5":
     Provides {
       push_notifications_slo_param_0: "ezsppossxhfcrx",
@@ -103,10 +98,9 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_9: 72.23,
       req_4_field_0: 95.2,
       req_4_field_1: false,
-      threshold: 98.55,
+      threshold: 98.55%,
       window_in_days: 30
     }
-
   * "infrastructure_push_notifications_slo_6":
     Provides {
       push_notifications_slo_param_0: "sybnxuxxctht",
@@ -121,10 +115,9 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_9: 58.94,
       req_4_field_0: 38.83,
       req_4_field_1: false,
-      threshold: 95.24,
+      threshold: 95.24%,
       window_in_days: 7
     }
-
   * "infrastructure_push_notifications_slo_7":
     Provides {
       push_notifications_slo_param_0: "gkgvjdnqqlv",
@@ -139,7 +132,7 @@ Expectations for "push_notifications_slo"
       push_notifications_slo_param_9: 50.03,
       req_4_field_0: 62.33,
       req_4_field_1: false,
-      threshold: 95.21,
+      threshold: 95.21%,
       window_in_days: 30
     }
 
@@ -157,10 +150,9 @@ Expectations for "feature_flags_slo"
       feature_flags_slo_param_8: 10.26,
       feature_flags_slo_param_9: { key_0: "iklhwek", key_1: "afubnajfalr" },
       feature_flags_slo_param_10: 66.59,
-      threshold: 95.45,
+      threshold: 95.45%,
       window_in_days: 30
     }
-
   * "infrastructure_feature_flags_slo_1":
     Provides {
       feature_flags_slo_param_0: "ibnoje",
@@ -172,16 +164,11 @@ Expectations for "feature_flags_slo"
       feature_flags_slo_param_6: 44.16,
       feature_flags_slo_param_7: 6363,
       feature_flags_slo_param_8: 88.52,
-      feature_flags_slo_param_9: {
-        key_0: "fipgrloa",
-        key_1: "muzzswucgwuceaj",
-        key_2: "gevrpmudowhb"
-      },
+      feature_flags_slo_param_9: { key_0: "fipgrloa", key_1: "muzzswucgwuceaj", key_2: "gevrpmudowhb" },
       feature_flags_slo_param_10: 73.25,
-      threshold: 99.6,
+      threshold: 99.6%,
       window_in_days: 30
     }
-
   * "infrastructure_feature_flags_slo_2":
     Provides {
       feature_flags_slo_param_0: "tvyxlqpe",
@@ -195,10 +182,9 @@ Expectations for "feature_flags_slo"
       feature_flags_slo_param_8: 22.8,
       feature_flags_slo_param_9: { key_0: "hdymbpdpumvwi" },
       feature_flags_slo_param_10: 56.16,
-      threshold: 96.71,
+      threshold: 96.71%,
       window_in_days: 30
     }
-
   * "infrastructure_feature_flags_slo_3":
     Provides {
       feature_flags_slo_param_0: "xllrq",
@@ -212,10 +198,9 @@ Expectations for "feature_flags_slo"
       feature_flags_slo_param_8: 2.84,
       feature_flags_slo_param_9: { key_0: "fjgui", key_1: "enhqcvquhb" },
       feature_flags_slo_param_10: 74.09,
-      threshold: 96.35,
+      threshold: 96.35%,
       window_in_days: 90
     }
-
   * "infrastructure_feature_flags_slo_4":
     Provides {
       feature_flags_slo_param_0: "wmtnlkjyvlevgku",
@@ -229,10 +214,9 @@ Expectations for "feature_flags_slo"
       feature_flags_slo_param_8: 29.67,
       feature_flags_slo_param_9: { key_0: "tzgjdeo" },
       feature_flags_slo_param_10: 68.56,
-      threshold: 99.39,
+      threshold: 99.39%,
       window_in_days: 90
     }
-
   * "infrastructure_feature_flags_slo_5":
     Provides {
       feature_flags_slo_param_0: "rxihyf",
@@ -244,16 +228,11 @@ Expectations for "feature_flags_slo"
       feature_flags_slo_param_6: 41.12,
       feature_flags_slo_param_7: 7555,
       feature_flags_slo_param_8: 74.65,
-      feature_flags_slo_param_9: {
-        key_0: "bnndzfnomiow",
-        key_1: "kbszfs",
-        key_2: "qkmzpzzktillhu"
-      },
+      feature_flags_slo_param_9: { key_0: "bnndzfnomiow", key_1: "kbszfs", key_2: "qkmzpzzktillhu" },
       feature_flags_slo_param_10: 59.52,
-      threshold: 99.41,
+      threshold: 99.41%,
       window_in_days: 90
     }
-
   * "infrastructure_feature_flags_slo_6":
     Provides {
       feature_flags_slo_param_0: "zwwlfubo",
@@ -267,10 +246,9 @@ Expectations for "feature_flags_slo"
       feature_flags_slo_param_8: 29.12,
       feature_flags_slo_param_9: { key_0: "bjgceghbnp" },
       feature_flags_slo_param_10: 75.09,
-      threshold: 95.02,
+      threshold: 95.02%,
       window_in_days: 7
     }
-
   * "infrastructure_feature_flags_slo_7":
     Provides {
       feature_flags_slo_param_0: "nxzauvvw",
@@ -284,7 +262,7 @@ Expectations for "feature_flags_slo"
       feature_flags_slo_param_8: 77.69,
       feature_flags_slo_param_9: { key_0: "frauqv", key_1: "pwxxwdhzocjp" },
       feature_flags_slo_param_10: 63.51,
-      threshold: 96.49,
+      threshold: 96.49%,
       window_in_days: 7
     }
 
@@ -300,10 +278,9 @@ Expectations for "ab_testing_slo"
       ab_testing_slo_param_6: ["qvbgcxp", "ihvaeib", "ollhlj"],
       ab_testing_slo_param_7: [95.57, 11.38, 30.88],
       ab_testing_slo_param_8: "xtzrsfntdpunk",
-      threshold: 97.57,
+      threshold: 97.57%,
       window_in_days: 30
     }
-
   * "infrastructure_ab_testing_slo_1":
     Provides {
       ab_testing_slo_param_0: "oeqfzl",
@@ -315,10 +292,9 @@ Expectations for "ab_testing_slo"
       ab_testing_slo_param_6: ["znxtmn", "uxvvokovy", "gldqdqy"],
       ab_testing_slo_param_7: [98.07],
       ab_testing_slo_param_8: "froavtl",
-      threshold: 99.11,
+      threshold: 99.11%,
       window_in_days: 90
     }
-
   * "infrastructure_ab_testing_slo_2":
     Provides {
       ab_testing_slo_param_0: "qlrovzpsbukif",
@@ -330,10 +306,9 @@ Expectations for "ab_testing_slo"
       ab_testing_slo_param_6: ["vfgnknwyrkd", "kccqrawtoucyqo"],
       ab_testing_slo_param_7: [84.73, 78.42, 9.84, 76.7],
       ab_testing_slo_param_8: "qmxkt",
-      threshold: 99.82,
+      threshold: 99.82%,
       window_in_days: 7
     }
-
   * "infrastructure_ab_testing_slo_3":
     Provides {
       ab_testing_slo_param_0: "bpfupd",
@@ -345,10 +320,9 @@ Expectations for "ab_testing_slo"
       ab_testing_slo_param_6: ["iramgceu", "ciqrtlxj"],
       ab_testing_slo_param_7: [52.48],
       ab_testing_slo_param_8: "pwfhvgizncbbxy",
-      threshold: 98.25,
+      threshold: 98.25%,
       window_in_days: 90
     }
-
   * "infrastructure_ab_testing_slo_4":
     Provides {
       ab_testing_slo_param_0: "tyzuwf",
@@ -360,10 +334,9 @@ Expectations for "ab_testing_slo"
       ab_testing_slo_param_6: ["lhkmvatgus", "yvbfdifmrwj", "jsexrrgnzufa"],
       ab_testing_slo_param_7: [33.15],
       ab_testing_slo_param_8: "xrqzfecwtb",
-      threshold: 96.73,
+      threshold: 96.73%,
       window_in_days: 90
     }
-
   * "infrastructure_ab_testing_slo_5":
     Provides {
       ab_testing_slo_param_0: "npuamfhjm",
@@ -375,10 +348,9 @@ Expectations for "ab_testing_slo"
       ab_testing_slo_param_6: ["iyxbr", "obvhzftvrkx", "gosvhtdvwnhqgf", "vlwjy"],
       ab_testing_slo_param_7: [57.52],
       ab_testing_slo_param_8: "pseoejlpjklcdik",
-      threshold: 96.2,
+      threshold: 96.2%,
       window_in_days: 7
     }
-
   * "infrastructure_ab_testing_slo_6":
     Provides {
       ab_testing_slo_param_0: "dwdrz",
@@ -390,10 +362,9 @@ Expectations for "ab_testing_slo"
       ab_testing_slo_param_6: ["dhvdhqfujl"],
       ab_testing_slo_param_7: [90.8, 43.43, 30.72, 86.86],
       ab_testing_slo_param_8: "vcjmdfoujxj",
-      threshold: 98.06,
+      threshold: 98.06%,
       window_in_days: 30
     }
-
   * "infrastructure_ab_testing_slo_7":
     Provides {
       ab_testing_slo_param_0: "peerjwvhbf",
@@ -405,6 +376,6 @@ Expectations for "ab_testing_slo"
       ab_testing_slo_param_6: ["amgggjjtcrhvdc", "spnmvfdrh"],
       ab_testing_slo_param_7: [28.55, 44.09, 65.07],
       ab_testing_slo_param_8: "cfsunbsnzcf",
-      threshold: 95.42,
+      threshold: 95.42%,
       window_in_days: 7
     }

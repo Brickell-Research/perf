@@ -7,10 +7,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_3: 9854,
       recommendations_slo_param_4: 88,
       recommendations_slo_param_5: 52.24,
-      threshold: 97.66,
+      threshold: 97.66%,
       window_in_days: 30
     }
-
 Expectations for "shipping_slo"
   * "security_13_8_shipping_slo_0":
     Provides {
@@ -22,10 +21,9 @@ Expectations for "shipping_slo"
       shipping_slo_param_5: 41.9,
       shipping_slo_param_6: 73,
       req_1_field_0: "jqtglilzksekoej",
-      threshold: 95.55,
+      threshold: 95.55%,
       window_in_days: 90
     }
-
   * "security_13_8_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "mvxhtvyksdfvekq",
@@ -36,6 +34,6 @@ Expectations for "shipping_slo"
       shipping_slo_param_5: 4.08,
       shipping_slo_param_6: 53,
       req_1_field_0: "oukenshutg",
-      threshold: 96.81,
+      threshold: 96.81%,
       window_in_days: 30
     }

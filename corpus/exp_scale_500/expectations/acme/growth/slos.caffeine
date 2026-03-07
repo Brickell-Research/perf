@@ -7,10 +7,9 @@ Expectations for "catalog_slo"
       catalog_slo_param_3: 50.02,
       catalog_slo_param_4: 46.87,
       catalog_slo_param_5: 68.03,
-      threshold: 97.99,
+      threshold: 97.99%,
       window_in_days: 90
     }
-
   * "growth_0_2_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "jrciyo",
@@ -19,10 +18,9 @@ Expectations for "catalog_slo"
       catalog_slo_param_3: 69.98,
       catalog_slo_param_4: 78.52,
       catalog_slo_param_5: 97.05,
-      threshold: 99.92,
+      threshold: 99.92%,
       window_in_days: 90
     }
-
   * "growth_0_2_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "nlltbniwmjd",
@@ -31,6 +29,6 @@ Expectations for "catalog_slo"
       catalog_slo_param_3: 69.83,
       catalog_slo_param_4: 51.43,
       catalog_slo_param_5: 3.05,
-      threshold: 96.27,
+      threshold: 96.27%,
       window_in_days: 90
     }

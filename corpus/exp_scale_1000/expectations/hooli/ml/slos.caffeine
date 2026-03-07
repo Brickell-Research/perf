@@ -7,10 +7,9 @@ Expectations for "billing_slo"
       billing_slo_param_3: "ydtodvnsklykawc",
       billing_slo_param_4: 23.13,
       billing_slo_param_5: 60.54,
-      threshold: 97.71,
+      threshold: 97.71%,
       window_in_days: 90
     }
-
   * "ml_3_12_billing_slo_1":
     Provides {
       billing_slo_param_0: "chciuoeaacochw",
@@ -19,10 +18,9 @@ Expectations for "billing_slo"
       billing_slo_param_3: "npewwff",
       billing_slo_param_4: 57.73,
       billing_slo_param_5: 7.38,
-      threshold: 95.44,
+      threshold: 95.44%,
       window_in_days: 7
     }
-
   * "ml_3_12_billing_slo_2":
     Provides {
       billing_slo_param_0: "djjjdefhjwg",
@@ -31,7 +29,7 @@ Expectations for "billing_slo"
       billing_slo_param_3: "kuntmprnu",
       billing_slo_param_4: 43.06,
       billing_slo_param_5: 12.58,
-      threshold: 97.94,
+      threshold: 97.94%,
       window_in_days: 90
     }
 
@@ -44,10 +42,9 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: true,
       analytics_slo_param_4: 65.91,
       analytics_slo_param_5: 78,
-      threshold: 95.41,
+      threshold: 95.41%,
       window_in_days: 7
     }
-
   * "ml_3_12_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "qkvwuujhkmtzcgd",
@@ -56,7 +53,7 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: true,
       analytics_slo_param_4: 51.26,
       analytics_slo_param_5: 10,
-      threshold: 98.57,
+      threshold: 98.57%,
       window_in_days: 90
     }
 
@@ -71,10 +68,9 @@ Expectations for "shipping_slo"
       shipping_slo_param_5: 78.67,
       shipping_slo_param_6: 53,
       req_1_field_0: "jdjnvghbqw",
-      threshold: 99.06,
+      threshold: 99.06%,
       window_in_days: 7
     }
-
   * "ml_3_12_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "bevzdjnizflshe",
@@ -85,10 +81,9 @@ Expectations for "shipping_slo"
       shipping_slo_param_5: 22.89,
       shipping_slo_param_6: 53,
       req_1_field_0: "fuvxxhidow",
-      threshold: 98.71,
+      threshold: 98.71%,
       window_in_days: 90
     }
-
   * "ml_3_12_shipping_slo_2":
     Provides {
       shipping_slo_param_0: "awlqnlnlrtt",
@@ -99,6 +94,6 @@ Expectations for "shipping_slo"
       shipping_slo_param_5: 85.7,
       shipping_slo_param_6: 29,
       req_1_field_0: "kphwmwndydzldh",
-      threshold: 98.63,
+      threshold: 98.63%,
       window_in_days: 90
     }

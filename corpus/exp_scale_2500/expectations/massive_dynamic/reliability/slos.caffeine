@@ -8,7 +8,7 @@ Expectations for "monitoring_slo"
       monitoring_slo_param_4: "vaqktj",
       monitoring_slo_param_5: 52.8,
       monitoring_slo_param_6: 58.52,
-      threshold: 97.94,
+      threshold: 97.94%,
       window_in_days: 30
     }
 
@@ -20,10 +20,9 @@ Expectations for "users_slo"
       users_slo_param_2: "obfidabqs",
       users_slo_param_3: ["kahfmlmt", "ehvajmwbqblr", "uphrmayctkofnck"],
       users_slo_param_4: 27.16,
-      threshold: 98.17,
+      threshold: 98.17%,
       window_in_days: 90
     }
-
   * "reliability_7_9_users_slo_1":
     Provides {
       users_slo_param_0: "wywbpepmuhp",
@@ -31,6 +30,6 @@ Expectations for "users_slo"
       users_slo_param_2: "xuisgqzhxltop",
       users_slo_param_3: ["craawllmegiuwp", "scgbsgespqkpj", "lbbtwzfjunfge", "rdsfunvjtkxp"],
       users_slo_param_4: 55.57,
-      threshold: 98.64,
+      threshold: 98.64%,
       window_in_days: 30
     }

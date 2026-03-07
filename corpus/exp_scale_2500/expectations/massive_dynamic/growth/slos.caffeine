@@ -12,10 +12,9 @@ Expectations for "logging_slo"
       req_0_field_0: false,
       req_0_field_1: true,
       req_0_field_2: 68.94,
-      threshold: 96.99,
+      threshold: 96.99%,
       window_in_days: 30
     }
-
   * "growth_7_2_logging_slo_1":
     Provides {
       logging_slo_param_0: "npusboffvfe",
@@ -29,10 +28,9 @@ Expectations for "logging_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 77.7,
-      threshold: 96.88,
+      threshold: 96.88%,
       window_in_days: 90
     }
-
   * "growth_7_2_logging_slo_2":
     Provides {
       logging_slo_param_0: "rqycnkny",
@@ -46,7 +44,7 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 46.84,
-      threshold: 99.89,
+      threshold: 99.89%,
       window_in_days: 7
     }
 
@@ -61,10 +59,9 @@ Expectations for "shipping_slo"
       shipping_slo_param_5: 0.11,
       shipping_slo_param_6: 73,
       req_1_field_0: "vwirvhhsvokzi",
-      threshold: 95.28,
+      threshold: 95.28%,
       window_in_days: 90
     }
-
   * "growth_7_2_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "nqeqnbupcp",
@@ -75,10 +72,9 @@ Expectations for "shipping_slo"
       shipping_slo_param_5: 40.85,
       shipping_slo_param_6: 81,
       req_1_field_0: "wazttxgvi",
-      threshold: 99.13,
+      threshold: 99.13%,
       window_in_days: 30
     }
-
   * "growth_7_2_shipping_slo_2":
     Provides {
       shipping_slo_param_0: "pnplxxbopzbe",
@@ -89,10 +85,9 @@ Expectations for "shipping_slo"
       shipping_slo_param_5: 73.0,
       shipping_slo_param_6: 73,
       req_1_field_0: "gjwsnhj",
-      threshold: 99.44,
+      threshold: 99.44%,
       window_in_days: 90
     }
-
   * "growth_7_2_shipping_slo_3":
     Provides {
       shipping_slo_param_0: "uqakxhomjt",
@@ -103,10 +98,9 @@ Expectations for "shipping_slo"
       shipping_slo_param_5: 53.94,
       shipping_slo_param_6: 73,
       req_1_field_0: "circrrvb",
-      threshold: 97.31,
+      threshold: 97.31%,
       window_in_days: 90
     }
-
   * "growth_7_2_shipping_slo_4":
     Provides {
       shipping_slo_param_0: "nokcpme",
@@ -117,7 +111,7 @@ Expectations for "shipping_slo"
       shipping_slo_param_5: 15.82,
       shipping_slo_param_6: 29,
       req_1_field_0: "vajjkjkspuzcnop",
-      threshold: 99.63,
+      threshold: 99.63%,
       window_in_days: 7
     }
 
@@ -129,10 +123,9 @@ Expectations for "checkout_slo"
       checkout_slo_param_2: 4781,
       checkout_slo_param_3: 73.82,
       req_2_field_0: "lajbmnetnm",
-      threshold: 95.47,
+      threshold: 95.47%,
       window_in_days: 90
     }
-
   * "growth_7_2_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "dogqedjtigzhleh",
@@ -140,10 +133,9 @@ Expectations for "checkout_slo"
       checkout_slo_param_2: 5072,
       checkout_slo_param_3: 31.48,
       req_2_field_0: "fggjeqg",
-      threshold: 98.92,
+      threshold: 98.92%,
       window_in_days: 90
     }
-
   * "growth_7_2_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "bebzo",
@@ -151,7 +143,7 @@ Expectations for "checkout_slo"
       checkout_slo_param_2: 1051,
       checkout_slo_param_3: 46.75,
       req_2_field_0: "avfwvitly",
-      threshold: 95.18,
+      threshold: 95.18%,
       window_in_days: 30
     }
 
@@ -166,7 +158,7 @@ Expectations for "messaging_slo"
       req_0_field_0: true,
       req_0_field_1: false,
       req_0_field_2: 33.0,
-      threshold: 98.34,
+      threshold: 98.34%,
       window_in_days: 30
     }
 
@@ -181,10 +173,9 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 58,
       gateway_slo_param_6: 71.05,
       req_1_field_0: "rafugmcjnub",
-      threshold: 99.0,
+      threshold: 99.0%,
       window_in_days: 90
     }
-
   * "growth_7_2_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "vqnvtppqbw",
@@ -195,6 +186,6 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 58,
       gateway_slo_param_6: 47.0,
       req_1_field_0: "xhfxws",
-      threshold: 99.7,
+      threshold: 99.7%,
       window_in_days: 7
     }

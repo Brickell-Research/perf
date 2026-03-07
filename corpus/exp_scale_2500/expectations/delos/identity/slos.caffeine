@@ -6,7 +6,7 @@ Expectations for "auth_slo"
       auth_slo_param_2: 3558,
       auth_slo_param_3: { key_0: 6480 },
       auth_slo_param_4: "pending",
-      threshold: 97.14,
+      threshold: 97.14%,
       window_in_days: 7
     }
 
@@ -19,10 +19,9 @@ Expectations for "payments_slo"
       payments_slo_param_3: 2409,
       payments_slo_param_4: 37,
       payments_slo_param_5: 8611,
-      threshold: 97.5,
+      threshold: 97.5%,
       window_in_days: 90
     }
-
   * "identity_6_15_payments_slo_1":
     Provides {
       payments_slo_param_0: "yazrzqpfkog",
@@ -31,7 +30,7 @@ Expectations for "payments_slo"
       payments_slo_param_3: 6224,
       payments_slo_param_4: 37,
       payments_slo_param_5: 7400,
-      threshold: 97.32,
+      threshold: 97.32%,
       window_in_days: 30
     }
 
@@ -46,10 +45,9 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 58,
       gateway_slo_param_6: 54.69,
       req_1_field_0: "qzzsjwurmd",
-      threshold: 97.38,
+      threshold: 97.38%,
       window_in_days: 30
     }
-
   * "identity_6_15_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "dzyocxglscq",
@@ -60,10 +58,9 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 76,
       gateway_slo_param_6: 25.95,
       req_1_field_0: "kbelnc",
-      threshold: 96.56,
+      threshold: 96.56%,
       window_in_days: 90
     }
-
   * "identity_6_15_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "aylqfpxzq",
@@ -74,10 +71,9 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 90,
       gateway_slo_param_6: 77.2,
       req_1_field_0: "kkzqe",
-      threshold: 95.5,
+      threshold: 95.5%,
       window_in_days: 90
     }
-
   * "identity_6_15_gateway_slo_3":
     Provides {
       gateway_slo_param_0: "timknhtamqoapl",
@@ -88,10 +84,9 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 76,
       gateway_slo_param_6: 63.91,
       req_1_field_0: "fsiggehtjsl",
-      threshold: 97.64,
+      threshold: 97.64%,
       window_in_days: 30
     }
-
   * "identity_6_15_gateway_slo_4":
     Provides {
       gateway_slo_param_0: "ozahrtcvi",
@@ -102,6 +97,6 @@ Expectations for "gateway_slo"
       gateway_slo_param_5: 38,
       gateway_slo_param_6: 76.6,
       req_1_field_0: "neookroxvqolju",
-      threshold: 98.09,
+      threshold: 98.09%,
       window_in_days: 30
     }

@@ -7,7 +7,7 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_3: 3732,
       recommendations_slo_param_4: 49,
       recommendations_slo_param_5: 63.43,
-      threshold: 96.65,
+      threshold: 96.65%,
       window_in_days: 30
     }
 
@@ -20,10 +20,9 @@ Expectations for "cart_slo"
       cart_slo_param_3: 9707,
       cart_slo_param_4: 45.13,
       cart_slo_param_5: 753,
-      threshold: 97.79,
+      threshold: 97.79%,
       window_in_days: 30
     }
-
   * "frontend_0_6_cart_slo_1":
     Provides {
       cart_slo_param_0: "cwdznst",
@@ -32,10 +31,9 @@ Expectations for "cart_slo"
       cart_slo_param_3: 755,
       cart_slo_param_4: 40.34,
       cart_slo_param_5: 322,
-      threshold: 95.15,
+      threshold: 95.15%,
       window_in_days: 90
     }
-
   * "frontend_0_6_cart_slo_2":
     Provides {
       cart_slo_param_0: "eprykakdkf",
@@ -44,6 +42,6 @@ Expectations for "cart_slo"
       cart_slo_param_3: 6170,
       cart_slo_param_4: 63.0,
       cart_slo_param_5: 234,
-      threshold: 98.67,
+      threshold: 98.67%,
       window_in_days: 7
     }

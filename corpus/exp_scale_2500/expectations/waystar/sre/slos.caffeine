@@ -8,10 +8,9 @@ Expectations for "monitoring_slo"
       monitoring_slo_param_4: "zbkdrxjpetqdl",
       monitoring_slo_param_5: 60.15,
       monitoring_slo_param_6: 44.11,
-      threshold: 97.65,
+      threshold: 97.65%,
       window_in_days: 30
     }
-
   * "sre_5_11_monitoring_slo_1":
     Provides {
       monitoring_slo_param_0: "myxit",
@@ -21,10 +20,9 @@ Expectations for "monitoring_slo"
       monitoring_slo_param_4: "yuogcilwlvvw",
       monitoring_slo_param_5: 53.64,
       monitoring_slo_param_6: 33.02,
-      threshold: 97.0,
+      threshold: 97.0%,
       window_in_days: 7
     }
-
   * "sre_5_11_monitoring_slo_2":
     Provides {
       monitoring_slo_param_0: "ldmgybnfww",
@@ -34,7 +32,7 @@ Expectations for "monitoring_slo"
       monitoring_slo_param_4: "zhsomaharnsi",
       monitoring_slo_param_5: 50.06,
       monitoring_slo_param_6: 52.17,
-      threshold: 96.99,
+      threshold: 96.99%,
       window_in_days: 7
     }
 
@@ -47,7 +45,7 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: false,
       analytics_slo_param_4: 31.27,
       analytics_slo_param_5: 78,
-      threshold: 99.04,
+      threshold: 99.04%,
       window_in_days: 7
     }
 
@@ -61,10 +59,9 @@ Expectations for "scheduler_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 5.44,
-      threshold: 97.8,
+      threshold: 97.8%,
       window_in_days: 90
     }
-
   * "sre_5_11_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "zvcndkdgsfohlv",
@@ -74,7 +71,7 @@ Expectations for "scheduler_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 6.67,
-      threshold: 96.92,
+      threshold: 96.92%,
       window_in_days: 7
     }
 
@@ -86,10 +83,9 @@ Expectations for "users_slo"
       users_slo_param_2: "lrrqqaqvnmtn",
       users_slo_param_3: ["syyzaltnidp", "bpgppov", "ukepyae", "yaxorng"],
       users_slo_param_4: 12.08,
-      threshold: 96.68,
+      threshold: 96.68%,
       window_in_days: 90
     }
-
   * "sre_5_11_users_slo_1":
     Provides {
       users_slo_param_0: "ktmwn",
@@ -97,6 +93,6 @@ Expectations for "users_slo"
       users_slo_param_2: "vdlujsfsya",
       users_slo_param_3: ["rrjtnsumz", "rkyvpamvxfzu", "eqzcvyxaih"],
       users_slo_param_4: 13.96,
-      threshold: 97.08,
+      threshold: 97.08%,
       window_in_days: 7
     }

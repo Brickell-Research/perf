@@ -437,7 +437,7 @@ def gen_expectation_file(blueprint_name, fields, num_expectations, org, team):
         # Standard SLO fields
         threshold = round(random.uniform(95.0, 99.99), 2)
         window = random.choice([7, 30, 90])
-        lines.append(f"      threshold: {threshold},")
+        lines.append(f"      threshold: {threshold}%,")
         lines.append(f"      window_in_days: {window}")
         lines.append("    }")
 

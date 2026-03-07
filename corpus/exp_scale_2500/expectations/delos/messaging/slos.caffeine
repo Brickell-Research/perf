@@ -5,7 +5,7 @@ Expectations for "orders_slo"
       orders_slo_param_1: "xqbjqhapizvse",
       orders_slo_param_2: 355,
       orders_slo_param_3: "jvkcbqkwvoiuy",
-      threshold: 99.27,
+      threshold: 99.27%,
       window_in_days: 7
     }
 
@@ -18,10 +18,9 @@ Expectations for "search_slo"
       search_slo_param_3: 33,
       search_slo_param_4: "draft",
       req_1_field_0: "qmoodgxozrb",
-      threshold: 98.42,
+      threshold: 98.42%,
       window_in_days: 90
     }
-
   * "messaging_6_14_search_slo_1":
     Provides {
       search_slo_param_0: "xzilewjsmq",
@@ -30,7 +29,7 @@ Expectations for "search_slo"
       search_slo_param_3: 109,
       search_slo_param_4: "active",
       req_1_field_0: "zmwpipkajcnybd",
-      threshold: 95.18,
+      threshold: 95.18%,
       window_in_days: 90
     }
 
@@ -44,7 +43,7 @@ Expectations for "scheduler_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 83.14,
-      threshold: 96.09,
+      threshold: 96.09%,
       window_in_days: 30
     }
 
@@ -57,10 +56,9 @@ Expectations for "billing_slo"
       billing_slo_param_3: "uyjcrnhuwutwwe",
       billing_slo_param_4: 23.14,
       billing_slo_param_5: 42.9,
-      threshold: 98.12,
+      threshold: 98.12%,
       window_in_days: 90
     }
-
   * "messaging_6_14_billing_slo_1":
     Provides {
       billing_slo_param_0: "qwofmqtbsyhz",
@@ -69,10 +67,9 @@ Expectations for "billing_slo"
       billing_slo_param_3: "xhacxsczvielmq",
       billing_slo_param_4: 35.48,
       billing_slo_param_5: 76.92,
-      threshold: 98.09,
+      threshold: 98.09%,
       window_in_days: 7
     }
-
   * "messaging_6_14_billing_slo_2":
     Provides {
       billing_slo_param_0: "gnhixe",
@@ -81,10 +78,9 @@ Expectations for "billing_slo"
       billing_slo_param_3: "cdokvtw",
       billing_slo_param_4: 27.67,
       billing_slo_param_5: 46.32,
-      threshold: 98.81,
+      threshold: 98.81%,
       window_in_days: 7
     }
-
   * "messaging_6_14_billing_slo_3":
     Provides {
       billing_slo_param_0: "ypvyaenpdb",
@@ -93,7 +89,7 @@ Expectations for "billing_slo"
       billing_slo_param_3: "ycqesszdtyrooh",
       billing_slo_param_4: 31.99,
       billing_slo_param_5: 53.58,
-      threshold: 99.8,
+      threshold: 99.8%,
       window_in_days: 30
     }
 
@@ -108,10 +104,9 @@ Expectations for "shipping_slo"
       shipping_slo_param_5: 17.95,
       shipping_slo_param_6: 53,
       req_1_field_0: "jsuprqxpynqn",
-      threshold: 96.79,
+      threshold: 96.79%,
       window_in_days: 7
     }
-
   * "messaging_6_14_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "lgthbt",
@@ -122,6 +117,6 @@ Expectations for "shipping_slo"
       shipping_slo_param_5: 55.43,
       shipping_slo_param_6: 29,
       req_1_field_0: "qvgrgcwjl",
-      threshold: 97.77,
+      threshold: 97.77%,
       window_in_days: 90
     }

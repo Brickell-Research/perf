@@ -7,10 +7,9 @@ Expectations for "catalog_slo"
       catalog_slo_param_3: 36.38,
       catalog_slo_param_4: 86.03,
       catalog_slo_param_5: 81.26,
-      threshold: 95.18,
+      threshold: 95.18%,
       window_in_days: 7
     }
-
   * "devops_1_10_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "ymmvwytcygpqvrp",
@@ -19,10 +18,9 @@ Expectations for "catalog_slo"
       catalog_slo_param_3: 73.49,
       catalog_slo_param_4: 40.86,
       catalog_slo_param_5: 49.11,
-      threshold: 98.36,
+      threshold: 98.36%,
       window_in_days: 7
     }
-
   * "devops_1_10_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "fyitj",
@@ -31,10 +29,9 @@ Expectations for "catalog_slo"
       catalog_slo_param_3: 89.78,
       catalog_slo_param_4: 70.44,
       catalog_slo_param_5: 72.58,
-      threshold: 96.86,
+      threshold: 96.86%,
       window_in_days: 90
     }
-
   * "devops_1_10_catalog_slo_3":
     Provides {
       catalog_slo_param_0: "jtdreleghh",
@@ -43,7 +40,7 @@ Expectations for "catalog_slo"
       catalog_slo_param_3: 88.6,
       catalog_slo_param_4: 20.14,
       catalog_slo_param_5: 19.57,
-      threshold: 98.57,
+      threshold: 98.57%,
       window_in_days: 7
     }
 
@@ -57,10 +54,9 @@ Expectations for "scheduler_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 54.15,
-      threshold: 96.57,
+      threshold: 96.57%,
       window_in_days: 90
     }
-
   * "devops_1_10_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "lheshhqjm",
@@ -70,10 +66,9 @@ Expectations for "scheduler_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 91.9,
-      threshold: 97.85,
+      threshold: 97.85%,
       window_in_days: 30
     }
-
   * "devops_1_10_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "qjpzdkgrdnbtdhf",
@@ -83,10 +78,9 @@ Expectations for "scheduler_slo"
       req_0_field_0: true,
       req_0_field_1: false,
       req_0_field_2: 76.95,
-      threshold: 96.94,
+      threshold: 96.94%,
       window_in_days: 7
     }
-
   * "devops_1_10_scheduler_slo_3":
     Provides {
       scheduler_slo_param_0: "darfprynvmkzc",
@@ -96,10 +90,9 @@ Expectations for "scheduler_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 8.81,
-      threshold: 98.66,
+      threshold: 98.66%,
       window_in_days: 30
     }
-
   * "devops_1_10_scheduler_slo_4":
     Provides {
       scheduler_slo_param_0: "nqvtsq",
@@ -109,7 +102,7 @@ Expectations for "scheduler_slo"
       req_0_field_0: false,
       req_0_field_1: true,
       req_0_field_2: 1.93,
-      threshold: 98.61,
+      threshold: 98.61%,
       window_in_days: 7
     }
 
@@ -127,10 +120,9 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: false,
       req_0_field_2: 46.21,
-      threshold: 97.05,
+      threshold: 97.05%,
       window_in_days: 30
     }
-
   * "devops_1_10_logging_slo_1":
     Provides {
       logging_slo_param_0: "talcdhhujaouh",
@@ -144,10 +136,9 @@ Expectations for "logging_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 37.54,
-      threshold: 97.84,
+      threshold: 97.84%,
       window_in_days: 30
     }
-
   * "devops_1_10_logging_slo_2":
     Provides {
       logging_slo_param_0: "mkoiasiwp",
@@ -161,10 +152,9 @@ Expectations for "logging_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 77.15,
-      threshold: 97.54,
+      threshold: 97.54%,
       window_in_days: 30
     }
-
   * "devops_1_10_logging_slo_3":
     Provides {
       logging_slo_param_0: "gcrprxvvmu",
@@ -178,6 +168,6 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 90.92,
-      threshold: 98.08,
+      threshold: 98.08%,
       window_in_days: 7
     }

@@ -6,10 +6,9 @@ Expectations for "checkout_slo"
       checkout_slo_param_2: 6293,
       checkout_slo_param_3: 71.35,
       req_2_field_0: "ixxhakhg",
-      threshold: 96.17,
+      threshold: 96.17%,
       window_in_days: 90
     }
-
   * "frontend_2_6_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "rbkzwnvjtipco",
@@ -17,6 +16,6 @@ Expectations for "checkout_slo"
       checkout_slo_param_2: 1475,
       checkout_slo_param_3: 43.21,
       req_2_field_0: "dcqcyw",
-      threshold: 97.8,
+      threshold: 97.8%,
       window_in_days: 30
     }

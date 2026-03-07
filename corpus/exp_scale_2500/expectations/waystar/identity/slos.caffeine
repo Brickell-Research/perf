@@ -7,10 +7,9 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: true,
       analytics_slo_param_4: 62.23,
       analytics_slo_param_5: 10,
-      threshold: 99.39,
+      threshold: 99.39%,
       window_in_days: 7
     }
-
   * "identity_5_15_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "dxghgubvddsonc",
@@ -19,10 +18,9 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: true,
       analytics_slo_param_4: 88.52,
       analytics_slo_param_5: 78,
-      threshold: 97.21,
+      threshold: 97.21%,
       window_in_days: 7
     }
-
   * "identity_5_15_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "ruhtgn",
@@ -31,10 +29,9 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: false,
       analytics_slo_param_4: 58.41,
       analytics_slo_param_5: 78,
-      threshold: 97.7,
+      threshold: 97.7%,
       window_in_days: 30
     }
-
   * "identity_5_15_analytics_slo_3":
     Provides {
       analytics_slo_param_0: "bavfqgrlgndc",
@@ -43,10 +40,9 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: false,
       analytics_slo_param_4: 92.06,
       analytics_slo_param_5: 10,
-      threshold: 97.39,
+      threshold: 97.39%,
       window_in_days: 7
     }
-
   * "identity_5_15_analytics_slo_4":
     Provides {
       analytics_slo_param_0: "cnrewuxmrzce",
@@ -55,6 +51,6 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: false,
       analytics_slo_param_4: 99.46,
       analytics_slo_param_5: 10,
-      threshold: 96.81,
+      threshold: 96.81%,
       window_in_days: 90
     }

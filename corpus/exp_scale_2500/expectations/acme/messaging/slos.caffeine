@@ -7,7 +7,7 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: true,
       analytics_slo_param_4: 67.74,
       analytics_slo_param_5: 10,
-      threshold: 96.04,
+      threshold: 96.04%,
       window_in_days: 90
     }
 
@@ -21,10 +21,9 @@ Expectations for "scheduler_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 4.62,
-      threshold: 96.28,
+      threshold: 96.28%,
       window_in_days: 30
     }
-
   * "messaging_0_14_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "eniwpcgoezox",
@@ -34,10 +33,9 @@ Expectations for "scheduler_slo"
       req_0_field_0: false,
       req_0_field_1: true,
       req_0_field_2: 32.4,
-      threshold: 99.24,
+      threshold: 99.24%,
       window_in_days: 90
     }
-
   * "messaging_0_14_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "qncqudrdhml",
@@ -47,7 +45,7 @@ Expectations for "scheduler_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 12.19,
-      threshold: 95.87,
+      threshold: 95.87%,
       window_in_days: 90
     }
 
@@ -60,10 +58,9 @@ Expectations for "cart_slo"
       cart_slo_param_3: 4746,
       cart_slo_param_4: 22.02,
       cart_slo_param_5: 492,
-      threshold: 97.72,
+      threshold: 97.72%,
       window_in_days: 90
     }
-
   * "messaging_0_14_cart_slo_1":
     Provides {
       cart_slo_param_0: "nkodzluhkw",
@@ -72,10 +69,9 @@ Expectations for "cart_slo"
       cart_slo_param_3: 2189,
       cart_slo_param_4: 21.14,
       cart_slo_param_5: 785,
-      threshold: 99.76,
+      threshold: 99.76%,
       window_in_days: 7
     }
-
   * "messaging_0_14_cart_slo_2":
     Provides {
       cart_slo_param_0: "qoaajqas",
@@ -84,7 +80,7 @@ Expectations for "cart_slo"
       cart_slo_param_3: 1189,
       cart_slo_param_4: 32.22,
       cart_slo_param_5: 678,
-      threshold: 97.8,
+      threshold: 97.8%,
       window_in_days: 7
     }
 
@@ -97,10 +93,9 @@ Expectations for "notifications_slo"
       notifications_slo_param_3: 35.4,
       notifications_slo_param_4: 97.21,
       notifications_slo_param_5: 59.73,
-      threshold: 96.73,
+      threshold: 96.73%,
       window_in_days: 90
     }
-
   * "messaging_0_14_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "uvbyibbk",
@@ -109,7 +104,7 @@ Expectations for "notifications_slo"
       notifications_slo_param_3: 32.19,
       notifications_slo_param_4: 10.49,
       notifications_slo_param_5: 51.02,
-      threshold: 98.96,
+      threshold: 98.96%,
       window_in_days: 7
     }
 
@@ -122,10 +117,9 @@ Expectations for "billing_slo"
       billing_slo_param_3: "eyszohpjw",
       billing_slo_param_4: 45.47,
       billing_slo_param_5: 25.57,
-      threshold: 97.18,
+      threshold: 97.18%,
       window_in_days: 90
     }
-
   * "messaging_0_14_billing_slo_1":
     Provides {
       billing_slo_param_0: "bquqahdfanxcorl",
@@ -134,10 +128,9 @@ Expectations for "billing_slo"
       billing_slo_param_3: "stpgkhxbsnc",
       billing_slo_param_4: 39.05,
       billing_slo_param_5: 7.48,
-      threshold: 95.53,
+      threshold: 95.53%,
       window_in_days: 90
     }
-
   * "messaging_0_14_billing_slo_2":
     Provides {
       billing_slo_param_0: "ekxscrovr",
@@ -146,10 +139,9 @@ Expectations for "billing_slo"
       billing_slo_param_3: "jbmfugrf",
       billing_slo_param_4: 46.3,
       billing_slo_param_5: 59.11,
-      threshold: 96.47,
+      threshold: 96.47%,
       window_in_days: 7
     }
-
 Expectations for "scheduler_slo"
   * "messaging_8_14_scheduler_slo_0":
     Provides {
@@ -160,10 +152,9 @@ Expectations for "scheduler_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 3.44,
-      threshold: 97.13,
+      threshold: 97.13%,
       window_in_days: 30
     }
-
   * "messaging_8_14_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "vscmi",
@@ -173,6 +164,6 @@ Expectations for "scheduler_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 63.16,
-      threshold: 95.25,
+      threshold: 95.25%,
       window_in_days: 90
     }

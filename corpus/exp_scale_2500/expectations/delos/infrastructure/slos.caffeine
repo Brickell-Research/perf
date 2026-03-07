@@ -7,10 +7,9 @@ Expectations for "payments_slo"
       payments_slo_param_3: 1146,
       payments_slo_param_4: 37,
       payments_slo_param_5: 9292,
-      threshold: 98.1,
+      threshold: 98.1%,
       window_in_days: 90
     }
-
   * "infrastructure_6_3_payments_slo_1":
     Provides {
       payments_slo_param_0: "ccvqclhrendk",
@@ -19,7 +18,7 @@ Expectations for "payments_slo"
       payments_slo_param_3: 7151,
       payments_slo_param_4: 37,
       payments_slo_param_5: 3341,
-      threshold: 95.37,
+      threshold: 95.37%,
       window_in_days: 7
     }
 
@@ -32,10 +31,9 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: false,
       analytics_slo_param_4: 85.47,
       analytics_slo_param_5: 10,
-      threshold: 98.47,
+      threshold: 98.47%,
       window_in_days: 90
     }
-
   * "infrastructure_6_3_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "tyvnthxku",
@@ -44,10 +42,9 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: false,
       analytics_slo_param_4: 30.06,
       analytics_slo_param_5: 10,
-      threshold: 96.72,
+      threshold: 96.72%,
       window_in_days: 30
     }
-
   * "infrastructure_6_3_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "smjydiuwj",
@@ -56,10 +53,9 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: false,
       analytics_slo_param_4: 48.76,
       analytics_slo_param_5: 78,
-      threshold: 97.5,
+      threshold: 97.5%,
       window_in_days: 7
     }
-
   * "infrastructure_6_3_analytics_slo_3":
     Provides {
       analytics_slo_param_0: "lfsxmpyrly",
@@ -68,7 +64,7 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: true,
       analytics_slo_param_4: 71.27,
       analytics_slo_param_5: 78,
-      threshold: 98.28,
+      threshold: 98.28%,
       window_in_days: 90
     }
 
@@ -79,47 +75,43 @@ Expectations for "orders_slo"
       orders_slo_param_1: "kqxxkhnvdjebx",
       orders_slo_param_2: 281,
       orders_slo_param_3: "xbfqqv",
-      threshold: 95.75,
+      threshold: 95.75%,
       window_in_days: 30
     }
-
   * "infrastructure_6_3_orders_slo_1":
     Provides {
       orders_slo_param_0: "rywzqlgp",
       orders_slo_param_1: "bxikeqntlxlbopf",
       orders_slo_param_2: 303,
       orders_slo_param_3: "pgikp",
-      threshold: 98.28,
+      threshold: 98.28%,
       window_in_days: 90
     }
-
   * "infrastructure_6_3_orders_slo_2":
     Provides {
       orders_slo_param_0: "amrkymnpmcgtpnb",
       orders_slo_param_1: "xwihzfry",
       orders_slo_param_2: 462,
       orders_slo_param_3: "rqpdjosnybncmfg",
-      threshold: 98.2,
+      threshold: 98.2%,
       window_in_days: 90
     }
-
   * "infrastructure_6_3_orders_slo_3":
     Provides {
       orders_slo_param_0: "ncvmdlqzclz",
       orders_slo_param_1: "yxppfmksxiyjh",
       orders_slo_param_2: 412,
       orders_slo_param_3: "cfextggoqsa",
-      threshold: 96.35,
+      threshold: 96.35%,
       window_in_days: 7
     }
-
   * "infrastructure_6_3_orders_slo_4":
     Provides {
       orders_slo_param_0: "cxvskl",
       orders_slo_param_1: "tvhpjrlyafve",
       orders_slo_param_2: 60,
       orders_slo_param_3: "grrbd",
-      threshold: 99.85,
+      threshold: 99.85%,
       window_in_days: 7
     }
 
@@ -133,7 +125,7 @@ Expectations for "scheduler_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 29.52,
-      threshold: 97.98,
+      threshold: 97.98%,
       window_in_days: 30
     }
 
@@ -148,10 +140,9 @@ Expectations for "messaging_slo"
       req_0_field_0: false,
       req_0_field_1: true,
       req_0_field_2: 31.65,
-      threshold: 98.68,
+      threshold: 98.68%,
       window_in_days: 90
     }
-
   * "infrastructure_6_3_messaging_slo_1":
     Provides {
       messaging_slo_param_0: "sdsfl",
@@ -162,10 +153,9 @@ Expectations for "messaging_slo"
       req_0_field_0: false,
       req_0_field_1: true,
       req_0_field_2: 45.04,
-      threshold: 95.86,
+      threshold: 95.86%,
       window_in_days: 90
     }
-
   * "infrastructure_6_3_messaging_slo_2":
     Provides {
       messaging_slo_param_0: "kykzde",
@@ -176,10 +166,9 @@ Expectations for "messaging_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 66.03,
-      threshold: 96.61,
+      threshold: 96.61%,
       window_in_days: 30
     }
-
   * "infrastructure_6_3_messaging_slo_3":
     Provides {
       messaging_slo_param_0: "awexmqxa",
@@ -190,6 +179,6 @@ Expectations for "messaging_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 98.16,
-      threshold: 95.38,
+      threshold: 95.38%,
       window_in_days: 90
     }

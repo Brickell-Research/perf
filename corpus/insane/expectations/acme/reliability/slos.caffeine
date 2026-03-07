@@ -9,10 +9,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 29.98,
       recommendations_slo_param_6: "staging",
       recommendations_slo_param_7: false,
-      threshold: 99.07,
+      threshold: 99.07%,
       window_in_days: 7
     }
-
   * "reliability_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "glbznlqtxhd",
@@ -23,10 +22,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 47.81,
       recommendations_slo_param_6: "development",
       recommendations_slo_param_7: false,
-      threshold: 95.12,
+      threshold: 95.12%,
       window_in_days: 90
     }
-
   * "reliability_recommendations_slo_2":
     Provides {
       recommendations_slo_param_0: "ewcropojnedmfcy",
@@ -37,10 +35,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 73.98,
       recommendations_slo_param_6: "canary",
       recommendations_slo_param_7: false,
-      threshold: 98.57,
+      threshold: 98.57%,
       window_in_days: 7
     }
-
   * "reliability_recommendations_slo_3":
     Provides {
       recommendations_slo_param_0: "kpnitkemb",
@@ -51,10 +48,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 19.01,
       recommendations_slo_param_6: "canary",
       recommendations_slo_param_7: false,
-      threshold: 98.41,
+      threshold: 98.41%,
       window_in_days: 90
     }
-
   * "reliability_recommendations_slo_4":
     Provides {
       recommendations_slo_param_0: "ymknncogelmuf",
@@ -65,10 +61,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 57.61,
       recommendations_slo_param_6: "development",
       recommendations_slo_param_7: false,
-      threshold: 97.03,
+      threshold: 97.03%,
       window_in_days: 30
     }
-
   * "reliability_recommendations_slo_5":
     Provides {
       recommendations_slo_param_0: "ctracr",
@@ -79,10 +74,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 25.38,
       recommendations_slo_param_6: "canary",
       recommendations_slo_param_7: true,
-      threshold: 95.68,
+      threshold: 95.68%,
       window_in_days: 30
     }
-
   * "reliability_recommendations_slo_6":
     Provides {
       recommendations_slo_param_0: "sxknivpvclho",
@@ -93,10 +87,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 23.22,
       recommendations_slo_param_6: "canary",
       recommendations_slo_param_7: false,
-      threshold: 97.77,
+      threshold: 97.77%,
       window_in_days: 30
     }
-
   * "reliability_recommendations_slo_7":
     Provides {
       recommendations_slo_param_0: "eomgd",
@@ -107,10 +100,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 19.17,
       recommendations_slo_param_6: "qa",
       recommendations_slo_param_7: true,
-      threshold: 95.03,
+      threshold: 95.03%,
       window_in_days: 7
     }
-
   * "reliability_recommendations_slo_8":
     Provides {
       recommendations_slo_param_0: "ayldz",
@@ -121,10 +113,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 29.39,
       recommendations_slo_param_6: "canary",
       recommendations_slo_param_7: false,
-      threshold: 99.71,
+      threshold: 99.71%,
       window_in_days: 30
     }
-
   * "reliability_recommendations_slo_9":
     Provides {
       recommendations_slo_param_0: "cgjzbpo",
@@ -135,10 +126,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 27.25,
       recommendations_slo_param_6: "canary",
       recommendations_slo_param_7: true,
-      threshold: 97.79,
+      threshold: 97.79%,
       window_in_days: 90
     }
-
   * "reliability_recommendations_slo_10":
     Provides {
       recommendations_slo_param_0: "mrqjcputyjwnl",
@@ -149,10 +139,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 72.42,
       recommendations_slo_param_6: "canary",
       recommendations_slo_param_7: false,
-      threshold: 96.04,
+      threshold: 96.04%,
       window_in_days: 90
     }
-
   * "reliability_recommendations_slo_11":
     Provides {
       recommendations_slo_param_0: "dkhprburvpbmirq",
@@ -163,10 +152,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 49.76,
       recommendations_slo_param_6: "qa",
       recommendations_slo_param_7: false,
-      threshold: 98.13,
+      threshold: 98.13%,
       window_in_days: 90
     }
-
   * "reliability_recommendations_slo_12":
     Provides {
       recommendations_slo_param_0: "innmpbbwk",
@@ -177,10 +165,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 29.69,
       recommendations_slo_param_6: "development",
       recommendations_slo_param_7: false,
-      threshold: 96.6,
+      threshold: 96.6%,
       window_in_days: 7
     }
-
   * "reliability_recommendations_slo_13":
     Provides {
       recommendations_slo_param_0: "xdivsjqnsolpacs",
@@ -191,10 +178,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 54.8,
       recommendations_slo_param_6: "staging",
       recommendations_slo_param_7: false,
-      threshold: 98.47,
+      threshold: 98.47%,
       window_in_days: 30
     }
-
   * "reliability_recommendations_slo_14":
     Provides {
       recommendations_slo_param_0: "qjzrx",
@@ -205,6 +191,6 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_5: 23.09,
       recommendations_slo_param_6: "qa",
       recommendations_slo_param_7: true,
-      threshold: 98.57,
+      threshold: 98.57%,
       window_in_days: 30
     }

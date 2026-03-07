@@ -7,10 +7,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_3: 408,
       recommendations_slo_param_4: 49,
       recommendations_slo_param_5: 25.46,
-      threshold: 96.82,
+      threshold: 96.82%,
       window_in_days: 7
     }
-
   * "growth_1_2_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "jvqto",
@@ -19,10 +18,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_3: 9698,
       recommendations_slo_param_4: 49,
       recommendations_slo_param_5: 19.98,
-      threshold: 98.8,
+      threshold: 98.8%,
       window_in_days: 90
     }
-
   * "growth_1_2_recommendations_slo_2":
     Provides {
       recommendations_slo_param_0: "uvfureookfdizwd",
@@ -31,10 +29,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_3: 4392,
       recommendations_slo_param_4: 49,
       recommendations_slo_param_5: 31.83,
-      threshold: 98.89,
+      threshold: 98.89%,
       window_in_days: 30
     }
-
   * "growth_1_2_recommendations_slo_3":
     Provides {
       recommendations_slo_param_0: "lttwm",
@@ -43,10 +40,9 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_3: 2756,
       recommendations_slo_param_4: 88,
       recommendations_slo_param_5: 39.47,
-      threshold: 96.72,
+      threshold: 96.72%,
       window_in_days: 30
     }
-
   * "growth_1_2_recommendations_slo_4":
     Provides {
       recommendations_slo_param_0: "vuqxsdrs",
@@ -55,7 +51,7 @@ Expectations for "recommendations_slo"
       recommendations_slo_param_3: 7126,
       recommendations_slo_param_4: 88,
       recommendations_slo_param_5: 53.98,
-      threshold: 97.51,
+      threshold: 97.51%,
       window_in_days: 7
     }
 
@@ -67,10 +63,9 @@ Expectations for "auth_slo"
       auth_slo_param_2: 359,
       auth_slo_param_3: { key_0: 6845, key_1: 359, key_2: 383 },
       auth_slo_param_4: "pending",
-      threshold: 96.23,
+      threshold: 96.23%,
       window_in_days: 30
     }
-
   * "growth_1_2_auth_slo_1":
     Provides {
       auth_slo_param_0: "sitmynhuheyair",
@@ -78,10 +73,9 @@ Expectations for "auth_slo"
       auth_slo_param_2: 8911,
       auth_slo_param_3: { key_0: 8700, key_1: 6025, key_2: 4987 },
       auth_slo_param_4: "inactive",
-      threshold: 97.03,
+      threshold: 97.03%,
       window_in_days: 7
     }
-
 Expectations for "logging_slo"
   * "growth_9_2_logging_slo_0":
     Provides {
@@ -96,10 +90,9 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: false,
       req_0_field_2: 38.28,
-      threshold: 96.34,
+      threshold: 96.34%,
       window_in_days: 30
     }
-
   * "growth_9_2_logging_slo_1":
     Provides {
       logging_slo_param_0: "vgfmutbjqv",
@@ -113,10 +106,9 @@ Expectations for "logging_slo"
       req_0_field_0: false,
       req_0_field_1: true,
       req_0_field_2: 14.02,
-      threshold: 99.39,
+      threshold: 99.39%,
       window_in_days: 30
     }
-
   * "growth_9_2_logging_slo_2":
     Provides {
       logging_slo_param_0: "obyjc",
@@ -130,10 +122,9 @@ Expectations for "logging_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 29.78,
-      threshold: 99.8,
+      threshold: 99.8%,
       window_in_days: 90
     }
-
   * "growth_9_2_logging_slo_3":
     Provides {
       logging_slo_param_0: "sgjynxvzcxcud",
@@ -147,10 +138,9 @@ Expectations for "logging_slo"
       req_0_field_0: false,
       req_0_field_1: true,
       req_0_field_2: 50.68,
-      threshold: 96.72,
+      threshold: 96.72%,
       window_in_days: 7
     }
-
   * "growth_9_2_logging_slo_4":
     Provides {
       logging_slo_param_0: "szasfvsnci",
@@ -164,7 +154,7 @@ Expectations for "logging_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 19.3,
-      threshold: 98.61,
+      threshold: 98.61%,
       window_in_days: 7
     }
 
@@ -177,10 +167,9 @@ Expectations for "cart_slo"
       cart_slo_param_3: 5629,
       cart_slo_param_4: 15.05,
       cart_slo_param_5: 379,
-      threshold: 98.19,
+      threshold: 98.19%,
       window_in_days: 90
     }
-
   * "growth_9_2_cart_slo_1":
     Provides {
       cart_slo_param_0: "qjmrpkyhhto",
@@ -189,7 +178,7 @@ Expectations for "cart_slo"
       cart_slo_param_3: 4171,
       cart_slo_param_4: 34.72,
       cart_slo_param_5: 257,
-      threshold: 98.21,
+      threshold: 98.21%,
       window_in_days: 90
     }
 
@@ -203,7 +192,7 @@ Expectations for "scheduler_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 22.03,
-      threshold: 95.04,
+      threshold: 95.04%,
       window_in_days: 7
     }
 
@@ -216,10 +205,9 @@ Expectations for "search_slo"
       search_slo_param_3: 116,
       search_slo_param_4: "active",
       req_1_field_0: "yijpjqajj",
-      threshold: 97.39,
+      threshold: 97.39%,
       window_in_days: 30
     }
-
   * "growth_9_2_search_slo_1":
     Provides {
       search_slo_param_0: "btrnksf",
@@ -228,10 +216,9 @@ Expectations for "search_slo"
       search_slo_param_3: 63,
       search_slo_param_4: "active",
       req_1_field_0: "gcepihnqt",
-      threshold: 99.02,
+      threshold: 99.02%,
       window_in_days: 30
     }
-
   * "growth_9_2_search_slo_2":
     Provides {
       search_slo_param_0: "ltzidpacyfmgzdh",
@@ -240,10 +227,9 @@ Expectations for "search_slo"
       search_slo_param_3: 328,
       search_slo_param_4: "active",
       req_1_field_0: "fhdfvtckjlnjavp",
-      threshold: 97.85,
+      threshold: 97.85%,
       window_in_days: 30
     }
-
   * "growth_9_2_search_slo_3":
     Provides {
       search_slo_param_0: "xhpbswlbon",
@@ -252,10 +238,9 @@ Expectations for "search_slo"
       search_slo_param_3: 76,
       search_slo_param_4: "archived",
       req_1_field_0: "oheqwkkcf",
-      threshold: 95.09,
+      threshold: 95.09%,
       window_in_days: 30
     }
-
   * "growth_9_2_search_slo_4":
     Provides {
       search_slo_param_0: "lsgfpivmrn",
@@ -264,7 +249,7 @@ Expectations for "search_slo"
       search_slo_param_3: 272,
       search_slo_param_4: "active",
       req_1_field_0: "hnewfkkwob",
-      threshold: 99.58,
+      threshold: 99.58%,
       window_in_days: 7
     }
 
@@ -279,10 +264,9 @@ Expectations for "messaging_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 15.34,
-      threshold: 99.37,
+      threshold: 99.37%,
       window_in_days: 90
     }
-
 Expectations for "checkout_slo"
   * "growth_17_2_checkout_slo_0":
     Provides {
@@ -291,10 +275,9 @@ Expectations for "checkout_slo"
       checkout_slo_param_2: 9621,
       checkout_slo_param_3: 42.01,
       req_2_field_0: "kkvce",
-      threshold: 99.91,
+      threshold: 99.91%,
       window_in_days: 7
     }
-
   * "growth_17_2_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "zbolmb",
@@ -302,10 +285,9 @@ Expectations for "checkout_slo"
       checkout_slo_param_2: 8152,
       checkout_slo_param_3: 63.67,
       req_2_field_0: "rgszaqfpvuvphb",
-      threshold: 96.62,
+      threshold: 96.62%,
       window_in_days: 90
     }
-
   * "growth_17_2_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "ecmgzfeitiss",
@@ -313,10 +295,9 @@ Expectations for "checkout_slo"
       checkout_slo_param_2: 8254,
       checkout_slo_param_3: 33.35,
       req_2_field_0: "qbcbsc",
-      threshold: 96.15,
+      threshold: 96.15%,
       window_in_days: 30
     }
-
   * "growth_17_2_checkout_slo_3":
     Provides {
       checkout_slo_param_0: "aueqkvvu",
@@ -324,10 +305,9 @@ Expectations for "checkout_slo"
       checkout_slo_param_2: 6427,
       checkout_slo_param_3: 60.46,
       req_2_field_0: "ydsfqrar",
-      threshold: 99.54,
+      threshold: 99.54%,
       window_in_days: 30
     }
-
   * "growth_17_2_checkout_slo_4":
     Provides {
       checkout_slo_param_0: "gzisnvawypftbt",
@@ -335,10 +315,9 @@ Expectations for "checkout_slo"
       checkout_slo_param_2: 607,
       checkout_slo_param_3: 45.59,
       req_2_field_0: "vvpkao",
-      threshold: 96.07,
+      threshold: 96.07%,
       window_in_days: 7
     }
-
 Expectations for "payments_slo"
   * "growth_25_2_payments_slo_0":
     Provides {
@@ -348,7 +327,7 @@ Expectations for "payments_slo"
       payments_slo_param_3: 6613,
       payments_slo_param_4: 81,
       payments_slo_param_5: 4045,
-      threshold: 99.84,
+      threshold: 99.84%,
       window_in_days: 7
     }
 
@@ -361,10 +340,9 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: false,
       analytics_slo_param_4: 95.07,
       analytics_slo_param_5: 10,
-      threshold: 98.46,
+      threshold: 98.46%,
       window_in_days: 30
     }
-
   * "growth_25_2_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "xtmsof",
@@ -373,7 +351,7 @@ Expectations for "analytics_slo"
       analytics_slo_param_3: true,
       analytics_slo_param_4: 59.88,
       analytics_slo_param_5: 78,
-      threshold: 98.11,
+      threshold: 98.11%,
       window_in_days: 30
     }
 
@@ -387,10 +365,9 @@ Expectations for "profiles_slo"
       profiles_slo_param_4: 4421,
       profiles_slo_param_5: 70,
       req_2_field_0: "urqbhnesy",
-      threshold: 97.32,
+      threshold: 97.32%,
       window_in_days: 90
     }
-
   * "growth_25_2_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "rbvrkwwivb",
@@ -400,10 +377,9 @@ Expectations for "profiles_slo"
       profiles_slo_param_4: 6348,
       profiles_slo_param_5: 76,
       req_2_field_0: "pbcyhkuyojqn",
-      threshold: 95.51,
+      threshold: 95.51%,
       window_in_days: 30
     }
-
   * "growth_25_2_profiles_slo_2":
     Provides {
       profiles_slo_param_0: "jvdtzllch",
@@ -413,6 +389,6 @@ Expectations for "profiles_slo"
       profiles_slo_param_4: 6629,
       profiles_slo_param_5: 76,
       req_2_field_0: "mrjpef",
-      threshold: 98.42,
+      threshold: 98.42%,
       window_in_days: 30
     }

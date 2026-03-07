@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Caffeine version to benchmark (e.g., 4.5.1). Leave empty for latest.'
+        description: "Caffeine version to benchmark (e.g., 4.5.1). Leave empty for latest."
         required: false
         type: string
 

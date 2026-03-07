@@ -8,10 +8,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "pending",
       event_bus_slo_param_5: [true, true, false],
       event_bus_slo_param_6: 10.63,
-      threshold: 98.7,
+      threshold: 98.7%,
       window_in_days: 30
     }
-
   * "frontend_event_bus_slo_1":
     Provides {
       event_bus_slo_param_0: "nnjouvbx",
@@ -21,10 +20,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "active",
       event_bus_slo_param_5: [false, false],
       event_bus_slo_param_6: 27.42,
-      threshold: 99.92,
+      threshold: 99.92%,
       window_in_days: 30
     }
-
   * "frontend_event_bus_slo_2":
     Provides {
       event_bus_slo_param_0: "esrcjxo",
@@ -34,10 +32,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "active",
       event_bus_slo_param_5: [false, true],
       event_bus_slo_param_6: 15.1,
-      threshold: 99.41,
+      threshold: 99.41%,
       window_in_days: 7
     }
-
   * "frontend_event_bus_slo_3":
     Provides {
       event_bus_slo_param_0: "gtbnhddwcjmr",
@@ -47,10 +44,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "published",
       event_bus_slo_param_5: [false, false, false, false],
       event_bus_slo_param_6: 73.16,
-      threshold: 99.13,
+      threshold: 99.13%,
       window_in_days: 30
     }
-
   * "frontend_event_bus_slo_4":
     Provides {
       event_bus_slo_param_0: "srbzubmp",
@@ -60,10 +56,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "active",
       event_bus_slo_param_5: [false, false, false],
       event_bus_slo_param_6: 20.58,
-      threshold: 95.23,
+      threshold: 95.23%,
       window_in_days: 90
     }
-
   * "frontend_event_bus_slo_5":
     Provides {
       event_bus_slo_param_0: "jjsslvg",
@@ -73,10 +68,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "draft",
       event_bus_slo_param_5: [false, false, true, true],
       event_bus_slo_param_6: 80.58,
-      threshold: 98.89,
+      threshold: 98.89%,
       window_in_days: 90
     }
-
   * "frontend_event_bus_slo_6":
     Provides {
       event_bus_slo_param_0: "scpjkzcpvdmpw",
@@ -86,10 +80,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "pending",
       event_bus_slo_param_5: [false, false],
       event_bus_slo_param_6: 86.15,
-      threshold: 97.71,
+      threshold: 97.71%,
       window_in_days: 30
     }
-
   * "frontend_event_bus_slo_7":
     Provides {
       event_bus_slo_param_0: "dmauvoykobyujbs",
@@ -99,10 +92,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "published",
       event_bus_slo_param_5: [false, false, false],
       event_bus_slo_param_6: 62.5,
-      threshold: 99.84,
+      threshold: 99.84%,
       window_in_days: 30
     }
-
   * "frontend_event_bus_slo_8":
     Provides {
       event_bus_slo_param_0: "tegsetr",
@@ -112,10 +104,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "published",
       event_bus_slo_param_5: [true, true, false],
       event_bus_slo_param_6: 60.35,
-      threshold: 97.84,
+      threshold: 97.84%,
       window_in_days: 30
     }
-
   * "frontend_event_bus_slo_9":
     Provides {
       event_bus_slo_param_0: "fuwahbxk",
@@ -125,10 +116,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "draft",
       event_bus_slo_param_5: [false, false, false, true],
       event_bus_slo_param_6: 86.98,
-      threshold: 98.41,
+      threshold: 98.41%,
       window_in_days: 7
     }
-
   * "frontend_event_bus_slo_10":
     Provides {
       event_bus_slo_param_0: "lywkvpwxfssxnxv",
@@ -138,10 +128,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "pending",
       event_bus_slo_param_5: [true, false, false],
       event_bus_slo_param_6: 83.4,
-      threshold: 97.7,
+      threshold: 97.7%,
       window_in_days: 7
     }
-
   * "frontend_event_bus_slo_11":
     Provides {
       event_bus_slo_param_0: "mxfyltlxe",
@@ -151,10 +140,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "active",
       event_bus_slo_param_5: [true],
       event_bus_slo_param_6: 50.32,
-      threshold: 98.14,
+      threshold: 98.14%,
       window_in_days: 7
     }
-
   * "frontend_event_bus_slo_12":
     Provides {
       event_bus_slo_param_0: "lqnlnkwrh",
@@ -164,10 +152,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "published",
       event_bus_slo_param_5: [false, false, false],
       event_bus_slo_param_6: 33.78,
-      threshold: 99.16,
+      threshold: 99.16%,
       window_in_days: 7
     }
-
   * "frontend_event_bus_slo_13":
     Provides {
       event_bus_slo_param_0: "enetdouhijux",
@@ -177,10 +164,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "pending",
       event_bus_slo_param_5: [true, false],
       event_bus_slo_param_6: 64.28,
-      threshold: 95.14,
+      threshold: 95.14%,
       window_in_days: 7
     }
-
   * "frontend_event_bus_slo_14":
     Provides {
       event_bus_slo_param_0: "uocrwpgmkpect",
@@ -190,10 +176,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "inactive",
       event_bus_slo_param_5: [true, false, true],
       event_bus_slo_param_6: 90.61,
-      threshold: 98.22,
+      threshold: 98.22%,
       window_in_days: 7
     }
-
   * "frontend_event_bus_slo_15":
     Provides {
       event_bus_slo_param_0: "taswcktybfufwp",
@@ -203,10 +188,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "active",
       event_bus_slo_param_5: [true, false, true, true],
       event_bus_slo_param_6: 23.9,
-      threshold: 95.62,
+      threshold: 95.62%,
       window_in_days: 30
     }
-
   * "frontend_event_bus_slo_16":
     Provides {
       event_bus_slo_param_0: "mwamrgml",
@@ -216,10 +200,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "draft",
       event_bus_slo_param_5: [true],
       event_bus_slo_param_6: 97.16,
-      threshold: 99.66,
+      threshold: 99.66%,
       window_in_days: 7
     }
-
   * "frontend_event_bus_slo_17":
     Provides {
       event_bus_slo_param_0: "xvadmcae",
@@ -229,10 +212,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "pending",
       event_bus_slo_param_5: [true, true, true],
       event_bus_slo_param_6: 95.42,
-      threshold: 98.87,
+      threshold: 98.87%,
       window_in_days: 30
     }
-
   * "frontend_event_bus_slo_18":
     Provides {
       event_bus_slo_param_0: "mgmhgyakmm",
@@ -242,10 +224,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "pending",
       event_bus_slo_param_5: [true, true, true],
       event_bus_slo_param_6: 15.11,
-      threshold: 99.08,
+      threshold: 99.08%,
       window_in_days: 30
     }
-
   * "frontend_event_bus_slo_19":
     Provides {
       event_bus_slo_param_0: "nzrooaofxrrpp",
@@ -255,10 +236,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "active",
       event_bus_slo_param_5: [true, false],
       event_bus_slo_param_6: 74.62,
-      threshold: 96.22,
+      threshold: 96.22%,
       window_in_days: 90
     }
-
   * "frontend_event_bus_slo_20":
     Provides {
       event_bus_slo_param_0: "wgfzebix",
@@ -268,10 +248,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "pending",
       event_bus_slo_param_5: [true],
       event_bus_slo_param_6: 78.49,
-      threshold: 96.11,
+      threshold: 96.11%,
       window_in_days: 30
     }
-
   * "frontend_event_bus_slo_21":
     Provides {
       event_bus_slo_param_0: "nayswk",
@@ -281,10 +260,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "published",
       event_bus_slo_param_5: [true, true, true],
       event_bus_slo_param_6: 93.42,
-      threshold: 99.92,
+      threshold: 99.92%,
       window_in_days: 7
     }
-
   * "frontend_event_bus_slo_22":
     Provides {
       event_bus_slo_param_0: "hpahhslvimeptu",
@@ -294,10 +272,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "published",
       event_bus_slo_param_5: [false],
       event_bus_slo_param_6: 36.27,
-      threshold: 99.12,
+      threshold: 99.12%,
       window_in_days: 30
     }
-
   * "frontend_event_bus_slo_23":
     Provides {
       event_bus_slo_param_0: "kmafxhjr",
@@ -307,10 +284,9 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "published",
       event_bus_slo_param_5: [true, false],
       event_bus_slo_param_6: 19.36,
-      threshold: 96.95,
+      threshold: 96.95%,
       window_in_days: 7
     }
-
   * "frontend_event_bus_slo_24":
     Provides {
       event_bus_slo_param_0: "wlycyqaeaa",
@@ -320,6 +296,6 @@ Expectations for "event_bus_slo"
       event_bus_slo_param_4: "inactive",
       event_bus_slo_param_5: [true, true, false],
       event_bus_slo_param_6: 26.52,
-      threshold: 97.94,
+      threshold: 97.94%,
       window_in_days: 90
     }

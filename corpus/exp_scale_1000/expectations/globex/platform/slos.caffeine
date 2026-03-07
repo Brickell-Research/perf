@@ -6,10 +6,9 @@ Expectations for "users_slo"
       users_slo_param_2: "xofdzj",
       users_slo_param_3: ["mnteavkel"],
       users_slo_param_4: 46.47,
-      threshold: 99.6,
+      threshold: 99.6%,
       window_in_days: 7
     }
-
   * "platform_1_0_users_slo_1":
     Provides {
       users_slo_param_0: "hluqmcvu",
@@ -17,7 +16,7 @@ Expectations for "users_slo"
       users_slo_param_2: "zhgugbpo",
       users_slo_param_3: ["twwcs"],
       users_slo_param_4: 83.96,
-      threshold: 97.64,
+      threshold: 97.64%,
       window_in_days: 30
     }
 
@@ -33,10 +32,9 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 887,
       inventory_slo_param_7: 75.42,
       req_1_field_0: "qmvrwqenoaenzse",
-      threshold: 95.59,
+      threshold: 95.59%,
       window_in_days: 30
     }
-
   * "platform_1_0_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "bojazpb",
@@ -48,10 +46,9 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 2694,
       inventory_slo_param_7: 26.26,
       req_1_field_0: "ayjkshyoiba",
-      threshold: 96.24,
+      threshold: 96.24%,
       window_in_days: 90
     }
-
   * "platform_1_0_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "gxboe",
@@ -63,10 +60,9 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 1339,
       inventory_slo_param_7: 41.72,
       req_1_field_0: "xrnyje",
-      threshold: 95.94,
+      threshold: 95.94%,
       window_in_days: 7
     }
-
   * "platform_1_0_inventory_slo_3":
     Provides {
       inventory_slo_param_0: "ihqimljyyi",
@@ -78,7 +74,7 @@ Expectations for "inventory_slo"
       inventory_slo_param_6: 265,
       inventory_slo_param_7: 89.72,
       req_1_field_0: "nnezkdvjyqz",
-      threshold: 98.6,
+      threshold: 98.6%,
       window_in_days: 7
     }
 
@@ -89,46 +85,42 @@ Expectations for "orders_slo"
       orders_slo_param_1: "kmrii",
       orders_slo_param_2: 432,
       orders_slo_param_3: "fagqqmohedhorw",
-      threshold: 95.53,
+      threshold: 95.53%,
       window_in_days: 7
     }
-
   * "platform_1_0_orders_slo_1":
     Provides {
       orders_slo_param_0: "ecglyigp",
       orders_slo_param_1: "abvcbjwmwgtrj",
       orders_slo_param_2: 256,
       orders_slo_param_3: "dtzldylazgv",
-      threshold: 99.37,
+      threshold: 99.37%,
       window_in_days: 90
     }
-
   * "platform_1_0_orders_slo_2":
     Provides {
       orders_slo_param_0: "mjbpdf",
       orders_slo_param_1: "acdvepzyfkx",
       orders_slo_param_2: 339,
       orders_slo_param_3: "ifglauupagxac",
-      threshold: 97.31,
+      threshold: 97.31%,
       window_in_days: 90
     }
-
   * "platform_1_0_orders_slo_3":
     Provides {
       orders_slo_param_0: "hrwgjvqnuyejowa",
       orders_slo_param_1: "ywvxexvg",
       orders_slo_param_2: 452,
       orders_slo_param_3: "srrjxkvq",
-      threshold: 96.6,
+      threshold: 96.6%,
       window_in_days: 30
     }
-
   * "platform_1_0_orders_slo_4":
     Provides {
       orders_slo_param_0: "auselhpfgcwmq",
       orders_slo_param_1: "dsyapwjlwiuzvdp",
       orders_slo_param_2: 159,
       orders_slo_param_3: "zdguymez",
-      threshold: 98.75,
+      threshold: 98.75%,
       window_in_days: 30
     }

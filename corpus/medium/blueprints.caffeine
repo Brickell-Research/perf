@@ -11,7 +11,7 @@ Blueprints for "SLO"
       checkout_slo_param_1: String,
       checkout_slo_param_2: Float { x | x in ( 7.0..89.8 ) },
       checkout_slo_param_3: List(Boolean),
-      checkout_slo_param_4: Defaulted(Integer, 0)
+      checkout_slo_param_4: Defaulted(Integer, 0),
     }
     Provides {
       evaluation: "numerator / denominator",
@@ -20,12 +20,11 @@ Blueprints for "SLO"
         denominator: "sum:http.latency.p95.total{$checkout_slo_param_0->checkout_slo_param_0$}"
       }
     }
-
   * "auth_slo":
     Requires {
       auth_slo_param_0: String,
       auth_slo_param_1: String,
-      auth_slo_param_2: List(String)
+      auth_slo_param_2: List(String),
     }
     Provides {
       vendor: "datadog",
@@ -35,7 +34,6 @@ Blueprints for "SLO"
         denominator: "sum:cache.hits.total{$auth_slo_param_0->auth_slo_param_0$}"
       }
     }
-
   * "payments_slo" extends [_prov_0]:
     Requires { payments_slo_param_0: String, payments_slo_param_1: String }
     Provides {
@@ -45,13 +43,12 @@ Blueprints for "SLO"
         denominator: "sum:memory.usage.total{$payments_slo_param_0->payments_slo_param_0$}"
       }
     }
-
   * "orders_slo":
     Requires {
       orders_slo_param_0: String,
       orders_slo_param_1: String,
       orders_slo_param_2: Float,
-      orders_slo_param_3: Integer { x | x in { 14, 23, 65, 98 } }
+      orders_slo_param_3: Integer { x | x in { 14, 23, 65, 98 } },
     }
     Provides {
       vendor: "datadog",
@@ -61,13 +58,12 @@ Blueprints for "SLO"
         denominator: "sum:cpu.utilization.total{$orders_slo_param_0->orders_slo_param_0$}"
       }
     }
-
   * "inventory_slo" extends [_prov_0, _req_0]:
     Requires {
       inventory_slo_param_0: String,
       inventory_slo_param_1: String,
       inventory_slo_param_2: Float,
-      inventory_slo_param_3: Optional(Float)
+      inventory_slo_param_3: Optional(Float),
     }
     Provides {
       evaluation: "numerator / denominator",

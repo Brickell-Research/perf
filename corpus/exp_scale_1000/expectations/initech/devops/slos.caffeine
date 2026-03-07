@@ -7,10 +7,9 @@ Expectations for "billing_slo"
       billing_slo_param_3: "caagmxqugkao",
       billing_slo_param_4: 54.28,
       billing_slo_param_5: 78.98,
-      threshold: 95.29,
+      threshold: 95.29%,
       window_in_days: 90
     }
-
   * "devops_2_10_billing_slo_1":
     Provides {
       billing_slo_param_0: "gwhalzyfh",
@@ -19,10 +18,9 @@ Expectations for "billing_slo"
       billing_slo_param_3: "zcisk",
       billing_slo_param_4: 30.53,
       billing_slo_param_5: 95.8,
-      threshold: 97.94,
+      threshold: 97.94%,
       window_in_days: 90
     }
-
   * "devops_2_10_billing_slo_2":
     Provides {
       billing_slo_param_0: "cdtytzxdblsoxz",
@@ -31,7 +29,7 @@ Expectations for "billing_slo"
       billing_slo_param_3: "bbemtrzwfijcpg",
       billing_slo_param_4: 27.28,
       billing_slo_param_5: 20.74,
-      threshold: 95.58,
+      threshold: 95.58%,
       window_in_days: 90
     }
 
@@ -45,10 +43,9 @@ Expectations for "scheduler_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 85.64,
-      threshold: 95.1,
+      threshold: 95.1%,
       window_in_days: 30
     }
-
   * "devops_2_10_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "atbfujbpvek",
@@ -58,10 +55,9 @@ Expectations for "scheduler_slo"
       req_0_field_0: false,
       req_0_field_1: false,
       req_0_field_2: 8.84,
-      threshold: 97.83,
+      threshold: 97.83%,
       window_in_days: 30
     }
-
   * "devops_2_10_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "rdwawvw",
@@ -71,10 +67,9 @@ Expectations for "scheduler_slo"
       req_0_field_0: true,
       req_0_field_1: false,
       req_0_field_2: 96.04,
-      threshold: 99.48,
+      threshold: 99.48%,
       window_in_days: 90
     }
-
   * "devops_2_10_scheduler_slo_3":
     Provides {
       scheduler_slo_param_0: "bljbsnrizpn",
@@ -84,10 +79,9 @@ Expectations for "scheduler_slo"
       req_0_field_0: false,
       req_0_field_1: true,
       req_0_field_2: 75.47,
-      threshold: 98.76,
+      threshold: 98.76%,
       window_in_days: 90
     }
-
   * "devops_2_10_scheduler_slo_4":
     Provides {
       scheduler_slo_param_0: "hzdsa",
@@ -97,6 +91,6 @@ Expectations for "scheduler_slo"
       req_0_field_0: true,
       req_0_field_1: true,
       req_0_field_2: 87.79,
-      threshold: 98.35,
+      threshold: 98.35%,
       window_in_days: 90
     }

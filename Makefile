@@ -12,7 +12,7 @@ THRESHOLD     := 20
 
 # Shorthand: compile a corpus scale quietly
 define compile
-$(BENCH) compile $(CORPUS)/$(1)/blueprints.caffeine $(CORPUS)/$(1)/expectations/ --quiet
+$(BENCH) compile $(CORPUS)/$(1)/measurements/ $(CORPUS)/$(1)/expectations/ --quiet
 endef
 
 # --- Targets ---
@@ -35,6 +35,10 @@ check-deps: ## Check that required tools are installed
 
 generate: ## (Dev) Regenerate corpus files, then commit them
 	python3 $(CURDIR)/generate_corpus.py
+	@echo "Formatting generated corpus..."
+	@for dir in $(CORPUS)/*/; do \
+		$(BENCH) format "$$dir" --quiet 2>/dev/null || true; \
+	done
 	@echo "Remember to commit corpus/"
 
 $(RESULTS):
@@ -50,21 +54,21 @@ bench-quick: check-deps $(RESULTS) ## Quick benchmark (3 scales, fewer runs)
 	hyperfine --warmup 2 --runs 5 \
 		--export-json $(RESULTS)/quick.json \
 		--export-markdown $(RESULTS)/quick.md \
-		-n "small (2 bp, 4 exp)"    '$(call compile,small)' \
-		-n "medium (5 bp, 24 exp)"  '$(call compile,medium)' \
-		-n "large (20 bp, 120 exp)" '$(call compile,large)'
+		-n "small (2 m, 4 exp)"    '$(call compile,small)' \
+		-n "medium (5 m, 24 exp)"  '$(call compile,medium)' \
+		-n "large (20 m, 120 exp)" '$(call compile,large)'
 	@cat $(RESULTS)/quick.md
 
-bench-complexity: check-deps $(RESULTS) ## Benchmark by blueprint complexity
+bench-complexity: check-deps $(RESULTS) ## Benchmark by measurement complexity
 	hyperfine --warmup $(WARMUP) --runs $(RUNS) \
 		--export-json $(RESULTS)/complexity.json \
 		--export-markdown $(RESULTS)/complexity.md \
-		-n "small (2 bp, 4 exp)"      '$(call compile,small)' \
-		-n "medium (5 bp, 24 exp)"    '$(call compile,medium)' \
-		-n "large (20 bp, 120 exp)"   '$(call compile,large)' \
-		-n "huge (50 bp, 600 exp)"    '$(call compile,huge)' \
-		-n "insane (50 bp, ~6K exp)"  '$(call compile,insane)' \
-		-n "absurd (50 bp, ~25K exp)" '$(call compile,absurd)'
+		-n "small (2 m, 4 exp)"      '$(call compile,small)' \
+		-n "medium (5 m, 24 exp)"    '$(call compile,medium)' \
+		-n "large (20 m, 120 exp)"   '$(call compile,large)' \
+		-n "huge (50 m, 600 exp)"    '$(call compile,huge)' \
+		-n "insane (50 m, ~6K exp)"  '$(call compile,insane)' \
+		-n "absurd (50 m, ~25K exp)" '$(call compile,absurd)'
 	@cat $(RESULTS)/complexity.md
 
 bench-scaling: check-deps $(RESULTS) ## Benchmark by expectation count
@@ -85,7 +89,7 @@ bench-validate: check-deps $(RESULTS) ## Compare compile vs validate (large corp
 		--export-json $(RESULTS)/validate.json \
 		--export-markdown $(RESULTS)/validate.md \
 		-n "compile (large)"  '$(call compile,large)' \
-		-n "validate (large)" '$(BENCH) validate $(CORPUS)/large/blueprints.caffeine $(CORPUS)/large/expectations/ --quiet'
+		-n "validate (large)" '$(BENCH) validate $(CORPUS)/large/measurements/ $(CORPUS)/large/expectations/ --quiet'
 	@cat $(RESULTS)/validate.md
 
 bench-format: check-deps $(RESULTS) ## Benchmark the formatter
@@ -102,13 +106,13 @@ memory: check-deps ## Measure peak memory (requires gtime)
 	@echo "=== Peak Memory Usage ==="
 	@for scale in small medium large huge insane absurd; do \
 		printf "%-10s" "$$scale:"; \
-		gtime -v $(BENCH) compile $(CORPUS)/$$scale/blueprints.caffeine $(CORPUS)/$$scale/expectations/ --quiet \
+		gtime -v $(BENCH) compile $(CORPUS)/$$scale/measurements/ $(CORPUS)/$$scale/expectations/ --quiet \
 			2>&1 | grep "Maximum resident" || echo "failed"; \
 	done
 	@echo ""
 	@for count in 10 50 100 500 1000 2500 5000; do \
 		printf "%-10s" "exp_$$count:"; \
-		gtime -v $(BENCH) compile $(CORPUS)/exp_scale_$$count/blueprints.caffeine $(CORPUS)/exp_scale_$$count/expectations/ --quiet \
+		gtime -v $(BENCH) compile $(CORPUS)/exp_scale_$$count/measurements/ $(CORPUS)/exp_scale_$$count/expectations/ --quiet \
 			2>&1 | grep "Maximum resident" || echo "failed"; \
 	done
 

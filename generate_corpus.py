@@ -2,11 +2,11 @@
 """
 Caffeine benchmark corpus generator.
 
-Generates .caffeine blueprint and expectation files at various scales
+Generates .caffeine measurement and expectation files at various scales
 for benchmarking the caffeine compiler with hyperfine.
 
 Corpus dimensions:
-  - Blueprint complexity: small, medium, large, huge
+  - Measurement complexity: small, medium, large, huge
   - Expectation count: 10, 50, 100, 500, 1000
   - Type diversity: simple (String/Int/Bool), mixed, complex (nested collections, refinements)
 """
@@ -257,18 +257,18 @@ def gen_extendables(req_count, prov_count):
             fields.append(f"{fname}: {ftype}")
         extendables.append(f'{name} (Requires): {{ {", ".join(fields)} }}')
 
-    # Provides extendables for blueprints must only use valid SLO artifact fields.
-    # Keep it simple: just vendor, which is always needed and always the same type.
+    # Provides extendables share common evaluation patterns.
+    # Vendor is now determined by the measurement filename, not a field.
     for i in range(prov_count):
         name = f"_prov_{i}"
         prov_names.append(name)
-        extendables.append(f'{name} (Provides): {{ vendor: "datadog" }}')
+        extendables.append(f'{name} (Provides): {{ evaluation: "numerator / denominator" }}')
 
     return extendables, req_names, prov_names
 
 
-def gen_blueprint_item(name, req_ext_names, prov_ext_names, alias_names, complexity="medium"):
-    """Generate a single blueprint item."""
+def gen_measurement_item(name, req_ext_names, prov_ext_names, alias_names, complexity="medium"):
+    """Generate a single measurement item (top-level, no header/bullet)."""
     lines = []
 
     # Extends clause
@@ -279,7 +279,7 @@ def gen_blueprint_item(name, req_ext_names, prov_ext_names, alias_names, complex
         extends.extend(random.sample(req_ext_names, min(random.randint(1, 1), len(req_ext_names))))
 
     extends_str = f" extends [{', '.join(extends)}]" if extends else ""
-    lines.append(f'  * "{name}"{extends_str}:')
+    lines.append(f'"{name}"{extends_str}:')
 
     # Requires block
     req_fields = []
@@ -309,17 +309,20 @@ def gen_blueprint_item(name, req_ext_names, prov_ext_names, alias_names, complex
         req_field_info.append((fname, ftype))
 
     if len(req_fields) <= 2:
-        lines.append(f'    Requires {{ {", ".join(req_fields)} }}')
+        lines.append(f'  Requires {{ {", ".join(req_fields)} }}')
     else:
-        lines.append("    Requires {")
-        for f in req_fields:
-            lines.append(f"      {f},")
-        lines.append("    }")
+        lines.append("  Requires {")
+        for j, f in enumerate(req_fields):
+            if j < len(req_fields) - 1:
+                lines.append(f"    {f},")
+            else:
+                lines.append(f"    {f}")
+        lines.append("  }")
 
-    # Provides block - always include evaluation + indicators for SLO
-    # Only include vendor if not already provided by a Provides extendable
+    # Provides block - evaluation + indicators for SLO
+    # Vendor is determined by the filename (e.g., datadog.caffeine), not a field.
+    # If we extend a Provides extendable, evaluation is already inherited.
     has_prov_extends = any(e in extends for e in prov_ext_names) if prov_ext_names else False
-
     metric = random.choice(METRICS)
     env_param = None
     svc_param = None
@@ -349,21 +352,20 @@ def gen_blueprint_item(name, req_ext_names, prov_ext_names, alias_names, complex
     numerator_query = "".join(template_parts)
     denominator_query = f'sum:{metric}.total{{{f"${env_param}->{env_param}$" if env_param else ""}}}'
 
-    lines.append("    Provides {")
+    lines.append("  Provides {")
     if not has_prov_extends:
-        lines.append('      vendor: "datadog",')
-    lines.append('      evaluation: "numerator / denominator",')
-    lines.append("      indicators: {")
-    lines.append(f'        numerator: "{numerator_query}",')
-    lines.append(f'        denominator: "{denominator_query}"')
-    lines.append("      }")
+        lines.append('    evaluation: "numerator / denominator",')
+    lines.append("    indicators: {")
+    lines.append(f'      numerator: "{numerator_query}",')
+    lines.append(f'      denominator: "{denominator_query}"')
     lines.append("    }")
+    lines.append("  }")
 
     return "\n".join(lines), req_field_info
 
 
-def gen_blueprints_file(num_blueprints, complexity="medium", num_aliases=0, num_req_ext=0, num_prov_ext=0):
-    """Generate a complete blueprints .caffeine file."""
+def gen_measurements_file(num_measurements, complexity="medium", num_aliases=0, num_req_ext=0, num_prov_ext=0):
+    """Generate a complete measurements .caffeine file (vendor determined by filename)."""
     sections = []
 
     # Type aliases
@@ -389,43 +391,43 @@ def gen_blueprints_file(num_blueprints, complexity="medium", num_aliases=0, num_
             field_matches = re.findall(r'(\w+): (\w+)', ext_text[0].split("{", 1)[1])
             req_ext_fields[name] = [(m[0], m[1]) for m in field_matches]
 
-    # Blueprint blocks
-    blueprint_names = []
-    blueprint_fields = {}  # name -> [(field_name, field_type)] - ALL required fields including from extends
+    # Measurement items (top-level, no header, blank line between items)
+    measurement_names = []
+    measurement_fields = {}  # name -> [(field_name, field_type)] - ALL required fields including from extends
 
-    bp_lines = ['Blueprints for "SLO"']
-    for i in range(num_blueprints):
+    item_lines = []
+    for i in range(num_measurements):
         service = SERVICES[i % len(SERVICES)]
         suffix = f"_{i // len(SERVICES)}" if i >= len(SERVICES) else ""
-        bp_name = f"{service}_slo{suffix}"
-        blueprint_names.append(bp_name)
+        m_name = f"{service}_slo{suffix}"
+        measurement_names.append(m_name)
 
-        item_str, field_info = gen_blueprint_item(
-            bp_name, req_ext_names, prov_ext_names, alias_names, complexity
+        item_str, field_info = gen_measurement_item(
+            m_name, req_ext_names, prov_ext_names, alias_names, complexity
         )
-        bp_lines.append(item_str)
+        item_lines.append(item_str)
 
         # Include fields from extended Requires extendables
         all_fields = list(field_info)
-        # Check which req extendables this blueprint extends
+        # Check which req extendables this measurement extends
         for ext_name in req_ext_names:
             if f"extends [" in item_str and ext_name in item_str:
                 if ext_name in req_ext_fields:
                     all_fields.extend(req_ext_fields[ext_name])
-        blueprint_fields[bp_name] = all_fields
+        measurement_fields[m_name] = all_fields
 
-    sections.append("\n".join(bp_lines))
+    sections.append("\n\n".join(item_lines))
 
     content = "\n\n".join(sections) + "\n"
-    return content, blueprint_names, blueprint_fields
+    return content, measurement_names, measurement_fields
 
 
-def gen_expectation_file(blueprint_name, fields, num_expectations, org, team):
+def gen_expectation_file(measurement_name, fields, num_expectations, org, team):
     """Generate an expectations .caffeine file."""
-    lines = [f'Expectations for "{blueprint_name}"']
+    lines = [f'Expectations measured by "{measurement_name}"']
 
     for i in range(num_expectations):
-        exp_name = f"{team}_{blueprint_name}_{i}"
+        exp_name = f"{team}_{measurement_name}_{i}"
         lines.append(f'  * "{exp_name}":')
         lines.append("    Provides {")
 
@@ -440,72 +442,74 @@ def gen_expectation_file(blueprint_name, fields, num_expectations, org, team):
         lines.append(f"      threshold: {threshold}%,")
         lines.append(f"      window_in_days: {window}")
         lines.append("    }")
+        # Blank line between items (formatter style)
+        lines.append("")
 
-    return "\n".join(lines) + "\n"
+    return "\n".join(lines)
 
 
 # --- Corpus scale definitions ---
 
 SCALES = {
     "small": {
-        "num_blueprints": 2,
+        "num_measurements": 2,
         "complexity": "small",
         "num_aliases": 0,
         "num_req_ext": 0,
         "num_prov_ext": 0,
         "num_orgs": 1,
         "teams_per_org": 1,
-        "expectations_per_team_blueprint": 2,
+        "expectations_per_team_measurement": 2,
     },
     "medium": {
-        "num_blueprints": 5,
+        "num_measurements": 5,
         "complexity": "medium",
         "num_aliases": 2,
         "num_req_ext": 1,
         "num_prov_ext": 1,
         "num_orgs": 2,
         "teams_per_org": 2,
-        "expectations_per_team_blueprint": 3,
+        "expectations_per_team_measurement": 3,
     },
     "large": {
-        "num_blueprints": 20,
+        "num_measurements": 20,
         "complexity": "large",
         "num_aliases": 5,
         "num_req_ext": 3,
         "num_prov_ext": 3,
         "num_orgs": 3,
         "teams_per_org": 4,
-        "expectations_per_team_blueprint": 5,
+        "expectations_per_team_measurement": 5,
     },
     "huge": {
-        "num_blueprints": 50,
+        "num_measurements": 50,
         "complexity": "huge",
         "num_aliases": 10,
         "num_req_ext": 5,
         "num_prov_ext": 5,
         "num_orgs": 5,
         "teams_per_org": 5,
-        "expectations_per_team_blueprint": 8,
+        "expectations_per_team_measurement": 8,
     },
     "insane": {
-        "num_blueprints": 50,
+        "num_measurements": 50,
         "complexity": "huge",
         "num_aliases": 10,
         "num_req_ext": 5,
         "num_prov_ext": 5,
         "num_orgs": 8,
         "teams_per_org": 10,
-        "expectations_per_team_blueprint": 15,
+        "expectations_per_team_measurement": 15,
     },
     "absurd": {
-        "num_blueprints": 50,
+        "num_measurements": 50,
         "complexity": "huge",
         "num_aliases": 10,
         "num_req_ext": 5,
         "num_prov_ext": 5,
         "num_orgs": 8,
         "teams_per_org": 20,
-        "expectations_per_team_blueprint": 25,
+        "expectations_per_team_measurement": 25,
     },
 }
 
@@ -520,18 +524,20 @@ def generate_scale(scale_name, config):
         shutil.rmtree(scale_dir)
     os.makedirs(scale_dir)
 
-    # Generate blueprint file
-    bp_content, bp_names, bp_fields = gen_blueprints_file(
-        num_blueprints=config["num_blueprints"],
+    # Generate measurement file (vendor is determined by filename)
+    m_content, m_names, m_fields = gen_measurements_file(
+        num_measurements=config["num_measurements"],
         complexity=config["complexity"],
         num_aliases=config["num_aliases"],
         num_req_ext=config["num_req_ext"],
         num_prov_ext=config["num_prov_ext"],
     )
 
-    bp_file = os.path.join(scale_dir, "blueprints.caffeine")
-    with open(bp_file, "w") as f:
-        f.write(bp_content)
+    measurements_dir = os.path.join(scale_dir, "measurements")
+    os.makedirs(measurements_dir)
+    m_file = os.path.join(measurements_dir, "datadog.caffeine")
+    with open(m_file, "w") as f:
+        f.write(m_content)
 
     # Generate expectations directory structure
     exp_dir = os.path.join(scale_dir, "expectations")
@@ -539,7 +545,7 @@ def generate_scale(scale_name, config):
 
     num_orgs = config["num_orgs"]
     teams_per_org = config["teams_per_org"]
-    exp_per = config["expectations_per_team_blueprint"]
+    exp_per = config["expectations_per_team_measurement"]
     total_expectations = 0
 
     for org_i in range(num_orgs):
@@ -549,18 +555,18 @@ def generate_scale(scale_name, config):
             team_dir = os.path.join(exp_dir, org_name, team_name)
             os.makedirs(team_dir, exist_ok=True)
 
-            # Each team file covers a subset of blueprints
-            bps_for_team = bp_names[:max(1, len(bp_names) // (num_orgs * teams_per_org) + 1)]
-            # Rotate which blueprints each team uses
-            offset = (org_i * teams_per_org + team_i) * len(bps_for_team)
-            bps_for_team = [bp_names[j % len(bp_names)] for j in range(offset, offset + len(bps_for_team))]
+            # Each team file covers a subset of measurements
+            ms_for_team = m_names[:max(1, len(m_names) // (num_orgs * teams_per_org) + 1)]
+            # Rotate which measurements each team uses
+            offset = (org_i * teams_per_org + team_i) * len(ms_for_team)
+            ms_for_team = [m_names[j % len(m_names)] for j in range(offset, offset + len(ms_for_team))]
             # Deduplicate
-            bps_for_team = list(dict.fromkeys(bps_for_team))
+            ms_for_team = list(dict.fromkeys(ms_for_team))
 
             file_content_parts = []
-            for bp_name in bps_for_team:
-                fields = bp_fields[bp_name]
-                part = gen_expectation_file(bp_name, fields, exp_per, org_name, team_name)
+            for m_name in ms_for_team:
+                fields = m_fields[m_name]
+                part = gen_expectation_file(m_name, fields, exp_per, org_name, team_name)
                 file_content_parts.append(part)
                 total_expectations += exp_per
 
@@ -569,7 +575,7 @@ def generate_scale(scale_name, config):
                 f.write("\n".join(file_content_parts))
 
     # Stats
-    bp_size = os.path.getsize(bp_file)
+    m_size = os.path.getsize(m_file)
     total_exp_size = sum(
         os.path.getsize(os.path.join(dp, f))
         for dp, _, fns in os.walk(exp_dir)
@@ -579,21 +585,21 @@ def generate_scale(scale_name, config):
 
     return {
         "scale": scale_name,
-        "blueprints": config["num_blueprints"],
-        "blueprint_file_size": bp_size,
+        "measurements": config["num_measurements"],
+        "measurement_file_size": m_size,
         "expectations_total": total_expectations,
         "expectation_files": num_exp_files,
         "expectations_dir_size": total_exp_size,
-        "total_size": bp_size + total_exp_size,
+        "total_size": m_size + total_exp_size,
     }
 
 
 def generate_expectation_scaling():
-    """Generate corpora that vary only in expectation count, using a fixed 'large' blueprint."""
-    # Generate the fixed blueprint
+    """Generate corpora that vary only in expectation count, using a fixed 'large' measurement set."""
+    # Generate the fixed measurement set
     config = SCALES["large"]
-    bp_content, bp_names, bp_fields = gen_blueprints_file(
-        num_blueprints=config["num_blueprints"],
+    m_content, m_names, m_fields = gen_measurements_file(
+        num_measurements=config["num_measurements"],
         complexity=config["complexity"],
         num_aliases=config["num_aliases"],
         num_req_ext=config["num_req_ext"],
@@ -607,10 +613,12 @@ def generate_expectation_scaling():
             shutil.rmtree(scale_dir)
         os.makedirs(scale_dir)
 
-        # Write blueprint
-        bp_file = os.path.join(scale_dir, "blueprints.caffeine")
-        with open(bp_file, "w") as f:
-            f.write(bp_content)
+        # Write measurements (vendor determined by filename)
+        measurements_dir = os.path.join(scale_dir, "measurements")
+        os.makedirs(measurements_dir)
+        m_file = os.path.join(measurements_dir, "datadog.caffeine")
+        with open(m_file, "w") as f:
+            f.write(m_content)
 
         # Generate expectations to hit target count
         exp_dir = os.path.join(scale_dir, "expectations")
@@ -626,19 +634,19 @@ def generate_expectation_scaling():
             team_dir = os.path.join(exp_dir, org_name, team_name)
             os.makedirs(team_dir, exist_ok=True)
 
-            # Pick random blueprints for this team
-            num_bps = min(random.randint(1, 5), len(bp_names))
-            chosen_bps = random.sample(bp_names, num_bps)
+            # Pick random measurements for this team
+            num_ms = min(random.randint(1, 5), len(m_names))
+            chosen_ms = random.sample(m_names, num_ms)
 
             file_parts = []
-            for bp_name in chosen_bps:
+            for m_name in chosen_ms:
                 remaining = target_count - total
                 if remaining <= 0:
                     break
                 exp_count = min(random.randint(1, 5), remaining)
-                fields = bp_fields[bp_name]
+                fields = m_fields[m_name]
                 part = gen_expectation_file(
-                    bp_name, fields, exp_count,
+                    m_name, fields, exp_count,
                     org_name, f"{team_name}_{org_i}_{team_i}"
                 )
                 file_parts.append(part)
@@ -656,7 +664,7 @@ def generate_expectation_scaling():
                 team_i = 0
                 org_i += 1
 
-        bp_size = os.path.getsize(bp_file)
+        m_size = os.path.getsize(m_file)
         total_exp_size = sum(
             os.path.getsize(os.path.join(dp, f))
             for dp, _, fns in os.walk(exp_dir)
@@ -668,9 +676,9 @@ def generate_expectation_scaling():
             "target": target_count,
             "actual_expectations": total,
             "expectation_files": num_exp_files,
-            "blueprint_size": bp_size,
+            "measurement_size": m_size,
             "expectations_size": total_exp_size,
-            "total_size": bp_size + total_exp_size,
+            "total_size": m_size + total_exp_size,
         })
 
     return results
@@ -688,12 +696,12 @@ def main():
     print("--- Complexity Scaling ---")
     for scale_name, config in SCALES.items():
         stats = generate_scale(scale_name, config)
-        print(f"  {scale_name:8s}: {stats['blueprints']:3d} blueprints, "
+        print(f"  {scale_name:8s}: {stats['measurements']:3d} measurements, "
               f"{stats['expectations_total']:5d} expectations across {stats['expectation_files']:3d} files, "
               f"total {stats['total_size']:,d} bytes")
 
     # Generate expectation-count-scaled corpora
-    print("\n--- Expectation Count Scaling (fixed 'large' blueprint) ---")
+    print("\n--- Expectation Count Scaling (fixed 'large' measurements) ---")
     exp_results = generate_expectation_scaling()
     for r in exp_results:
         print(f"  target {r['target']:5d}: actual {r['actual_expectations']:5d} expectations, "

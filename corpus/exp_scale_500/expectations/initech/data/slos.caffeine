@@ -1,4 +1,4 @@
-Expectations for "monitoring_slo"
+Expectations measured by "monitoring_slo"
   * "data_2_7_monitoring_slo_0":
     Provides {
       monitoring_slo_param_0: "drlyxvgmi",
@@ -12,7 +12,7 @@ Expectations for "monitoring_slo"
       window_in_days: 7
     }
 
-Expectations for "recommendations_slo"
+Expectations measured by "recommendations_slo"
   * "data_2_7_recommendations_slo_0":
     Provides {
       recommendations_slo_param_0: "srlxinqmnsseqhr",
@@ -24,6 +24,7 @@ Expectations for "recommendations_slo"
       threshold: 98.92%,
       window_in_days: 90
     }
+
   * "data_2_7_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "wodknrbjii",
@@ -36,7 +37,7 @@ Expectations for "recommendations_slo"
       window_in_days: 7
     }
 
-Expectations for "cart_slo"
+Expectations measured by "cart_slo"
   * "data_2_7_cart_slo_0":
     Provides {
       cart_slo_param_0: "ewntcvxgztf",
@@ -48,6 +49,7 @@ Expectations for "cart_slo"
       threshold: 96.89%,
       window_in_days: 30
     }
+
   * "data_2_7_cart_slo_1":
     Provides {
       cart_slo_param_0: "sdatdw",
@@ -59,6 +61,7 @@ Expectations for "cart_slo"
       threshold: 98.72%,
       window_in_days: 7
     }
+
   * "data_2_7_cart_slo_2":
     Provides {
       cart_slo_param_0: "jljzmayf",
@@ -70,6 +73,7 @@ Expectations for "cart_slo"
       threshold: 95.84%,
       window_in_days: 30
     }
+
   * "data_2_7_cart_slo_3":
     Provides {
       cart_slo_param_0: "ocxsdgrompeidrc",

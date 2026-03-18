@@ -1,4 +1,4 @@
-Expectations for "monitoring_slo"
+Expectations measured by "monitoring_slo"
   * "reliability_7_9_monitoring_slo_0":
     Provides {
       monitoring_slo_param_0: "lrcjjrpqrkcgqp",
@@ -12,7 +12,7 @@ Expectations for "monitoring_slo"
       window_in_days: 30
     }
 
-Expectations for "users_slo"
+Expectations measured by "users_slo"
   * "reliability_7_9_users_slo_0":
     Provides {
       users_slo_param_0: "drzlai",
@@ -23,6 +23,7 @@ Expectations for "users_slo"
       threshold: 98.17%,
       window_in_days: 90
     }
+
   * "reliability_7_9_users_slo_1":
     Provides {
       users_slo_param_0: "wywbpepmuhp",

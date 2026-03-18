@@ -1,4 +1,4 @@
-Expectations for "billing_slo"
+Expectations measured by "billing_slo"
   * "payments_4_1_billing_slo_0":
     Provides {
       billing_slo_param_0: "goucrkniprnalj",
@@ -10,6 +10,7 @@ Expectations for "billing_slo"
       threshold: 98.94%,
       window_in_days: 7
     }
+
   * "payments_4_1_billing_slo_1":
     Provides {
       billing_slo_param_0: "gyhrmwaxu",
@@ -22,7 +23,7 @@ Expectations for "billing_slo"
       window_in_days: 30
     }
 
-Expectations for "recommendations_slo"
+Expectations measured by "recommendations_slo"
   * "payments_4_1_recommendations_slo_0":
     Provides {
       recommendations_slo_param_0: "wmnpy",
@@ -34,6 +35,7 @@ Expectations for "recommendations_slo"
       threshold: 96.4%,
       window_in_days: 30
     }
+
   * "payments_4_1_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "phcnoyczwgyodum",
@@ -46,7 +48,7 @@ Expectations for "recommendations_slo"
       window_in_days: 30
     }
 
-Expectations for "inventory_slo"
+Expectations measured by "inventory_slo"
   * "payments_4_1_inventory_slo_0":
     Provides {
       inventory_slo_param_0: "qzobg",
@@ -61,6 +63,7 @@ Expectations for "inventory_slo"
       threshold: 97.64%,
       window_in_days: 90
     }
+
   * "payments_4_1_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "kawzsv",
@@ -75,6 +78,7 @@ Expectations for "inventory_slo"
       threshold: 97.36%,
       window_in_days: 90
     }
+
   * "payments_4_1_inventory_slo_2":
     Provides {
       inventory_slo_param_0: "lqbytuqoihmv",
@@ -89,6 +93,7 @@ Expectations for "inventory_slo"
       threshold: 95.1%,
       window_in_days: 90
     }
+
   * "payments_4_1_inventory_slo_3":
     Provides {
       inventory_slo_param_0: "lvesnz",
@@ -103,6 +108,7 @@ Expectations for "inventory_slo"
       threshold: 99.09%,
       window_in_days: 30
     }
+
   * "payments_4_1_inventory_slo_4":
     Provides {
       inventory_slo_param_0: "nirvppvshsngdkx",
@@ -118,7 +124,7 @@ Expectations for "inventory_slo"
       window_in_days: 7
     }
 
-Expectations for "search_slo"
+Expectations measured by "search_slo"
   * "payments_4_1_search_slo_0":
     Provides {
       search_slo_param_0: "hbrrlbmmwqoxudq",
@@ -130,6 +136,7 @@ Expectations for "search_slo"
       threshold: 97.04%,
       window_in_days: 7
     }
+
   * "payments_4_1_search_slo_1":
     Provides {
       search_slo_param_0: "zarvtaozbvkpif",

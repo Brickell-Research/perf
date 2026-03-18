@@ -1,4 +1,4 @@
-Expectations for "users_slo"
+Expectations measured by "users_slo"
   * "growth_1_2_users_slo_0":
     Provides {
       users_slo_param_0: "mzzscoybar",
@@ -9,6 +9,7 @@ Expectations for "users_slo"
       threshold: 95.77%,
       window_in_days: 90
     }
+
   * "growth_1_2_users_slo_1":
     Provides {
       users_slo_param_0: "mtxckt",
@@ -19,6 +20,7 @@ Expectations for "users_slo"
       threshold: 95.72%,
       window_in_days: 30
     }
+
   * "growth_1_2_users_slo_2":
     Provides {
       users_slo_param_0: "lntoybzqnscj",
@@ -29,6 +31,7 @@ Expectations for "users_slo"
       threshold: 99.11%,
       window_in_days: 7
     }
+
   * "growth_1_2_users_slo_3":
     Provides {
       users_slo_param_0: "sgxxnsgbfr",
@@ -39,6 +42,7 @@ Expectations for "users_slo"
       threshold: 98.34%,
       window_in_days: 30
     }
+
   * "growth_1_2_users_slo_4":
     Provides {
       users_slo_param_0: "lhkguokru",
@@ -50,7 +54,7 @@ Expectations for "users_slo"
       window_in_days: 30
     }
 
-Expectations for "logging_slo"
+Expectations measured by "logging_slo"
   * "growth_1_2_logging_slo_0":
     Provides {
       logging_slo_param_0: "cfidxgjgmgz",
@@ -67,6 +71,7 @@ Expectations for "logging_slo"
       threshold: 95.27%,
       window_in_days: 7
     }
+
   * "growth_1_2_logging_slo_1":
     Provides {
       logging_slo_param_0: "jxpbremlewla",
@@ -84,7 +89,7 @@ Expectations for "logging_slo"
       window_in_days: 30
     }
 
-Expectations for "messaging_slo"
+Expectations measured by "messaging_slo"
   * "growth_1_2_messaging_slo_0":
     Provides {
       messaging_slo_param_0: "uybkoshvwnkt",
@@ -99,7 +104,7 @@ Expectations for "messaging_slo"
       window_in_days: 30
     }
 
-Expectations for "auth_slo"
+Expectations measured by "auth_slo"
   * "growth_1_2_auth_slo_0":
     Provides {
       auth_slo_param_0: "xfvylxynjezh",

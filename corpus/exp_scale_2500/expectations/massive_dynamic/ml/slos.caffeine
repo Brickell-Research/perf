@@ -1,4 +1,4 @@
-Expectations for "payments_slo"
+Expectations measured by "payments_slo"
   * "ml_7_12_payments_slo_0":
     Provides {
       payments_slo_param_0: "nqykhfkyzbump",
@@ -11,7 +11,7 @@ Expectations for "payments_slo"
       window_in_days: 90
     }
 
-Expectations for "orders_slo"
+Expectations measured by "orders_slo"
   * "ml_7_12_orders_slo_0":
     Provides {
       orders_slo_param_0: "zbbedictiy",
@@ -21,6 +21,7 @@ Expectations for "orders_slo"
       threshold: 99.09%,
       window_in_days: 30
     }
+
   * "ml_7_12_orders_slo_1":
     Provides {
       orders_slo_param_0: "eqjgkourukypwvv",
@@ -31,7 +32,7 @@ Expectations for "orders_slo"
       window_in_days: 90
     }
 
-Expectations for "users_slo"
+Expectations measured by "users_slo"
   * "ml_7_12_users_slo_0":
     Provides {
       users_slo_param_0: "wtonmphmljwnjim",
@@ -42,6 +43,7 @@ Expectations for "users_slo"
       threshold: 96.57%,
       window_in_days: 30
     }
+
   * "ml_7_12_users_slo_1":
     Provides {
       users_slo_param_0: "zfgoedoqvakha",
@@ -52,6 +54,7 @@ Expectations for "users_slo"
       threshold: 98.13%,
       window_in_days: 30
     }
+
   * "ml_7_12_users_slo_2":
     Provides {
       users_slo_param_0: "lmsrdha",
@@ -62,6 +65,7 @@ Expectations for "users_slo"
       threshold: 99.08%,
       window_in_days: 30
     }
+
   * "ml_7_12_users_slo_3":
     Provides {
       users_slo_param_0: "yzdqchzrm",
@@ -73,7 +77,7 @@ Expectations for "users_slo"
       window_in_days: 90
     }
 
-Expectations for "search_slo"
+Expectations measured by "search_slo"
   * "ml_7_12_search_slo_0":
     Provides {
       search_slo_param_0: "rdmthdxqs",
@@ -85,6 +89,7 @@ Expectations for "search_slo"
       threshold: 96.59%,
       window_in_days: 30
     }
+
   * "ml_7_12_search_slo_1":
     Provides {
       search_slo_param_0: "ograazppzpzvctt",

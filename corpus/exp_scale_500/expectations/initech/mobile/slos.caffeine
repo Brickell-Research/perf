@@ -1,4 +1,4 @@
-Expectations for "users_slo"
+Expectations measured by "users_slo"
   * "mobile_2_4_users_slo_0":
     Provides {
       users_slo_param_0: "xukmokg",
@@ -9,6 +9,7 @@ Expectations for "users_slo"
       threshold: 99.71%,
       window_in_days: 30
     }
+
   * "mobile_2_4_users_slo_1":
     Provides {
       users_slo_param_0: "hesaeb",
@@ -19,6 +20,7 @@ Expectations for "users_slo"
       threshold: 95.82%,
       window_in_days: 7
     }
+
   * "mobile_2_4_users_slo_2":
     Provides {
       users_slo_param_0: "tkneiqracfvobo",
@@ -30,7 +32,7 @@ Expectations for "users_slo"
       window_in_days: 7
     }
 
-Expectations for "recommendations_slo"
+Expectations measured by "recommendations_slo"
   * "mobile_2_4_recommendations_slo_0":
     Provides {
       recommendations_slo_param_0: "nmrubnstezxxyc",
@@ -42,6 +44,7 @@ Expectations for "recommendations_slo"
       threshold: 96.43%,
       window_in_days: 30
     }
+
   * "mobile_2_4_recommendations_slo_1":
     Provides {
       recommendations_slo_param_0: "bwiqlcidgzc",
@@ -53,6 +56,7 @@ Expectations for "recommendations_slo"
       threshold: 96.65%,
       window_in_days: 30
     }
+
   * "mobile_2_4_recommendations_slo_2":
     Provides {
       recommendations_slo_param_0: "jtnhhrudobftsl",
@@ -64,6 +68,7 @@ Expectations for "recommendations_slo"
       threshold: 97.34%,
       window_in_days: 7
     }
+
   * "mobile_2_4_recommendations_slo_3":
     Provides {
       recommendations_slo_param_0: "iefwqsjeumx",
@@ -76,7 +81,7 @@ Expectations for "recommendations_slo"
       window_in_days: 90
     }
 
-Expectations for "payments_slo"
+Expectations measured by "payments_slo"
   * "mobile_2_4_payments_slo_0":
     Provides {
       payments_slo_param_0: "yxprr",

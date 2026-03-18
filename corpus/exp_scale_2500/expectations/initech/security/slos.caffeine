@@ -1,4 +1,4 @@
-Expectations for "auth_slo"
+Expectations measured by "auth_slo"
   * "security_2_8_auth_slo_0":
     Provides {
       auth_slo_param_0: "vibxoik",
@@ -9,6 +9,7 @@ Expectations for "auth_slo"
       threshold: 98.42%,
       window_in_days: 30
     }
+
   * "security_2_8_auth_slo_1":
     Provides {
       auth_slo_param_0: "urrlfde",
@@ -19,6 +20,7 @@ Expectations for "auth_slo"
       threshold: 96.51%,
       window_in_days: 30
     }
+
   * "security_2_8_auth_slo_2":
     Provides {
       auth_slo_param_0: "fkjpujvvyg",
@@ -29,6 +31,7 @@ Expectations for "auth_slo"
       threshold: 99.0%,
       window_in_days: 90
     }
+
   * "security_2_8_auth_slo_3":
     Provides {
       auth_slo_param_0: "sithyjzjsdqh",
@@ -39,6 +42,7 @@ Expectations for "auth_slo"
       threshold: 99.95%,
       window_in_days: 30
     }
+
   * "security_2_8_auth_slo_4":
     Provides {
       auth_slo_param_0: "mowfc",
@@ -49,7 +53,8 @@ Expectations for "auth_slo"
       threshold: 95.33%,
       window_in_days: 7
     }
-Expectations for "billing_slo"
+
+Expectations measured by "billing_slo"
   * "security_10_8_billing_slo_0":
     Provides {
       billing_slo_param_0: "hnhngfb",
@@ -61,6 +66,7 @@ Expectations for "billing_slo"
       threshold: 95.41%,
       window_in_days: 30
     }
+
   * "security_10_8_billing_slo_1":
     Provides {
       billing_slo_param_0: "syjizi",
@@ -73,7 +79,7 @@ Expectations for "billing_slo"
       window_in_days: 7
     }
 
-Expectations for "profiles_slo"
+Expectations measured by "profiles_slo"
   * "security_10_8_profiles_slo_0":
     Provides {
       profiles_slo_param_0: "anwxekhh",
@@ -86,6 +92,7 @@ Expectations for "profiles_slo"
       threshold: 98.31%,
       window_in_days: 30
     }
+
   * "security_10_8_profiles_slo_1":
     Provides {
       profiles_slo_param_0: "fwssuvlahyo",
@@ -98,6 +105,7 @@ Expectations for "profiles_slo"
       threshold: 99.76%,
       window_in_days: 30
     }
+
   * "security_10_8_profiles_slo_2":
     Provides {
       profiles_slo_param_0: "yvggyfxxjl",
@@ -110,18 +118,24 @@ Expectations for "profiles_slo"
       threshold: 97.57%,
       window_in_days: 7
     }
+
   * "security_10_8_profiles_slo_3":
     Provides {
       profiles_slo_param_0: "shlqzlbsjbwaauj",
       profiles_slo_param_1: "lbxerhex",
       profiles_slo_param_2: "archived",
-      profiles_slo_param_3: { key_0: "dmsqcbhonesae", key_1: "ioaatjeshekoca", key_2: "fmmfjhccciurrb" },
+      profiles_slo_param_3: {
+        key_0: "dmsqcbhonesae",
+        key_1: "ioaatjeshekoca",
+        key_2: "fmmfjhccciurrb"
+      },
       profiles_slo_param_4: 1043,
       profiles_slo_param_5: 62,
       req_2_field_0: "jnexrlzddqcstkv",
       threshold: 99.13%,
       window_in_days: 7
     }
+
   * "security_10_8_profiles_slo_4":
     Provides {
       profiles_slo_param_0: "rmppyjqta",
@@ -135,7 +149,7 @@ Expectations for "profiles_slo"
       window_in_days: 7
     }
 
-Expectations for "logging_slo"
+Expectations measured by "logging_slo"
   * "security_10_8_logging_slo_0":
     Provides {
       logging_slo_param_0: "ozlzbvf",
@@ -153,7 +167,7 @@ Expectations for "logging_slo"
       window_in_days: 90
     }
 
-Expectations for "catalog_slo"
+Expectations measured by "catalog_slo"
   * "security_10_8_catalog_slo_0":
     Provides {
       catalog_slo_param_0: "jawpziviqugltp",
@@ -165,6 +179,7 @@ Expectations for "catalog_slo"
       threshold: 95.6%,
       window_in_days: 7
     }
+
   * "security_10_8_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "zxswfwsj",
@@ -176,6 +191,7 @@ Expectations for "catalog_slo"
       threshold: 97.06%,
       window_in_days: 30
     }
+
   * "security_10_8_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "mxmjjzbxi",

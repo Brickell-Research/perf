@@ -1,4 +1,4 @@
-Expectations for "checkout_slo"
+Expectations measured by "checkout_slo"
   * "devops_0_10_checkout_slo_0":
     Provides {
       checkout_slo_param_0: "lutaezmqjdpytk",
@@ -9,6 +9,7 @@ Expectations for "checkout_slo"
       threshold: 98.9%,
       window_in_days: 90
     }
+
   * "devops_0_10_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "povqw",
@@ -19,6 +20,7 @@ Expectations for "checkout_slo"
       threshold: 95.35%,
       window_in_days: 30
     }
+
   * "devops_0_10_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "oixrb",
@@ -30,7 +32,7 @@ Expectations for "checkout_slo"
       window_in_days: 7
     }
 
-Expectations for "messaging_slo"
+Expectations measured by "messaging_slo"
   * "devops_0_10_messaging_slo_0":
     Provides {
       messaging_slo_param_0: "aqvzavcdahd",
@@ -45,7 +47,7 @@ Expectations for "messaging_slo"
       window_in_days: 30
     }
 
-Expectations for "payments_slo"
+Expectations measured by "payments_slo"
   * "devops_0_10_payments_slo_0":
     Provides {
       payments_slo_param_0: "feymn",
@@ -58,7 +60,7 @@ Expectations for "payments_slo"
       window_in_days: 30
     }
 
-Expectations for "users_slo"
+Expectations measured by "users_slo"
   * "devops_0_10_users_slo_0":
     Provides {
       users_slo_param_0: "faosjrz",
@@ -69,6 +71,7 @@ Expectations for "users_slo"
       threshold: 95.64%,
       window_in_days: 7
     }
+
   * "devops_0_10_users_slo_1":
     Provides {
       users_slo_param_0: "alyvzbfp",
@@ -79,6 +82,7 @@ Expectations for "users_slo"
       threshold: 95.98%,
       window_in_days: 7
     }
+
   * "devops_0_10_users_slo_2":
     Provides {
       users_slo_param_0: "icfrxdbqupqsptm",
@@ -89,6 +93,7 @@ Expectations for "users_slo"
       threshold: 98.25%,
       window_in_days: 90
     }
+
   * "devops_0_10_users_slo_3":
     Provides {
       users_slo_param_0: "qfnuv",
@@ -99,6 +104,7 @@ Expectations for "users_slo"
       threshold: 96.24%,
       window_in_days: 30
     }
+
   * "devops_0_10_users_slo_4":
     Provides {
       users_slo_param_0: "dwwbdhhzubmtb",

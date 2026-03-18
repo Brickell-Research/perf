@@ -1,4 +1,4 @@
-Expectations for "search_slo"
+Expectations measured by "search_slo"
   * "security_4_8_search_slo_0":
     Provides {
       search_slo_param_0: "jtmylgvi",
@@ -10,6 +10,7 @@ Expectations for "search_slo"
       threshold: 97.08%,
       window_in_days: 90
     }
+
   * "security_4_8_search_slo_1":
     Provides {
       search_slo_param_0: "dazdmbrt",
@@ -22,7 +23,7 @@ Expectations for "search_slo"
       window_in_days: 30
     }
 
-Expectations for "payments_slo"
+Expectations measured by "payments_slo"
   * "security_4_8_payments_slo_0":
     Provides {
       payments_slo_param_0: "rplfx",
@@ -34,6 +35,7 @@ Expectations for "payments_slo"
       threshold: 98.08%,
       window_in_days: 7
     }
+
   * "security_4_8_payments_slo_1":
     Provides {
       payments_slo_param_0: "pagxc",

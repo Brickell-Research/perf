@@ -1,4 +1,4 @@
-Expectations for "payments_slo"
+Expectations measured by "payments_slo"
   * "data_4_7_payments_slo_0":
     Provides {
       payments_slo_param_0: "aqucfsqgfr",
@@ -10,6 +10,7 @@ Expectations for "payments_slo"
       threshold: 96.15%,
       window_in_days: 7
     }
+
   * "data_4_7_payments_slo_1":
     Provides {
       payments_slo_param_0: "vsddtdmfmnlwvk",
@@ -21,6 +22,7 @@ Expectations for "payments_slo"
       threshold: 97.91%,
       window_in_days: 90
     }
+
   * "data_4_7_payments_slo_2":
     Provides {
       payments_slo_param_0: "mkovnhncomw",
@@ -32,6 +34,7 @@ Expectations for "payments_slo"
       threshold: 95.07%,
       window_in_days: 7
     }
+
   * "data_4_7_payments_slo_3":
     Provides {
       payments_slo_param_0: "rhroyjkmgrhqx",
@@ -43,6 +46,7 @@ Expectations for "payments_slo"
       threshold: 95.06%,
       window_in_days: 90
     }
+
   * "data_4_7_payments_slo_4":
     Provides {
       payments_slo_param_0: "qvkzrqixoiha",
@@ -55,7 +59,7 @@ Expectations for "payments_slo"
       window_in_days: 30
     }
 
-Expectations for "search_slo"
+Expectations measured by "search_slo"
   * "data_4_7_search_slo_0":
     Provides {
       search_slo_param_0: "xsxcppcgzjoswb",

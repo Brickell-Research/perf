@@ -1,4 +1,4 @@
-Expectations for "inventory_slo"
+Expectations measured by "inventory_slo"
   * "growth_4_2_inventory_slo_0":
     Provides {
       inventory_slo_param_0: "dsgrc",
@@ -13,6 +13,7 @@ Expectations for "inventory_slo"
       threshold: 96.81%,
       window_in_days: 7
     }
+
   * "growth_4_2_inventory_slo_1":
     Provides {
       inventory_slo_param_0: "cbfevvzm",

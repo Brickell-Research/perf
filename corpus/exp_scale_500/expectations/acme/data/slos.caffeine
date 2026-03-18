@@ -1,4 +1,4 @@
-Expectations for "auth_slo"
+Expectations measured by "auth_slo"
   * "data_0_7_auth_slo_0":
     Provides {
       auth_slo_param_0: "ygekztfceufdxc",
@@ -9,6 +9,7 @@ Expectations for "auth_slo"
       threshold: 95.53%,
       window_in_days: 90
     }
+
   * "data_0_7_auth_slo_1":
     Provides {
       auth_slo_param_0: "nszmozvoh",
@@ -19,6 +20,7 @@ Expectations for "auth_slo"
       threshold: 97.32%,
       window_in_days: 7
     }
+
   * "data_0_7_auth_slo_2":
     Provides {
       auth_slo_param_0: "sltwuqdxd",
@@ -29,6 +31,7 @@ Expectations for "auth_slo"
       threshold: 97.77%,
       window_in_days: 90
     }
+
   * "data_0_7_auth_slo_3":
     Provides {
       auth_slo_param_0: "mzqxxqwaxlrrqh",
@@ -40,7 +43,7 @@ Expectations for "auth_slo"
       window_in_days: 90
     }
 
-Expectations for "scheduler_slo"
+Expectations measured by "scheduler_slo"
   * "data_0_7_scheduler_slo_0":
     Provides {
       scheduler_slo_param_0: "zganon",
@@ -54,7 +57,7 @@ Expectations for "scheduler_slo"
       window_in_days: 30
     }
 
-Expectations for "payments_slo"
+Expectations measured by "payments_slo"
   * "data_0_7_payments_slo_0":
     Provides {
       payments_slo_param_0: "narzruaurnmeh",
@@ -66,6 +69,7 @@ Expectations for "payments_slo"
       threshold: 98.64%,
       window_in_days: 30
     }
+
   * "data_0_7_payments_slo_1":
     Provides {
       payments_slo_param_0: "mkqgamai",
@@ -77,6 +81,7 @@ Expectations for "payments_slo"
       threshold: 98.62%,
       window_in_days: 7
     }
+
   * "data_0_7_payments_slo_2":
     Provides {
       payments_slo_param_0: "pkcqkwygh",

@@ -1,4 +1,4 @@
-Expectations for "scheduler_slo"
+Expectations measured by "scheduler_slo"
   * "commerce_6_16_scheduler_slo_0":
     Provides {
       scheduler_slo_param_0: "sybpe",
@@ -12,7 +12,7 @@ Expectations for "scheduler_slo"
       window_in_days: 30
     }
 
-Expectations for "analytics_slo"
+Expectations measured by "analytics_slo"
   * "commerce_6_16_analytics_slo_0":
     Provides {
       analytics_slo_param_0: "vaejmxyemkd",
@@ -24,6 +24,7 @@ Expectations for "analytics_slo"
       threshold: 97.65%,
       window_in_days: 30
     }
+
   * "commerce_6_16_analytics_slo_1":
     Provides {
       analytics_slo_param_0: "ffmgzu",
@@ -35,6 +36,7 @@ Expectations for "analytics_slo"
       threshold: 98.6%,
       window_in_days: 30
     }
+
   * "commerce_6_16_analytics_slo_2":
     Provides {
       analytics_slo_param_0: "lggqor",

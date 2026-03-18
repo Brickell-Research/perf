@@ -1,4 +1,4 @@
-Expectations for "recommendations_slo"
+Expectations measured by "recommendations_slo"
   * "security_5_8_recommendations_slo_0":
     Provides {
       recommendations_slo_param_0: "lhwqtty",
@@ -10,7 +10,8 @@ Expectations for "recommendations_slo"
       threshold: 97.66%,
       window_in_days: 30
     }
-Expectations for "shipping_slo"
+
+Expectations measured by "shipping_slo"
   * "security_13_8_shipping_slo_0":
     Provides {
       shipping_slo_param_0: "cpittxsotisdfq",
@@ -24,6 +25,7 @@ Expectations for "shipping_slo"
       threshold: 95.55%,
       window_in_days: 90
     }
+
   * "security_13_8_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "mvxhtvyksdfvekq",

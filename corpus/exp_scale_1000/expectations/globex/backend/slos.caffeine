@@ -1,4 +1,4 @@
-Expectations for "logging_slo"
+Expectations measured by "logging_slo"
   * "backend_1_5_logging_slo_0":
     Provides {
       logging_slo_param_0: "cvpunywk",
@@ -16,7 +16,7 @@ Expectations for "logging_slo"
       window_in_days: 30
     }
 
-Expectations for "catalog_slo"
+Expectations measured by "catalog_slo"
   * "backend_1_5_catalog_slo_0":
     Provides {
       catalog_slo_param_0: "ergnkuzj",
@@ -28,6 +28,7 @@ Expectations for "catalog_slo"
       threshold: 98.17%,
       window_in_days: 30
     }
+
   * "backend_1_5_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "csrosfms",
@@ -39,6 +40,7 @@ Expectations for "catalog_slo"
       threshold: 97.98%,
       window_in_days: 90
     }
+
   * "backend_1_5_catalog_slo_2":
     Provides {
       catalog_slo_param_0: "wdrwb",
@@ -51,7 +53,7 @@ Expectations for "catalog_slo"
       window_in_days: 7
     }
 
-Expectations for "notifications_slo"
+Expectations measured by "notifications_slo"
   * "backend_1_5_notifications_slo_0":
     Provides {
       notifications_slo_param_0: "hqivaujbtoaly",
@@ -64,7 +66,7 @@ Expectations for "notifications_slo"
       window_in_days: 7
     }
 
-Expectations for "search_slo"
+Expectations measured by "search_slo"
   * "backend_1_5_search_slo_0":
     Provides {
       search_slo_param_0: "otcjoeyrnezfzoo",
@@ -76,6 +78,7 @@ Expectations for "search_slo"
       threshold: 98.78%,
       window_in_days: 30
     }
+
   * "backend_1_5_search_slo_1":
     Provides {
       search_slo_param_0: "lkvgimestcjc",
@@ -88,7 +91,7 @@ Expectations for "search_slo"
       window_in_days: 30
     }
 
-Expectations for "auth_slo"
+Expectations measured by "auth_slo"
   * "backend_1_5_auth_slo_0":
     Provides {
       auth_slo_param_0: "xquzdlgowbwk",
@@ -99,6 +102,7 @@ Expectations for "auth_slo"
       threshold: 99.6%,
       window_in_days: 30
     }
+
   * "backend_1_5_auth_slo_1":
     Provides {
       auth_slo_param_0: "podezdcbwqfnch",
@@ -109,6 +113,7 @@ Expectations for "auth_slo"
       threshold: 98.13%,
       window_in_days: 90
     }
+
   * "backend_1_5_auth_slo_2":
     Provides {
       auth_slo_param_0: "pnuvow",
@@ -119,6 +124,7 @@ Expectations for "auth_slo"
       threshold: 98.15%,
       window_in_days: 7
     }
+
   * "backend_1_5_auth_slo_3":
     Provides {
       auth_slo_param_0: "csiqzbmx",
@@ -129,6 +135,7 @@ Expectations for "auth_slo"
       threshold: 97.77%,
       window_in_days: 90
     }
+
   * "backend_1_5_auth_slo_4":
     Provides {
       auth_slo_param_0: "iibrge",

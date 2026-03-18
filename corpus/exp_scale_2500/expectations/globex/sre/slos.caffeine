@@ -1,4 +1,4 @@
-Expectations for "search_slo"
+Expectations measured by "search_slo"
   * "sre_1_11_search_slo_0":
     Provides {
       search_slo_param_0: "ppmdjtzwqqangp",
@@ -10,6 +10,7 @@ Expectations for "search_slo"
       threshold: 98.8%,
       window_in_days: 30
     }
+
   * "sre_1_11_search_slo_1":
     Provides {
       search_slo_param_0: "akmncgpswhuuzx",
@@ -22,7 +23,7 @@ Expectations for "search_slo"
       window_in_days: 90
     }
 
-Expectations for "shipping_slo"
+Expectations measured by "shipping_slo"
   * "sre_1_11_shipping_slo_0":
     Provides {
       shipping_slo_param_0: "woivtgmhrnlr",
@@ -36,6 +37,7 @@ Expectations for "shipping_slo"
       threshold: 97.26%,
       window_in_days: 7
     }
+
   * "sre_1_11_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "fxczgwsjxycz",
@@ -49,7 +51,8 @@ Expectations for "shipping_slo"
       threshold: 95.65%,
       window_in_days: 7
     }
-Expectations for "monitoring_slo"
+
+Expectations measured by "monitoring_slo"
   * "sre_9_11_monitoring_slo_0":
     Provides {
       monitoring_slo_param_0: "suzwhkoshcf",
@@ -63,7 +66,7 @@ Expectations for "monitoring_slo"
       window_in_days: 90
     }
 
-Expectations for "payments_slo"
+Expectations measured by "payments_slo"
   * "sre_9_11_payments_slo_0":
     Provides {
       payments_slo_param_0: "ggupkxjl",
@@ -76,7 +79,7 @@ Expectations for "payments_slo"
       window_in_days: 7
     }
 
-Expectations for "gateway_slo"
+Expectations measured by "gateway_slo"
   * "sre_9_11_gateway_slo_0":
     Provides {
       gateway_slo_param_0: "ictrfvwzthjt",
@@ -90,6 +93,7 @@ Expectations for "gateway_slo"
       threshold: 97.47%,
       window_in_days: 7
     }
+
   * "sre_9_11_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "kjxnn",
@@ -103,6 +107,7 @@ Expectations for "gateway_slo"
       threshold: 98.25%,
       window_in_days: 90
     }
+
   * "sre_9_11_gateway_slo_2":
     Provides {
       gateway_slo_param_0: "hmyko",
@@ -117,7 +122,7 @@ Expectations for "gateway_slo"
       window_in_days: 7
     }
 
-Expectations for "auth_slo"
+Expectations measured by "auth_slo"
   * "sre_9_11_auth_slo_0":
     Provides {
       auth_slo_param_0: "zkyhwtuaf",

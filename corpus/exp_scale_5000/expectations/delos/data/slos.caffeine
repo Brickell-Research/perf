@@ -1,4 +1,4 @@
-Expectations for "analytics_slo"
+Expectations measured by "analytics_slo"
   * "data_6_7_analytics_slo_0":
     Provides {
       analytics_slo_param_0: "bzbhhejlegscqx",
@@ -10,7 +10,8 @@ Expectations for "analytics_slo"
       threshold: 99.51%,
       window_in_days: 7
     }
-Expectations for "payments_slo"
+
+Expectations measured by "payments_slo"
   * "data_14_7_payments_slo_0":
     Provides {
       payments_slo_param_0: "jfsmfjhcftzowp",
@@ -22,6 +23,7 @@ Expectations for "payments_slo"
       threshold: 97.35%,
       window_in_days: 7
     }
+
   * "data_14_7_payments_slo_1":
     Provides {
       payments_slo_param_0: "kbhpwvvyhwighz",
@@ -33,6 +35,7 @@ Expectations for "payments_slo"
       threshold: 95.11%,
       window_in_days: 90
     }
+
   * "data_14_7_payments_slo_2":
     Provides {
       payments_slo_param_0: "hlbdzjihmg",
@@ -44,6 +47,7 @@ Expectations for "payments_slo"
       threshold: 96.15%,
       window_in_days: 90
     }
+
   * "data_14_7_payments_slo_3":
     Provides {
       payments_slo_param_0: "izjnj",
@@ -55,6 +59,7 @@ Expectations for "payments_slo"
       threshold: 96.06%,
       window_in_days: 7
     }
+
   * "data_14_7_payments_slo_4":
     Provides {
       payments_slo_param_0: "fhddleiiqb",
@@ -67,7 +72,7 @@ Expectations for "payments_slo"
       window_in_days: 30
     }
 
-Expectations for "notifications_slo"
+Expectations measured by "notifications_slo"
   * "data_14_7_notifications_slo_0":
     Provides {
       notifications_slo_param_0: "tjjnwvjfcfihqn",
@@ -79,6 +84,7 @@ Expectations for "notifications_slo"
       threshold: 97.65%,
       window_in_days: 7
     }
+
   * "data_14_7_notifications_slo_1":
     Provides {
       notifications_slo_param_0: "xbvrumgjxaknbku",
@@ -91,7 +97,7 @@ Expectations for "notifications_slo"
       window_in_days: 30
     }
 
-Expectations for "messaging_slo"
+Expectations measured by "messaging_slo"
   * "data_14_7_messaging_slo_0":
     Provides {
       messaging_slo_param_0: "cohedz",
@@ -106,7 +112,7 @@ Expectations for "messaging_slo"
       window_in_days: 7
     }
 
-Expectations for "analytics_slo"
+Expectations measured by "analytics_slo"
   * "data_14_7_analytics_slo_0":
     Provides {
       analytics_slo_param_0: "bkzmykxdlk",
@@ -118,7 +124,8 @@ Expectations for "analytics_slo"
       threshold: 98.96%,
       window_in_days: 7
     }
-Expectations for "orders_slo"
+
+Expectations measured by "orders_slo"
   * "data_22_7_orders_slo_0":
     Provides {
       orders_slo_param_0: "lkvkndnsdsiqp",
@@ -128,6 +135,7 @@ Expectations for "orders_slo"
       threshold: 99.0%,
       window_in_days: 7
     }
+
   * "data_22_7_orders_slo_1":
     Provides {
       orders_slo_param_0: "hbzxsetlvjzrbd",
@@ -137,6 +145,7 @@ Expectations for "orders_slo"
       threshold: 95.82%,
       window_in_days: 90
     }
+
   * "data_22_7_orders_slo_2":
     Provides {
       orders_slo_param_0: "eqaehwssqw",
@@ -147,7 +156,7 @@ Expectations for "orders_slo"
       window_in_days: 7
     }
 
-Expectations for "billing_slo"
+Expectations measured by "billing_slo"
   * "data_22_7_billing_slo_0":
     Provides {
       billing_slo_param_0: "sxftwezwpciwfux",
@@ -160,7 +169,7 @@ Expectations for "billing_slo"
       window_in_days: 7
     }
 
-Expectations for "scheduler_slo"
+Expectations measured by "scheduler_slo"
   * "data_22_7_scheduler_slo_0":
     Provides {
       scheduler_slo_param_0: "wzqyqiz",
@@ -173,6 +182,7 @@ Expectations for "scheduler_slo"
       threshold: 97.45%,
       window_in_days: 30
     }
+
   * "data_22_7_scheduler_slo_1":
     Provides {
       scheduler_slo_param_0: "xkfon",
@@ -185,6 +195,7 @@ Expectations for "scheduler_slo"
       threshold: 97.02%,
       window_in_days: 7
     }
+
   * "data_22_7_scheduler_slo_2":
     Provides {
       scheduler_slo_param_0: "nwvsvjtze",

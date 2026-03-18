@@ -1,4 +1,4 @@
-Expectations for "shipping_slo"
+Expectations measured by "shipping_slo"
   * "sre_7_11_shipping_slo_0":
     Provides {
       shipping_slo_param_0: "yutxmpdsfmwezq",
@@ -12,6 +12,7 @@ Expectations for "shipping_slo"
       threshold: 95.13%,
       window_in_days: 30
     }
+
   * "sre_7_11_shipping_slo_1":
     Provides {
       shipping_slo_param_0: "chzcupzchqwp",
@@ -26,7 +27,7 @@ Expectations for "shipping_slo"
       window_in_days: 90
     }
 
-Expectations for "inventory_slo"
+Expectations measured by "inventory_slo"
   * "sre_7_11_inventory_slo_0":
     Provides {
       inventory_slo_param_0: "uttatdbtstxzd",
@@ -42,7 +43,7 @@ Expectations for "inventory_slo"
       window_in_days: 90
     }
 
-Expectations for "gateway_slo"
+Expectations measured by "gateway_slo"
   * "sre_7_11_gateway_slo_0":
     Provides {
       gateway_slo_param_0: "zrwmpkfzyuc",
@@ -56,6 +57,7 @@ Expectations for "gateway_slo"
       threshold: 98.61%,
       window_in_days: 7
     }
+
   * "sre_7_11_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "lzntscddrk",

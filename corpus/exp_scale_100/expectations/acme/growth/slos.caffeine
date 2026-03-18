@@ -1,4 +1,4 @@
-Expectations for "shipping_slo"
+Expectations measured by "shipping_slo"
   * "growth_0_2_shipping_slo_0":
     Provides {
       shipping_slo_param_0: "sxtwdozgudnbbsq",
@@ -13,7 +13,7 @@ Expectations for "shipping_slo"
       window_in_days: 7
     }
 
-Expectations for "orders_slo"
+Expectations measured by "orders_slo"
   * "growth_0_2_orders_slo_0":
     Provides {
       orders_slo_param_0: "rbweunrzo",
@@ -23,6 +23,7 @@ Expectations for "orders_slo"
       threshold: 96.66%,
       window_in_days: 7
     }
+
   * "growth_0_2_orders_slo_1":
     Provides {
       orders_slo_param_0: "sbilwqe",
@@ -32,6 +33,7 @@ Expectations for "orders_slo"
       threshold: 95.88%,
       window_in_days: 90
     }
+
   * "growth_0_2_orders_slo_2":
     Provides {
       orders_slo_param_0: "trpmpjzfcjnj",
@@ -41,6 +43,7 @@ Expectations for "orders_slo"
       threshold: 98.06%,
       window_in_days: 30
     }
+
   * "growth_0_2_orders_slo_3":
     Provides {
       orders_slo_param_0: "mhyjvan",
@@ -50,6 +53,7 @@ Expectations for "orders_slo"
       threshold: 95.5%,
       window_in_days: 90
     }
+
   * "growth_0_2_orders_slo_4":
     Provides {
       orders_slo_param_0: "dsrjwsksykr",

@@ -1,4 +1,4 @@
-Expectations for "checkout_slo"
+Expectations measured by "checkout_slo"
   * "devops_3_10_checkout_slo_0":
     Provides {
       checkout_slo_param_0: "wferzxa",
@@ -10,7 +10,7 @@ Expectations for "checkout_slo"
       window_in_days: 7
     }
 
-Expectations for "logging_slo"
+Expectations measured by "logging_slo"
   * "devops_3_10_logging_slo_0":
     Provides {
       logging_slo_param_0: "flnnvyhfe",
@@ -27,6 +27,7 @@ Expectations for "logging_slo"
       threshold: 96.32%,
       window_in_days: 7
     }
+
   * "devops_3_10_logging_slo_1":
     Provides {
       logging_slo_param_0: "tryzmbchf",
@@ -44,7 +45,7 @@ Expectations for "logging_slo"
       window_in_days: 30
     }
 
-Expectations for "payments_slo"
+Expectations measured by "payments_slo"
   * "devops_3_10_payments_slo_0":
     Provides {
       payments_slo_param_0: "rlrejybz",
@@ -57,7 +58,7 @@ Expectations for "payments_slo"
       window_in_days: 30
     }
 
-Expectations for "catalog_slo"
+Expectations measured by "catalog_slo"
   * "devops_3_10_catalog_slo_0":
     Provides {
       catalog_slo_param_0: "oghrauveqjafev",
@@ -69,6 +70,7 @@ Expectations for "catalog_slo"
       threshold: 95.77%,
       window_in_days: 7
     }
+
   * "devops_3_10_catalog_slo_1":
     Provides {
       catalog_slo_param_0: "rccdwbtzgbsmnnd",
@@ -80,7 +82,8 @@ Expectations for "catalog_slo"
       threshold: 98.14%,
       window_in_days: 90
     }
-Expectations for "checkout_slo"
+
+Expectations measured by "checkout_slo"
   * "devops_11_10_checkout_slo_0":
     Provides {
       checkout_slo_param_0: "mcqdnyt",
@@ -91,6 +94,7 @@ Expectations for "checkout_slo"
       threshold: 96.78%,
       window_in_days: 7
     }
+
   * "devops_11_10_checkout_slo_1":
     Provides {
       checkout_slo_param_0: "lnoetjokdxuckzh",
@@ -101,6 +105,7 @@ Expectations for "checkout_slo"
       threshold: 96.36%,
       window_in_days: 30
     }
+
   * "devops_11_10_checkout_slo_2":
     Provides {
       checkout_slo_param_0: "umtizszw",
@@ -111,6 +116,7 @@ Expectations for "checkout_slo"
       threshold: 99.71%,
       window_in_days: 7
     }
+
   * "devops_11_10_checkout_slo_3":
     Provides {
       checkout_slo_param_0: "mokadu",
@@ -121,6 +127,7 @@ Expectations for "checkout_slo"
       threshold: 95.08%,
       window_in_days: 7
     }
+
   * "devops_11_10_checkout_slo_4":
     Provides {
       checkout_slo_param_0: "jiymtmjbntigvii",
@@ -132,7 +139,7 @@ Expectations for "checkout_slo"
       window_in_days: 90
     }
 
-Expectations for "monitoring_slo"
+Expectations measured by "monitoring_slo"
   * "devops_11_10_monitoring_slo_0":
     Provides {
       monitoring_slo_param_0: "vpgpgftwvhrzbz",
@@ -146,7 +153,7 @@ Expectations for "monitoring_slo"
       window_in_days: 7
     }
 
-Expectations for "gateway_slo"
+Expectations measured by "gateway_slo"
   * "devops_11_10_gateway_slo_0":
     Provides {
       gateway_slo_param_0: "vykygskave",
@@ -160,6 +167,7 @@ Expectations for "gateway_slo"
       threshold: 99.72%,
       window_in_days: 90
     }
+
   * "devops_11_10_gateway_slo_1":
     Provides {
       gateway_slo_param_0: "mieepbtvzh",

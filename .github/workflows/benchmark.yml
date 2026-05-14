@@ -21,9 +21,19 @@ jobs:
 
       - name: Install caffeine
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cvm install ${{ inputs.version || 'latest' }}
+          # cvm 1.2.0's "resolve latest" path hits the GitHub API unauthenticated
+          # and gets 403'd on shared CI runners, so resolve the tag ourselves via
+          # the preinstalled gh CLI (which honors GH_TOKEN) and pass cvm an explicit
+          # version. Explicit-version installs hit the release download URL directly.
+          if [ -n "${{ inputs.version }}" ]; then
+            VERSION="${{ inputs.version }}"
+          else
+            VERSION=$(gh release view --repo Brickell-Research/caffeine --json tagName -q .tagName | sed 's/^v//')
+          fi
+          echo "Installing caffeine $VERSION"
+          cvm install "$VERSION"
           echo "$HOME/.cvm/current" >> $GITHUB_PATH
 
       - name: Benchmark

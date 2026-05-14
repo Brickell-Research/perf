@@ -1,6 +1,9 @@
 # Benchmark results (regenerated via `make bench`)
 results/
 
+# bench-local.sh output (regenerated on every run)
+results-local/
+
 # Downloaded binaries (managed by cvm now)
 bin/
 

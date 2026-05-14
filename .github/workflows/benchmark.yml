@@ -20,6 +20,8 @@ jobs:
         run: brew install hyperfine brickell-research/caffeine/cvm
 
       - name: Install caffeine
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cvm install ${{ inputs.version || 'latest' }}
           echo "$HOME/.cvm/current" >> $GITHUB_PATH

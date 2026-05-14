@@ -1,4 +1,4 @@
-.PHONY: all generate bench bench-quick bench-complexity bench-scaling bench-validate bench-format \
+.PHONY: all generate bench bench-quick bench-complexity bench-scaling bench-format \
        memory clean clean-all help check-deps baseline ci-check ci-quick
 
 # Configuration
@@ -48,7 +48,7 @@ all: bench ## Run all benchmarks
 
 # --- Benchmarks ---
 
-bench: bench-complexity bench-scaling bench-validate ## Run all benchmarks
+bench: bench-complexity bench-scaling ## Run all benchmarks
 
 bench-quick: check-deps $(RESULTS) ## Quick benchmark (3 scales, fewer runs)
 	hyperfine --warmup 2 --runs 5 \
@@ -83,14 +83,6 @@ bench-scaling: check-deps $(RESULTS) ## Benchmark by expectation count
 		-n "2500 expectations" '$(call compile,exp_scale_2500)' \
 		-n "5000 expectations" '$(call compile,exp_scale_5000)'
 	@cat $(RESULTS)/scaling.md
-
-bench-validate: check-deps $(RESULTS) ## Compare compile vs validate (large corpus)
-	hyperfine --warmup $(WARMUP) --runs $(RUNS) \
-		--export-json $(RESULTS)/validate.json \
-		--export-markdown $(RESULTS)/validate.md \
-		-n "compile (large)"  '$(call compile,large)' \
-		-n "validate (large)" '$(BENCH) validate $(CORPUS)/large/measurements/ $(CORPUS)/large/expectations/ --quiet'
-	@cat $(RESULTS)/validate.md
 
 bench-format: check-deps $(RESULTS) ## Benchmark the formatter
 	hyperfine --warmup $(WARMUP) --runs $(RUNS) \

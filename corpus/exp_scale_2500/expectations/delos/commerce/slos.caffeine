@@ -1,50 +1,40 @@
-Expectations measured by "scheduler_slo"
-  * "commerce_6_16_scheduler_slo_0":
-    Provides {
-      scheduler_slo_param_0: "sybpe",
-      scheduler_slo_param_1: "atuydohgq",
-      scheduler_slo_param_2: false,
-      scheduler_slo_param_3: 7123,
-      req_0_field_0: false,
-      req_0_field_1: true,
-      req_0_field_2: 23.45,
-      threshold: 95.77%,
-      window_in_days: 30
-    }
+"commerce_6_16_scheduler_slo_0":
+  Guarantees 95.77% over 30d window as measured by "scheduler_slo" with: {
+    scheduler_slo_param_0: "sybpe",
+    scheduler_slo_param_1: "atuydohgq",
+    scheduler_slo_param_2: false,
+    scheduler_slo_param_3: 7123,
+    req_0_field_0: false,
+    req_0_field_1: true,
+    req_0_field_2: 23.45
+  }
 
-Expectations measured by "analytics_slo"
-  * "commerce_6_16_analytics_slo_0":
-    Provides {
-      analytics_slo_param_0: "vaejmxyemkd",
-      analytics_slo_param_1: "tvnzmxrd",
-      analytics_slo_param_2: true,
-      analytics_slo_param_3: true,
-      analytics_slo_param_4: 5.75,
-      analytics_slo_param_5: 10,
-      threshold: 97.65%,
-      window_in_days: 30
-    }
+"commerce_6_16_analytics_slo_0":
+  Guarantees 97.65% over 30d window as measured by "analytics_slo" with: {
+    analytics_slo_param_0: "vaejmxyemkd",
+    analytics_slo_param_1: "tvnzmxrd",
+    analytics_slo_param_2: true,
+    analytics_slo_param_3: true,
+    analytics_slo_param_4: 5.75,
+    analytics_slo_param_5: 10
+  }
 
-  * "commerce_6_16_analytics_slo_1":
-    Provides {
-      analytics_slo_param_0: "ffmgzu",
-      analytics_slo_param_1: "zgauo",
-      analytics_slo_param_2: false,
-      analytics_slo_param_3: true,
-      analytics_slo_param_4: 4.43,
-      analytics_slo_param_5: 10,
-      threshold: 98.6%,
-      window_in_days: 30
-    }
+"commerce_6_16_analytics_slo_1":
+  Guarantees 98.6% over 30d window as measured by "analytics_slo" with: {
+    analytics_slo_param_0: "ffmgzu",
+    analytics_slo_param_1: "zgauo",
+    analytics_slo_param_2: false,
+    analytics_slo_param_3: true,
+    analytics_slo_param_4: 4.43,
+    analytics_slo_param_5: 10
+  }
 
-  * "commerce_6_16_analytics_slo_2":
-    Provides {
-      analytics_slo_param_0: "lggqor",
-      analytics_slo_param_1: "lfmasbnbpft",
-      analytics_slo_param_2: true,
-      analytics_slo_param_3: true,
-      analytics_slo_param_4: 21.92,
-      analytics_slo_param_5: 78,
-      threshold: 95.27%,
-      window_in_days: 90
-    }
+"commerce_6_16_analytics_slo_2":
+  Guarantees 95.27% over 90d window as measured by "analytics_slo" with: {
+    analytics_slo_param_0: "lggqor",
+    analytics_slo_param_1: "lfmasbnbpft",
+    analytics_slo_param_2: true,
+    analytics_slo_param_3: true,
+    analytics_slo_param_4: 21.92,
+    analytics_slo_param_5: 78
+  }

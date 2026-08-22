@@ -1,10 +1,7 @@
-Expectations measured by "orders_slo"
-  * "frontend_0_6_orders_slo_0":
-    Provides {
-      orders_slo_param_0: "etdxxpieirzy",
-      orders_slo_param_1: "aneccesa",
-      orders_slo_param_2: 80,
-      orders_slo_param_3: "tytsdqgcddhfqya",
-      threshold: 99.48%,
-      window_in_days: 7
-    }
+"frontend_0_6_orders_slo_0":
+  Guarantees 99.48% over 7d window as measured by "orders_slo" with: {
+    orders_slo_param_0: "etdxxpieirzy",
+    orders_slo_param_1: "aneccesa",
+    orders_slo_param_2: 80,
+    orders_slo_param_3: "tytsdqgcddhfqya"
+  }

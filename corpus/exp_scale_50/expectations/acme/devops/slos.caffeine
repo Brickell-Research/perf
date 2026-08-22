@@ -1,58 +1,44 @@
-Expectations measured by "orders_slo"
-  * "devops_0_10_orders_slo_0":
-    Provides {
-      orders_slo_param_0: "sgvopcxd",
-      orders_slo_param_1: "qnahtr",
-      orders_slo_param_2: 242,
-      orders_slo_param_3: "oslgeicrgj",
-      threshold: 99.83%,
-      window_in_days: 30
-    }
+"devops_0_10_orders_slo_0":
+  Guarantees 99.83% over 30d window as measured by "orders_slo" with: {
+    orders_slo_param_0: "sgvopcxd",
+    orders_slo_param_1: "qnahtr",
+    orders_slo_param_2: 242,
+    orders_slo_param_3: "oslgeicrgj"
+  }
 
-Expectations measured by "profiles_slo"
-  * "devops_0_10_profiles_slo_0":
-    Provides {
-      profiles_slo_param_0: "ckeqjkimei",
-      profiles_slo_param_1: "cadjjaqumscuoxc",
-      profiles_slo_param_2: "draft",
-      profiles_slo_param_3: {
-        key_0: "mqklggvyyptjcua",
-        key_1: "dxibabivrxthfwx",
-        key_2: "almjemfzhpg"
-      },
-      profiles_slo_param_4: 2864,
-      profiles_slo_param_5: 76,
-      req_2_field_0: "qtmnerljoshq",
-      threshold: 99.07%,
-      window_in_days: 7
-    }
+"devops_0_10_profiles_slo_0":
+  Guarantees 99.07% over 7d window as measured by "profiles_slo" with: {
+    profiles_slo_param_0: "ckeqjkimei",
+    profiles_slo_param_1: "cadjjaqumscuoxc",
+    profiles_slo_param_2: "draft",
+    profiles_slo_param_3: {
+      key_0: "mqklggvyyptjcua",
+      key_1: "dxibabivrxthfwx",
+      key_2: "almjemfzhpg"
+    },
+    profiles_slo_param_4: 2864,
+    profiles_slo_param_5: 76,
+    req_2_field_0: "qtmnerljoshq"
+  }
 
-  * "devops_0_10_profiles_slo_1":
-    Provides {
-      profiles_slo_param_0: "qhkdtp",
-      profiles_slo_param_1: "tabhlgtguzfan",
-      profiles_slo_param_2: "draft",
-      profiles_slo_param_3: {
-        key_0: "govgqq",
-        key_1: "vtuhvmauwcn",
-        key_2: "rjaxogwatyjz"
-      },
-      profiles_slo_param_4: 3853,
-      profiles_slo_param_5: 70,
-      req_2_field_0: "kuqwzavlte",
-      threshold: 96.77%,
-      window_in_days: 90
-    }
+"devops_0_10_profiles_slo_1":
+  Guarantees 96.77% over 90d window as measured by "profiles_slo" with: {
+    profiles_slo_param_0: "qhkdtp",
+    profiles_slo_param_1: "tabhlgtguzfan",
+    profiles_slo_param_2: "draft",
+    profiles_slo_param_3: { key_0: "govgqq", key_1: "vtuhvmauwcn", key_2: "rjaxogwatyjz" },
+    profiles_slo_param_4: 3853,
+    profiles_slo_param_5: 70,
+    req_2_field_0: "kuqwzavlte"
+  }
 
-  * "devops_0_10_profiles_slo_2":
-    Provides {
-      profiles_slo_param_0: "ujdnwffffnshhqe",
-      profiles_slo_param_1: "ggnqlfx",
-      profiles_slo_param_2: "published",
-      profiles_slo_param_3: { key_0: "vxixjl", key_1: "vjcklsbusaadosa" },
-      profiles_slo_param_4: 5298,
-      profiles_slo_param_5: 70,
-      req_2_field_0: "rpxnvelz",
-      threshold: 98.51%,
-      window_in_days: 7
-    }
+"devops_0_10_profiles_slo_2":
+  Guarantees 98.51% over 7d window as measured by "profiles_slo" with: {
+    profiles_slo_param_0: "ujdnwffffnshhqe",
+    profiles_slo_param_1: "ggnqlfx",
+    profiles_slo_param_2: "published",
+    profiles_slo_param_3: { key_0: "vxixjl", key_1: "vjcklsbusaadosa" },
+    profiles_slo_param_4: 5298,
+    profiles_slo_param_5: 70,
+    req_2_field_0: "rpxnvelz"
+  }

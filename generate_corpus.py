@@ -424,24 +424,29 @@ def gen_measurements_file(num_measurements, complexity="medium", num_aliases=0, 
 
 def gen_expectation_file(measurement_name, fields, num_expectations, org, team):
     """Generate an expectations .caffeine file."""
-    lines = [f'Expectations measured by "{measurement_name}"']
+    lines = []
 
     for i in range(num_expectations):
         exp_name = f"{team}_{measurement_name}_{i}"
-        lines.append(f'  * "{exp_name}":')
-        lines.append("    Provides {")
-
-        # Provide values for each required field
-        for fname, ftype in fields:
-            val = value_for_type(ftype)
-            lines.append(f"      {fname}: {val},")
-
-        # Standard SLO fields
+        # Generate values before the SLO fields to keep the seeded corpus stable
+        # across the v6 syntax migration.
+        field_values = [
+            (fname, value_for_type(ftype)) for fname, ftype in fields
+        ]
         threshold = round(random.uniform(95.0, 99.99), 2)
         window = random.choice([7, 30, 90])
-        lines.append(f"      threshold: {threshold}%,")
-        lines.append(f"      window_in_days: {window}")
-        lines.append("    }")
+        lines.append(f'"{exp_name}":')
+        lines.append(
+            f'  Guarantees {threshold}% over {window}d window '
+            f'as measured by "{measurement_name}" with: {{'
+        )
+
+        # Provide values for each required field
+        for field_i, (fname, val) in enumerate(field_values):
+            comma = "," if field_i < len(field_values) - 1 else ""
+            lines.append(f"    {fname}: {val}{comma}")
+
+        lines.append("  }")
         # Blank line between items (formatter style)
         lines.append("")
 

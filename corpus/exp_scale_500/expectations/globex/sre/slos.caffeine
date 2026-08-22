@@ -1,11 +1,8 @@
-Expectations measured by "checkout_slo"
-  * "sre_1_11_checkout_slo_0":
-    Provides {
-      checkout_slo_param_0: "lqlgacmz",
-      checkout_slo_param_1: "bovuvxbdltb",
-      checkout_slo_param_2: 3938,
-      checkout_slo_param_3: 66.79,
-      req_2_field_0: "qfizftkcctb",
-      threshold: 98.08%,
-      window_in_days: 90
-    }
+"sre_1_11_checkout_slo_0":
+  Guarantees 98.08% over 90d window as measured by "checkout_slo" with: {
+    checkout_slo_param_0: "lqlgacmz",
+    checkout_slo_param_1: "bovuvxbdltb",
+    checkout_slo_param_2: 3938,
+    checkout_slo_param_3: 66.79,
+    req_2_field_0: "qfizftkcctb"
+  }
